@@ -1,0 +1,28 @@
+language: node_js
+node_js: stable
+sudo: false
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+    - node_modules
+    
+before_install:
+- npm install -g hexo-cli
+
+install: npm install
+
+script:
+- git submodule init
+- git submodule update
+- hexo clean
+- hexo generate
+
+after_success:
+- git config --global user.name 'reed'
+- git config --global user.email 'reedsinvincbleemail@aprildown.xyz'
+- sed -i "s/github_token/${GITHUB_TOKEN}/g" ./_config.yml
+- hexo deploy
