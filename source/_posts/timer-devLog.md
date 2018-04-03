@@ -8,6 +8,9 @@ categories: Android
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年4月3日
+最近在充电，学各种东西，也在新功能开发各种库。
+
 ## 2018年3月24日
 最近只修了一些Bug。重新搭了一下博客，研究了一会儿自动化脚本。。
 
@@ -37,7 +40,7 @@ categories: Android
 第二个Beta版本发布，解决了不知道计时器是否已经开始或结束的问题。接下来就要处理棘手的界面问题了。
 
 ## 2018年2月18日
-现阶段主要在研究增强后的步骤选项，有点复杂，焦头烂额。也写了一个[简单的计时机器的介绍页](https://deweyreed.github.io/2018-02-17-Timer-Machine/).
+现阶段主要在研究增强后的步骤选项，有点复杂，焦头烂额。
 
 ## 2018年2月14日
 Beta阶段的任务就很多了。比如增强后的步骤选项（自定义的提醒步骤、只运行一次的启动和结束步骤）、更理想更多的计时器详细页面、朗读步骤名称。。。
