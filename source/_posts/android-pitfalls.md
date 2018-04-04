@@ -8,6 +8,9 @@ categories: Android
 
 [更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
+### 发布代码前最好Rebuild Project
+最近就遇到了ButterKnife引起的崩溃，Rebuild之后就自动没了。
+
 ### 谨慎使用StrictMode
 我的使用经验是，它会破坏Instant Run，阻止在主线程中使用Shared Preferences等等。
 

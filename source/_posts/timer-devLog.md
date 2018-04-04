@@ -8,6 +8,9 @@ categories: Android
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年4月4日
+又要开始爆肝更新了。任务出奇的多啊，数据层也打算重构一下。Beta测试放飞自我，更新之后丢一些数据也是很正常的。
+
 ## 2018年4月3日
 最近在充电，学各种东西，也在新功能开发各种库。
 
