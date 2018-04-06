@@ -2,11 +2,14 @@
 layout: post
 title: 计时机器开发日志
 date: 2017/12/10
-updated: 2018/3/24
+updated: 2018/4/6
 categories: Android
 ---
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+
+## 2018年4月6日
+重构数据层。下个版本可能要丢数据了。。。因为忘了给Model加Proguard。。
 
 ## 2018年4月4日
 又要开始爆肝更新了。任务出奇的多啊，数据层也打算重构一下。Beta测试放飞自我，更新之后丢一些数据也是很正常的。
