@@ -2,11 +2,14 @@
 layout: post
 title: Android开发踩过的坑
 date: 2018/2/1
-updated: 2018/4/4
+updated: 2018/4/6
 categories: Android
 ---
 
 [更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+
+### 混淆前记得留下Models
+比如Kotlin中，数据库用到的data class。这样可以方便Debug。尤其是保存数据时用到了Gson或其他工具，不keep的话，就会出现很多"a": "biubiubiu"之类的数据，可读性低、以后重构时还可能破坏掉名称一致性。
 
 ### 发布代码前最好Rebuild Project
 最近就遇到了ButterKnife引起的崩溃，Rebuild之后就自动没了。
