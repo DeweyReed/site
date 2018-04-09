@@ -2,7 +2,7 @@
 layout: post
 title: Development Barn
 date: 2017/12/28
-updated: 2018/3/25
+updated: 2018/4/9
 i18n_dir: :en
 ---
 
@@ -94,7 +94,9 @@ i18n_dir: :en
 
 [Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 
-### Dagger2
+### Dagger2(Always read newets posts)
+
+[MVP Architecture with Kotlin — Dagger 2, Retrofit, RxAndroid and DataBinding](https://proandroiddev.com/mvp-architecture-with-kotlin-dagger-2-retrofit-rxandroid-and-databinding-17bffe27393d)
 
 [Android and Dagger 2.10 AndroidInjector](https://android.jlelse.eu/android-and-dagger-2-10-androidinjector-5e9c523679a3)
 
