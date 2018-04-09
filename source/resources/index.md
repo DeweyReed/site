@@ -118,6 +118,8 @@ i18n_dir: :en
 
 [Room 🔗 RxJava](https://medium.com/google-developers/room-rxjava-acb0cd4f3757)
 
+[Android RxJava 2 JUnit test - getMainLooper in android.os.Looper not mocked RuntimeException](https://stackoverflow.com/questions/43356314/android-rxjava-2-junit-test-getmainlooper-in-android-os-looper-not-mocked-runt/43356315)
+
 ### Network
 
 [Get Started With Retrofit 2 HTTP Client](https://code.tutsplus.com/tutorials/getting-started-with-retrofit-2--cms-27792)
@@ -271,6 +273,16 @@ i18n_dir: :en
 [Configure SSH Keys Authentication With PuTTY And Linux Server In 5 Quick Steps](https://www.howtoforge.com/how-to-configure-ssh-keys-authentication-with-putty-and-linux-server-in-5-quick-steps)
 
 [Getting Started with Docker on Your VPS](https://blog.ssdnodes.com/blog/tutorial-getting-started-with-docker-on-your-vps/)
+
+### Website to API
+
+[WrapAPI](https://wrapapi.com/)
+
+[toapi](https://github.com/gaojiuli/toapi)
+
+[hicrawler](http://www.hicrawler.com/)
+
+[scrapinghub](https://scrapinghub.com/)
 
 ### Hexo
 
