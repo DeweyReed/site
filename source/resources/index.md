@@ -10,6 +10,9 @@ i18n_dir: :en
 
 # Android
 
+## In case you want to learn about Android Development
+[Advice](https://medium.com/@drinfo/fuck-you-android-framework-ddbb02c4ae48)
+
 ### Recycler View
 
 [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
@@ -22,11 +25,17 @@ i18n_dir: :en
 
 [DiffUtil](https://medium.com/@iammert/using-diffutil-in-android-recyclerview-bdca8e4fbb00)
 
+[RecyclerView — More Animations with Less Code using Support Library ListAdapter](https://medium.com/@trionkidnapper/recyclerview-more-animations-with-less-code-using-support-library-listadapter-62e65126acdb)
+
 [SnapHelper](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 
 [Android Data Binding: RecyclerView](https://medium.com/google-developers/android-data-binding-recyclerview-db7c40d9f0e4)
 
+[Fancier Touch Helper](https://medium.com/@acerezoluna/part-3b-recyclerview-from-zero-to-hero-ce4442ebeede)
+
 ### Animation
+
+[Good to great UI animation tips](https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5)
 
 [Animations and Touch Events](https://upday.github.io/blog/animations_touch/)
 
@@ -87,6 +96,8 @@ i18n_dir: :en
 [How to check dependencies updates](https://stackoverflow.com/questions/28683327/how-to-check-if-gradle-dependency-has-new-version). There're three ways: new experimental structure dialog, use android lint and a plugin .
 
 ### Gradle
+
+[How I reduced my Android build times by 89%](https://android.jlelse.eu/how-i-reduced-my-android-build-times-by-89-4242e51ce946)
 
 [Faster Android Build Times](https://android.jlelse.eu/faster-android-build-times-a760d274b33c)
 
@@ -181,6 +192,8 @@ i18n_dir: :en
 ### Test
 
 [Understanding and Mastering the World of Android Testing (Part 1)](https://blog.aritraroy.in/understanding-and-mastering-the-world-of-android-testing-part-1-32f6a1a06d3b)
+
+[Mocking Kotlin classes with Mockito — the fast way](https://engineering.21buttons.com/mocking-kotlin-classes-with-mockito-the-fast-way-631824edd5ba)
 
 ### Development
 
