@@ -2,7 +2,7 @@
 layout: post
 title: Development Barn
 date: 2017/12/28
-updated: 2018/4/9
+updated: 2018/4/12
 i18n_dir: :en
 ---
 
@@ -170,6 +170,8 @@ i18n_dir: :en
 [Including Open Source Notices](https://developers.google.com/android/guides/opensource) (Including an activity showing all libraries licenses. However, This official library doesn't work very well)
 
 ### OSS
+
+[Things I wish I knew when I started building Android SDK/Libraries](https://android.jlelse.eu/things-i-wish-i-knew-when-i-started-building-android-sdk-libraries-dba1a524d619)
 
 [The beginner's guide to contributing to a GitHub project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
 
