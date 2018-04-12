@@ -2,11 +2,14 @@
 layout: post
 title: 计时机器开发日志
 date: 2017/12/10
-updated: 2018/4/6
+updated: 2018/4/12
 categories: Android
 ---
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+
+## 2018年4月12日
+本来打算今天发布0.2.0了，但决定给计时器执行实现加一些测试，过几天再发布吧。
 
 ## 2018年4月6日
 重构数据层。下个版本可能要丢数据了。。。因为忘了给Model加Proguard。。
