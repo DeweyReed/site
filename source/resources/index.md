@@ -105,6 +105,12 @@ i18n_dir: :en
 
 [Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 
+### ADB
+
+[ADB Commands — Part III](https://proandroiddev.com/adb-commands-part-iii-997f97c03546)
+
+[Do you like to ADB?](https://hackernoon.com/do-you-like-to-adb-fcae3655b9c8)
+
 ### Dagger2(Always read newets posts)
 
 [MVP Architecture with Kotlin — Dagger 2, Retrofit, RxAndroid and DataBinding](https://proandroiddev.com/mvp-architecture-with-kotlin-dagger-2-retrofit-rxandroid-and-databinding-17bffe27393d)
