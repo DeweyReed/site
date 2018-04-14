@@ -5,6 +5,8 @@ date: 2018/4/1
 categories: Automation
 ---
 
+###### 不出天大的事以后就不会修改维护的一篇Post
+
 之前需要用代码来代替一些繁琐重复的网页操作，自然想到用Python自动化这些工作。
 
 然后找到了[这篇文章](https://hackernoon.com/mastering-python-web-scraping-get-your-data-back-e9a5cc653d88)。它用了Splinter，一个Selenium的包装。尝试之后发现意外地简单。

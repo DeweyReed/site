@@ -6,6 +6,8 @@ updated: 2018/4/13
 categories: Android
 ---
 
+###### 时不时会更新修改的一篇Post
+
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
 ## 2018年4月13日

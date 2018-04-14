@@ -5,6 +5,8 @@ date: 2018/4/13
 categories: Android
 ---
 
+###### 不出天大的事以后就不会修改维护的一篇Post
+
 之前用Gson序列化Kotlin的data class一直都没问题，但一天当data class中出现了默认参数时，问题就来了。
 
 如果JSON中没有对应的Field，按道理Gson应该生成一个使用了默认参数的data class，但它没有，而且会无视Kotlin的不可null，直接生成一个null。

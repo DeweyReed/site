@@ -6,6 +6,8 @@ updated: 2018/4/6
 categories: Android
 ---
 
+###### 时不时会更新修改的一篇Post
+
 [更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 ### 混淆前记得留下Models
