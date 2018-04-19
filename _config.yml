@@ -93,6 +93,40 @@ feed:
 theme_config:
 
   # ---------------------------------------------------------------
+  # Theme Core Configuration Settings
+  # ---------------------------------------------------------------
+
+  # If false, merge configs from `_data/next.yml` into default configuration (rewrite).
+  # If true, will fully override default configuration by options from `_data/next.yml` (override). Only for NexT settings.
+  # And if true, all config from default NexT `_config.yml` must be copied into `next.yml`. Use if you know what you are doing.
+  # Useful if you want to comment some options from NexT `_config.yml` by `next.yml` without editing default config.
+  override: false
+
+  # Allow to cache content generation. Introduced in NexT v6.0.0.
+  cache:
+    enable: true
+
+  # Redefine custom file paths. Introduced in NexT v6.0.2.
+  # If commented, will be used default custom file paths.
+
+  # For example, you want to put your custom styles file
+  # outside theme directory in root `source/_data`, set
+  # `styles: source/_data/styles.styl`
+  #custom_file_path:
+    # Default paths: layout/_custom/*
+    #head: source/_data/head.swig
+    #header: source/_data/header.swig
+    #sidebar: source/_data/sidebar.swig
+
+    # Default path: source/css/_variables/custom.styl
+    #variables: source/_data/variables.styl
+    # Default path: source/css/_mixins/custom.styl
+    #mixins: source/_data/mixins.styl
+    # Default path: source/css/_custom/custom.styl
+    #styles: source/_data/styles.styl
+
+
+  # ---------------------------------------------------------------
   # Site Information Settings
   # ---------------------------------------------------------------
 
@@ -107,7 +141,7 @@ theme_config:
   favicon:
     small: /images/favicon-16x16.png
     medium: /images/favicon-32x32.png
-    #apple_touch_icon: /images/apple-touch-icon-next.png
+    #apple_touch_icon: /images/apple-touch-icon.png
     #safari_pinned_tab: /images/logo.svg
     #android_manifest: /images/manifest.json
     #ms_browserconfig: /images/browserconfig.xml
@@ -123,7 +157,7 @@ theme_config:
     since: 2018
 
     # Icon between year and copyright info.
-    icon: 
+    icon:
       # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
       # `heart` is recommended with animation in red (#ff0000).
       name: superpowers
@@ -135,8 +169,11 @@ theme_config:
     # If not defined, will be used `author` from Hexo main config.
     copyright:
     # -------------------------------------------------------------
-    # Hexo link (Powered by Hexo).
-    powered: true
+    powered:
+      # Hexo link (Powered by Hexo).
+      enable: true
+      # Version info of Hexo after Hexo link (vX.X.X).
+      version: true
 
     theme:
       # Theme & scheme info link (Theme - NexT.scheme).
@@ -215,12 +252,12 @@ theme_config:
   # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
   social:
     GitHub: https://github.com/DeweyReed || github
-    # E-Mail: mailto:whatever@email.com || envelope
+    #E-Mail: mailto:yourname@gmail.com || envelope
     #Google: https://plus.google.com/yourname || google
     #Twitter: https://twitter.com/yourname || twitter
     #FB Page: https://www.facebook.com/yourname || facebook
     #VK Group: https://vk.com/yourname || vk
-    # StackOverflow: https://stackoverflow.com/ || stack-overflow
+    #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
     #YouTube: https://youtube.com/yourname || youtube
     #Instagram: https://instagram.com/yourname || instagram
     #Skype: skype:yourname?call|chat || skype
@@ -313,16 +350,19 @@ theme_config:
   # Automatically Excerpt. Not recommend.
   # Please use <!-- more --> in the post to control excerpt accurately.
   auto_excerpt:
-    enable: true
+    enable: false
     length: 150
 
   # Post meta display settings
   post_meta:
     item_text: true
     created_at: true
-    updated_at: true
-    # Only show 'updated' if different from 'created'.
-    updated_diff: true
+    updated_at:
+      enabled: true
+      # If true, show updated date label only if `updated date` different from 'created date' (post edited in another day than was created).
+      # And if post will edited in same day as created, edited time will show in popup title under created time label.
+      # If false show anyway, but if post edited in same day, show only edited time.
+      another_day: true
     categories: true
 
   # Post wordcount display settings
@@ -331,13 +371,15 @@ theme_config:
     separated_meta: true
     item_text_post: true
     item_text_total: false
-    awl: 5
-    wpm: 200
+    awl: 4
+    wpm: 275
 
-  # Manual define the border radius in codeblock
-  # Leave it empty for the default 1
   codeblock:
-    border_radius: 
+    # Manual define the border radius in codeblock
+    # Leave it empty for the default 1
+    border_radius:
+    # Add copy button on codeblock
+    copy_button: true
 
   # Wechat Subscriber
   #wechat_subscriber:
@@ -368,6 +410,13 @@ theme_config:
   post_copyright:
     enable: true
     license: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a>
+
+  # Post edit
+  # Dependencies: https://github.com/hexojs/hexo-deployer-git
+  post_edit:
+    enable: true
+    url: https://github.com/DeweyReed/site/tree/master/source/ # Link for view source.
+  # url: https://github.com/theme-next/theme-next.org/_posts/edit/master/ # Link for fork & edit.
 
 
   # ---------------------------------------------------------------
@@ -680,11 +729,10 @@ theme_config:
     enable: false
     app_id: #<app_id>
     app_key: #<app_key>
-    # LeanCloud Counter Security Plugin (beta, currently under the testing).
     # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
     # If you don't care about security in lc counter and just want to use it directly
     # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
-    security: false
+    security: true
     betterPerformance: false
 
   # Another tool to show number of visitors to each article.
@@ -1008,6 +1056,3 @@ theme_config:
   css: css
   js: js
   images: images
-
-  # Theme version
-  version: 6.0.6
