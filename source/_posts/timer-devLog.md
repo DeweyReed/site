@@ -2,7 +2,7 @@
 layout: post
 title: 计时机器开发日志
 date: 2017/12/10
-updated: 2018/4/13
+updated: 2018/4/19
 categories: Android
 ---
 
@@ -10,7 +10,12 @@ categories: Android
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年4月19日
+
+这几天有几个崩溃要解决，但这几天心力交瘁，就再加点其他功能过会儿更新吧。
+
 ## 2018年4月13日
+
 2017年12月18日 那天的日志中提到的问题又重现了。应用被冻结，不是被杀，而是被执行暂停。只有在屏幕再次打开时，应用才会继续执行下一步。
 
 这是一个跟国内厂商斗智斗勇的故事。计时器既然需要精确地计时，就要让CPU一直运行，这一点用WakeLock很容易解决。但这样阿猫阿狗都可以让CPU一直运行，不久流氓应用遍地了吗？于是各厂商就增加了应用冻结（或其他名字）的功能，如果应用让CPU一直运行，但又没有做什么实质性的工作，就会冻结它，不是杀了它，是暂停它。这样屏幕一打开，应用又可以继续工作了。
