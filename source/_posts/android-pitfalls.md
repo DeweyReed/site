@@ -2,21 +2,29 @@
 layout: post
 title: Android开发踩过的坑
 date: 2018/2/1
-updated: 2018/4/6
+updated: 2018/4/22
 categories: Android
 ---
 
-###### 时不时会更新修改的一篇Post
+**时不时会更新修改的一篇Post**
 
 [更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
+## Can't resolve symbol ?attr...
+
+好几次在更新Android Studio后，所有Support Design和其他中的资源都找不到了，用起来没问题，但会一直警告。
+今天找到了[这个宝贝](https://stackoverflow.com/a/48734990/5507158)，方法就是删掉`.idea/libraries`文件夹，再Sync文件和Gradle。破费!。
+
 ### 混淆前记得留下Models
+
 比如Kotlin中，数据库用到的data class。这样可以方便Debug。尤其是保存数据时用到了Gson或其他工具，不keep的话，就会出现很多"a": "biubiubiu"之类的数据，可读性低、以后重构时还可能破坏掉名称一致性。
 
 ### 发布代码前最好Rebuild Project
+
 最近就遇到了ButterKnife引起的崩溃，Rebuild之后就自动没了。
 
 ### 谨慎使用StrictMode
+
 我的使用经验是，它会破坏Instant Run，阻止在主线程中使用Shared Preferences等等。
 
 比如，它会对[RintoneManager.getCursor()](https://developer.android.com/reference/android/media/RingtoneManager.html#getCursor())报错，提示Cursor未关闭。但文档中提到，我们不需要亲自关闭它。

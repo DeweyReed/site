@@ -5,9 +5,11 @@ date: 2018/4/19
 categories: WTF
 ---
 
-###### 不出天大的事以后就不会修改维护的一篇Post
+**不出天大的事以后就不会修改维护的一篇Post**
 
 # 大部分勋章使用markdown，SVG的格式。
+
+<!--more-->
 
 1. [Shields.io](http://shields.io/)
 
