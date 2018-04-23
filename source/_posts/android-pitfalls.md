@@ -2,7 +2,7 @@
 layout: post
 title: Android开发踩过的坑
 date: 2018/2/1
-updated: 2018/4/22
+updated: 2018/4/23
 categories: Android
 ---
 
@@ -10,7 +10,15 @@ categories: Android
 
 [更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
-## Can't resolve symbol ?attr...
+## 创建快捷方式的正确姿势
+
+在StackOverflow和其他搜索结果中，高票答案往往是用`Intent`的老方法；在[官方文档](https://developer.android.com/guide/topics/ui/shortcuts.html)中上来就讲的是牛扎糖以后的指南。也没人告诉我说，时代不同啦，正确方案在官方文档的中间
+
+> Note: See also the support library APIs, isRequestPinShortcutSupported() and requestPinShortcut(), which work on Android 7.1 (API level 25) and lower. The support library falls back to the deprecated EXTRA_SHORTCUT_INTENT extra to attempt the pinning process.
+
+新时代应该用`ShortcutManagerCompat`创建快捷方式。
+
+## Can't resolve symbol ?attr/colorPrimary
 
 好几次在更新Android Studio后，所有Support Design和其他中的资源都找不到了，用起来没问题，但会一直警告。
 今天找到了[这个宝贝](https://stackoverflow.com/a/48734990/5507158)，方法就是删掉`.idea/libraries`文件夹，再Sync文件和Gradle。破费!。
