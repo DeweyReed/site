@@ -2,13 +2,17 @@
 layout: post
 title: 计时机器开发日志
 date: 2017/12/10
-updated: 2018/4/19
+updated: 2018/4/24
 categories: Android
 ---
 
 **时不时会更新修改的一篇Post**
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+
+## 2018年4月24日
+
+手痒又想重构了。重构==新功能暂时加不了，旧功能各种出问题+以后会爽到。
 
 ## 2018年4月19日
 

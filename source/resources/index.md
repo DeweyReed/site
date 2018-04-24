@@ -33,6 +33,8 @@ i18n_dir: :en
 
 [Fancier Touch Helper](https://medium.com/@acerezoluna/part-3b-recyclerview-from-zero-to-hero-ce4442ebeede)
 
+[Multiple item types](https://android.jlelse.eu/a-recyclerview-with-multiple-item-types-dfba3979050)
+
 ### Animation
 
 [Good to great UI animation tips](https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5)
@@ -62,6 +64,8 @@ i18n_dir: :en
 [Polishing UI: Android StateListAnimator](https://android.jlelse.eu/polishing-ui-android-statelistanimator-7b74a06b85a5)
 
 [Fragment Transitions](https://medium.com/google-developers/fragment-transitions-ea2726c3f36f)
+
+[Scroll your Bottom Navigation View away with 10 lines of code](https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e)
 
 ### Custom View
 
