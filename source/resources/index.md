@@ -67,6 +67,10 @@ i18n_dir: :en
 
 [Scroll your Bottom Navigation View away with 10 lines of code](https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e)
 
+## Material Desgin and Style
+
+[Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
+
 ### Custom View
 
 [Become an Android Painter](https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4)
@@ -300,6 +304,8 @@ i18n_dir: :en
 [Create your first safe server that’s ready for production](https://medium.freecodecamp.org/how-to-create-your-first-safe-server-ready-for-production-f1cc60eec69a)
 
 [Configure SSH Keys Authentication With PuTTY And Linux Server In 5 Quick Steps](https://www.howtoforge.com/how-to-configure-ssh-keys-authentication-with-putty-and-linux-server-in-5-quick-steps)
+
+[A fast and easy Docker tutorial for beginners (video series)](https://medium.freecodecamp.org/docker-quick-start-video-tutorials-1dfc575522a0)
 
 [Getting Started with Docker on Your VPS](https://blog.ssdnodes.com/blog/tutorial-getting-started-with-docker-on-your-vps/)
 

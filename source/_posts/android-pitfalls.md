@@ -12,6 +12,8 @@ categories: Android
 
 ## 创建快捷方式的正确姿势
 
+**快捷方式的名字和应用名字一致时，在有的系统上会创建不出来**
+
 在StackOverflow和其他搜索结果中，高票答案往往是用`Intent`的老方法；在[官方文档](https://developer.android.com/guide/topics/ui/shortcuts.html)中上来就讲的是牛扎糖以后的指南。也没人告诉我说，时代不同啦，正确方案在官方文档的中间
 
 > Note: See also the support library APIs, isRequestPinShortcutSupported() and requestPinShortcut(), which work on Android 7.1 (API level 25) and lower. The support library falls back to the deprecated EXTRA_SHORTCUT_INTENT extra to attempt the pinning process.

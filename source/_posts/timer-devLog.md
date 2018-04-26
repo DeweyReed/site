@@ -10,6 +10,10 @@ categories: Android
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年4月26日
+
+增加了一个测试功能，不同设备的白名单指南。这几天先更一个小版本，就去重构应用了。
+
 ## 2018年4月24日
 
 手痒又想重构了。重构==新功能暂时加不了，旧功能各种出问题+以后会爽到。
