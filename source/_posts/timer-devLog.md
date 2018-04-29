@@ -2,13 +2,21 @@
 layout: post
 title: 计时机器开发日志
 date: 2017/12/10
-updated: 2018/4/24
+updated: 2018/4/29
 categories: Android
 ---
 
 **时不时会更新修改的一篇Post**
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+
+## 2018年4月29日
+
+移除了白名单指南，问题太多了，出了问题的发邮件吧，也不一定能解决。
+
+已知两个问题，一是多个计时器运行时，点击通知打开的界面会混乱，二是编辑计时器时，旋转屏幕时数据会丢失。下下个版本修复。
+
+还有就是决定不支持KitKat，需要太多的时间精力。
 
 ## 2018年4月26日
 
