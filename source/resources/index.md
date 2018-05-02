@@ -71,6 +71,8 @@ i18n_dir: :en
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
 
+[Mastering Android Themes](https://medium.com/mindorks/mastering-android-themes-chapter-1-4aadfa750ca7)
+
 ### Custom View
 
 [Become an Android Painter](https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4)
@@ -213,6 +215,8 @@ i18n_dir: :en
 
 ### Development
 
+[A Guided Tour inside a clean architecture code base.](https://proandroiddev.com/a-guided-tour-inside-a-clean-architecture-code-base-48bb5cc9fc97)
+
 [Building a Shazam Clone Part 1 (Design) — Building Android Apps Series](https://android.jlelse.eu/building-a-shazam-clone-part-1-building-android-apps-series-179c2580a094)
 
 [The secret to being a top developer is building things! Here’s a list of fun apps to build!](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
@@ -297,7 +301,11 @@ i18n_dir: :en
 
 # Other
 
-### Server
+## Generic
+
+[From console to GUI applications](https://softwareengineering.stackexchange.com/a/51993)
+
+## Server
 
 [Capture all passwords trying to ssh into my server!](https://hackernoon.com/how-ive-captured-all-passwords-trying-to-ssh-into-my-server-d26a2a6263ec)
 
@@ -309,7 +317,7 @@ i18n_dir: :en
 
 [Getting Started with Docker on Your VPS](https://blog.ssdnodes.com/blog/tutorial-getting-started-with-docker-on-your-vps/)
 
-### Website to API
+## Website to API
 
 [WrapAPI](https://wrapapi.com/)
 
@@ -319,7 +327,7 @@ i18n_dir: :en
 
 [scrapinghub](https://scrapinghub.com/)
 
-### Hexo
+## Hexo
 
 [Use Hexo and deploy to GitHub Pages](https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39)
 
@@ -327,7 +335,7 @@ i18n_dir: :en
 
 [Next Theme Wiki](https://github.com/iissnan/hexo-theme-next/wiki)
 
-### Game
+## Game
 
 [magictools](https://github.com/ellisonleao/magictools)
 
