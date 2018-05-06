@@ -9,6 +9,8 @@ categories: Android
 
 [2018年5月3日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
+<!--more-->
+
 ## `.gitignore`文件的创建
 
 IDEA的`.gitignore`插件在使用过程中并不怎么好用，很多东西并忽略不了。相比之下，[gitignore.io](https://www.gitignore.io)就好用得多。
@@ -43,8 +45,6 @@ IDEA的`.gitignore`插件在使用过程中并不怎么好用，很多东西并�
 我的使用经验是，它会破坏Instant Run，阻止在主线程中使用Shared Preferences等等。
 
 比如，它会对[RintoneManager.getCursor()](https://developer.android.com/reference/android/media/RingtoneManager.html#getCursor())报错，提示Cursor未关闭。但文档中提到，我们不需要亲自关闭它。
-
-<!--more-->
 
 ### 重建当前Activity时的自然动画
 代码顺序很重要
