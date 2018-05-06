@@ -10,6 +10,10 @@ categories: Android
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年5月6日
+
+最近在重构整个应用，导致Bug攒了一大堆。。
+
 ## 2018年4月29日
 
 移除了白名单指南，问题太多了，出了问题的发邮件吧，也不一定能解决。

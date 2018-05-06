@@ -2,13 +2,18 @@
 layout: post
 title: Android开发踩过的坑
 date: 2018/2/1
-updated: 2018/4/23
 categories: Android
 ---
 
 **时不时会更新修改的一篇Post**
 
-[更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年5月3日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+
+## `.gitignore`文件的创建
+
+IDEA的`.gitignore`插件在使用过程中并不怎么好用，很多东西并忽略不了。相比之下，[gitignore.io](https://www.gitignore.io)就好用得多。
+
+[Android项目的`.gitignore`](https://www.gitignore.io/api/java%2Cmacos%2Clinux%2Ckotlin%2Candroid%2Cwindows%2Cintellij%2Candroidstudio)
 
 ## 创建快捷方式的正确姿势
 
