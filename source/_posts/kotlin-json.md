@@ -3,9 +3,8 @@ layout: post
 title: Kotlin + JSON 默认参数适配问题
 date: 2018/4/13
 categories: Android
+tags: 不再维护
 ---
-
-**不出天大的事以后就不会修改维护的一篇Post**
 
 之前用Gson序列化Kotlin的data class一直都没问题，但一天当data class中出现了默认参数时，问题就来了。
 

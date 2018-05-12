@@ -3,9 +3,8 @@ layout: post
 title: 权限图书馆的开发资源
 date: 2017/12/26
 categories: Android
+tags: 不再维护
 ---
-
-**不出天大的事以后就不会修改维护的一篇Post**
 
 就是根据这些资料，我写了个查看应用权限的“权限图书馆”
 

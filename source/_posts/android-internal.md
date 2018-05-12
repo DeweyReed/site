@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Android Internal 笔记
-date: 2018/5/6
+date: 2018/5/12
 categories: Android
+tags: 不再维护
 ---
-
-**不出天大的事以后就不会修改维护的一篇Post**
 
 之前不知在哪里看到Android开发者都应该了解一下Android Internal，就截了图记了下来。现在有时间了，就找了一些Android Internal的内容，记了些笔记。相应的资料也列在了各个章节末尾。
 
@@ -149,6 +148,22 @@ Android 3.0及以后，内部储存的空间大大增加。几乎所有不需要
 1. Dump => dump.txt
 1. Write Classes => .class
 
+aapt会根据Manifest给应用项目自动生成各种各样的keep rules。
+
 参考：
 
 1. [How Proguard Works](https://www.youtube.com/watch?v=F9ymcWoDEtc)
+1. [Effective ProGuard keep rules for smaller applications (Google I/O '18)](https://www.youtube.com/watch?v=x9T5EYE-QWQ)
+
+## Memory
+
+分割为Pages，每页4KB。类型有Used Pages, Cached Pages, Free Pages.
+
+减小内存使用的方法：
+
+1. 使用Memory Profile, 查看java heap, app heap
+2. 减小APK大小
+
+参考：
+
+1. [Understanding Android memory usage (Google I/O '18)](https://www.youtube.com/watch?v=w7K0jio8afM)

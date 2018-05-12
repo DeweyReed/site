@@ -2,11 +2,10 @@
 layout: post
 title: Development Barn
 date: 2017/12/28
-updated: 2018/4/12
 i18n_dir: :en
 ---
 
-[What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.5.8 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -121,15 +120,11 @@ i18n_dir: :en
 
 [Do you like to ADB?](https://hackernoon.com/do-you-like-to-adb-fcae3655b9c8)
 
-### Dagger2(Always read newets posts)
+### Dagger2(Always read the newets posts)
 
-[MVP Architecture with Kotlin — Dagger 2, Retrofit, RxAndroid and DataBinding](https://proandroiddev.com/mvp-architecture-with-kotlin-dagger-2-retrofit-rxandroid-and-databinding-17bffe27393d)
+First of all, [Official Doc](https://google.github.io/dagger/)
 
-[Android and Dagger 2.10 AndroidInjector](https://android.jlelse.eu/android-and-dagger-2-10-androidinjector-5e9c523679a3)
-
-[The New Dagger 2 Android Injector](https://blog.mindorks.com/the-new-dagger-2-android-injector-cbe7d55afa6a)
-
-[New Android Injector with Dagger 2](https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe)
+[[HOW-TO] Android Dagger (2.11–2.14) Butterknife (8.7-8.8) MVP (Part 1)](https://proandroiddev.com/how-to-android-dagger-2-10-2-11-butterknife-mvp-part-1-eb0f6b970fd)
 
 [Dagger 2 Generated Code.](https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b)
 

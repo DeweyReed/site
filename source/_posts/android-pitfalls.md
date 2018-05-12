@@ -3,9 +3,8 @@ layout: post
 title: Android开发踩过的坑
 date: 2018/2/1
 categories: Android
+tags: 保证维护
 ---
-
-**时不时会更新修改的一篇Post**
 
 [2018年5月3日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 

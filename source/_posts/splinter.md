@@ -3,9 +3,8 @@ layout: post
 title: 使用Splinter模拟网页操作
 date: 2018/4/1
 categories: Automation
+tags: 不再维护
 ---
-
-**不出天大的事以后就不会修改维护的一篇Post**
 
 之前需要用代码来代替一些繁琐重复的网页操作，自然想到用Python自动化这些工作。
 
