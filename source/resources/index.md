@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.5.8 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.5.13 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -127,6 +127,12 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [[HOW-TO] Android Dagger (2.11–2.14) Butterknife (8.7-8.8) MVP (Part 1)](https://proandroiddev.com/how-to-android-dagger-2-10-2-11-butterknife-mvp-part-1-eb0f6b970fd)
 
 [Dagger 2 Generated Code.](https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b)
+
+#### Pitfalls
+
+[Kotlin+Dagger best practices/documentation](https://github.com/google/dagger/issues/900)
+
+[@Named(...) qualifier not working with Firebase or Kotlin](https://github.com/google/dagger/issues/848)
 
 ### Rx
 
