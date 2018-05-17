@@ -6,9 +6,17 @@ categories: Android
 tags: 保证维护
 ---
 
-[2018年5月3日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年5月16日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 <!--more-->
+
+## PackageName和ApplicationId
+
+这里不讨论Java Package Name
+
+他们俩可以不一致，在代码中不适用反射之类的奇技淫巧的话，并不会产生什么影响。
+
+Build.gradle中的ApplicationId会在生成APK时，把Manifest中的package name替换成ApplicationId，但整个代码库依赖另外的一个Package Name也可以。
 
 ## `.gitignore`文件的创建
 
