@@ -2,12 +2,15 @@
 layout: post
 title: 计时机器开发日志
 date: 2017/12/10
-updated: 2018/4/29
 categories: Android
 tags: 保证维护
 ---
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+
+## 2018年5月17日
+
+这么久，先是重构应用，一半了去搞Google I/O 2018，完了接着重构并修复坏掉的功能。TODO攒了一大大大堆。
 
 ## 2018年5月6日
 
@@ -20,6 +23,8 @@ tags: 保证维护
 已知两个问题，一是多个计时器运行时，点击通知打开的界面会混乱，二是编辑计时器时，旋转屏幕时数据会丢失。下下个版本修复。
 
 还有就是决定不支持KitKat，需要太多的时间精力。
+
+<!--more-->
 
 ## 2018年4月26日
 
@@ -57,8 +62,6 @@ tags: 保证维护
 
 ## 2018年3月24日
 最近只修了一些Bug。重新搭了一下博客，研究了一会儿自动化脚本。。
-
-<!--more-->
 
 ## 2018年3月14日
 岔出去几天写了个[剪贴板守护](https://github.com/DeweyReed/ClipboardCleaner)，算是为下一步的小工具、快捷方式的支持做准备了。

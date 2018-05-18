@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Kotlin + JSON 默认参数适配问题
-date: 2018/4/13
+date: 2018/5/18
 categories: Android
 tags: 不再维护
 ---
+
+2018年5月18日更新：Moshi 1.6增加了Codegen的选项，可以取代Kotshi。原方案依旧可行。
 
 之前用Gson序列化Kotlin的data class一直都没问题，但一天当data class中出现了默认参数时，问题就来了。
 

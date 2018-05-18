@@ -6,9 +6,15 @@ categories: Android
 tags: 保证维护
 ---
 
-[2018年5月16日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年5月17日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 <!--more-->
+
+## .*Compat
+
+我发现大多数需要判断API Level的情况，都有对应的Support Compat类。
+
+比如AlarmManager.set就有AlarmManagerCompat，类似的还有TextViewCompat、ContextCompat、DrawableCompat等等。名字一猜一个准。
 
 ## PackageName和ApplicationId
 
