@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Dagger2 入门路线图 (2018年5月)
-date: 2018/5/16
+date: 2018/5/19
 categories: Android
 tags: 可能维护
 ---
+
+**2018年5月19日更新了Dagger2测试的思路**
 
 现在是**2018年5月**，Dagger2的版本是**2.16**，Kotlin版本是**1.2**，IDE是**Android Studio**。
 
@@ -72,6 +74,14 @@ Dagger2学起来是真心难受，现有的很多资料都已过世，误人子�
 1. 其他
 
     [Dagger 2 Generated Code.](https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b)粗略地介绍了Dagger2生成的代码。如果在第一步研究够了的话，这里不是什么问题。
+
+1. 测试
+
+    虽说[官方文档](https://google.github.io/dagger/testing)中说Dagger2呀，测试很方便。但资料却很少。在逛遍SO和Github后，有一个不成熟的还算能用的方案。
+
+    Instrumentation Test时，重写AndroidJunitRunner，在其newApplication中使用一个TestApplication，在TestApplication中注入一个测试用的TestAppComponent。
+
+    官方文档中TestAppComponent继承了AppComponent，但在使用dagger-android时，会有一些问题，因此不继承了。TestAppComponent和AppComponent差不多，修改为测试用Module并暴露一些需要的类。
 
 至此，如果项目中出现了以下情况，都可以认为其不是Best Practices：
 
