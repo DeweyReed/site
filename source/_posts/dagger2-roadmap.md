@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Dagger2 入门路线图 (2018年5月)
-date: 2018/5/19
+date: 2018/5/20
 categories: Android
 tags: 可能维护
 ---
+
+**2018年5月20日更新了测试的更多思路**
 
 **2018年5月19日更新了Dagger2测试的思路**
 
@@ -75,14 +77,6 @@ Dagger2学起来是真心难受，现有的很多资料都已过世，误人子�
 
     [Dagger 2 Generated Code.](https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b)粗略地介绍了Dagger2生成的代码。如果在第一步研究够了的话，这里不是什么问题。
 
-1. 测试
-
-    虽说[官方文档](https://google.github.io/dagger/testing)中说Dagger2呀，测试很方便。但资料却很少。在逛遍SO和Github后，有一个不成熟的还算能用的方案。
-
-    Instrumentation Test时，重写AndroidJunitRunner，在其newApplication中使用一个TestApplication，在TestApplication中注入一个测试用的TestAppComponent。
-
-    官方文档中TestAppComponent继承了AppComponent，但在使用dagger-android时，会有一些问题，因此不继承了。TestAppComponent和AppComponent差不多，修改为测试用Module并暴露一些需要的类。
-
 至此，如果项目中出现了以下情况，都可以认为其不是Best Practices：
 
 - Android项目中没有使用dagger-android(AndroidInjector等)
@@ -90,3 +84,23 @@ Dagger2学起来是真心难受，现有的很多资料都已过世，误人子�
 - 没有使用Scope而是手动管理。
 - 到处都是@Singleton而没有用@Reusable或其他
 - 其他的还没想到或见到
+
+## 测试
+
+虽说[官方文档](https://google.github.io/dagger/testing)中说Dagger2呀，测试很方便，但资料却很少。在逛遍SO和Github后，找到一些不成熟的还算能用的方案。这方面并没有一个Best Practice，哪个符合使用情况用哪个。八仙过海，各显神通了。
+
+- 使用测试用的TestAppComponent
+
+    Instrumentation Test时，重写AndroidJunitRunner，在其newApplication中返回一个TestApplication，在TestApplication中注入一个测试用的TestAppComponent。
+
+    - 官方文档中TestAppComponent继承了AppComponent，但在使用dagger-android时，会有一些问题，因此不继承了。TestAppComponent和AppComponent差不多，修改为测试用Module并暴露一些需要的类。
+
+- 新建一个使用TestAppComponent的Flavor
+
+    参照[Blueprints中的Dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger)。虽然工程量比较大，但测试起来还算方便。
+
+- 不使用Dagger2，直接mock
+
+    参照[GithubBrowserSample](https://github.com/googlesamples/android-architecture-components/tree/master/GithubBrowserSample)，同样重写AndroidJunitRunner和newApplication，但在TestApplication中不注入任何依赖。测试时，直接手动mock。
+
+    - 还有各种第三方库，比如[DaggerMock](https://github.com/fabioCollini/DaggerMock)
