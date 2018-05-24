@@ -1,22 +1,30 @@
 ---
 layout: post
 title: Material Design 笔记
-date: 2018/5/22
+date: 2018/5/23
 categories: Android
 tags: 可能维护
 ---
 
-**不保证全对、可能更新**
+**不保证全对、可能更新，这玩意儿主要是给自己看的**
 
-## Environment
+2018年5月23日更新：增加了Material Desgin 2字体的可能的可选值
 
-### Surfaces
+[Material Desgin](https://material.io/)
+
+## Design
+
+### Environment
+
+#### Surfaces
 
 各个元素的厚度都是相同的，1dp，白色，自带一个阴影。但可以通过不同elevation和shadows表示高度。
 
 - Elevation和Shadows: Elevation指的是元素的高度；后者指的是阴影大小。原则是，高度越大，阴影越大。
 
 元素的分辨率应为无限 => 使用矢量图
+
+<!--more-->
 
 在Surfaces上显示的内容只要不超出边界，厚度为0，随意使用。
 
@@ -30,7 +38,7 @@ Surface继承于一张纸:
 - 可以凭空出现或消失（魔法）
 - 点击时，向上升起(elevation++, shadows++)迎接点击。
 
-### Elevation && Depth
+#### Elevation && Depth
 
 所有元素都有elevation，值越大，内容越重要。常见的有：Dialog 24dp, Drawer 16dp, App Bar 4dp, FAB 6dp
 
@@ -42,11 +50,11 @@ Elevation也被用作不同Surfaces的分割，也可以使用颜色或不透明
 
 [各元素默认elevation](https://material.io/design/environment/elevation.html#default-elevations)
 
-### Shadows
+#### Shadows
 
 分为点光源（Key Light）和平行光源（Ambient Light），结合起来使用。
 
-## Typography
+### Typography
 
 - Typeface和Font：前者可以看成一种风格，后者是一种具体字体。
 - Sans Serif和Serif：是两种typeface。Serif译作衬线，比如`I`，有衬线就是上下有横杠。`sans`是无的意思，非衬线体，`I`就一竖杠。
@@ -63,13 +71,21 @@ Elevation也被用作不同Surfaces的分割，也可以使用颜色或不透明
 
 每行字数通常为短为20 - 40，中为40 - 60，最多120。
 
-开发过程中，可以参考资料[2]中的字体，图省事得用`android:textAppearance="@style/TextAppearance.AppCompat.**"`
+开发过程中，可以参考[Valid values for android:fontFamily and what they map to?](https://stackoverflow.com/a/19692168/5507158)中的字体，图省事得用`android:textAppearance="@style/TextAppearance.AppCompat.**"`
 
 {% asset_img textAppearances.jpg Common textAppearance values %}
 
 不知为何不是一一对应的，凑活着用。
 
-资料：
+更新：在新版本的Material Desgin 2中，似乎可以通过类似`?attr/textAppearanceHeadline6`或`TextAppearance.MaterialComponents.Subtitle2`获取相应的字体。
 
-1. [Material Desgin](https://material.io/)
-1. [Valid values for android:fontFamily and what they map to?](https://stackoverflow.com/a/19692168/5507158)
+## Development
+
+### Development Tuturials(Kotlin Codelabs)
+
+新玩意：
+
+- `MaterialButton`取代默认`Button`。使用`style="@style/Widget.MaterialComponents.Button.TextButton"`可以移除背景。
+- 很多元素用`MaterialComponents`取代`AppCompat`
+- `CardView`被囊括在design library中，更名为`MaterialCardView`
+- `?attr/textAppearanceHeadline6`：新的(?)`textAppearance`，符合Design中的Type Scale
