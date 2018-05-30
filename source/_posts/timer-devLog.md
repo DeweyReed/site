@@ -8,6 +8,10 @@ tags: 保证维护
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年5月29日
+
+最近在写新的UI控件，这可费了事了。
+
 ## 2018年5月23日
 
 重构基本完成了。等加点新功能在放出新版本吧，打算撸个好看点儿的UI。

@@ -1,16 +1,19 @@
 ---
 layout: post
 title: Material Design 笔记
-date: 2018/5/23
+date: 2018/5/27
 categories: Android
 tags: 可能维护
 ---
 
 **不保证全对、可能更新，这玩意儿主要是给自己看的**
 
+2018年5月27日更新：更新了一些无用的笔记
 2018年5月23日更新：增加了Material Desgin 2字体的可能的可选值
 
 [Material Desgin](https://material.io/)
+
+<!--more-->
 
 ## Design
 
@@ -23,8 +26,6 @@ tags: 可能维护
 - Elevation和Shadows: Elevation指的是元素的高度；后者指的是阴影大小。原则是，高度越大，阴影越大。
 
 元素的分辨率应为无限 => 使用矢量图
-
-<!--more-->
 
 在Surfaces上显示的内容只要不超出边界，厚度为0，随意使用。
 
@@ -54,6 +55,48 @@ Elevation也被用作不同Surfaces的分割，也可以使用颜色或不透明
 
 分为点光源（Key Light）和平行光源（Ambient Light），结合起来使用。
 
+### Layout
+
+元素按8dp排列，小元素按4dp。sp默认大小与dp一样，设置中的字体大小会给sp一个倍数。
+
+Columns, Gutters, Margins：Margins就是左右边边界（手机16dp，平板24dp），Columns是一个个竖块儿（宽度可变)，Gutters是Columns之间的空隙（宽度可变）。
+
+Columns和Gutters应为一个宽，一个窄。
+
+常用的Breakpoints就只剩600dp了吧。
+
+可触摸元素至少是48dp，边界8dp。不可触摸元素至少是24dp，边界8dp。
+
+行高通常为48dp。
+
+[响应式](https://material.io/design/layout/component-behavior.html#responsive-patterns)个人实现思路：
+
+- Reveal Drawer：知道MaterialDrawer似乎可以直接拿来用，Support Library中的还真不知道
+- Reveal Options：Custom View吧
+- Reveal Card：TextView中的叫ell什么的属性
+- Transform Drawer to Tab：两套UI和代码？
+- Transform List to Grid：换一下LayoutManager
+- Transform Overflow Menu：ifRoom的属性
+- Devide Drawer：同Reveal Drawer
+- Devide Tab to Cards：两套UI和代码？
+- Reflow List：FlexboxLayout
+- Reflow Tab to List：两套UI和代码？
+- Reflow Picker：两套UI和代码？
+- Expand Cards：设置最大宽度和Increment
+- Expand Dialog：有区别吗？
+- Position Sheet to Overflow Menu：两套UI和代码？
+- Position FAB：两套代码？
+
+### Navigation
+
+[实现？](https://material.io/design/navigation/navigation-transitions.html)
+
+### Color
+
+Primary Color：出现次数最多的颜色。没有Accent时取代Accent。
+
+[各种文字颜色和透明度的推荐值](https://material.io/design/color/text-legibility.html)
+
 ### Typography
 
 - Typeface和Font：前者可以看成一种风格，后者是一种具体字体。
@@ -78,6 +121,16 @@ Elevation也被用作不同Surfaces的分割，也可以使用颜色或不透明
 不知为何不是一一对应的，凑活着用。
 
 更新：在新版本的Material Desgin 2中，似乎可以通过类似`?attr/textAppearanceHeadline6`或`TextAppearance.MaterialComponents.Subtitle2`获取相应的字体。
+
+### Iconography
+
+图标48dp。编辑时放大四倍，按192dp编辑，4dp边缘。方形边长152dp，圆形直径176dp。
+
+### Shape
+
+### Interaction
+
+### Communication
 
 ## Development
 
