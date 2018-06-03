@@ -288,6 +288,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 # Programming
 
+[A Programmer’s Introduction to Unicode](http://reedbeta.com/blog/programmers-intro-to-unicode/)
+
 [Demystifying Dynamic Programming](https://medium.freecodecamp.org/demystifying-dynamic-programming-3efafb8d4296)
 
 [Leetcode Pattern 1 BFS + DFS == 25% of the problems — part 1](https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353)
