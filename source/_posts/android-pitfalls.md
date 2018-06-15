@@ -6,9 +6,22 @@ categories: Android
 tags: 保证维护
 ---
 
-[2018年5月17日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年6月6日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 <!--more-->
+
+## 单Fragment的Activity
+
+不需要新建一个XML，专门放一个FrameLayout或者Static Fragment。
+使用
+
+```Kotlin
+supportFragmentManager.beginTransaction()
+        .add(android.R.id.content, EvilFragment())
+        .commit()
+```
+
+在[这个SO](https://stackoverflow.com/a/5161143/5507158)的评论中找到。
 
 ## .*Compat
 

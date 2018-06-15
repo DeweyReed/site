@@ -66,9 +66,11 @@ i18n_dir: :en
 
 [Scroll your Bottom Navigation View away with 10 lines of code](https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e)
 
-## Material Desgin and Style
+## Desgin and Style
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
+
+[Styling internationalized text in Android](https://medium.com/google-developers/styling-internationalized-text-in-android-f99759fb7b8f)
 
 [Mastering Android Themes](https://medium.com/mindorks/mastering-android-themes-chapter-1-4aadfa750ca7)
 
@@ -88,13 +90,15 @@ i18n_dir: :en
 
 [Move content to side in Drawer Layout Android](http://thetechnocafe.com/slide-content-to-side-in-drawer-layout-android/)
 
-### Mutltiple Threads
+### Processes and Threads
 
 [Things to consider before running background tasks](https://blog.yipl.com.np/things-to-consider-before-running-background-tasks-e71f00d2ad3a)
 
 [Android Handler Internals](https://medium.com/@jagsaund/android-handler-internals-b5d49eba6977)
 
 [Simple asynchronous loading with Kotlin Coroutines](https://hellsoft.se/simple-asynchronous-loading-with-kotlin-coroutines-f26408f97f46)
+
+[Exploring Android Processes](https://medium.com/@kelvinma/exploring-android-processes-bf74ba63552c)
 
 ### Android Studio
 
@@ -137,6 +141,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [@Named(...) qualifier not working with Firebase or Kotlin](https://github.com/google/dagger/issues/848)
 
 ### Rx
+
+[Reactive.how](http://reactive.how/)
 
 [Reactive Programming with RxAndroid in Kotlin: An Introduction](https://www.raywenderlich.com/170233/reactive-programming-rxandroid-kotlin-introduction)
 
