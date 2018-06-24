@@ -8,6 +8,10 @@ tags: 保证维护
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年6月24日
+
+琐事缠身，无心更新。
+
 ## 2018年6月15日
 
 - 华为设备的熄屏冻结问题似乎并不能通过白名单解决，只能试试黑科技。

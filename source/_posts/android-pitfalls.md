@@ -6,9 +6,15 @@ categories: Android
 tags: 保证维护
 ---
 
-[2018年6月6日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年6月17日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 <!--more-->
+
+## 重写`onSupportNavigateUp`而不是判断`android.R.id.home`
+
+这才是想要截取点击左上角返回键的正确方式，我估计这还涵盖了从键盘返回时的操作。在其中调用`onBackPressed`或者其他操作。
+
+没用Support中的组件就重写`onNavigateUp`。
 
 ## 单Fragment的Activity
 
@@ -33,9 +39,9 @@ supportFragmentManager.beginTransaction()
 
 这里不讨论Java Package Name
 
-他们俩可以不一致，在代码中不适用反射之类的奇技淫巧的话，并不会产生什么影响。
+他们俩可以不一致，在代码中不使用反射之类的奇技淫巧的话，并不会产生什么影响。
 
-Build.gradle中的ApplicationId会在生成APK时，把Manifest中的package name替换成ApplicationId，但整个代码库依赖另外的一个Package Name也可以。
+Build.gradle中的ApplicationId会在生成APK时，把Manifest中的package name替换成ApplicationId，但整个代码库依赖另外的一个Package Name也可以（测试过，更换包名不影响Sqlite的使用）。
 
 ## `.gitignore`文件的创建
 
