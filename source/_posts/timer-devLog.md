@@ -8,6 +8,16 @@ tags: 保证维护
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年6月29日
+
+正在准备0.3.0的发布，新内容不多，但算是给新内容的添加打好了基础。
+
+但现在有很多很多Bug得修理。
+
+## 2018年6月28日
+
+考虑关闭通知时间提醒的功能，在手机上更新通知并算不上多么好的体验和实践。
+
 ## 2018年6月24日
 
 琐事缠身，无心更新。

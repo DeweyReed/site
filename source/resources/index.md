@@ -208,6 +208,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
 
+[How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
+
 ### Publish App
 
 [Did you get one of these Google Play Developer Policy Violation Emails?](https://medium.com/@ali.muzaffar/did-you-get-one-of-these-google-play-developer-policy-violation-emails-6c529ceb082d)
@@ -222,15 +224,13 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Mocking Kotlin classes with Mockito — the fast way](https://engineering.21buttons.com/mocking-kotlin-classes-with-mockito-the-fast-way-631824edd5ba)
 
-### Development
+### Architecture
 
 [A Guided Tour inside a clean architecture code base.](https://proandroiddev.com/a-guided-tour-inside-a-clean-architecture-code-base-48bb5cc9fc97)
 
 [Building a Shazam Clone Part 1 (Design) — Building Android Apps Series](https://android.jlelse.eu/building-a-shazam-clone-part-1-building-android-apps-series-179c2580a094)
 
 [The secret to being a top developer is building things! Here’s a list of fun apps to build!](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
-
-[Vector illustration basics for Android developers - Part 1: Primitive Shapes](https://hackernoon.com/vector-illustration-basics-for-android-developers-part-1-primitive-shapes-5af2e03ad24a)
 
 ### Design
 
@@ -239,6 +239,16 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Why would I want to fitsSystemWindows?](https://medium.com/google-developers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec)
 
 [Night Theme => AppCompat — DayNight](https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94)
+
+[Vector illustration basics for Android developers - Part 1: Primitive Shapes](https://hackernoon.com/vector-illustration-basics-for-android-developers-part-1-primitive-shapes-5af2e03ad24a)
+
+### Performance
+
+[Performance Improvements for Search on The Yelp Android App](https://engineeringblog.yelp.com/2018/05/android-search-perf-improvements-part-1.html)
+
+### Components
+
+[Mastering Android context](https://medium.freecodecamp.org/mastering-android-context-7055c8478a22)
 
 ### Features
 
@@ -314,7 +324,7 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 ## Generic
 
-[From console to GUI applications](https://softwareengineering.stackexchange.com/a/51993)
+[Why not GUI application terminate like console application?](https://softwareengineering.stackexchange.com/a/51993)
 
 ## Server
 
@@ -347,6 +357,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Next Theme Wiki](https://github.com/iissnan/hexo-theme-next/wiki)
 
 ## Game
+
+[From Zero to Game Designer: how to start building video games even if you don’t have any experience](https://medium.freecodecamp.org/from-zero-to-game-designer-how-to-start-building-video-games-even-if-you-dont-have-any-experience-5e2f9f45f4bb)
 
 [magictools](https://github.com/ellisonleao/magictools)
 
