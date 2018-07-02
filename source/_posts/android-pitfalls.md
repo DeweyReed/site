@@ -6,7 +6,7 @@ categories: Android
 tags: 保证维护
 ---
 
-[2018年6月17日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年7月2日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 <!--more-->
 
@@ -64,22 +64,22 @@ IDEA的`.gitignore`插件在使用过程中并不怎么好用，很多东西并�
 好几次在更新Android Studio后，所有Support Design和其他中的资源都找不到了，用起来没问题，但会一直警告。
 今天找到了[这个宝贝](https://stackoverflow.com/a/48734990/5507158)，方法就是删掉`.idea/libraries`文件夹，再Sync文件和Gradle。破费!。
 
-### 混淆前记得留下Models
+## 混淆前记得留下Models
 
 比如Kotlin中，数据库用到的data class。这样可以方便Debug。尤其是保存数据时用到了Gson或其他工具，不keep的话，就会出现很多"a": "biubiubiu"之类的数据，可读性低、以后重构时还可能破坏掉名称一致性。
 
-### 发布代码前最好Rebuild Project
+## 发布代码前最好Rebuild Project
 
 最近就遇到了ButterKnife引起的崩溃，Rebuild之后就自动没了。
 
-### 谨慎使用StrictMode
+## 谨慎使用StrictMode
 
 我的使用经验是，它会破坏Instant Run，阻止在主线程中使用Shared Preferences等等。
 
 比如，它会对[RintoneManager.getCursor()](https://developer.android.com/reference/android/media/RingtoneManager.html#getCursor())报错，提示Cursor未关闭。但文档中提到，我们不需要亲自关闭它。
 
-### 重建当前Activity时的自然动画
-代码顺序很重要
+## 重建当前Activity时的自然动画
+代码顺序很重要；Activity的LaunchMode不能是Single系列的，不然新的Activity建立不起来。
 ```Kotlin
 // The first way
 startActivity(Intent(this, MainActivity::class.java)
@@ -92,6 +92,6 @@ startActivity(Intent(this, MainActivity::class.java),
 finish()
 ```
 
-### 自定义布局中，onSaveInstanceState和restore只有在当前View被赋予ID时才会被调用
+## 自定义布局中，onSaveInstanceState和restore只有在当前View被赋予ID时才会被调用
 
 [```Android didn't manage the onSaveInstanceState/onRestoreInstanceState if no id is set to the view.```](https://stackoverflow.com/a/28586444/5507158)

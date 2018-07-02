@@ -8,6 +8,14 @@ tags: 保证维护
 
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2018年7月2日
+
+0.3.1修复了一个在一些设备上无法选择音乐的Bug。但在Moto G4 Play上会出现Native Crash，莫名其妙，能不能解决随缘吧。
+
+## 2018年6月30日
+
+在0.3.0的基础上再迭代几个版本，估计就可以正式发布了。
+
 ## 2018年6月29日
 
 正在准备0.3.0的发布，新内容不多，但算是给新内容的添加打好了基础。
@@ -17,10 +25,6 @@ tags: 保证维护
 ## 2018年6月28日
 
 考虑关闭通知时间提醒的功能，在手机上更新通知并算不上多么好的体验和实践。
-
-## 2018年6月24日
-
-琐事缠身，无心更新。
 
 ## 2018年6月15日
 
