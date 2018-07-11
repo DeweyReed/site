@@ -6,9 +6,26 @@ categories: Android
 tags: 保证维护
 ---
 
-[2018年7月2日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年7月9日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 <!--more-->
+
+## FragmentManager.setCustomAnimations()的四个参数
+
+注意它们不同情况下是作用于不同Fragment的。
+
+`@AnimatorRes @AnimRes int enter`: 作用于此Transition发生时进入屏幕的Fragment
+`@AnimatorRes @AnimRes int exit`: 作用于此Transition发生时离开屏幕的Fragment
+`@AnimatorRes @AnimRes int popEnter`: 作用于稍后调用popBackStack时，此Transition涉及的Fragment的进入屏幕动画
+`@AnimatorRes @AnimRes int popExit`: 作用于稍后调用popBackStack时，此Transition涉及的Fragment的离开屏幕动画
+
+## `·`BottomSheetDialog.setContentView(layoutResId)`Style丢失问题
+
+在我的使用中，控件会找不到AccentColor。
+
+解决方案是使用`setContentView(LayoutInflater.from(context).inflate(layoutResId, rootView, false))`
+
+必须用`LayoutInflater.from`，使用Dialog自带的`getInflater()`也会丢Style。
 
 ## 重写`onSupportNavigateUp`而不是判断`android.R.id.home`
 
