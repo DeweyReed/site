@@ -19,7 +19,7 @@ tags: 保证维护
 `@AnimatorRes @AnimRes int popEnter`: 作用于稍后调用popBackStack时，此Transition涉及的Fragment的进入屏幕动画
 `@AnimatorRes @AnimRes int popExit`: 作用于稍后调用popBackStack时，此Transition涉及的Fragment的离开屏幕动画
 
-## `·`BottomSheetDialog.setContentView(layoutResId)`Style丢失问题
+## `BottomSheetDialog.setContentView(layoutResId)`Style丢失问题
 
 在我的使用中，控件会找不到AccentColor。
 
