@@ -200,15 +200,19 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [The beginner's guide to contributing to a GitHub project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
 
+[Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
+
+[How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
+
+#### Publish Library
+
 [How to publish an Android library: a mysterious conversation](https://www.theguardian.com/technology/developer-blog/2016/dec/06/how-to-publish-an-android-library-a-mysterious-conversation)
 
 [Guide to publishing your Android Library via JitPack](http://crushingcode.nisrulz.com/publish-your-android-library-via-jitpack/)
 
 [Open Source Your Android Code — The Complete Guide](https://android.jlelse.eu/open-source-your-android-code-a-complete-guide-bf0032e50f0e)
 
-[Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
-
-[How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
+[Publishing your Android, Kotlin or Java library to jCenter from Android Studio](https://android.jlelse.eu/publishing-your-android-kotlin-or-java-library-to-jcenter-from-android-studio-1b24977fe450)
 
 ### Publish App
 
@@ -326,6 +330,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Why not GUI application terminate like console application?](https://softwareengineering.stackexchange.com/a/51993)
 
+[Why is Python so slow?](https://medium.com/@anthonypjshaw/why-is-python-so-slow-e5074b6fe55b)
+
 ## Server
 
 [Capture all passwords trying to ssh into my server!](https://hackernoon.com/how-ive-captured-all-passwords-trying-to-ssh-into-my-server-d26a2a6263ec)
@@ -337,6 +343,10 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [A fast and easy Docker tutorial for beginners (video series)](https://medium.freecodecamp.org/docker-quick-start-video-tutorials-1dfc575522a0)
 
 [Getting Started with Docker on Your VPS](https://blog.ssdnodes.com/blog/tutorial-getting-started-with-docker-on-your-vps/)
+
+## WSL
+
+[How to use proxy in WSL?](https://github.com/Microsoft/WSL/issues/2122)
 
 ## Website to API
 
