@@ -14,8 +14,6 @@ i18n_dir: :en
 
 ### Recycler View
 
-[BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
-
 [Custom Swipe Actions](https://www.learn2crack.com/2016/02/custom-swipe-recyclerview.html)
 
 [Enter animation and LayoutAnimation](https://proandroiddev.com/enter-animation-using-recyclerview-and-layoutanimation-part-1-list-75a874a5d213)
