@@ -28,6 +28,8 @@ i18n_dir: :en
 
 [Android Data Binding: RecyclerView](https://medium.com/google-developers/android-data-binding-recyclerview-db7c40d9f0e4)
 
+[Drag and Swipe with RecyclerView](https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf)
+
 [Fancier Touch Helper](https://medium.com/@acerezoluna/part-3b-recyclerview-from-zero-to-hero-ce4442ebeede)
 
 [Multiple item types](https://android.jlelse.eu/a-recyclerview-with-multiple-item-types-dfba3979050)
@@ -71,6 +73,8 @@ i18n_dir: :en
 [Styling internationalized text in Android](https://medium.com/google-developers/styling-internationalized-text-in-android-f99759fb7b8f)
 
 [Mastering Android Themes](https://medium.com/mindorks/mastering-android-themes-chapter-1-4aadfa750ca7)
+
+[Understanding how to declaratively style text on Android](https://medium.com/google-developers/whats-your-text-s-appearance-f3a1729192d)
 
 ### Custom View
 
@@ -315,8 +319,6 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Understanding SOLID Principles: Open Closed Principle](https://codeburst.io/understanding-solid-principles-open-closed-principle-e2b588b6491f)
 
 [My favorite examples of functional programming in Kotlin(powerset in the middle of the article)](https://medium.freecodecamp.org/my-favorite-examples-of-functional-programming-in-kotlin-e69217b39112)
-
-[In and out type variant of Kotlin](https://medium.com/@elye.project/in-and-out-type-variant-of-kotlin-587e4fa2944c)
 
 [An Illustrated Guide to Covariance and Contravariance in Kotlin](https://typealias.com/guides/illustrated-guide-covariance-contravariance/)
 

@@ -6,9 +6,27 @@ categories: Android
 tags: 保证维护
 ---
 
-[2018年7月9日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年8月4日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 <!--more-->
+
+## `<merge>`还可用于自定义ViewGroup
+
+`<merge>`不仅可以用于`<include>`Tag中减小View Hierarchy。还可以在使用自定义ViewGroup时，把需要的Layout XML的顶级Tag设置为`<merge>`, 然后添加`tools:parentTag="FrameLayout..."`，这样就也可以减小一层View Hierarchy。
+
+## 谨慎挑选使用RecyclerView的Library
+
+其实所有的Library在使用前都要小心挑选。
+
+因为RecyclerView的可扩展性很强，很多Library会试图将它们所有功能囊括起来，这样看起来方便了开发者，但实际上，却南辕北辙了。
+
+RecyclerView的初衷是为了避免将什么`setItemClickListener`，Footer，EmptyView等都包括在一个类中，而把他们剥离了开来。表面上看起来开发者在RecyclerView中需要的代码更多了，但实际上，在除去各种多余的组件后并不是。
+
+最近尝试了很多RecyclerView Library，其中很多只是将RecyclerView又包装成一个ListView用。开发者爽到啊，但代码量和可扩展性却一塌糊涂。
+
+其实根据自己的需要撸一个小RecyclerView框架，用起来也绰绰有余。复杂情况下就用Epoxy，FastAdapter之类维护有保障的Library。
+
+PS. 好像几乎所有现有的RecyclerView Library对Kotlin支持都不给力啊。
 
 ## FragmentManager.setCustomAnimations()的四个参数
 
@@ -97,6 +115,7 @@ IDEA的`.gitignore`插件在使用过程中并不怎么好用，很多东西并�
 
 ## 重建当前Activity时的自然动画
 代码顺序很重要；Activity的LaunchMode不能是Single系列的，不然新的Activity建立不起来。
+
 ```Kotlin
 // The first way
 startActivity(Intent(this, MainActivity::class.java)
