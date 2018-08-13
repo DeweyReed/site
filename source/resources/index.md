@@ -340,6 +340,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Configure SSH Keys Authentication With PuTTY And Linux Server In 5 Quick Steps](https://www.howtoforge.com/how-to-configure-ssh-keys-authentication-with-putty-and-linux-server-in-5-quick-steps)
 
+[Disable a user's login without disabling the account](https://unix.stackexchange.com/a/19335)
+
 [A fast and easy Docker tutorial for beginners (video series)](https://medium.freecodecamp.org/docker-quick-start-video-tutorials-1dfc575522a0)
 
 [Getting Started with Docker on Your VPS](https://blog.ssdnodes.com/blog/tutorial-getting-started-with-docker-on-your-vps/)

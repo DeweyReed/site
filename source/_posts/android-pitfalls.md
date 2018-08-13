@@ -8,7 +8,7 @@ tags: 保证维护
 
 [2018年8月4日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
-这里存放了所有踩过的坑，只包括简单的介绍，之后会陆续整理成文章发布。
+这里存放了所有踩过的坑。
 
 <!--more-->
 
