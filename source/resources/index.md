@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.5.22 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.8.13 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
