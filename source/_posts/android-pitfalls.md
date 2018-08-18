@@ -12,6 +12,16 @@ tags: 保证维护
 
 <!--more-->
 
+## Firebase的Testlab和Google Play的Pre-launch测试
+
+这更算一个技巧。
+
+新建一个项目，建立对应的Firebase项目，但并不在代码中引用Firebase。这样就可以薅到每天免费的5台真机 + 10台模拟器的测试机会。
+
+其中有一种Robo测试，类似于Monkey Test，可以用来确保在不同设备上的兼容性。
+
+另外在Google Play发布时，先发布到Beta，再发布到Release，可以自动得到免费pre-launch的10次测试。
+
 ## `<merge>`还可用于自定义ViewGroup
 
 `<merge>`不仅可以用于`<include>`Tag中减小View Hierarchy。还可以在使用自定义ViewGroup时，把需要的Layout XML的顶级Tag设置为`<merge>`, 然后添加`tools:parentTag="FrameLayout..."`，这样就也可以减小一层View Hierarchy。

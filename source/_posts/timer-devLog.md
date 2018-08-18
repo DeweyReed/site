@@ -9,6 +9,19 @@ tags: 保证维护
 <a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
 <!--more-->
+
+感谢酷安用户@无野 提供的华为设备在锁屏后无法运行的解决方案。我顺便修了一下图。
+
+{% asset_img huawei-solution.jpg %}
+
+## 2018年8月18日
+
+0.3.3发布了，对通知和多计时器进行了大量改动，可能出现不少问题，也会在最近陆续修复。漏洞修光光后，就发布到正式版1.0.0，然后又是新增更多功能。
+
+## 2018年8月17日
+
+在思考要不要加些付费功能，Google那边就很简单。国内的话，考虑到用户量不多，最可行的还是依赖一个后端存储信息 + 手动确认。
+
 ## 2018年8月13日
 
 commit过千了。
@@ -30,12 +43,6 @@ commit过千了。
 ## 2018年7月11日
 
 加了几个新功能。我估计新功能稳定后就可以发布1.0.0版本了，毕竟Beta也半年多了。
-
-感谢酷安用户@无野 提供的华为设备在锁屏后无法运行的解决方案。我顺便修了一下图。
-
-{% asset_img huawei-solution.jpg %}
-
-或许有用户担心计时机器要这么多白名单，会不会流氓啊之类的问题。我只能说，不会 ━━(￣ー￣*|||━━)
 
 ## 2018年7月2日
 
