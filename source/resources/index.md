@@ -120,6 +120,8 @@ i18n_dir: :en
 
 [Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 
+[Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)(includes kotlin-dsl, resolving dependencies conflicts, apk splits, buildConfigField, externalNativeBuild, buildTypes configuration, gradle properties, offline mode, product flavors, dependency graph)
+
 ### ADB
 
 [ADB Commands — Part III](https://proandroiddev.com/adb-commands-part-iii-997f97c03546)
@@ -251,6 +253,10 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 ### Performance
 
 [Performance Improvements for Search on The Yelp Android App](https://engineeringblog.yelp.com/2018/05/android-search-perf-improvements-part-1.html)
+
+## Continuous Integration
+
+[Cloud Continuous Integration on Android with Kotlin Project](https://proandroiddev.com/cloud-continuous-integration-on-android-with-kotlin-project-8d6f12cbf0c4)
 
 ### Components
 

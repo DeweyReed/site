@@ -108,6 +108,8 @@ IDEA的`.gitignore`插件在使用过程中并不怎么好用，很多东西并�
 
 ## Can't resolve symbol ?attr/colorPrimary
 
+**现在这个方法也不怎么好使了**
+
 好几次在更新Android Studio后，所有Support Design和其他中的资源都找不到了，用起来没问题，但会一直警告。
 今天找到了[这个宝贝](https://stackoverflow.com/a/48734990/5507158)，方法就是删掉`.idea/libraries`文件夹，再Sync文件和Gradle。破费!。
 
