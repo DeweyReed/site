@@ -12,6 +12,10 @@ tags: 保证维护
 
 <!--more-->
 
+## ?attr, ?android:attr, ?colorPrimary, ?attr/colorPrimary......
+
+[官方文档](https://developer.android.com/guide/topics/resources/providing-resources#ResourcesFromXml)下的`Referencing style attributes`小节。
+
 ## Firebase的Testlab和Google Play的Pre-launch测试
 
 这更算一个技巧。
