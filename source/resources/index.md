@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.8.13 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.9.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -78,15 +78,9 @@ i18n_dir: :en
 
 ### Custom View
 
-[Become an Android Painter](https://android.jlelse.eu/become-an-android-painter-aadf91cec9d4)
-
-[Android: draw a custom view](https://medium.com/@romandanylyk96/android-draw-a-custom-view-ef79fe2ff54b)
-
-[Toolbar Delight](https://androiduipatterns.com/toolbar-delight-8c5e4500b899)
+[Official Documentation](https://developer.android.com/guide/topics/ui/custom-components)
 
 [How to make a swipe button](https://android.jlelse.eu/make-a-great-android-ux-how-to-make-a-swipe-button-eefbf060326d)
-
-[:cn: GcsSloop Blog](http://www.gcssloop.com/#blog)
 
 [How to implement an awesome Login Screen?](https://medium.com/@vpaliy/do-you-dare-me-to-implement-this-login-screen-bf29b72d9e39)
 

@@ -12,6 +12,18 @@ tags: 保证维护
 
 <!--more-->
 
+## 在`Fragment`使用Context、Activity等
+
+使用自带的requireContext等，而不是手动判断是否为`null`。
+
+## 查看手机当前屏幕的Activity
+
+使用adb而不是猜名字。
+
+1. adb shell "dumpsys window w | grep name="
+1. 栈顶：adb shell dumpsys activity | grep "mFocusedActivity"
+1. 栈顶的Fragment：adb shell dumpsys activity your.package.name
+
 ## ?attr, ?android:attr, ?colorPrimary, ?attr/colorPrimary......
 
 [官方文档](https://developer.android.com/guide/topics/resources/providing-resources#ResourcesFromXml)下的`Referencing style attributes`小节。
