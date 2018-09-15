@@ -22,7 +22,7 @@ tags: 不再维护
 
 ## 简单难度 - 预设的多主题
 
-这个也很容易，只需要把预设的主题放到`styles.xml`中，然后在`onCreate`的`super`前调用`setTheme`，让Android框架自己处理各种主题颜色即可。`Colorful`就是这么做的，它的`styles.xml`中存放了很多很多预设颜色和它们的组合。
+这个也很容易，只需要把预设的主题放到`styles.xml`中，然后在`onCreate`的`super`前调用`setTheme`，让Android框架自己处理各种主题颜色即可。[`Colorful`](https://github.com/garretyoder/Colorful)就是这么做的，它的`styles.xml`中存放了很多很多预设颜色和它们的组合。
 
 优点：
 
@@ -33,17 +33,23 @@ tags: 不再维护
 
 ## 正常难度 - 手动着色的动态主题
 
-像`酷安`这种，对每个用到主题色的地方进行着色。这里可以对需要用的主题色的`View`新建一个子类，创建时着色。`Aesthetic`就是这么做的，而且它机智地使用了`LayoutInflaterCompat.setFactory2`来偷梁换柱，把每个`View`都换成可着色的子类。
+像`酷安`这种，对每个用到主题色的地方进行着色。
+
+这里可以对需要用的主题色的`View`新建一个子类，创建时着色。[`Aesthetic`](https://github.com/afollestad/aesthetic)就是这么做的，而且它机智地使用了`LayoutInflaterCompat.setFactory2`来偷梁换柱，把每个`View`都换成可着色的子类。
 
 优点：用户体验++
 缺点
 
-- 实现复杂，现有的Library都有点问题
+- 实现复杂，现有的Library(`Aesthetic`)都有点问题。
 - 有的`View`不能被正常着色，比如`CoordinatorLayout`跟它的子子孙孙们，有不少坑，有的还得反射才行。
+
+###### 鉴于`Aesthetic`使用了RxJava实现实时换色等我觉得多余的内容，就索性[Fork了一份](https://github.com/DeweyReed/aesthetic/tree/reed-dev)，只留下核心的各个子类和`setFactory2`。
 
 ## 老手难度 - 动态主题 + 主题包
 
-`Telegram`啦。它是自己动手，丰衣足食。不仅可以自定义颜色，还可以使用别人的主题包。
+`Telegram`啦。它是自己动手，丰衣足食。
+
+这种方案不仅可以自定义颜色，还可以使用别人的主题包。
 
 有个现成的框架`Android-skin-support`，也是用`setFactory`实现的，不过没有用过，使用体验不知如何。
 
@@ -65,4 +71,4 @@ tags: 不再维护
 夜间模式也有两种实现方式：
 
 1. 同样使用`setTheme`，把什么`windowBackground`都手动设置。
-1. 推荐使用`AppCompatDelegate.setDefaultNightMode`调用`res-night`下的资源，基本上属于白给的夜间主题。
+1. 推荐的是技能`DayNight`style，并使用`AppCompatDelegate.setDefaultNightMode`调用`res-night`下的资源，基本上属于support library白给的夜间主题。
