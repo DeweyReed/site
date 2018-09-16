@@ -91,7 +91,6 @@ feed:
   content_limit_delim: ' '
 
 theme_config:
-
   # ---------------------------------------------------------------
   # Theme Core Configuration Settings
   # ---------------------------------------------------------------
@@ -147,7 +146,7 @@ theme_config:
     #ms_browserconfig: /images/browserconfig.xml
 
   # Set rss to false to disable feed link.
-  # Leave rss as empty to use site's feed link.
+  # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
   # Set rss to specific value if you have burned your feed already.
   rss:
 
@@ -286,9 +285,17 @@ theme_config:
     #Title: http://example.com/
 
   # Sidebar Avatar
+  avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
-  avatar: /images/avatar.jpg
+    # You can also use other linking images.
+    url: /images/avatar.jpg
+    # If true, the avatar would be dispalyed in circle.
+    rounded: false
+    # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+    opacity: 1
+    # If true, the avatar would be rotated with the cursor.
+    rotated: false
 
   # Table Of Contents in the Sidebar
   toc:
@@ -310,6 +317,12 @@ theme_config:
     # Sidebar Position, available value: left | right (only for Pisces | Gemini).
     position: left
     #position: right
+
+    # Manual define the sidebar width.
+    # If commented, will be default for:
+    # Muse | Mist: 320
+    # Pisces | Gemini: 240
+    #width: 300
 
     # Sidebar Display, available value (only for Muse | Mist):
     #  - post    expand on posts automatically. Default.
@@ -379,7 +392,10 @@ theme_config:
     # Leave it empty for the default 1
     border_radius:
     # Add copy button on codeblock
-    copy_button: true
+    copy_button:
+      enable: true
+      # Show text copy result
+      show_result: true
 
   # Wechat Subscriber
   #wechat_subscriber:
@@ -446,15 +462,6 @@ theme_config:
   # Enable "cheers" for archive page.
   cheers_enabled: true
 
-  # Manual define the max content width
-  # !!Only available for Gemini Scheme currently
-  # Leave it empty for the default 75% (suggest not less than 1000px)
-  #max_content_width: 1000px
-
-  # Manual define the sidebar width
-  # !!Only available for Gemini Scheme currently
-  # Leave it empty for the default 240
-  sidebar_width:
 
   # ---------------------------------------------------------------
   # Font Settings
@@ -571,9 +578,6 @@ theme_config:
     count: true
     lazyload: false
 
-  # Hypercomments
-  #hypercomments_id:
-
   # changyan
   changyan:
     enable: false
@@ -585,7 +589,7 @@ theme_config:
   # You can get your appid and appkey from https://leancloud.cn
   # more info please open https://valine.js.org
   valine:
-    enable: false
+    enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
     appid:  # your leancloud application appid
     appkey:  # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
@@ -594,11 +598,7 @@ theme_config:
     avatar: mm # gravatar style
     guest_info: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
-
-
-  # Support for youyan comments system.
-  # You can get your uid from http://www.uyan.cc
-  #youyan_uid: your uid
+    visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
 
   # Support for LiveRe comments system.
   # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -627,13 +627,7 @@ theme_config:
   #baidushare:
   ##  type: button
 
-  # Share
-  # This plugin is more useful in China, make sure you known how to use it.
-  # And you can find the use guide at official webiste: http://www.jiathis.com/.
-  # Warning: JiaThis does not support https.
-  #jiathis:
-    ##uid: Get this uid from http://www.jiathis.com/
-
+  # addthis Share, see: https://www.addthis.com/
   #add_this_id:
 
   # NeedMoreShare2
@@ -678,6 +672,10 @@ theme_config:
   # Yandex Webmaster tools verification setting
   # See: https://webmaster.yandex.ru/
   #yandex_site_verification:
+
+  # Baidu Webmaster tools verification setting
+  # See: https://ziyuan.baidu.com/site/
+  #baidu_site_verification:
 
   # CNZZ count
   #cnzz_siteid:
@@ -1004,19 +1002,15 @@ theme_config:
     # https://github.com/hustcc/canvas-nest.js
     canvas_nest:
 
-    # three
+    # Internal version: 1.0.0
+    # See: https://github.com/theme-next/theme-next-three
+    # three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three.min.js
+    # three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three-waves.min.js
+    # canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_lines.min.js
+    # canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_sphere.min.js
     three:
-
-    # three_waves
-    # https://github.com/jjandxa/three_waves
     three_waves:
-
-    # three_waves
-    # https://github.com/jjandxa/canvas_lines
     canvas_lines:
-
-    # three_waves
-    # https://github.com/jjandxa/canvas_sphere
     canvas_sphere:
 
     # Internal version: 1.0.0
@@ -1025,7 +1019,7 @@ theme_config:
 
     # Internal version: 3.3.0
     # https://github.com/ethantw/Han
-    han:
+    Han:
 
     # Internal version: 3.3.0
     # https://github.com/vinta/pangu.js
