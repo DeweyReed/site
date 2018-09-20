@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.9.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.9.19 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -66,6 +66,8 @@ i18n_dir: :en
 
 [Scroll your Bottom Navigation View away with 10 lines of code](https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e)
 
+[TransitionDrawable — Small Gems of the Android Framework](https://proandroiddev.com/transitiondrawable-small-gems-of-the-android-framework-4dcdd3c83319)
+
 ## Desgin and Style
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
@@ -95,6 +97,8 @@ i18n_dir: :en
 [Simple asynchronous loading with Kotlin Coroutines](https://hellsoft.se/simple-asynchronous-loading-with-kotlin-coroutines-f26408f97f46)
 
 [Exploring Android Processes](https://medium.com/@kelvinma/exploring-android-processes-bf74ba63552c)
+
+[Exploring Android Thread Priority](https://medium.com/mindorks/exploring-android-thread-priority-5d0542eebbd1)
 
 ### Android Studio
 

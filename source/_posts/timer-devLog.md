@@ -6,13 +6,21 @@ categories: Android
 tags: 保证维护
 ---
 
-<a href="https://play.google.com/apps/testing/io.github.deweyreed.timer.google" target="_blank">Google Play Store的Beta测试链接</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+<a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
 <!--more-->
 
 感谢酷安用户@无野 提供的华为设备在锁屏后无法运行的解决方案。我顺便修了一下图。
 
 {% asset_img huawei-solution.jpg %}
+
+## 2018年9月20日
+
+数据导出和导入基本实现了，后缀就钦定为.tmd了。但有个问题，数据导入时，要把新数据添加到现有的数据中时，怎么把计划任务和其操作的计时器的对应关系继承过来呢。。。解决不了这个，导入数据时，只能把就数据删除，再导入新数据。这明显不符合下一步的宏伟蓝图。
+
+## 2018年9月18日
+
+在思考数据导出的问题，文件格式叫TimeR Machine Data，后缀可以简称.tmd。
 
 ## 2018年9月14日
 
