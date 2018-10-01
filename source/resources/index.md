@@ -68,6 +68,8 @@ i18n_dir: :en
 
 [TransitionDrawable — Small Gems of the Android Framework](https://proandroiddev.com/transitiondrawable-small-gems-of-the-android-framework-4dcdd3c83319)
 
+[StateListAnimator — a Powerful Little Tool for Elevation Animation](https://proandroiddev.com/statelistanimator-a-powerful-little-tool-for-elevation-animation-4b31781e98a0)
+
 ## Desgin and Style
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
@@ -119,6 +121,12 @@ i18n_dir: :en
 [Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 
 [Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)(includes kotlin-dsl, resolving dependencies conflicts, apk splits, buildConfigField, externalNativeBuild, buildTypes configuration, gradle properties, offline mode, product flavors, dependency graph)
+
+#### Gradle Kotlin DSL
+
+[Migrating Android App to Gradle Kotlin DSL 1.0](https://proandroiddev.com/migrating-android-app-to-gradle-kotlin-dsl-1-0-c903760275a5)
+
+[Multi-flavoured Kotlin DSL build script for Android App](https://proandroiddev.com/multi-flavoured-kotlin-dsl-build-script-for-android-app-2d51577e76fb)
 
 ### ADB
 
