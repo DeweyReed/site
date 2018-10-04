@@ -3,7 +3,6 @@ layout: post
 title: 在Android Studio中引入AAR文件
 date: 2018/8/13
 categories: Android
-tags: 不再维护
 ---
 
 任务很简单，最小程度影响当前项目的前提下，导入一个AAR第三方库。

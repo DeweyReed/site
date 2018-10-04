@@ -3,7 +3,6 @@ layout: post
 title: 计时机器开发日志
 date: 2017/12/10
 categories: Android
-tags: 保证维护
 ---
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>

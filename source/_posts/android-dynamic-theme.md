@@ -3,7 +3,6 @@ layout: post
 title: Android动态主题
 date: 2018/9/14
 categories: Android
-tags: 不再维护
 ---
 
 不是给用户几个主题选择的多主题，而是可以让用户选择任意颜色，这让难度上了一档次，尤其是想用一种不那么侵入的方法实现的话。

@@ -3,7 +3,6 @@ layout: post
 title: Dagger2 入门路线图 (2018年5月)
 date: 2018/5/20
 categories: Android
-tags: 可能维护
 ---
 
 **2018年5月20日更新了测试的更多思路**

@@ -3,7 +3,6 @@ layout: post
 title: Material Desgin响应式布局Android实现思路
 date: 2018/6/3
 categories: Android
-tags: 不再维护
 ---
 
 虽然Google已经放弃了它的Android平板产品，但开发者不会（哭）。

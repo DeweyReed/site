@@ -3,7 +3,6 @@ layout: post
 title: Android Internal 笔记
 date: 2018/5/12
 categories: Android
-tags: 不再维护
 ---
 
 之前不知在哪里看到Android开发者都应该了解一下Android Internal，就截了图记了下来。现在有时间了，就找了一些Android Internal的内容，记了些笔记。相应的资料也列在了各个章节末尾。

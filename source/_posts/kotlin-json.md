@@ -3,7 +3,6 @@ layout: post
 title: Kotlin + JSON 默认参数适配问题
 date: 2018/5/18
 categories: Android
-tags: 不再维护
 ---
 
 2018年5月18日更新：Moshi 1.6增加了Codegen的选项，可以取代Kotshi。原方案依旧可行。

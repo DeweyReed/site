@@ -214,7 +214,7 @@ theme_config:
     资源: /resources/ || code
     吐槽: /complaint/ || wheelchair-alt
     categories: /categories/ || th
-    tags: /tags/ || tags
+    # tags: /tags/ || tags
     archives: /archives/ || archive
     about: /about/ || user
     #schedule: /schedule/ || calendar

@@ -3,7 +3,6 @@ layout: post
 title: Android自动切换夜间主题
 date: 2018/9/14
 categories: Android
-tags: 不再维护
 ---
 
 妈耶，网上搜怎么实现自动切换夜间主题都没资料的，全是夜间主题的实现，只能自己想办法了。

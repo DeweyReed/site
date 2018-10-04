@@ -3,7 +3,6 @@ layout: post
 title: Material Design 笔记
 date: 2018/5/27
 categories: Android
-tags: 可能维护
 ---
 
 **不保证全对、可能更新，这玩意儿主要是给自己看的**

@@ -3,7 +3,6 @@ layout: post
 title: Google I/O 2018 笔记
 date: 2018/5/12
 categories: Android
-tags: 不再维护
 ---
 
 把今年I/O的内容参加的差不多了，这里记录一些对我有用的东西。

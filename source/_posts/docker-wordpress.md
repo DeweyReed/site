@@ -3,7 +3,6 @@ layout: post
 title: Docker快速搭建Wordpress + HTTPS
 date: 2018/3/20
 categories: Website
-tags: 不再维护
 ---
 
 虽然最终选择了GithubPages + Hexo，但之前使用Docker搭的Wordpress + HTTPS。搭完后才发现维护起来又累又贵，就把整个流程贴出来留给有缘人吧。
