@@ -1,15 +1,25 @@
 ---
 layout: post
-title: Android开发踩过的坑
+title: Android技巧与窍门
 date: 2018/2/1
 categories: Android
 ---
 
 [2018年8月4日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
-这里存放了所有踩过的坑。
+这里存放了一些技巧和窍门，还有不少踩过的坑。
 
 <!--more-->
+
+## 通过ADB获取截屏到机器
+
+`adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > screen.png`
+
+在[Grab Android screenshot to computer via ADB](https://blog.shvetsov.com/2013/02/grab-android-screenshot-to-computer-via.html)中找到。
+
+## 实现Android O和P彩蛋中，显示桌面背景的Activity
+
+设置Theme为`@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen`
 
 ## 在`Fragment`使用Context、Activity等
 

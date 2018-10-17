@@ -70,6 +70,8 @@ i18n_dir: :en
 
 [StateListAnimator — a Powerful Little Tool for Elevation Animation](https://proandroiddev.com/statelistanimator-a-powerful-little-tool-for-elevation-animation-4b31781e98a0)
 
+[Smoothly reacting to keyboard visibility changes in Android](https://saket.me/smoothly-reacting-to-keyboard/)
+
 ## Desgin and Style
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
@@ -195,6 +197,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Secure data in Android — Encryption](https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58)
 
 [How to pass large data between server and client (android) securely?](https://blog.mindorks.com/how-to-pass-large-data-between-server-and-client-android-securely-345fed551651)
+
+[Securing Network Data Tutorial for Android](https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android)
 
 ### Licenses
 
