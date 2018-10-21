@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.9.19 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.10.19 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -92,7 +92,9 @@ i18n_dir: :en
 
 [Move content to side in Drawer Layout Android](http://thetechnocafe.com/slide-content-to-side-in-drawer-layout-android/)
 
-### Processes and Threads
+[Creating an Extendable Floating Action Button in Android](https://medium.com/@Tunji_D/creating-an-expandable-floating-action-button-in-android-6626b968559e)
+
+### Background Execution
 
 [Things to consider before running background tasks](https://blog.yipl.com.np/things-to-consider-before-running-background-tasks-e71f00d2ad3a)
 
@@ -103,6 +105,10 @@ i18n_dir: :en
 [Exploring Android Processes](https://medium.com/@kelvinma/exploring-android-processes-bf74ba63552c)
 
 [Exploring Android Thread Priority](https://medium.com/mindorks/exploring-android-thread-priority-5d0542eebbd1)
+
+[Modern background execution in Android](https://android-developers.googleblog.com/2018/10/modern-background-execution-in-android.html)
+
+[Executor Framework- Understanding the basics](https://android.jlelse.eu/executor-framework-understanding-the-basics-43d575e723100)
 
 ### Android Studio
 
@@ -250,6 +256,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [The secret to being a top developer is building things! Here’s a list of fun apps to build!](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
 
+[Google I/O 2018 app — Architecture and Testing](https://medium.com/androiddevelopers/google-i-o-2018-app-architecture-and-testing-f546e37fc7eb)
+
 ### Design
 
 [AppCompat — Age of the vectors](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88)
@@ -291,6 +299,10 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Android Data Binding: RecyclerView](https://medium.com/google-developers/android-data-binding-recyclerview-db7c40d9f0e4)
 
 [Custom attributes using BindingAdapters in Kotlin](https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259)
+
+#### Sqlite
+
+[7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
 
 #### Wieget
 

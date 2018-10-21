@@ -7,31 +7,13 @@ categories: Android
 
 [2018年8月4日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
-这里存放了一些技巧和窍门，还有不少踩过的坑。
+这里存放了一些技巧和窍门，代码相关的放到了[这里](https://github.com/DeweyReed/AndroidCodeSnippets)。
 
 <!--more-->
-
-## 通过ADB获取截屏到机器
-
-`adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > screen.png`
-
-在[Grab Android screenshot to computer via ADB](https://blog.shvetsov.com/2013/02/grab-android-screenshot-to-computer-via.html)中找到。
-
-## 实现Android O和P彩蛋中，显示桌面背景的Activity
-
-设置Theme为`@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen`
 
 ## 在`Fragment`使用Context、Activity等
 
 使用自带的requireContext等，而不是手动判断是否为`null`。
-
-## 查看手机当前屏幕的Activity
-
-使用adb而不是猜名字。
-
-1. adb shell "dumpsys window w | grep name="
-1. 栈顶：adb shell dumpsys activity | grep "mFocusedActivity"
-1. 栈顶的Fragment：adb shell dumpsys activity your.package.name
 
 ## ?attr, ?android:attr, ?colorPrimary, ?attr/colorPrimary......
 
@@ -86,20 +68,7 @@ PS. 好像几乎所有现有的RecyclerView Library对Kotlin支持都不给力�
 
 这才是想要截取点击左上角返回键的正确方式，我估计这还涵盖了从键盘返回时的操作。在其中调用`onBackPressed`或者其他操作。
 
-没用Support中的组件就重写`onNavigateUp`。
-
-## 单Fragment的Activity
-
-不需要新建一个XML，专门放一个FrameLayout或者Static Fragment。
-使用
-
-```Kotlin
-supportFragmentManager.beginTransaction()
-        .add(android.R.id.content, EvilFragment())
-        .commit()
-```
-
-在[这个SO](https://stackoverflow.com/a/5161143/5507158)的评论中找到。
+没用Support中的组件就重写`onNavigateUp`/`onSupportNavigateUp`。
 
 ## .*Compat
 
@@ -151,21 +120,6 @@ IDEA的`.gitignore`插件在使用过程中并不怎么好用，很多东西并�
 我的使用经验是，它会破坏Instant Run，阻止在主线程中使用Shared Preferences等等。
 
 比如，它会对[RintoneManager.getCursor()](https://developer.android.com/reference/android/media/RingtoneManager.html#getCursor())报错，提示Cursor未关闭。但文档中提到，我们不需要亲自关闭它。
-
-## 重建当前Activity时的自然动画
-代码顺序很重要；Activity的LaunchMode不能是Single系列的，不然新的Activity建立不起来。
-
-```Kotlin
-// The first way
-startActivity(Intent(this, MainActivity::class.java)
-finish()
-overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
-
-// The second way
-startActivity(Intent(this, MainActivity::class.java), 
-    ActivityOptions.makeCustomAnimation(this, android.R.anim.fade_in, android.R.anim.fade_out).toBundle())
-finish()
-```
 
 ## 自定义布局中，onSaveInstanceState和restore只有在当前View被赋予ID时才会被调用
 
