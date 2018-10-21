@@ -5,7 +5,7 @@ date: 2018/2/1
 categories: Android
 ---
 
-[2018年8月4日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年10月21日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 这里存放了一些技巧和窍门，代码相关的放到了[这里](https://github.com/DeweyReed/AndroidCodeSnippets)。
 
