@@ -5,6 +5,52 @@ comments: false
 i18n_dir: :en
 ---
 
+## =-=
+
+Kristy!
+Ms. Esposito, hold up!
+Hey, Jimmy McGill.
+We met inside.
+Oh, hi.
+Hi.
+You didn't get it.
+You were never gonna get it.
+They, They dangle these things in front of you.
+They tell you, you got a chance.
+But, I'm sorry, it's a lie because they had already made up their mind and they knew what they gonna do before you walked in the door.
+You made a mistake, and they are never forgetting it.
+As far as they're concerned, your mistake is just it's who you are, and it's all you are.
+And I'm not just talking about the scholarship here. I'm talking about everything.
+I mean, they'll smile at you, they'll pat you on the head, but they are never, ever letting you in.
+But listen, listen. 
+It doesn't matter.
+It doesn't because you don't need them.
+They're not gonna give it to you? So what? You're gonna take it. 
+You're gonna do whatever it takes. Do you hear me?
+You are not gonna play by the rules.
+You're gonna go your own way.
+You're gonna do what they won't do.
+You're gonna be smart.
+You're gonna cut corners, and you are gonna win.
+They're on the 35th floor? You're gonna be on the 50th floor.
+You're gonna be looking down on them.
+And the higher you rise, the more they're gonna hate you.
+Good. Good. You rub their noses in it.
+You make them suffer.
+You don't matter all that much to them. So what?
+So what? Screw them.
+Remember: the winner takes it all.
+I've gotta go get the bus.
+You, you understand what I'm trying to tell you, right?
+Yes. I think I do.
+All right. All right, go get them.
+
+## =-=
+
+From [Better Call Saul ](https://www.imdb.com/title/tt3032476/)
+
+## =-=
+
 Innocent? Who's innocent? Wayne? You innocent?
 
 I'm innocent, yes, I am. Of murder, definitely. 
