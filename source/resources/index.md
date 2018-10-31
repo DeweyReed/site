@@ -72,7 +72,7 @@ i18n_dir: :en
 
 [Smoothly reacting to keyboard visibility changes in Android](https://saket.me/smoothly-reacting-to-keyboard/)
 
-## Desgin and Style
+### Desgin and Style
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
 
@@ -224,6 +224,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
 
+[Deep dive into .idea folder in Android Studio](https://proandroiddev.com/deep-dive-into-idea-folder-in-android-studio-53f867cf7b70)
+
 #### Publish Library
 
 [How to publish an Android library: a mysterious conversation](https://www.theguardian.com/technology/developer-blog/2016/dec/06/how-to-publish-an-android-library-a-mysterious-conversation)
@@ -272,7 +274,7 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Performance Improvements for Search on The Yelp Android App](https://engineeringblog.yelp.com/2018/05/android-search-perf-improvements-part-1.html)
 
-## Continuous Integration
+### Continuous Integration
 
 [Cloud Continuous Integration on Android with Kotlin Project](https://proandroiddev.com/cloud-continuous-integration-on-android-with-kotlin-project-8d6f12cbf0c4)
 
