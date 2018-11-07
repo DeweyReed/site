@@ -2,7 +2,7 @@
 layout: post
 title: 用于展示的Markdown徽章集合
 date: 2018/4/19
-categories: WTF
+categories: What
 ---
 
 # 大部分勋章使用markdown，SVG的格式。
