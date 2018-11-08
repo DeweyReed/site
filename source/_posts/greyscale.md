@@ -9,7 +9,11 @@ categories: What
 
 <!--more-->
 
-- Windows10: 设置搜索“颜色滤镜”，勾选“允许使用快捷键打开或关闭滤镜”，把滤镜设置为“灰度”。使用Windows + Ctrl + C切换灰度
+- Windows10
+
+  - 设置搜索“颜色滤镜”，勾选“允许使用快捷键打开或关闭滤镜”，把滤镜设置为“灰度”。使用Windows + Ctrl + C切换灰度。
+  - [flux](https://justgetflux.com/)，最新版(4.84)有灰度设置。
+
 - Android 5.0及以后
 
   - 开发者设置，从最后开始找“模拟颜色空间”，设置为“全色盲"。
