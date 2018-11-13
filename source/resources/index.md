@@ -398,6 +398,10 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Next Theme Wiki](https://github.com/iissnan/hexo-theme-next/wiki)
 
+## Encryption
+
+[PGP Guide](https://gist.github.com/sepehr/5a2a8949afa7e74d0118)
+
 ## Game
 
 [From Zero to Game Designer: how to start building video games even if you don’t have any experience](https://medium.freecodecamp.org/from-zero-to-game-designer-how-to-start-building-video-games-even-if-you-dont-have-any-experience-5e2f9f45f4bb)
