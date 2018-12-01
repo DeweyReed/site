@@ -5,11 +5,23 @@ date: 2018/9/14
 categories: Android
 ---
 
+2018年12月1日 更新Cyanea
+
 不是给用户几个主题选择的多主题，而是可以让用户选择任意颜色，这让难度上了一档次，尤其是想用一种不那么侵入的方法实现的话。
 
 从主题的实现来分，主要分依赖Android和自己动手。但这里按实现难度排序。
 
 <!--more-->
+
+2018年12月1日 更新Cyanea
+
+发现了[Cyanea](https://github.com/jaredrummler/Cyanea)，也是可以动态颜色，黑科技，效果极佳，除了不仅需要代码还需要很多styles。
+
+初步看了一下代码，它不像Aesthetic一样拦截View创建过程，而是拦截Resources的getColor和getColorStateLlist返回自定义颜色，并使用自定义的LayoutInflater，在View创建之后，使用反射给View的ColorStateList修改颜色。这样，一些直接着色很困难的View（说的就是TimePicker）也可以一并被着色。
+
+好强啊。
+
+【完】2018年12月1日 更新Cyanea
 
 ## 幼儿园难度 - 着色次数少的动态主题
 
@@ -41,8 +53,6 @@ categories: Android
 
 - 实现复杂，现有的Library(`Aesthetic`)都有点问题。
 - 有的`View`不能被正常着色，比如`CoordinatorLayout`跟它的子子孙孙们，有不少坑，有的还得反射才行。
-
-###### 鉴于`Aesthetic`使用了RxJava实现实时换色等我觉得多余的内容，就索性[Fork了一份](https://github.com/DeweyReed/aesthetic/tree/reed-dev)，只留下核心的各个子类和`setFactory2`。
 
 ## 老手难度 - 动态主题 + 主题包
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 只有灰色才能表达此刻的心情
+title: 灰度显示
 date: 2018/11/4
 categories: What
 ---
