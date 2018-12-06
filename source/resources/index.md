@@ -5,40 +5,46 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.10.19 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.12.6 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
 ## In case you want to learn about Android Development
 [Advice](https://medium.com/@drinfo/fuck-you-android-framework-ddbb02c4ae48)
 
+### Framework
+
+[AnDevCon: Android Internals Overview - Marko Gargenta.mov](https://www.youtube.com/watch?v=MlxiQNijniQ)
+
 ### Recycler View
 
+#### TouchHelper
+
 [Custom Swipe Actions](https://www.learn2crack.com/2016/02/custom-swipe-recyclerview.html)
-
-[Enter animation and LayoutAnimation](https://proandroiddev.com/enter-animation-using-recyclerview-and-layoutanimation-part-1-list-75a874a5d213)
-
-[SortedList](https://android.jlelse.eu/android-sortedlist-explained-2def504e46d7)
-
-[DiffUtil](https://medium.com/@iammert/using-diffutil-in-android-recyclerview-bdca8e4fbb00)
-
-[RecyclerView — More Animations with Less Code using Support Library ListAdapter](https://medium.com/@trionkidnapper/recyclerview-more-animations-with-less-code-using-support-library-listadapter-62e65126acdb)
-
-[SnapHelper](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
-
-[Android Data Binding: RecyclerView](https://medium.com/google-developers/android-data-binding-recyclerview-db7c40d9f0e4)
 
 [Drag and Swipe with RecyclerView](https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf)
 
 [Fancier Touch Helper](https://medium.com/@acerezoluna/part-3b-recyclerview-from-zero-to-hero-ce4442ebeede)
 
+#### Hmm - -
+
+[Enter animation and LayoutAnimation](https://proandroiddev.com/enter-animation-using-recyclerview-and-layoutanimation-part-1-list-75a874a5d213)
+
+[RecyclerView — More Animations with Less Code using Support Library ListAdapter](https://medium.com/@trionkidnapper/recyclerview-more-animations-with-less-code-using-support-library-listadapter-62e65126acdb)
+
+[SortedList](https://android.jlelse.eu/android-sortedlist-explained-2def504e46d7)
+
+[DiffUtil](https://medium.com/@iammert/using-diffutil-in-android-recyclerview-bdca8e4fbb00)
+
+[SnapHelper](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+
 [Multiple item types](https://android.jlelse.eu/a-recyclerview-with-multiple-item-types-dfba3979050)
 
 ### Animation
 
-[Good to great UI animation tips](https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5)
+[Get Animated (Android Dev Summit '18)](https://www.youtube.com/watch?v=N_x7SV3I3P0)
 
-[Animations and Touch Events](https://upday.github.io/blog/animations_touch/)
+[Exploring Meaningful Motion on Android](https://labs.ribot.co.uk/exploring-meaningful-motion-on-android-1cd95a4bc61d)
 
 [Synchronously Animating Toolbar, TabLayout, FloatingActionButton and StatusBar Background Colors on Android](https://kylewbanks.com/blog/animating-toolbar-tablayout-floatingactionbutton-and-statusbar-background-color-on-android)
 
@@ -48,31 +54,25 @@ i18n_dir: :en
 
 [Make a moving Gradient Background in Android](http://thetechnocafe.com/make-a-moving-gradient-background-in-android/)
 
-[WORKCATION APP – PART 1. FRAGMENT CUSTOM TRANSITION](https://www.thedroidsonroids.com/blog/android/workcation-app-part-1-fragments-custom-transition)
-
 [Beautiful animations using Android ConstraintLayout](https://robinhood.engineering/beautiful-animations-using-android-constraintlayout-eee5b72ecae3)
-
-[Exploring Meaningful Motion on Android](https://labs.ribot.co.uk/exploring-meaningful-motion-on-android-1cd95a4bc61d)
 
 [Make your app shine #3: How to reveal an activity with circular revelation](https://android.jlelse.eu/a-little-thing-that-matter-how-to-reveal-an-activity-with-circular-revelation-d94f9bfcae28)
 
-[Re-animation](https://medium.com/google-developers/re-animation-7869722af206)
-
-[How to animate on Android](https://proandroiddev.com/how-to-animate-on-android-f8d227135613)
-
 [Polishing UI: Android StateListAnimator](https://android.jlelse.eu/polishing-ui-android-statelistanimator-7b74a06b85a5)
 
-[Fragment Transitions](https://medium.com/google-developers/fragment-transitions-ea2726c3f36f)
+[StateListAnimator — a Powerful Little Tool for Elevation Animation](https://proandroiddev.com/statelistanimator-a-powerful-little-tool-for-elevation-animation-4b31781e98a0)
 
 [Scroll your Bottom Navigation View away with 10 lines of code](https://android.jlelse.eu/scroll-your-bottom-navigation-view-away-with-10-lines-of-code-346f1ed40e9e)
 
 [TransitionDrawable — Small Gems of the Android Framework](https://proandroiddev.com/transitiondrawable-small-gems-of-the-android-framework-4dcdd3c83319)
 
-[StateListAnimator — a Powerful Little Tool for Elevation Animation](https://proandroiddev.com/statelistanimator-a-powerful-little-tool-for-elevation-animation-4b31781e98a0)
-
 [Smoothly reacting to keyboard visibility changes in Android](https://saket.me/smoothly-reacting-to-keyboard/)
 
 ### Desgin and Style
+
+[Best Practices for Themes and Styles (Android Dev Summit '18)](https://www.youtube.com/watch?v=sNSlDfaNq-0)
+
+[Good to great UI animation tips](https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5)
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
 
@@ -82,33 +82,39 @@ i18n_dir: :en
 
 [Understanding how to declaratively style text on Android](https://medium.com/google-developers/whats-your-text-s-appearance-f3a1729192d)
 
+[AppCompat — Age of the vectors](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88)
+
+[Why would I want to fitsSystemWindows?](https://medium.com/google-developers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec)
+
+[Night Theme => AppCompat — DayNight](https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94)
+
+[Vector illustration basics for Android developers - Part 1: Primitive Shapes](https://hackernoon.com/vector-illustration-basics-for-android-developers-part-1-primitive-shapes-5af2e03ad24a)
+
 ### Custom View
 
 [Official Documentation](https://developer.android.com/guide/topics/ui/custom-components)
 
+[Mastering the Android Touch System](https://www.youtube.com/watch?v=EZAoJU-nUyI)
+
 [How to make a swipe button](https://android.jlelse.eu/make-a-great-android-ux-how-to-make-a-swipe-button-eefbf060326d)
-
-[How to implement an awesome Login Screen?](https://medium.com/@vpaliy/do-you-dare-me-to-implement-this-login-screen-bf29b72d9e39)
-
-[Move content to side in Drawer Layout Android](http://thetechnocafe.com/slide-content-to-side-in-drawer-layout-android/)
 
 [Creating an Extendable Floating Action Button in Android](https://medium.com/@Tunji_D/creating-an-expandable-floating-action-button-in-android-6626b968559e)
 
+[How I drew custom shapes in bottom bar](https://proandroiddev.com/how-i-drew-custom-shapes-in-bottom-bar-c4539d86afd7)
+
 ### Background Execution
+
+[Modern background execution in Android](https://android-developers.googleblog.com/2018/10/modern-background-execution-in-android.html)
 
 [Things to consider before running background tasks](https://blog.yipl.com.np/things-to-consider-before-running-background-tasks-e71f00d2ad3a)
 
 [Android Handler Internals](https://medium.com/@jagsaund/android-handler-internals-b5d49eba6977)
 
-[Simple asynchronous loading with Kotlin Coroutines](https://hellsoft.se/simple-asynchronous-loading-with-kotlin-coroutines-f26408f97f46)
-
 [Exploring Android Processes](https://medium.com/@kelvinma/exploring-android-processes-bf74ba63552c)
 
 [Exploring Android Thread Priority](https://medium.com/mindorks/exploring-android-thread-priority-5d0542eebbd1)
 
-[Modern background execution in Android](https://android-developers.googleblog.com/2018/10/modern-background-execution-in-android.html)
-
-[Executor Framework- Understanding the basics](https://android.jlelse.eu/executor-framework-understanding-the-basics-43d575e723100)
+[Executor Framework- Understanding the basics](https://android.jlelse.eu/executor-framework-understanding-the-basics-43d575e72310)
 
 ### Android Studio
 
@@ -117,6 +123,8 @@ i18n_dir: :en
 [Android Studio Debugger](https://proandroiddev.com/making-the-most-out-of-the-android-studio-debugger-61713131d065)
 
 [How to check dependencies updates](https://stackoverflow.com/questions/28683327/how-to-check-if-gradle-dependency-has-new-version). There're three ways: new experimental structure dialog, use android lint and a plugin .
+
+[Deep dive into .idea folder in Android Studio](https://proandroiddev.com/deep-dive-into-idea-folder-in-android-studio-53f867cf7b70)
 
 ### Gradle
 
@@ -130,23 +138,17 @@ i18n_dir: :en
 
 [Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)(includes kotlin-dsl, resolving dependencies conflicts, apk splits, buildConfigField, externalNativeBuild, buildTypes configuration, gradle properties, offline mode, product flavors, dependency graph)
 
-#### Gradle Kotlin DSL
-
-[Migrating Android App to Gradle Kotlin DSL 1.0](https://proandroiddev.com/migrating-android-app-to-gradle-kotlin-dsl-1-0-c903760275a5)
-
-[Multi-flavoured Kotlin DSL build script for Android App](https://proandroiddev.com/multi-flavoured-kotlin-dsl-build-script-for-android-app-2d51577e76fb)
+[How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
 
 ### ADB
 
 [ADB Commands — Part III](https://proandroiddev.com/adb-commands-part-iii-997f97c03546)
 
-[Do you like to ADB?](https://hackernoon.com/do-you-like-to-adb-fcae3655b9c8)
-
 ### Dagger2(Always read the newets posts)
 
 First of all, [Official Doc](https://google.github.io/dagger/)
 
-[[HOW-TO] Android Dagger (2.11–2.14) Butterknife (8.7-8.8) MVP (Part 1)](https://proandroiddev.com/how-to-android-dagger-2-10-2-11-butterknife-mvp-part-1-eb0f6b970fd)
+[[HOW-TO] Android Dagger (2.11–2.17) Butterknife (8.7-8.8) MVP (Part 1)](https://proandroiddev.com/how-to-android-dagger-2-10-2-11-butterknife-mvp-part-1-eb0f6b970fd)
 
 [Dagger 2 Generated Code.](https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b)
 
@@ -166,21 +168,11 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [The Missing RxJava 2 Guide to Supercharge Your Android Development](https://blog.aritraroy.in/the-missing-rxjava-2-guide-to-supercharge-your-android-development-part-1-624ef326bff4)
 
-[Interrupt Patterns](https://proandroiddev.com/reactive-mythology-interrupt-patterns-e244979b865a)
-
 [Implement Search Using RxJava Operators](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
-
-[Implementing EventBus With RxJava — RxBus](https://blog.mindorks.com/implementing-eventbus-with-rxjava-rxbus-e6c940a94bd8)
 
 [Room 🔗 RxJava](https://medium.com/google-developers/room-rxjava-acb0cd4f3757)
 
 [Android RxJava 2 JUnit test - getMainLooper in android.os.Looper not mocked RuntimeException](https://stackoverflow.com/questions/43356314/android-rxjava-2-junit-test-getmainlooper-in-android-os-looper-not-mocked-runt/43356315)
-
-### Network
-
-[Get Started With Retrofit 2 HTTP Client](https://code.tutsplus.com/tutorials/getting-started-with-retrofit-2--cms-27792)
-
-[Retrofiting on Android with Kotlin](https://segunfamisa.com/posts/using-retrofit-on-android-with-kotlin)
 
 ### APK
 
@@ -222,21 +214,11 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
 
-[How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
-
-[Deep dive into .idea folder in Android Studio](https://proandroiddev.com/deep-dive-into-idea-folder-in-android-studio-53f867cf7b70)
-
-#### Publish Library
-
-[How to publish an Android library: a mysterious conversation](https://www.theguardian.com/technology/developer-blog/2016/dec/06/how-to-publish-an-android-library-a-mysterious-conversation)
-
 [Guide to publishing your Android Library via JitPack](http://crushingcode.nisrulz.com/publish-your-android-library-via-jitpack/)
-
-[Open Source Your Android Code — The Complete Guide](https://android.jlelse.eu/open-source-your-android-code-a-complete-guide-bf0032e50f0e)
 
 [Publishing your Android, Kotlin or Java library to jCenter from Android Studio](https://android.jlelse.eu/publishing-your-android-kotlin-or-java-library-to-jcenter-from-android-studio-1b24977fe450)
 
-### Publish App
+### Publish
 
 [Did you get one of these Google Play Developer Policy Violation Emails?](https://medium.com/@ali.muzaffar/did-you-get-one-of-these-google-play-developer-policy-violation-emails-6c529ceb082d)
 
@@ -252,37 +234,45 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 ### Architecture
 
+[Google I/O 2018 app — Architecture and Testing](https://medium.com/androiddevelopers/google-i-o-2018-app-architecture-and-testing-f546e37fc7eb)
+
 [A Guided Tour inside a clean architecture code base.](https://proandroiddev.com/a-guided-tour-inside-a-clean-architecture-code-base-48bb5cc9fc97)
 
 [Building a Shazam Clone Part 1 (Design) — Building Android Apps Series](https://android.jlelse.eu/building-a-shazam-clone-part-1-building-android-apps-series-179c2580a094)
-
-[The secret to being a top developer is building things! Here’s a list of fun apps to build!](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
-
-[Google I/O 2018 app — Architecture and Testing](https://medium.com/androiddevelopers/google-i-o-2018-app-architecture-and-testing-f546e37fc7eb)
-
-### Design
-
-[AppCompat — Age of the vectors](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88)
-
-[Why would I want to fitsSystemWindows?](https://medium.com/google-developers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec)
-
-[Night Theme => AppCompat — DayNight](https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94)
-
-[Vector illustration basics for Android developers - Part 1: Primitive Shapes](https://hackernoon.com/vector-illustration-basics-for-android-developers-part-1-primitive-shapes-5af2e03ad24a)
 
 ### Performance
 
 [Performance Improvements for Search on The Yelp Android App](https://engineeringblog.yelp.com/2018/05/android-search-perf-improvements-part-1.html)
 
+[Advanced JSON parsing techniques using Moshi and Kotlin](https://medium.com/@BladeCoder/advanced-json-parsing-techniques-using-moshi-and-kotlin-daf56a7b963d)
+
 ### Continuous Integration
 
 [Cloud Continuous Integration on Android with Kotlin Project](https://proandroiddev.com/cloud-continuous-integration-on-android-with-kotlin-project-8d6f12cbf0c4)
 
-### Components
+### Archiecture Components
+
+[5 common mistakes when using Architecture Components](https://proandroiddev.com/5-common-mistakes-when-using-architecture-components-403e9899f4cb)
+
+[7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
+
+### Kotlin
+
+[An Illustrated Guide to Covariance and Contravariance in Kotlin](https://typealias.com/guides/illustrated-guide-covariance-contravariance/)
+
+[The Ins and Outs of Generic Variance in Kotlin](https://typealias.com/guides/ins-and-outs-of-generic-variance/)
+
+#### Coroutines
+
+[KotlinConf 2017 - Deep Dive into Coroutines on JVM by Roman Elizarov](https://www.youtube.com/watch?v=YrrUCSi72E8)
+
+[KotlinConf 2017 - Deep Dive into Coroutines on JVM by Roman Elizarov](https://www.youtube.com/watch?v=YrrUCSi72E8)
+
+### Framework Classes
+
+#### Context
 
 [Mastering Android context](https://medium.freecodecamp.org/mastering-android-context-7055c8478a22)
-
-### Features
 
 #### Activity
 
@@ -294,19 +284,13 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [The Android Lifecycle cheat sheet — part I: Single Activities](https://medium.com/google-developers/the-android-lifecycle-cheat-sheet-part-i-single-activities-e49fd3d202ab)
 
-[Building an Android Settings Screen](https://medium.com/@JakobUlbrich/building-a-settings-screen-for-android-part-1-5959aa49337c)
-
 #### DataBinding
 
 [Android Data Binding: RecyclerView](https://medium.com/google-developers/android-data-binding-recyclerview-db7c40d9f0e4)
 
 [Custom attributes using BindingAdapters in Kotlin](https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259)
 
-#### Sqlite
-
-[7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
-
-#### Wieget
+#### Views
 
 [Android ImageView ScaleType: A Visual Guide](https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide)
 
@@ -340,19 +324,17 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 # Programming
 
-[A Programmer’s Introduction to Unicode](http://reedbeta.com/blog/programmers-intro-to-unicode/)
+[Best of Fluent 2012: /Reg(exp){2}lained/: Demystifying Regular Expressions](https://www.youtube.com/watch?v=EkluES9Rvak6)
 
-[Demystifying Dynamic Programming](https://medium.freecodecamp.org/demystifying-dynamic-programming-3efafb8d4296)
+[A Programmer’s Introduction to Unicode](http://reedbeta.com/blog/programmers-intro-to-unicode/)
 
 [Leetcode Pattern 1 BFS + DFS == 25% of the problems — part 1](https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353)
 
 [Understanding SOLID Principles: Open Closed Principle](https://codeburst.io/understanding-solid-principles-open-closed-principle-e2b588b6491f)
 
+[Demystifying Dynamic Programming](https://medium.freecodecamp.org/demystifying-dynamic-programming-3efafb8d4296)
+
 [My favorite examples of functional programming in Kotlin(powerset in the middle of the article)](https://medium.freecodecamp.org/my-favorite-examples-of-functional-programming-in-kotlin-e69217b39112)
-
-[An Illustrated Guide to Covariance and Contravariance in Kotlin](https://typealias.com/guides/illustrated-guide-covariance-contravariance/)
-
-[The Ins and Outs of Generic Variance in Kotlin](https://typealias.com/guides/ins-and-outs-of-generic-variance/)
 
 # Other
 
@@ -408,6 +390,6 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [magictools](https://github.com/ellisonleao/magictools)
 
-# More in the future
+# More links at any time!
 
 😍
