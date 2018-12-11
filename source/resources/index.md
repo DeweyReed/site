@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.12.6 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.12.7 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -268,6 +268,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [KotlinConf 2017 - Deep Dive into Coroutines on JVM by Roman Elizarov](https://www.youtube.com/watch?v=YrrUCSi72E8)
 
+[Kotlin Coroutines patterns & anti-patterns](https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e)
+
 ### Framework Classes
 
 #### Context
@@ -390,6 +392,10 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [magictools](https://github.com/ellisonleao/magictools)
 
-# More links at any time!
+# Thoughts
+
+[Optimize Your Programming Decisions for the 95%, Not the 5%](https://dev.to/nickjj/optimize-your-programming-decisions-for-the-95-not-the-5-2n42)
+
+# More links at any time
 
 😍
