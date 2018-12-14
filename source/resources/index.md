@@ -116,6 +116,12 @@ i18n_dir: :en
 
 [Executor Framework- Understanding the basics](https://android.jlelse.eu/executor-framework-understanding-the-basics-43d575e72310)
 
+#### Background Work on Chinese ROMs
+
+[Why your Push Notifications never see the light of day](https://medium.freecodecamp.org/why-your-push-notifications-never-see-the-light-of-day-3fa297520793)
+
+[Google's reply to WorkManager on Chinese ROMs. Only applys to ForegroundService and other](https://issuetracker.google.com/issues/113676489)
+
 ### Android Studio
 
 [50 Android Studio Tips, Tricks & Resources you should be familiar with, as an Android Developer](https://medium.com/@mmbialas/50-android-studio-tips-tricks-resources-you-should-be-familiar-with-as-an-android-developer-af86e7cf56d2)
@@ -298,9 +304,7 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Scrolling Behavior for Appbars in Android](https://android.jlelse.eu/scrolling-behavior-for-appbars-in-android-41aff9c5c468)
 
-#### Notification
-
-[Why your Push Notifications never see the light of day](https://medium.freecodecamp.org/why-your-push-notifications-never-see-the-light-of-day-3fa297520793)
+[AppCompat View Inflation](https://helw.net/2018/08/06/appcompat-view-inflation/)
 
 #### Media
 

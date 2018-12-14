@@ -5,11 +5,15 @@ date: 2018/2/1
 categories: Android
 ---
 
-[2018年10月21日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年12月12日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 这里存放了一些技巧和窍门，代码相关的放到了[这里](https://github.com/DeweyReed/AndroidCodeSnippets)。
 
 <!--more-->
+
+## `ResourcesCompat.getFont`
+
+它并不检查API并会使用灰名单反射，所以要自己检查版本，在28及之后使用`Resources.getFont`。
 
 ## 在`Fragment`使用Context、Activity等
 
