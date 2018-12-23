@@ -140,11 +140,16 @@ i18n_dir: :en
 
 [Using Gradle build cache with Kotlin](https://blog.jetbrains.com/kotlin/2018/02/using-gradle-build-cache-with-kotlin/)
 
-[Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
-
 [Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)(includes kotlin-dsl, resolving dependencies conflicts, apk splits, buildConfigField, externalNativeBuild, buildTypes configuration, gradle properties, offline mode, product flavors, dependency graph)
 
 [How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
+
+#### Kotlin DSL
+
+[Migrating Android build scripts from Groovy to Kotlin DSL](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
+
+
+[Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 
 ### ADB
 
@@ -188,11 +193,15 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [android-keystore-password-recover](https://github.com/MaxCamillo/android-keystore-password-recover)
 
-### Proguard
+### Proguard Hell
 
 [Troubleshooting ProGuard issues on Android](https://medium.com/google-developers/troubleshooting-proguard-issues-on-android-bce9de4f8a74)
 
 [Reading ProGuard’s Outputs](https://jebware.com/blog/?p=484)
+
+[Feeding ProGuard’s inputs: where are all of these rules coming from?](https://jebware.com/blog/?p=498)
+
+[How Proguard Works](https://www.youtube.com/watch?v=F9ymcWoDEtc)
 
 ### Security
 

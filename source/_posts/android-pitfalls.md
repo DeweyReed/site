@@ -5,11 +5,17 @@ date: 2018/2/1
 categories: Android
 ---
 
-[2018年12月12日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2018年12月18日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 这里存放了一些技巧和窍门，代码相关的放到了[这里](https://github.com/DeweyReed/AndroidCodeSnippets)。
 
 <!--more-->
+
+## XML中的<TextView> vs <AppCompatTextView>
+
+前者是默认的使用的方法，后者是运行时实际替换后的类。前者写起来快，但后者有代码补全。
+
+或者可以取个折中，编辑时AppCompatTextView，编辑完换成TextView。
 
 ## `ResourcesCompat.getFont`
 
