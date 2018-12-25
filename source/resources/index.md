@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.12.7 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2018.12.25 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -134,15 +134,19 @@ i18n_dir: :en
 
 ### Gradle
 
-[How I reduced my Android build times by 89%](https://android.jlelse.eu/how-i-reduced-my-android-build-times-by-89-4242e51ce946)
-
-[Faster Android Build Times](https://android.jlelse.eu/faster-android-build-times-a760d274b33c)
-
 [Using Gradle build cache with Kotlin](https://blog.jetbrains.com/kotlin/2018/02/using-gradle-build-cache-with-kotlin/)
 
 [Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)(includes kotlin-dsl, resolving dependencies conflicts, apk splits, buildConfigField, externalNativeBuild, buildTypes configuration, gradle properties, offline mode, product flavors, dependency graph)
 
 [How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
+
+#### Build Time
+
+[Build your Android app Faster and Smaller than ever](https://medium.com/linedevth/build-your-android-app-faster-and-smaller-than-ever-25f53fdd3cdc)
+
+[How I reduced my Android build times by 89%](https://android.jlelse.eu/how-i-reduced-my-android-build-times-by-89-4242e51ce946)
+
+[Faster Android Build Times](https://android.jlelse.eu/faster-android-build-times-a760d274b33c)
 
 #### Kotlin DSL
 
@@ -160,6 +164,10 @@ i18n_dir: :en
 First of all, [Official Doc](https://google.github.io/dagger/)
 
 [[HOW-TO] Android Dagger (2.11–2.17) Butterknife (8.7-8.8) MVP (Part 1)](https://proandroiddev.com/how-to-android-dagger-2-10-2-11-butterknife-mvp-part-1-eb0f6b970fd)
+
+[Dagger 2 on Android: The Official Guidelines You Should Be Following](https://proandroiddev.com/dagger-2-on-android-the-official-guidelines-you-should-be-following-2607fd6c002e)
+
+[Clean Android Application class with Dependency Injection: AppInitializers](https://proandroiddev.com/clean-android-application-class-with-dependency-injection-appinitializer-45999096f955)
 
 [Dagger 2 Generated Code.](https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b)
 
@@ -181,8 +189,6 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Implement Search Using RxJava Operators](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
 
-[Room 🔗 RxJava](https://medium.com/google-developers/room-rxjava-acb0cd4f3757)
-
 [Android RxJava 2 JUnit test - getMainLooper in android.os.Looper not mocked RuntimeException](https://stackoverflow.com/questions/43356314/android-rxjava-2-junit-test-getmainlooper-in-android-os-looper-not-mocked-runt/43356315)
 
 ### APK
@@ -202,6 +208,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Feeding ProGuard’s inputs: where are all of these rules coming from?](https://jebware.com/blog/?p=498)
 
 [How Proguard Works](https://www.youtube.com/watch?v=F9ymcWoDEtc)
+
+[Practical ProGuard rules examples](https://medium.com/androiddevelopers/practical-proguard-rules-examples-5640a3907dc9)
 
 ### Security
 
@@ -269,7 +277,13 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [5 common mistakes when using Architecture Components](https://proandroiddev.com/5-common-mistakes-when-using-architecture-components-403e9899f4cb)
 
+#### Room
+
 [7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
+
+[Understanding migrations with Room](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)
+
+[Room 🔗 RxJava](https://medium.com/google-developers/room-rxjava-acb0cd4f3757)
 
 ### Kotlin
 
@@ -294,6 +308,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 #### Activity
 
 [Android “launchMode” (Visualized)](https://medium.com/@iammert/android-launchmode-visualized-8843fc833dbe)
+
+[The Android Launch Mode Animated CheatSheet](https://itnext.io/the-android-launchmode-animated-cheatsheet-6657e5dd9b0f)
 
 [Finally understanding how references work in Android and Java](https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83)
 
