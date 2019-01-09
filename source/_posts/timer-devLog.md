@@ -7,6 +7,14 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年1月9日
+
+新的组里多了一个限制：一个计时器步骤大于了2万，或一个组里的步骤大于了10万，计时器运行界面的步骤显示可能会出现错误。如果有哪位超人不够的话，跟我说，我再改改。
+
+## 2019年1月6日
+
+比预料的快但也更磨人。编辑界面凑活能用了，但是丑，很过分地丑。跑了一圈Dribbble也莫得灵感。
+
 ## 2019年1月5日
 
 我要放弃组中组的功能开发了。一方面因为这有点过于复杂，不仅仅是数据层面（如何保存一个可以在子树中循环的多叉树的状态？），还有界面层面（编辑时，组就需要一个单独页面；运行时，将会比文件树视图还要复杂）。
