@@ -5,11 +5,25 @@ date: 2018/2/1
 categories: Android
 ---
 
-[2018年12月18日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2019年1月12日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 这里存放了一些技巧和窍门，代码相关的放到了[这里](https://github.com/DeweyReed/AndroidCodeSnippets)。
 
 <!--more-->
+
+## Kotlin `in` and `out`
+
+```Kotlin
+// RecyclerView.ViewHolder的某个子类的list
+// 因为不知道是哪个子类的list，所以无法安全地set或add(Nothing)
+// 但肯定能get到一个RecyclerView.ViewHolder
+val outList: MutableList<out RecyclerView.ViewHolder> = mutableListOf()
+
+// RecyclerView.ViewHolder的某个父类的list
+// 因为不知道是哪个父类的list，所以只能get到最顶层的Any?
+// 但可以set或add任意RecyclerView.ViewHolder及其子类
+val inList: MutableList<in RecyclerView.ViewHolder> = mutableListOf()
+```
 
 ## XML中的<TextView> vs <AppCompatTextView>
 
