@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2018.12.25 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.1.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -316,6 +316,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [The (Complete) Android Splash Screen Guide](https://android.jlelse.eu/the-complete-android-splash-screen-guide-c7db82bce565)
 
 [The Android Lifecycle cheat sheet — part I: Single Activities](https://medium.com/google-developers/the-android-lifecycle-cheat-sheet-part-i-single-activities-e49fd3d202ab)
+
+[The Journey Of Launching An Android Activity](https://medium.com/@Myyousseff/the-journey-of-launching-an-android-activity-9b64e11dc157)
 
 #### DataBinding
 
