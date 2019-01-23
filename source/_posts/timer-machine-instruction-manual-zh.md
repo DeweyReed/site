@@ -5,6 +5,8 @@ date: 2019/1/22
 categories: Android
 ---
 
+尚未发布的计时机器2.0的使用指南。
+
 > 让复杂的应用做复杂的事。
 
 本文非常努力地介绍了计时机器的使用方法。
@@ -44,9 +46,9 @@ categories: Android
 
 ### 1. 我最爱的最简单的小例子
 
-picture simple case
-
 这是一个循环3次的跑步+步行的锻炼计划。
+
+{% asset_img simple-timer.webp %}
 
 这里出现了不同颜色的步骤。首先是第一个和最后一个，他们是
 
@@ -66,9 +68,9 @@ picture simple case
 
 ### 2. 一个稍显复杂的小例子
 
-picture simple case
-
 这是一个热身+13次跑步和休息的循环+长跑+休息的复杂计划。
+
+{% asset_img complex-timer.webp %}
 
 首先注意到整个计时器的循环是1次，这是因为整个计并不能简单地分割为多次循环，而需要更精细地设置。
 
@@ -84,19 +86,27 @@ picture simple case
 
 > 一个步骤的最短时间是1秒钟（其实是0秒会出现一个Bug）
 
-接下来就是简单的休息步骤和结束步骤。
+接下来将结束步骤当作最后一个休息的步骤。
 
 ## 界面使用示范
 
 - 添加步骤
 
-    {% asset_img add-behaviour.webp %}
+    {% asset_img add-step1.webp %}
+
+    {% asset_img add-step2.webp %}
 
 - 删除一个步骤
 
+    {% asset_img remove-step.webp %}
+
 - 添加行为
 
+    {% asset_img add-behavior.webp %}
+
 - 编辑行为
+
+    {% asset_img edit-behavior.webp %}
 
 ## 与循环计时器的不同
 
