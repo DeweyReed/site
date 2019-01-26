@@ -115,10 +115,6 @@ Primary Color：出现次数最多的颜色。没有Accent时取代Accent。
 
 开发过程中，可以参考[Valid values for android:fontFamily and what they map to?](https://stackoverflow.com/a/19692168/5507158)中的字体，图省事得用`android:textAppearance="@style/TextAppearance.AppCompat.**"`
 
-{% asset_img textAppearances.jpg Common textAppearance values %}
-
-不知为何不是一一对应的，凑活着用。
-
 更新：在新版本的Material Desgin 2中，似乎可以通过类似`?attr/textAppearanceHeadline6`或`TextAppearance.MaterialComponents.Subtitle2`获取相应的字体。
 
 ### Iconography

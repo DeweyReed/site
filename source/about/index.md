@@ -7,55 +7,11 @@ i18n_dir: :en
 
 ## =-=
 
-Kristy!
-Ms. Esposito, hold up!
-Hey, Jimmy McGill.
-We met inside.
-Oh, hi.
-Hi.
-You didn't get it.
-You were never gonna get it.
-They, They dangle these things in front of you.
-They tell you, you got a chance.
-But, I'm sorry, it's a lie because they had already made up their mind and they knew what they gonna do before you walked in the door.
-You made a mistake, and they are never forgetting it.
-As far as they're concerned, your mistake is just it's who you are, and it's all you are.
-And I'm not just talking about the scholarship here. I'm talking about everything.
-I mean, they'll smile at you, they'll pat you on the head, but they are never, ever letting you in.
-But listen, listen. 
-It doesn't matter.
-It doesn't because you don't need them.
-They're not gonna give it to you? So what? You're gonna take it. 
-You're gonna do whatever it takes. Do you hear me?
-You are not gonna play by the rules.
-You're gonna go your own way.
-You're gonna do what they won't do.
-You're gonna be smart.
-You're gonna cut corners, and you are gonna win.
-They're on the 35th floor? You're gonna be on the 50th floor.
-You're gonna be looking down on them.
-And the higher you rise, the more they're gonna hate you.
-Good. Good. You rub their noses in it.
-You make them suffer.
-You don't matter all that much to them. So what?
-So what? Screw them.
-Remember: the winner takes it all.
-I've gotta go get the bus.
-You, you understand what I'm trying to tell you, right?
-Yes. I think I do.
-All right. All right, go get them.
-
-## =-=
-
-From [Better Call Saul ](https://www.imdb.com/title/tt3032476/)
-
-## =-=
-
 Innocent? Who's innocent? Wayne? You innocent?
 
-I'm innocent, yes, I am. Of murder, definitely. 
+I'm innocent, yes, I am. Of murder, definitely.
 
-It's just murder, man. All God's creatures do it in some form or another. I mean, look in the forest, you got species killing other species. Our species killing all species including the forest, and we just call it industry, not murder. But I know a lot of people who deserve to die. 
+It's just murder, man. All God's creatures do it in some form or another. I mean, look in the forest, you got species killing other species. Our species killing all species including the forest, and we just call it industry, not murder. But I know a lot of people who deserve to die.
 
 Why do they deserve to die?
 
@@ -63,33 +19,33 @@ I think everybody got something in their past. Some sin. Some awful, secret thin
 
 The theory that "everyone meets a serial killer halfway" thing? Is that what you're saying?
 
-The wolf don't know why he's a wolf, the deer don't know why he's a deer. God just made it that way. 
+The wolf don't know why he's a wolf, the deer don't know why he's a deer. God just made it that way.
 
-You're saying that the world itself is predatory. that when a mountain lion takes down an elk, it's because it's the elk's time to go. And the B.S. Iiberal agenda about saving the herds only serves to overpopulate the balance of nature. 
+You're saying that the world itself is predatory. that when a mountain lion takes down an elk, it's because it's the elk's time to go. And the B.S. Iiberal agenda about saving the herds only serves to overpopulate the balance of nature.
 
-Maybe you're right. I don't think so, but maybe you are. Corporate and environmental predators. Nuclear predators. Life is a hunt. I've seen it, I was there. When the shit hit the fan at Grenada, I saw it all go down at Grenada. 
+Maybe you're right. I don't think so, but maybe you are. Corporate and environmental predators. Nuclear predators. Life is a hunt. I've seen it, I was there. When the shit hit the fan at Grenada, I saw it all go down at Grenada.
 
-So tell me, Mickey, any regrets? I mean, three weeks, 50 people killed. Not too cool, Mickey. 
+So tell me, Mickey, any regrets? I mean, three weeks, 50 people killed. Not too cool, Mickey.
 
-Fifty-two, but I don't spend a lot of time with regret. That's a wasted emotion. 
+Fifty-two, but I don't spend a lot of time with regret. That's a wasted emotion.
 
-Seriously, you must have some regret. Rack your brain. 
+Seriously, you must have some regret. Rack your brain.
 
 ## =-=
 
 And was it really worth it? Was what worth it? Was massacring all those people worth being separated from your love for the rest of your life?
 
-You mean, was an instant of my purity worth a lifetime of your lies? 
+You mean, was an instant of my purity worth a lifetime of your lies?
 
-Please explain, where is the purity that you couldn't live without in the 52 people who are no longer on this planet, because they met you and Mallory? What's so fucking pure about that? How do you do it? 
+Please explain, where is the purity that you couldn't live without in the 52 people who are no longer on this planet, because they met you and Mallory? What's so fucking pure about that? How do you do it?
 
-You'll never understand. You and me, we're not even the same species. I used to be you, then I evolved. From where you're standing, you're a man. From where I'm standing, you're an ape. You're not even an ape, you're a media person. Media 's like the weather, only it's man-made weather. Murder? It's pure. You're the one made it impure. You're buying and selling fear. You say. "Why?" I say "Why bother?" 
+You'll never understand. You and me, we're not even the same species. I used to be you, then I evolved. From where you're standing, you're a man. From where I'm standing, you're an ape. You're not even an ape, you're a media person. Media 's like the weather, only it's man-made weather. Murder? It's pure. You're the one made it impure. You're buying and selling fear. You say. "Why?" I say "Why bother?"
 
 Are you done? Great. Now let's cut the B.S. and get real. Why this purity that you feel about killing? Why, for chrissakes! Don't lie!
 
-I guess, Wayne, you just gotta hold that shotgun in your hand, and it becomes clear like it did for me the first time. That's when I realized my one true calling in life. 
+I guess, Wayne, you just gotta hold that shotgun in your hand, and it becomes clear like it did for me the first time. That's when I realized my one true calling in life.
 
-What's that, Mickey? Shit, man. I'm a natural born killer. 
+What's that, Mickey? Shit, man. I'm a natural born killer.
 
 ## =-=
 
