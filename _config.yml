@@ -4,7 +4,7 @@
 
 # Site
 title: April Down
-subtitle: Android Dev
+subtitle: Android Development
 description: Hang in there, hang in there.
 keywords: Android Development
 author: Dewey Reed
@@ -170,9 +170,9 @@ theme_config:
     # -------------------------------------------------------------
     powered:
       # Hexo link (Powered by Hexo).
-      enable: true
+      enable: false
       # Version info of Hexo after Hexo link (vX.X.X).
-      version: true
+      version: false
 
     theme:
       # Theme & scheme info link (Theme - NexT.scheme).
@@ -232,7 +232,6 @@ theme_config:
   menu:
     home: / || home
     资源: /resources/ || code
-    吐槽: /complaint/ || wheelchair-alt
     categories: /categories/ || th
     # tags: /tags/ || tags
     archives: /archives/ || archive
