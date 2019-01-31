@@ -5,15 +5,17 @@ date: 2017/12/10
 categories: Android
 ---
 
+[下载计时机器2.0 beta1](https://github.com/DeweyReed/Grocery/releases/download/tm-2.0.0-beta1-apk/TM-O-2.0.0-beta1.apk)
+
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+
+## 2019年1月31日
+
+虽然我已经找不到什么问题，但今天还是先放出一个Beta版本吧。顺利的话，四、五天后就可以放出正式版。
 
 ## 2019年1月24日
 
 内容做的差不多了。接下来的任务是1. 测试。因为改动太大，需要把整个应用都舔一遍。2. 引用了两个还在alpha和beta的第三方库，担心不稳定造成崩溃。3. 组的UI显示还是不怎么满意，但不知道怎么改进。
-
-## 2019年1月20日
-
-更新内容差不多了，但需要更多时间改改边边角角，还有要把应用的介绍是使用方法好好整一整，因为大伙儿都抱怨不会用。。。
 
 ## 2019年1月18日
 
