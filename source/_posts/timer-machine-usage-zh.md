@@ -5,7 +5,7 @@ date: 2018/12/19
 categories: Android
 ---
 
-RT
+**此文章已过时，来这里看最新的使用指南：[计时机器的使用指南](https://github.com/DeweyReed/Grocery/blob/master/instruction-manuals/zh.md)**
 
 <!--more-->
 
