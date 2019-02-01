@@ -5,13 +5,19 @@ date: 2017/12/10
 categories: Android
 ---
 
-[下载计时机器2.0 beta1](https://github.com/DeweyReed/Grocery/releases/download/tm-2.0.0-beta1-apk/TM-O-2.0.0-beta1.apk)
-
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
+
+## 2019年2月1日
+
+要什么beta版，再测一测就上正式版。大不了打补丁嘛。
+
+已知Bug：
+
+1. 运行N(N > 1)个计时器，在其中一个嘟嘟时，每次嘟嘟音会响N次。。涉及到对嘟嘟音的重新设置，下个版本（2.0.1）修复。
 
 ## 2019年1月31日
 
-虽然我已经找不到什么问题，但今天还是先放出一个Beta版本吧。顺利的话，四、五天后就可以放出正式版。
+虽然我已经找不到什么问题，但今天还是先放出一个Beta版本吧。~~顺利的话，四、五天后就可以放出正式版。~~
 
 ## 2019年1月24日
 
