@@ -277,7 +277,7 @@ theme_config:
     #Twitter: https://twitter.com/yourname || twitter
     #FB Page: https://www.facebook.com/yourname || facebook
     #VK Group: https://vk.com/yourname || vk
-    #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+    StackOverflow: https://stackoverflow.com/users/5507158/dewey-reed?tab=profile || stack-overflow
     #YouTube: https://youtube.com/yourname || youtube
     #Instagram: https://instagram.com/yourname || instagram
     #Skype: skype:yourname?call|chat || skype

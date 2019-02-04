@@ -7,6 +7,12 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年2月4日
+
+在Dribbble找了很多设计图，但只能说对UI优化有了个大概预想。不过在改完UI后，我估计还得优化一下内存，总感觉应用是不是吃得太多了？希望是错觉。
+
+我决定今天争取发一个2.0.1修一下当前的Bug。
+
 ## 2019年2月3日
 
 接下来的计划：如果2.0.0有严重的Bug，就会有2.0.1来专门修理它们。如果没有，下个版本会是2.1.0，主要更新有美化UI和快速设置当前步骤和循环（居然现在才加这个功能），也会重做一下应用介绍和截图。
