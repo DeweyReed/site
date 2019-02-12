@@ -7,6 +7,14 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年2月12日
+
+APK逐渐膨胀快到4MB了，东西越加越多是这个样子的。
+
+## 2019年2月11日
+
+2.1.0已经在测试了。之后还是规矩，清理清理代码，需要的话出个2.1.1修Bug。然后我要岔出去搞搞应用介绍、应用截图和造一些其他轮子。
+
 ## 2019年2月9日
 
 一个有意思的现象：开始/暂停按钮显示的是它要执行的动作（运行时显示暂停图标，暂停时显示运行图标），但锁定按钮显示的是当前状态（锁定时显示锁定图标，解锁时显示解锁图标）。
