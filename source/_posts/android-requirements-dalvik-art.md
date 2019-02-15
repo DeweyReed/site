@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android开发：Dalvik和ART
+title: Android开发的一些知识：Dalvik和ART
 date: 2019/2/15
 categories: Android
 ---

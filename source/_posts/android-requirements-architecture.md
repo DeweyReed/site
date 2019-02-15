@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android开发：Android框架
+title: Android开发的一些知识：Android框架
 date: 2019/2/3
 categories: Android
 ---
@@ -11,7 +11,7 @@ categories: Android
 
 参考[Platform Architecture](https://developer.android.com/guide/platform/)
 
-![](https://developer.android.com/guide/platform/images/android-stack_2x.png)
+![Android Architecture](https://developer.android.com/guide/platform/images/android-stack_2x.png)
 
 我们久经考验的Linux内核可以提供可靠安全的运行环境：权限、进程分离、IPC、应用沙箱。包括了各种硬件的驱动。
 

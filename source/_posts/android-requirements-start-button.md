@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android开发：在Android Studio点击Run之后
+title: Android开发的一些知识：在Android Studio点击Run之后
 date: 2019/2/3
 categories: Android
 ---
@@ -21,7 +21,7 @@ Android Studio把所有任务都交给了Gradle来完成，自己只是一个wra
 
 `Executing tasks: [:app:assembleDebug]`
 
-这里摘一些有用的Tasks: 
+这里摘一些有用的Tasks:
 
 ```
 > Transform ... // 首先是Jetifier和AAR transform
