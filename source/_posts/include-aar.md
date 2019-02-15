@@ -5,6 +5,10 @@ date: 2018/8/13
 categories: Android
 ---
 
+## 2019年2月10日 更新
+
+发现一个更好的方案：不管是自己的项目还是Fork来的项目，直接到Jitpack里找到对应的commit，拉下来直接用。这样就省去了很多体力劳动。而且这个过程并不需要配置Gradle，源码都自带。【完】
+
 任务很简单，最小程度影响当前项目的前提下，导入一个AAR第三方库。
 
 要解决的问题在于
@@ -28,6 +32,7 @@ categories: Android
 1. AAR的版本被保存在了另一个项目中
 1. AAR的依赖需要手动添加到项目的依赖中
 1. AAR定义的Annotation，比如IntDef，需要手动在Proguard `-dontwarn`
+1. 似乎并不能跨module使用
 
 ~~缺点比优点多可还行~~
 

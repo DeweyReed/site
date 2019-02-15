@@ -7,6 +7,10 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年2月13日
+
+发现了一些Bug：在有任意对话框打开的情况下，旋转屏幕，很大几率崩溃。不过不急着修，大伙儿又不会没事儿转着手机玩。另外Android传数据是真的繁琐。
+
 ## 2019年2月12日
 
 APK逐渐膨胀快到4MB了，东西越加越多是这个样子的。
