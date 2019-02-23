@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.1.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.2.17 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -67,6 +67,8 @@ i18n_dir: :en
 [TransitionDrawable — Small Gems of the Android Framework](https://proandroiddev.com/transitiondrawable-small-gems-of-the-android-framework-4dcdd3c83319)
 
 [Smoothly reacting to keyboard visibility changes in Android](https://saket.me/smoothly-reacting-to-keyboard/)
+
+[One still surprisingly valid reason to use the old Animation (API 1+)](https://proandroiddev.com/one-still-surprisingly-valid-reason-to-use-the-old-animation-api-1-2e646aba52d8)
 
 ### Desgin and Style
 
