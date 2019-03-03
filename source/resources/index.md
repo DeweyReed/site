@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.2.17 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.3.3 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -264,6 +264,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [A Guided Tour inside a clean architecture code base.](https://proandroiddev.com/a-guided-tour-inside-a-clean-architecture-code-base-48bb5cc9fc97)
 
 [Building a Shazam Clone Part 1 (Design) — Building Android Apps Series](https://android.jlelse.eu/building-a-shazam-clone-part-1-building-android-apps-series-179c2580a094)
+
+[Kotlin Clean Architecture](https://proandroiddev.com/kotlin-clean-architecture-1ad42fcd97fa)
 
 ### Performance
 
