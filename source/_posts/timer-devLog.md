@@ -7,6 +7,14 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年3月8日
+
+问：为什么这个应用无论怎么改，UI都透露着一股贫穷和简陋？
+
+## 2019年3月5日
+
+MaterialDesign设计图里的颜色怎么和material library里的颜色不一样呀。
+
 ## 2019年3月3日
 
 接下来的计划是3.0.0：UI大改版，和增加一些小功能。3.1.0再集中加更多的新功能。
