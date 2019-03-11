@@ -7,6 +7,14 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年3月11日
+
+重构代码就跟捅了马蜂窝一样，这个比喻真形象。
+
+## 2019年3月10日
+
+进行了一次UI改动，算是定稿了，以后不想着提升UI了。接下来想重构一下代码。。
+
 ## 2019年3月8日
 
 问：为什么这个应用无论怎么改，UI都透露着一股贫穷和简陋？
