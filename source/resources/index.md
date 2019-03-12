@@ -291,6 +291,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 ### Kotlin
 
+[Kotlin Sequences: An Illustrated Guide]https://typealias.com/guides/kotlin-sequences-illustrated-guide/)
+
 [An Illustrated Guide to Covariance and Contravariance in Kotlin](https://typealias.com/guides/illustrated-guide-covariance-contravariance/)
 
 [The Ins and Outs of Generic Variance in Kotlin](https://typealias.com/guides/ins-and-outs-of-generic-variance/)
