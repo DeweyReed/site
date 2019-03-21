@@ -5,11 +5,21 @@ date: 2018/2/1
 categories: Android
 ---
 
-[2019年1月12日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2019年3月13日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 这里存放了一些技巧和窍门，代码相关的放到了[这里](https://github.com/DeweyReed/AndroidCodeSnippets)。
 
 <!--more-->
+
+## `region`和`endregion`
+
+```Kotlin
+// region code
+...
+// endregion code
+```
+
+IDE就会出现折叠两者间的提示。折叠后就会只显示一个`code`。
 
 ## Kotlin `in` and `out`
 
