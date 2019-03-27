@@ -9,6 +9,13 @@ categories: Android
 
 <!--more-->
 
+**更新**
+
+[Android CPU, Compilers, D8 & R8](https://proandroiddev.com/android-cpu-compilers-d8-r8-a3aa2bfbc109)，这篇文章中的内容更准确。
+
+**完**
+
+
 ## Dalvik
 
 运行在4.4之前设备上的虚拟机。JIT编译，每应用一个，运行着Dalvik字节码（.dex）的文件。在运行时把.dex字节码转化为硬件特有的指令。

@@ -7,6 +7,10 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年3月27日
+
+3.0.0 有个大Bug，争取今天中午能发出安装包。暂时把酷安应用下架了避免没更新的各位更新。虽然好像找不到重新上架的按钮了。。。
+
 ## 2019年3月21日
 
 看到几个莫名其妙、理论上不可能发生但的确发生了的崩溃，一直都没头绪。它是关于停止所有计时器的，反正停止所有计时器和直接崩溃的效果都差不多，我就先搜集一下相关信息，未来几个版本再想办法解决。
