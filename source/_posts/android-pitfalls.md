@@ -5,11 +5,15 @@ date: 2018/2/1
 categories: Android
 ---
 
-[2019年3月13日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
+[2019年4月2日 更新内容](https://github.com/DeweyReed/site/commits/master/source/_posts/android-pitfalls.md)
 
 这里存放了一些技巧和窍门，代码相关的放到了[这里](https://github.com/DeweyReed/AndroidCodeSnippets)。
 
 <!--more-->
+
+## 临时禁用一些类和文件
+
+在IDEA对着类文件右键-Mark As Plain Text。这样在重构时就不需要删除它们，影响VS了。
 
 ## `region`和`endregion`
 
