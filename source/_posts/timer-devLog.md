@@ -7,6 +7,12 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年4月15日
+
+白名单呀白名单，至少给个“锁屏清理”的绿灯吧。要用Tasker的话，可能还需要个“被唤醒”的绿灯。不然计时器跑着跑着没响儿了，得多难受。~~然后你也可以再给个差评，让我陪你一块儿难受。~~
+
+3.2.0重做了底层链接计时器的逻辑，测试过程中一切顺利。~~就看各位先更新的小白鼠的使用体验了。~~
+
 ## 2019年4月13日
 
 突然想加个Dropbox, Google Drive, OneDrive的云备份，这可是个大坑。
