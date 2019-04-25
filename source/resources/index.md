@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.3.3 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.4.23 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -141,6 +141,8 @@ i18n_dir: :en
 [Gradle Tips and Tricks for Android](https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android)(includes kotlin-dsl, resolving dependencies conflicts, apk splits, buildConfigField, externalNativeBuild, buildTypes configuration, gradle properties, offline mode, product flavors, dependency graph)
 
 [How to Include an External .aar File Using Gradle?](https://medium.com/@notestomyself/how-to-include-external-aar-file-using-gradle-6604b378e808)
+
+[How to manage dependencies in a multi module project?](https://proandroiddev.com/how-to-manage-dependencies-in-multi-module-project-84620afbb415)
 
 #### Build Time
 
@@ -288,6 +290,10 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Understanding migrations with Room](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)
 
 [Room 🔗 RxJava](https://medium.com/google-developers/room-rxjava-acb0cd4f3757)
+
+### Java
+
+[Modern DateTimes on Android](https://arturdryomov.online/posts/modern-times/)
 
 ### Kotlin
 
