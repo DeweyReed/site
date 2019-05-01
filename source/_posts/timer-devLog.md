@@ -7,9 +7,13 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年4月29日
+
+3.3.0的Code Review结束啦，测试完就可以找小白鼠啦。另外新的使用手册和应用介绍也快完成了。
+
 ## 2019年4月25日
 
-3.4.0将有的内容：设置来电时是否暂停计时器的设置选项、运行记录将包含开启时间、更好的悬浮窗界面、修理Bug。因为最近在研究前端的内容，还要更新使用手册，估计下个礼拜才能发布。
+3.3.0将有的内容：设置来电时是否暂停计时器的设置选项、运行记录将包含开启时间、更好的悬浮窗界面、修理Bug。因为最近在研究前端的内容，还要更新使用手册，估计下个礼拜才能发布。
 
 ## 2019年4月24日
 
