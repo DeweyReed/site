@@ -7,6 +7,14 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年5月6日
+
+今天或明天放出一个版本修修Bug，然后就要肝~~一年一度的画饼大会~~Google IO啦。
+
+## 2019年5月3日
+
+Fabric要凉凉后，我就迁移到了微软的AppCenter。当初的AppCenter只有一些简单的功能，崩溃、统计、推送、云端编译……今天的AppCenter-SDK-Android有了认证和数据。虽然文档还找不到，但是不是意味着AppCenter要进军Baas啦，这样的话，我在考虑将之前保存在LeanCloud的数据，迁移到AppCenter啦。
+
 ## 2019年4月29日
 
 3.3.0的Code Review结束啦，测试完就可以找小白鼠啦。另外新的使用手册和应用介绍也快完成了。

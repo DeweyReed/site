@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.4.23 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.5.6 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -69,6 +69,8 @@ i18n_dir: :en
 [Smoothly reacting to keyboard visibility changes in Android](https://saket.me/smoothly-reacting-to-keyboard/)
 
 [One still surprisingly valid reason to use the old Animation (API 1+)](https://proandroiddev.com/one-still-surprisingly-valid-reason-to-use-the-old-animation-api-1-2e646aba52d8)
+
+[Playing with Material Design Transitions ✨ - How to make material design transitions between two screens?](https://proandroiddev.com/playing-with-material-design-transitions-b3ea90c5794c)
 
 ### Desgin and Style
 
@@ -252,6 +254,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Clean your status bar like a pro!](https://android.jlelse.eu/clean-your-status-bar-like-a-pro-76c89a1e2c2f/)
 
 [Demo mode doc](https://android.googlesource.com/platform/frameworks/base/+/android-6.0.0_r1/packages/SystemUI/docs/demo_mode.md)
+
+[Enhance Your Google Play Store Description With Rich Formatting & Emojis](https://asostack.com/enhance-your-google-play-store-description-with-rich-formatting-and-emojis-5f50ff354e5f)
 
 ### Test
 
