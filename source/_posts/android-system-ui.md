@@ -44,6 +44,21 @@ SYSTEM_UI_FLAG_
 
 让应用内容在😲后面显示：LAYOUT_STABLE or LAYOUT_FULLSCREEN or LAYOUT_HIDE_NAVIGATION，后文用WTFs代替。
 
+```Kotlin
+view.systemUiVisibility =
+    // Tells the system that you wish to be laid out
+    // as if the navigation bar was hidden
+    View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION or
+    // Optional, if we want you be laid out fullscreen,
+    // behind the status bar
+    View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or
+    // Tells the system that you wish to be laid out at
+    // the most extreme scenario of any other flags
+    View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+```
+
+From `Dark Theme & Gesture Navigation (Google I/O'19)`
+
 ## `android:windowTranslucentStatus`和`android:windowTranslucentNavigation`
 
 从KitKat引入。让😲把透明、渐隐。应用内容在它们后面显示。它们会自动应用WTFs。渐隐不能改变颜色。

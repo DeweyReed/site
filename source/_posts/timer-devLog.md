@@ -7,6 +7,10 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年5月17日
+
+接下来的更新计划，三个新行为（名字还没想好）：半路（在步骤中途朗读内容）、倒数（在步骤最后数秒）、通知（在步骤开始时显示一个通知，试着适配手环）。另外，这么多行为，添加时就会显示一个很长的对话框，寻思着把它们分两列显示，但这我需要得从头写一个。还有，音乐选择器得更新了，一方面是因为它需要更多的功能，另一方面是为了适配Android Q。
+
 ## 2019年5月6日
 
 今天或明天放出一个版本修修Bug，然后就要肝~~一年一度的画饼大会~~Google IO啦。
