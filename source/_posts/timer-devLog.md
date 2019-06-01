@@ -7,6 +7,10 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年5月31日
+
+3.5.0会有了新的测试中的“通知”行为，也修了一些Bug。然后我要去学ASO了，所以下个版本是3.5.1，继续修Bug。
+
 ## 2019年5月23日
 
 过半和倒数新版本就发，因为步子有点大，放到了实验室里，需要到设置里手动打开。另外因为时间问题，通知下下个版本再加。3.4.0已经进入测试阶段了，预计周末能放出吧。
