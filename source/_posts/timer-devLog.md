@@ -7,6 +7,12 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年6月4日
+
+最近新功能加的有点多，失去了灵魂，要歇一歇，找找方向。
+
+接下来的更新计划，首先是3.5.1修修Bug（但似乎没什么大问题），同时更新一下应用介绍、截图和使用指南。然后我要去学一些另外的东西，回来后再决定下一步吧。
+
 ## 2019年5月31日
 
 3.5.0会有了新的测试中的“通知”行为，也修了一些Bug。然后我要去学ASO了，所以下个版本是3.5.1，继续修Bug。
