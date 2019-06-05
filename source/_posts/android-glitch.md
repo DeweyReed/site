@@ -2,7 +2,7 @@
 layout: post
 title: Android故障艺术
 date: 2019/6/5
-categories: Android, Notes
+categories: [Android, Notes]
 ---
 
 [Glitch art (故障艺术)](https://en.wikipedia.org/wiki/Glitch_art)，第一见的时候被吓到了，但之后越看越上瘾。
