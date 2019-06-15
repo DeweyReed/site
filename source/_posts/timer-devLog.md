@@ -7,6 +7,10 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年6月15日
+
+下个版本的新功能：微调时间的第二个主按钮，应用内的使用手册。
+
 ## 2019年6月14日
 
 新的测试功能，时间标签，基本能用。但无论是微调一下时间或者使用了挂起行为，都会让时间出问题，未来几个版本慢慢改。
