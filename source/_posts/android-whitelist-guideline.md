@@ -15,6 +15,8 @@ categories: Android
 
 ## 指南
 
+1. [少数派 - 手机里有无法正常运行的 Android 应用？用这四步手动排查问题](https://sspai.com/post/55264)（仅有中文）
+
 1. 某个应用的Bitbucket项目中的一个Issue，提供了很多手机手机白名单过程的图片指南：[https://bitbucket.org/copluk/acr/issues/607](https://bitbucket.org/copluk/acr/issues/607)（仅有英文）
 
 1. Github项目[dont-kill-my-app](https://github.com/urbandroid-team/dont-kill-my-app)，记录几款流行设备的白名单文字指南，项目在此时此刻（2019年1月11日）还在积极维护中：[https://dontkillmyapp.com/](https://dontkillmyapp.com/)（仅有英文）

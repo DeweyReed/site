@@ -7,6 +7,16 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年6月20日
+
+今天的LeanCloud（各位的数据都保存的他们的服务器上）的域名出问题了，意味着登录、注册、激活等等都会停摆。只能等它们那边修了。根据它们的博客 https://blog.leancloud.cn/ 似乎是被有关部门安排了。。
+
+另外，GooglePlay的版本是接入了GooglePlay的支付渠道的，出现类似问题的几率低得多。不想受此类苦而且有本事的，可以迁移到那边。但注意两边账号是不共通的，所以专业版的问题给我发邮件就可以，不需要各位花第二份钱。
+
+还有，我已经在思考把数据迁移到AppCenter了。
+
+我会在明天或后天发一个新版本，按他们官网提供的临时解决方式的搞一搞。
+
 ## 2019年6月15日
 
 下个版本的新功能：微调时间的第二个主按钮，应用内的使用手册。

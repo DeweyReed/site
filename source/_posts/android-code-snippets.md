@@ -160,7 +160,7 @@ https://github.com/googlesamples/android-architecture-components/blob/master/Git
 
 ## Custom View中的`onSaveInstanceState`
 
-[```Android didn't manage the onSaveInstanceState/onRestoreInstanceState if no id is set to the view.```](https://stackoverflow.com/a/28586444/5507158)
+[Android didn't manage the onSaveInstanceState/onRestoreInstanceState if no id is set to the view.](https://stackoverflow.com/a/28586444/5507158)
 
 ## ?attr, ?android:attr, ?colorPrimary, ?attr/colorPrimary...
 
