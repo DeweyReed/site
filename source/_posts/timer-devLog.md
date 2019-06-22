@@ -7,6 +7,12 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年6月22日
+
+3.7.0发布了，有不少新功能，也修复了LeanCloud的问题。没法登陆、注册的现在必须更新了。
+
+另外，刚刚手贱，在测试应用的时候，把我自己用的应用的数据给清了。。心疼我的运行记录啊！！！为此我要加一个数据自动备份的功能，不过这咋下手呢？
+
 ## 2019年6月20日
 
 今天的LeanCloud（各位的数据都保存的他们的服务器上）的域名出问题了，意味着登录、注册、激活等等都会停摆。只能等它们那边修了。根据它们的博客 https://blog.leancloud.cn/ 似乎是被有关部门安排了。。

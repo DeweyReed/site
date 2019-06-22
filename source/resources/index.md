@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.6.20 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.6.22 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -105,6 +105,8 @@ i18n_dir: :en
 [How I drew custom shapes in bottom bar](https://proandroiddev.com/how-i-drew-custom-shapes-in-bottom-bar-c4539d86afd7)
 
 [How we implemented 3D cards in Revolut](https://medium.com/@afeozzz/how-we-implemented-3d-cards-in-revolut-fa84203a8f42)
+
+[Creating Custom Views in Android](https://www.rubicon-world.com/blog/2019/05/creating-custom-views-in-android/)
 
 ### Background Execution
 
