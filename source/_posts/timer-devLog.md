@@ -7,6 +7,10 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年6月26日
+
+LeanCloud又送来一个坏消息：未来需要一个备过案的域名作为API接口。这个就有点强人所难了，个人域名备案流程很复杂、很多样、很混乱、坑很深，这趟浑水我是真的不想趟。但各位的数据又不能丢掉，我需要想个办法。
+
 ## 2019年6月22日
 
 3.7.0发布了，有不少新功能，也修复了LeanCloud的问题。没法登陆、注册的现在必须更新了。
