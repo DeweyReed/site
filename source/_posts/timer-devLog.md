@@ -7,6 +7,14 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年7月1日
+
+最近新功能的开发先停一停，我需要：为Android Q适配、试着把应用上架到更多的应用商店、清理一下代码库为4.0做准备。
+
+## 2019年6月29日
+
+如果不能用LeanCloud，那么其实AppCenter也可能被搞（更不用提它的Auth和Data还在Preview中），要不打游击？把现有的账号注册体系，换成激活码体系，然后打一枪换一个地方。头大。。
+
 ## 2019年6月26日
 
 LeanCloud又送来一个坏消息：未来需要一个备过案的域名作为API接口。这个就有点强人所难了，个人域名备案流程很复杂、很多样、很混乱、坑很深，这趟浑水我是真的不想趟。但各位的数据又不能丢掉，我需要想个办法。
