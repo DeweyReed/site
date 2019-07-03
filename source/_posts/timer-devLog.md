@@ -7,6 +7,15 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+## 2019年7月3日
+
+这个美好的世界，每一天都充满了希望 (✿◕‿◕✿)
+
+>很抱歉，您的应用未通过审核，原因是：
+>
+> 1. 详情如下：
+> 2. 应用设计较为粗糙，应用整体质量未达到小米应用商店收录标准，请丰富应用功能、提高应用质量后再上传
+
 ## 2019年7月1日
 
 最近新功能的开发先停一停，我需要：为Android Q适配、试着把应用上架到更多的应用商店、清理一下代码库为4.0做准备。
