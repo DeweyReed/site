@@ -7,6 +7,12 @@ categories: Android
 
 <a href="https://play.google.com/store/apps/details?id=io.github.deweyreed.timer.google" target="_blank">Google Play Store</a> or <a href="https://www.coolapk.com/apk/177033" target="_blank">在酷安下载APK</a>
 
+<!--more-->
+
+## 2019年7月6日
+
+在今晚放出的3.8.0，将取消专业版。具体的解释在这里：https://aprildown.xyz/2019/07/06/timer-death/
+
 ## 2019年7月3日
 
 这个美好的世界，每一天都充满了希望 (✿◕‿◕✿)
@@ -264,8 +270,6 @@ APK逐渐膨胀快到4MB了，东西越加越多是这个样子的。
 ## 2019年1月4日
 
 数据层的工作完成了。比想象中的快了不少。接下来就是UI层。头疼，不知道怎么塞进新的“组”的概念。
-
-<!--more-->
 
 ## 2018年12月31日
 
