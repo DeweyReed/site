@@ -9,11 +9,11 @@ categories: What
 
 <!--more-->
 
-[Stackoverflow](https://stackoverflow.com/users/5507158/dewey-reed) 现在是 1499 Rep
+## 链接
 
-[Github](https://github.com/DeweyReed) 不会推广，靠搜索有了几十个星星
-
-[Blog](https://aprildown.xyz/)
+- [Stackoverflow](https://stackoverflow.com/users/5507158/dewey-reed) 现在是 1499 Rep。
+- [Github](https://github.com/DeweyReed) 不会推广，靠搜索有了几十个星星。
+- [Blog](https://aprildown.xyz/) 有开发内容，也有日常牢骚。
 
 ## 应用
 
@@ -25,7 +25,7 @@ categories: What
 
 持续维护近两年的应用。
 
-主用Kotlin，辅助Java。架构是MVVM和Clean Architecture的混合体，用Architecture Components实现，分成了18个模块Module。开发过程应用了TDD，为每个核心功能写了单元测试，为UI写了Instrumented Tests。非常注意Code Style，代码全都通过了Detekt和Ktlint。
+主用Kotlin，辅助Java。架构是MVVM和Clean Architecture的混合体，用Architecture Components + AndroidX实现，分成了18个模块Module。开发过程应用了TDD，为每个核心功能写了单元测试，为UI写了Instrumented Tests。非常注意Code Style，代码全都通过了Detekt和Ktlint。
 
 异步使用了Kotlin Coroutines。数据保存使用了Room。导航使用了有多层NavGraph的Navigation。依赖注入使用了Dagger2-Android。数据序列化使用了对Kotlin友好的Moshi。后台唤醒使用了android-job和WorkManager，文件操作使用了Okio。
 
@@ -41,9 +41,9 @@ Github里的十几个Repo，也都是在开发过程中，写的Custom View和�
 
 权限图书馆: [酷安页面](https://www.coolapk.com/apk/162565)
 
-这是一些练手项目。除了上文提到的，这里还使用了Content Provider进行数据管理和其权限，使用了RxJava2进行事件发送、接受和处理，阅读、研究并运行了一些AOSP中的代码。
+这是一些曾经的练手项目。除了上文提到的，这里还使用了MVC和MVP架构开发，使用了Content Provider进行数据管理和其权限，使用了RxJava2进行事件发送、接受和处理，阅读、研究并运行了一些AOSP中的代码。
 
-此外曾写过一个用OCR识别过游戏中文字，使用Retrofit联网查询信息的辅助应用。但因为做出来，游戏就内置了对应的功能，所以没上架。
+此外曾写过一个用OCR识别游戏中文字，使用Retrofit联网查询信息的辅助应用。但因为刚做出来，游戏就内置了对应的功能，所以没上架。
 
 ## 其他
 
