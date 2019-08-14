@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.6.26 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.8.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -228,6 +228,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [How to pass large data between server and client (android) securely?](https://blog.mindorks.com/how-to-pass-large-data-between-server-and-client-android-securely-345fed551651)
 
 [Securing Network Data Tutorial for Android](https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android)
+
+[Bang! Bang! You have been hacked.](https://proandroiddev.com/bang-bang-you-have-been-hacked-df82db3f2001)
 
 ### Licenses
 
