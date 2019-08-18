@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.8.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.8.18 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -18,13 +18,10 @@ i18n_dir: :en
 
 ### Recycler View
 
-#### TouchHelper
-
 [Drag and Swipe with RecyclerView](https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf)
 
 [Fancier Touch Helper](https://medium.com/@acerezoluna/part-3b-recyclerview-from-zero-to-hero-ce4442ebeede)
 
-#### Hmm - -
 
 [Enter animation and LayoutAnimation](https://proandroiddev.com/enter-animation-using-recyclerview-and-layoutanimation-part-1-list-75a874a5d213)
 
@@ -37,6 +34,8 @@ i18n_dir: :en
 [SnapHelper](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
 
 [Multiple item types](https://android.jlelse.eu/a-recyclerview-with-multiple-item-types-dfba3979050)
+
+[Improving scrolling behavior of nested RecyclerViews - Part 1](https://rubensousa.com/2019/08/16/nested_recyclerview_part1/)
 
 ### Animation
 
@@ -230,6 +229,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Securing Network Data Tutorial for Android](https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android)
 
 [Bang! Bang! You have been hacked.](https://proandroiddev.com/bang-bang-you-have-been-hacked-df82db3f2001)
+
+[How to retrieve an Unique ID to identify Android devices ?](https://medium.com/@ssaurel/how-to-retrieve-an-unique-id-to-identify-android-devices-6f99fd5369eb)
 
 ### Licenses
 
