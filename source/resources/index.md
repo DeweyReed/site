@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.8.18 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.8.20 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -69,6 +69,8 @@ i18n_dir: :en
 
 [Playing with Material Design Transitions ✨ - How to make material design transitions between two screens?](https://proandroiddev.com/playing-with-material-design-transitions-b3ea90c5794c)
 
+[Animating a strike through on Android](https://tigeroakes.com/posts/android-animate-strike-thru/)
+
 ### Desgin and Style
 
 [Best Practices for Themes and Styles (Android Dev Summit '18)](https://www.youtube.com/watch?v=sNSlDfaNq-0)
@@ -120,6 +122,8 @@ i18n_dir: :en
 [Exploring Android Thread Priority](https://medium.com/mindorks/exploring-android-thread-priority-5d0542eebbd1)
 
 [Executor Framework- Understanding the basics](https://android.jlelse.eu/executor-framework-understanding-the-basics-43d575e72310)
+
+[Understanding CPU and I/O bound for asynchronous operations](https://www.hellsoft.se/understanding-cpu-and-i-o-bound-for-asynchronous-operations/)
 
 #### Background Work on Chinese ROMs
 
@@ -279,6 +283,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Kotlin Clean Architecture](https://proandroiddev.com/kotlin-clean-architecture-1ad42fcd97fa)
 
 [Modularization - Lessons learned](https://jeroenmols.com/blog/2019/06/12/modularizationtips/)
+
+[MVWTF: Demystifying Architecture Patterns](https://androidessence.com/mvwtf)
 
 ### Performance
 
