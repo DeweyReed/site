@@ -5,11 +5,12 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.8.20 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.8.27 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
 ## In case you want to learn about Android Development
+
 [Advice](https://medium.com/@drinfo/fuck-you-android-framework-ddbb02c4ae48)
 
 ### Framework
@@ -21,7 +22,6 @@ i18n_dir: :en
 [Drag and Swipe with RecyclerView](https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf)
 
 [Fancier Touch Helper](https://medium.com/@acerezoluna/part-3b-recyclerview-from-zero-to-hero-ce4442ebeede)
-
 
 [Enter animation and LayoutAnimation](https://proandroiddev.com/enter-animation-using-recyclerview-and-layoutanimation-part-1-list-75a874a5d213)
 
@@ -163,7 +163,6 @@ i18n_dir: :en
 
 [Migrating Android build scripts from Groovy to Kotlin DSL](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
 
-
 [Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 
 ### ADB
@@ -235,6 +234,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Bang! Bang! You have been hacked.](https://proandroiddev.com/bang-bang-you-have-been-hacked-df82db3f2001)
 
 [How to retrieve an Unique ID to identify Android devices ?](https://medium.com/@ssaurel/how-to-retrieve-an-unique-id-to-identify-android-devices-6f99fd5369eb)
+
+[Performing OAuth on Android with Custom Tabs](https://joebirch.co/2019/08/22/oauth-on-android-with-custom-tabs/)
 
 ### Licenses
 
@@ -314,7 +315,7 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 ### Kotlin
 
-[Kotlin Sequences: An Illustrated Guide]https://typealias.com/guides/kotlin-sequences-illustrated-guide/)
+[Kotlin Sequences: An Illustrated Guide](https://typealias.com/guides/kotlin-sequences-illustrated-guide/)
 
 [An Illustrated Guide to Covariance and Contravariance in Kotlin](https://typealias.com/guides/illustrated-guide-covariance-contravariance/)
 
