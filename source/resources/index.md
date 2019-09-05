@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.8.27 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.8.29 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -257,7 +257,9 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Publishing your Android, Kotlin or Java library to jCenter from Android Studio](https://android.jlelse.eu/publishing-your-android-kotlin-or-java-library-to-jcenter-from-android-studio-1b24977fe450)
 
-### Publish
+[Publishing an Android library to MavenCentral in 2019](https://blog.autsoft.hu/publishing-an-android-library-to-mavencentral-in-2019/)
+
+### Release
 
 [Did you get one of these Google Play Developer Policy Violation Emails?](https://medium.com/@ali.muzaffar/did-you-get-one-of-these-google-play-developer-policy-violation-emails-6c529ceb082d)
 
