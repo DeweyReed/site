@@ -58,4 +58,6 @@ Github里的十几个Repo，也都是在开发过程中，写的Custom View和�
 ## 联系方式
 
 - Email: [pangshups@outlook.com](mailto:pangshups@outlook.com)
+- QQ: 2961029745 (DeweyReed)
+- 微信: 暂无
 - 下方也有魔法师才能看到的评论框
