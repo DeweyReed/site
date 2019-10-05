@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.8.29 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.10.5 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -20,8 +20,6 @@ i18n_dir: :en
 ### Recycler View
 
 [Drag and Swipe with RecyclerView](https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf)
-
-[Fancier Touch Helper](https://medium.com/@acerezoluna/part-3b-recyclerview-from-zero-to-hero-ce4442ebeede)
 
 [Enter animation and LayoutAnimation](https://proandroiddev.com/enter-animation-using-recyclerview-and-layoutanimation-part-1-list-75a874a5d213)
 
@@ -47,8 +45,6 @@ i18n_dir: :en
 
 [An Introduction to Icon Animation Techniques](https://www.androiddesignpatterns.com/2016/11/introduction-to-icon-animation-techniques.html)
 
-[Animating Android Activities and Views with Left and Right Slide Animations](https://kylewbanks.com/blog/left-and-right-slide-animations-on-android-activity-or-view)
-
 [Make a moving Gradient Background in Android](http://thetechnocafe.com/make-a-moving-gradient-background-in-android/)
 
 [Beautiful animations using Android ConstraintLayout](https://robinhood.engineering/beautiful-animations-using-android-constraintlayout-eee5b72ecae3)
@@ -69,7 +65,7 @@ i18n_dir: :en
 
 [Playing with Material Design Transitions ✨ - How to make material design transitions between two screens?](https://proandroiddev.com/playing-with-material-design-transitions-b3ea90c5794c)
 
-[Animating a strike through on Android](https://tigeroakes.com/posts/android-animate-strike-thru/)
+[AnimatedIcons: Strikethru](https://blog.stylingandroid.com/animatedicons-strikethru/)
 
 ### Desgin and Style
 
@@ -92,6 +88,8 @@ i18n_dir: :en
 [Night Theme => AppCompat — DayNight](https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94)
 
 [Vector illustration basics for Android developers - Part 1: Primitive Shapes](https://hackernoon.com/vector-illustration-basics-for-android-developers-part-1-primitive-shapes-5af2e03ad24a)
+
+[Material shadows on Android by Sebastiano Poggi, JetBrains EN](https://www.youtube.com/watch?v=ZKJiXmIu06c)
 
 ### Custom View
 
