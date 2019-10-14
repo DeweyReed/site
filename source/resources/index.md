@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.10.5 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.10.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -139,6 +139,8 @@ i18n_dir: :en
 
 [Deep dive into .idea folder in Android Studio](https://proandroiddev.com/deep-dive-into-idea-folder-in-android-studio-53f867cf7b70)
 
+[Split layouts into subfolders in Android Studio](https://proandroiddev.com/split-layout-into-subfolder-in-android-5bf76f805e90)
+
 ### Gradle
 
 [Using Gradle build cache with Kotlin](https://blog.jetbrains.com/kotlin/2018/02/using-gradle-build-cache-with-kotlin/)
@@ -235,6 +237,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 
 [Performing OAuth on Android with Custom Tabs](https://joebirch.co/2019/08/22/oauth-on-android-with-custom-tabs/)
 
+[Securing API Keys using Android NDK (Native Development Kit)](https://blog.mindorks.com/securing-api-keys-using-android-ndk)
+
 ### Licenses
 
 [How open source licenses work and how to add them to your projects](https://medium.freecodecamp.org/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94)
@@ -266,6 +270,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 [Demo mode doc](https://android.googlesource.com/platform/frameworks/base/+/android-6.0.0_r1/packages/SystemUI/docs/demo_mode.md)
 
 [Enhance Your Google Play Store Description With Rich Formatting & Emojis](https://asostack.com/enhance-your-google-play-store-description-with-rich-formatting-and-emojis-5f50ff354e5f)
+
+[Best Languages for App Localization](https://medium.com/@Alconost/the-top-10-languages-for-app-localization-ed0baca4d58e)
 
 ### Test
 
@@ -336,6 +342,8 @@ First of all, [Official Doc](https://google.github.io/dagger/)
 #### Context
 
 [Mastering Android context](https://medium.freecodecamp.org/mastering-android-context-7055c8478a22)
+
+[Enumerating Resources in Android](https://jebware.com/blog/?p=600)
 
 #### Activity
 
