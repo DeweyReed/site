@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.10.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.11.13 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -34,6 +34,8 @@ i18n_dir: :en
 [Multiple item types](https://android.jlelse.eu/a-recyclerview-with-multiple-item-types-dfba3979050)
 
 [Improving scrolling behavior of nested RecyclerViews - Part 1](https://rubensousa.com/2019/08/16/nested_recyclerview_part1/)
+
+[Optimizing Nested RecyclerView](https://proandroiddev.com/optimizing-nested-recyclerview-a9b7830a4ba7)
 
 ### Animation
 
@@ -106,6 +108,8 @@ i18n_dir: :en
 [How we implemented 3D cards in Revolut](https://medium.com/@afeozzz/how-we-implemented-3d-cards-in-revolut-fa84203a8f42)
 
 [Creating Custom Views in Android](https://www.rubicon-world.com/blog/2019/05/creating-custom-views-in-android/)
+
+[Android: Why your Canvas shapes aren’t smooth](https://medium.com/@ali.muzaffar/android-why-your-canvas-shapes-arent-smooth-aa2a3f450eb5)
 
 ### Background Execution
 
