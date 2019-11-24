@@ -11,7 +11,7 @@ RT
 
 ### USB
 
-- MAC: `system-Profiler SPUSBDataType
+- MAC: `system-Profiler SPUSBDataType`
 - Linux: `lsusb -vvv`
 - Windows: `USBView.exe`
 
@@ -101,7 +101,7 @@ val dispatcher by lazy { requireActivity().onBackPressedDispatcher }
 lateinit var callback: OnBackPressedCallback
 
 override fun onCreate(savedInstanceState: Bundle?) {
-    super.oNCreate(savedInstanceState)
+    super.onCreate(savedInstanceState)
     callback = dispatcher.addCallback(this) {
         showConfirmDialog()
     }
@@ -143,7 +143,7 @@ if (intent.resolveActivity(packageManager) == null) {
         MediaStore.Video.Media.SIZE
     )
 
-    val selection = Video.Media.DURATION) >= ?"
+    val selection = "Video.Media.DURATION) >= ?"
     val selectionArgs = arrayOf(
         TimeUnit.MILLISECONDS.convert(5, TimeUnit.MINUTES).toString()
     )

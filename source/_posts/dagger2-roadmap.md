@@ -5,6 +5,8 @@ date: 2018/5/20
 categories: Android
 ---
 
+**2019年11月22日 本文已过时 请查看Android官方的[Dependency Injection](https://developer.android.com/training/dependency-injection)教程和[Codelab](https://codelabs.developers.google.com/codelabs/android-dagger/) ~~谁能想到dagger-android要凉凉了呢？~~**
+
 **2018年5月20日更新了测试的更多思路**
 
 **2018年5月19日更新了Dagger2测试的思路**
