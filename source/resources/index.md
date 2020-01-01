@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.11.19 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2019.12.22 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -155,6 +155,8 @@ i18n_dir: :en
 
 [How to manage dependencies in a multi module project?](https://proandroiddev.com/how-to-manage-dependencies-in-multi-module-project-84620afbb415)
 
+[Name your .apk & .aab files](https://www.giorgosneokleous.com/2019/12/01/name-your-apk-aab-files/), [archivesBaseName in build.gradle of app module](https://github.com/android/plaid/issues/41)
+
 #### Build Time
 
 [Build your Android app Faster and Smaller than ever](https://medium.com/linedevth/build-your-android-app-faster-and-smaller-than-ever-25f53fdd3cdc)
@@ -177,12 +179,6 @@ i18n_dir: :en
 
 [Official Doc](https://google.github.io/dagger/)
 
-[[HOW-TO] Android Dagger (2.11–2.17) Butterknife (8.7-8.8) MVP (Part 1)](https://proandroiddev.com/how-to-android-dagger-2-10-2-11-butterknife-mvp-part-1-eb0f6b970fd)
-
-[Dagger 2 on Android: The Official Guidelines You Should Be Following](https://proandroiddev.com/dagger-2-on-android-the-official-guidelines-you-should-be-following-2607fd6c002e)
-
-[Clean Android Application class with Dependency Injection: AppInitializers](https://proandroiddev.com/clean-android-application-class-with-dependency-injection-appinitializer-45999096f955)
-
 [Dagger 2 Generated Code.](https://medium.com/mindorks/dagger-2-generated-code-9def1bebc44b)
 
 [Understanding Dagger 2 Multibindings + ViewModel](https://blog.kotlin-academy.com/understanding-dagger-2-multibindings-viewmodel-8418eb372848)
@@ -190,6 +186,8 @@ i18n_dir: :en
 [Injection into Android Component’s Constructors is real](https://proandroiddev.com/inject-into-android-component-constructor-4f5ddd27d06)
 
 [Kotlin+Dagger best practices/documentation](https://github.com/google/dagger/issues/900)
+
+[Brave New Android World with AssistedInject](https://proandroiddev.com/brave-new-android-world-with-assistedinject-d11bdc20147d)
 
 ### Rx
 
