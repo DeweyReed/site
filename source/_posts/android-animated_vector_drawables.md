@@ -23,6 +23,8 @@ categories: Android
 
     [![AnimatedIcons: Search / X](https://blog.stylingandroid.com/wp-content/uploads/2019/12/search_x-1.gif)](https://blog.stylingandroid.com/animatedicons-search-x/)
 
+    [![Animated Icons: Burger Menu](https://blog.stylingandroid.com/wp-content/uploads/2020/01/BurgerMenu.gif)](https://blog.stylingandroid.com/animated-icons-burger-menu/)
+
 - [![A lot of icons](https://camo.githubusercontent.com/079cd7f1079153cd0489dc58bc0fa121b3ecb767/687474703a2f2f692e696d6775722e636f6d2f306146646a4a6e2e676966)](https://github.com/alexjlockwood/adp-delightful-details)
 
 - [![tarek360/RichPath](https://github.com/tarek360/RichPath/raw/develop/screenshots/samples.gif)](https://github.com/tarek360/RichPath)
