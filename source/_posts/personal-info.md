@@ -11,7 +11,7 @@ categories: What
 
 ## 链接
 
-- [Stackoverflow](https://stackoverflow.com/users/5507158/dewey-reed) 现在有 1600+ Rep啦。
+- [Stackoverflow](https://stackoverflow.com/users/5507158/dewey-reed) 现在有 2000+ Rep啦。
 - [Github](https://github.com/DeweyReed) 不会推广，靠搜索有了几十个星星。
 - [Blog](https://aprildown.xyz/) 有开发内容，也有日常牢骚。
 
@@ -60,4 +60,3 @@ Github里的十几个Repo，也都是在开发过程中，写的Custom View和�
 - Email: [pangshups@outlook.com](mailto:pangshups@outlook.com)
 - QQ: 2961029745 (DeweyReed)
 - 微信: 暂无
-- 下方也有魔法师才能看到的评论框

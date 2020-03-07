@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2019.12.22 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2020.2.20 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -92,6 +92,10 @@ i18n_dir: :en
 [Vector illustration basics for Android developers - Part 1: Primitive Shapes](https://hackernoon.com/vector-illustration-basics-for-android-developers-part-1-primitive-shapes-5af2e03ad24a)
 
 [Material shadows on Android by Sebastiano Poggi, JetBrains EN](https://www.youtube.com/watch?v=ZKJiXmIu06c)
+
+[Android Styling: Common Theme Attributes](https://medium.com/androiddevelopers/android-styling-common-theme-attributes-8f7c50c9eaba)
+
+[Motional Intelligence: Build smarter animations](https://medium.com/androiddevelopers/motional-intelligence-build-smarter-animations-821af4d5f8c0)
 
 ### Custom View
 
