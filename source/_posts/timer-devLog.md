@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2020年3月14日
+
+嘿嘿！最近发现同为流程控制应用，Automate比Tasker好用且漂亮多了。它们都支持计时机器的插件。
+
 ## 2020年1月19日
 
 [截至到2020年1月19日三个月内计时机器的统计数据](https://aprildown.xyz/2020/01/19/timer-analytics-2020-1-19/)
