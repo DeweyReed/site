@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2020.2.20 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2020.4.1 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -36,6 +36,8 @@ i18n_dir: :en
 [Improving scrolling behavior of nested RecyclerViews - Part 1](https://rubensousa.com/2019/08/16/nested_recyclerview_part1/)
 
 [Optimizing Nested RecyclerView](https://proandroiddev.com/optimizing-nested-recyclerview-a9b7830a4ba7)
+
+[Fixing RecyclerView nested scrolling in opposite direction](https://medium.com/@BladeCoder/fixing-recyclerview-nested-scrolling-in-opposite-direction-f587be5c1a04)
 
 ### Animation
 
@@ -225,6 +227,8 @@ i18n_dir: :en
 
 [Practical ProGuard rules examples](https://medium.com/androiddevelopers/practical-proguard-rules-examples-5640a3907dc9)
 
+[Android's Built-in ProGuard Rules: The Missing Guide](https://www.zacsweers.dev/android-proguard-rules/)
+
 ### Security
 
 [Secure data in Android](https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58)
@@ -303,9 +307,11 @@ i18n_dir: :en
 
 [Advanced JSON parsing techniques using Moshi and Kotlin](https://medium.com/@BladeCoder/advanced-json-parsing-techniques-using-moshi-and-kotlin-daf56a7b963d)
 
-### Continuous Integration
+### CI, Continuous Integration
 
 [Cloud Continuous Integration on Android with Kotlin Project](https://proandroiddev.com/cloud-continuous-integration-on-android-with-kotlin-project-8d6f12cbf0c4)
+
+[Android GitHub Actions Setup](https://coletiv.com/blog/android-github-actions-setup/)
 
 ### Archiecture Components
 
@@ -340,6 +346,8 @@ i18n_dir: :en
 [Kotlin Coroutines patterns & anti-patterns](https://proandroiddev.com/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e)
 
 [Easy Coroutines in Android: viewModelScope](https://medium.com/androiddevelopers/easy-coroutines-in-android-viewmodelscope-25bffb605471)
+
+[KotlinConf 2019: Coroutines! Gotta catch 'em all! by Florina Muntenescu & Manuel Vivo](https://www.youtube.com/watch?v=w0kfnydnFWI)
 
 ### Framework Classes
 
