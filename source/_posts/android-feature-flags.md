@@ -114,7 +114,7 @@ object FeatureFlagManager {
                 null
             )
             .setPositiveButton(android.R.string.ok, null)
-            .setPositiveButton(android.R.string.cancel, null)
+            .setNegativeButton(android.R.string.cancel, null)
             .show()
     }
 

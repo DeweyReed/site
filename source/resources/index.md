@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2020.4.1 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2020.5.7 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -132,6 +132,8 @@ i18n_dir: :en
 [Executor Framework- Understanding the basics](https://android.jlelse.eu/executor-framework-understanding-the-basics-43d575e72310)
 
 [Understanding CPU and I/O bound for asynchronous operations](https://www.hellsoft.se/understanding-cpu-and-i-o-bound-for-asynchronous-operations/)
+
+[AsyncAndroid: Introduction To Renderscript](https://blog.stylingandroid.com/introduction-to-renderscript/)
 
 #### Background Work on Chinese ROMs
 
