@@ -1,5 +1,7 @@
 language: node_js
-node_js: stable
+# https://github.com/hexojs/hexo/issues/4260
+# node_js: stable
+node_js: 13.14.0
 sudo: false
 
 branches:
