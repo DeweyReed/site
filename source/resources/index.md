@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2020.5.7 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2020.6.5 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -310,6 +310,8 @@ i18n_dir: :en
 [Advanced JSON parsing techniques using Moshi and Kotlin](https://medium.com/@BladeCoder/advanced-json-parsing-techniques-using-moshi-and-kotlin-daf56a7b963d)
 
 ### CI, Continuous Integration
+
+[Using GitHub Actions for Android Continuous Integration and Delivery](https://overflow.buffer.com/2020/05/07/using-github-actions-for-android-continuous-integration-and-delivery/)
 
 [Cloud Continuous Integration on Android with Kotlin Project](https://proandroiddev.com/cloud-continuous-integration-on-android-with-kotlin-project-8d6f12cbf0c4)
 
