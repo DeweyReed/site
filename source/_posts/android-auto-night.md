@@ -5,6 +5,8 @@ date: 2018/10/4
 categories: Android
 ---
 
+**2020年8月26日新方案，乖乖穷举**
+
 **2020年6月1日我发现还有问题！**
 
 **2020年5月22日新方案又来了，希望能结束这个问题**
@@ -21,7 +23,7 @@ categories: Android
 
 网上搜怎么实现自动切换深色主题都没资料的，全是实现，只能自己想办法了。
 
-最终解决的方案倒是很简单，不过走了**很多、很多、很多、很多**弯路。脑子不是很好使了。
+最终解决的方案倒是很简单，不过走了**很多、很多、很多、很多**弯路。~~脑子不是很好使了~~我好菜啊。
 
 <!--more-->
 
@@ -29,47 +31,89 @@ categories: Android
 
 举个例子，设置八点自动进入深色主题，九点退出深色主题，我们需要满足：1. 上一次启动是在今天八点前。2. 本次启动在今天八点后。3.本次启动在今天九点前。4. 现在是浅色主题。退出深色主题同理。
 
-此外，还要注意判断进入时间和退出时间的先后顺序。八点到九点是一个小时，九点到八点是二十三个小时。
+下述方案储存几点几分是把小时和分钟分开储存的，另外一种方案是只储存一个值：`60 * 小时 + 分钟`。
 
 代码：
 
 ```Kotlin
-/**
- * @return True if we should revert the current dark.
- */
+ /**
+  * @return True if we should revert the current dark.
+  */
 fun calculateAutoDarkChange(
     currentIsDark: Boolean,
     nowMilli: Long,
     lastLaunchMilli: Long
 ): Boolean {
-    val now = LocalDateTime.ofInstant(Instant.ofEpochMilli(nowMilli), ZoneId.systemDefault())
     val lastLaunch =
         LocalDateTime.ofInstant(Instant.ofEpochMilli(lastLaunchMilli), ZoneId.systemDefault())
-
+    val now = LocalDateTime.ofInstant(Instant.ofEpochMilli(nowMilli), ZoneId.systemDefault())
     val today = LocalDate.now()
-    val nightStart = LocalDateTime.of(today, LocalTime.of(nightfromHour, nightfromMinute))
-    val nightEnd = LocalDateTime.of(today, LocalTime.of(nighttoHour, nighttoMinute))
+    val nightRange = scheduleRange
+    val nightStart =
+        LocalDateTime.of(today, LocalTime.of(nightRange.fromHour, nightRange.fromMinute))
+    val nightEnd =
+        LocalDateTime.of(today, LocalTime.of(nightRange.toHour, nightRange.toMinute))
+
+    fun isEnteringTheSpanFirst(from: LocalDateTime, to: LocalDateTime): Boolean {
+        if (from == to) return false
+        require(from.isBefore(to))
+        return (now.isAfter(from) || now == from) &&
+            now.isBefore(to) &&
+            lastLaunch.isBefore(from)
+    }
+
+    fun isEnteringNight(nightStart: LocalDateTime, nightEnd: LocalDateTime): Boolean {
+        return isEnteringTheSpanFirst(from = nightStart, to = nightEnd) && !currentIsDark
+    }
+
+    fun isExitingNight(nightEnd: LocalDateTime, nextNightStart: LocalDateTime): Boolean {
+        return isEnteringTheSpanFirst(from = nightEnd, to = nextNightStart) && currentIsDark
+    }
 
     return if (nightStart.isBefore(nightEnd)) {
-        // |today start       |night start ----- |night end       | today end
-        val enterDark = lastLaunch.isBefore(nightStart) &&
-            now.isAfter(nightStart) &&
-            now.isBefore(nightEnd) &&
-            !currentIsDark
-        val exitDark = lastLaunch.isBefore(nightEnd) &&
-            now.isAfter(nightEnd) &&
-            currentIsDark
-        enterDark || exitDark
+        // |day start           |night start------------|night end          |day end
+        when {
+            now.isBefore(nightStart) -> {
+                isExitingNight(
+                    nightEnd = nightEnd.minusDays(1),
+                    nextNightStart = nightStart
+                )
+            }
+            now.isBefore(nightEnd) -> {
+                isEnteringNight(
+                    nightStart = nightStart,
+                    nightEnd = nightEnd
+                )
+            }
+            else -> {
+                isExitingNight(
+                    nightEnd = nightEnd,
+                    nextNightStart = nightStart.plusDays(1)
+                )
+            }
+        }
     } else {
-        // |today start ----- |night end       |night start ----- |today end
-        val exitDark = lastLaunch.isBefore(nightEnd) &&
-            now.isAfter(nightEnd) &&
-            now.isBefore(nightStart) &&
-            currentIsDark
-        val enterDark = lastLaunch.isBefore(nightStart) &&
-            now.isAfter(nightStart) &&
-            !currentIsDark
-        exitDark || enterDark
+        // |day start-----------|night end              |night start--------|day end
+        when {
+            now.isBefore(nightEnd) -> {
+                isEnteringNight(
+                    nightStart = nightStart.minusDays(1),
+                    nightEnd = nightEnd
+                )
+            }
+            now.isBefore(nightStart) -> {
+                isExitingNight(
+                    nightEnd = nightEnd,
+                    nextNightStart = nightStart
+                )
+            }
+            else -> {
+                isEnteringNight(
+                    nightStart = nightStart,
+                    nightEnd = nightEnd.plusDays(1)
+                )
+            }
+        }
     }
 }
 ```
