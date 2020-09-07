@@ -9,13 +9,17 @@ categories: Android
 
 <!--more-->
 
+## 2020年9月7日
+
+[关于计时机器在Google Play渠道引入订阅制云备份的决定](https://aprildown.xyz/2020/09/07/timer-cloud-backup/)
+
 ## 2020年8月27日
 
 云备份一直在测试，各种小错误不断。
 
 另外，文件夹功能已经在做了，这里是~~仅有的一张~~设计图：
 
-{% asset_img timer_folder.jpg %}
+{% asset_img timer_folder.png %}
 
 ## 2020年7月27日
 
