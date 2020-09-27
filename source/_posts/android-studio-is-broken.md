@@ -15,6 +15,8 @@ categories: Android
 
 [曾经的某些AS版本和Dagger的某些版本不兼容](https://stackoverflow.com/a/52499659/5507158)，而Dagger出了问题，多数人会先怀疑自己（而且多数情况也的确是自己的问题）。现在有了Hilt，问题会好很多。所以针对Dagger的问题，先学好Dagger，再去Issues里逛一逛。
 
+确认代码没问题后，可以尝试将项目或全局的`gradle.properties`中的各种配置注释掉重新Build一次。各种为了加速Gradle的配置有时会帮倒忙。
+
 ## `git clean -fdx`
 
 删除所有没被Git管理的文件夹和文件。Android Studio中的Clean Project有时不够用。
