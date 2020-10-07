@@ -75,12 +75,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github_token@github.com/DeweyReed/DeweyReed.github.io.git
-
 feed:
   type: atom
   path: atom.xml
