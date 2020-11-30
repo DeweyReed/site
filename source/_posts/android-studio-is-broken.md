@@ -17,6 +17,8 @@ categories: Android
 
 确认代码没问题后，可以尝试将项目或全局的`gradle.properties`中的各种配置注释掉重新Build一次。各种为了加速Gradle的配置有时会帮倒忙。
 
+最近发现当`DaggerAppComponent`中有类型不匹配、缺少Injector的问题时，手动修改生成的`DaggerAppComponent`，然后重新Build，有时能解决办法，当然这是在确信自己的Dagger代码无误，且各种Clean、清缓存都不起作用的前提下。
+
 ## `git clean -fdx`
 
 删除所有没被Git管理的文件夹和文件。Android Studio中的Clean Project有时不够用。

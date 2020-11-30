@@ -5,6 +5,8 @@ date: 2019/6/15
 categories: Android
 ---
 
+**2020年11月6日 更新`View.outlineProvider`**
+
 没地儿放它们。
 
 <!--more-->
@@ -196,3 +198,21 @@ val inList: MutableList<in RecyclerView.ViewHolder> = mutableListOf()
 ## `clipToPadidng`
 
 `Enables our items to still be drawn within the parent's padding.`
+
+## `View.outlineProvider`
+
+```Kotlin
+binding.imageView.run {
+    clipToOutline = true
+    outlineProvider = object : ViewOutlineProvider() {
+        override fun getOutline(view: View, outline: Outline) {
+            outline.setOval(
+                view.paddingLeft,
+                view.paddingTop,
+                view.width - view.paddingRight,
+                view.height - view.paddingBottom
+            )
+        }
+    }
+}
+```

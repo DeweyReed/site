@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2020.10.18 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2020.11.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -168,6 +168,8 @@ i18n_dir: :en
 [How to manage dependencies in a multi module project?](https://proandroiddev.com/how-to-manage-dependencies-in-multi-module-project-84620afbb415)
 
 [Name your .apk & .aab files](https://www.giorgosneokleous.com/2019/12/01/name-your-apk-aab-files/), [archivesBaseName in build.gradle of app module](https://github.com/android/plaid/issues/41)
+
+[Android library development - Getting started](https://jeroenmols.com/blog/2020/10/28/library-gettingstarted/)
 
 #### Build Time
 
