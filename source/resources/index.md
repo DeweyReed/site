@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2020.11.14 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2021.1.31 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -38,6 +38,8 @@ i18n_dir: :en
 [Optimizing Nested RecyclerView](https://proandroiddev.com/optimizing-nested-recyclerview-a9b7830a4ba7)
 
 [Fixing RecyclerView nested scrolling in opposite direction](https://medium.com/@BladeCoder/fixing-recyclerview-nested-scrolling-in-opposite-direction-f587be5c1a04)
+
+[Paging Image Carousel with RecyclerView](https://proandroiddev.com/paging-image-gallery-with-recyclerview-f059d035b7e7)
 
 ### Animation
 
@@ -82,6 +84,8 @@ i18n_dir: :en
 [Good to great UI animation tips](https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5)
 
 [Spantastic text styling with Spans](https://medium.com/google-developers/spantastic-text-styling-with-spans-17b0c16b4568)
+
+[Using gradient for styling text](https://medium.com/plum-engineering/using-gradient-for-styling-text-1df9c87c0869)
 
 [Styling internationalized text in Android](https://medium.com/google-developers/styling-internationalized-text-in-android-f99759fb7b8f)
 
@@ -294,6 +298,8 @@ i18n_dir: :en
 [Understanding and Mastering the World of Android Testing (Part 1)](https://blog.aritraroy.in/understanding-and-mastering-the-world-of-android-testing-part-1-32f6a1a06d3b)
 
 [Mocking Kotlin classes with Mockito — the fast way](https://engineering.21buttons.com/mocking-kotlin-classes-with-mockito-the-fast-way-631824edd5ba)
+
+[Testing App Startup Performance](https://medium.com/androiddevelopers/testing-app-startup-performance-36169c27ee55)
 
 ### Architecture
 

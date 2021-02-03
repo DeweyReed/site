@@ -19,6 +19,8 @@ categories: Android
 
 最近发现当`DaggerAppComponent`中有类型不匹配、缺少Injector的问题时，手动修改生成的`DaggerAppComponent`，然后重新Build，有时能解决办法，当然这是在确信自己的Dagger代码无误，且各种Clean、清缓存都不起作用的前提下。
 
+2021新发现的方法！给类改名字。
+
 ## `git clean -fdx`
 
 删除所有没被Git管理的文件夹和文件。Android Studio中的Clean Project有时不够用。
