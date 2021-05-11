@@ -107,6 +107,12 @@ compileOnly ... // Dagger可能会抱怨找不到data中使用的一些类，所
   - 无法保证编译时安全，少配置了东西只有在运行才会崩溃，但我还没找到更好的办法。
   - 不能使用生成的参数类。解决办法是乖乖`bundleOf`。
 
+  2021年5月11日更新：
+
+  刚刚看了[Navigation: Navigating between modules - MAD Skills](https://www.youtube.com/watch?v=IvFSJVTGDb4)，视频中是通过在子Module中定义Nested Graph，父Module中引用实现的，这样可以让子Module隐藏Nested Graph中的实现。这个方法比上述的要好。
+
+  但如果出现了子Module之间跳转的情况，那可能还是需要之前的方法。
+
 ## 各种使用场景
 
 - 单元测试主要是UseCase，可以新建一个测试Module，也可以在`domain`中就地解决。
