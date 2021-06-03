@@ -37,6 +37,10 @@ categories: Android
 
 除了`.gradle/gradle.properties`，把`.gradle`和`.m2`都删掉。因为小文件很多，删除时间很长，所以要一次性永久删除，如果先丢到回收站，等待时间要翻倍。
 
+## 删除Android Studio缓存
+
+最近升级到4.2后，遇到问题仅删除Gradle缓存已经不够了。导出AS设置，然后把所有AS缓存都删光，然后重启。相当于重装了。
+
 ## `deep-clean`
 
 使用Github的[deep-clean](https://github.com/rock3r/deep-clean)。
