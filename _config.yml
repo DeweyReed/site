@@ -680,8 +680,8 @@ theme_config:
   # Disqus
   # For more information: https://disqus.com
   disqus:
-    enable: true
-    shortname: https-deweyreed-github-io
+    enable: false
+    shortname:
     count: true
 
   # DisqusJS
