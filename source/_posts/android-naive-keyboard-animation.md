@@ -7,6 +7,8 @@ categories: Android
 
 随着`androidx.core`1.5.0的发布，我终于搞明白全屏、WindowInsets这些问题了。
 
+**2021年7月7日 更新收起键盘时闪烁问题的临时解决办法**
+
 <!--more-->
 
 1. 设置`windowSoftInputMode`
@@ -44,16 +46,18 @@ categories: Android
 
     ```Kotlin
     ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
-        val bottomInsets = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+        val bottomInsets = insets.getInsets(
+            WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.ime()
+        )
         v.updatePadding(bottom = bottomInsets.bottom)
         val keyboardShown = insets.isVisible(WindowInsetsCompat.Type.ime())
         insets
     }
     ```
 
-    - 这里只用`systemBars`来避免键盘弹出时界面跳动。
     - 这里也是检测键盘是否弹出的地方。
     - 在键盘弹出时，导航栏高度算在软键盘高度的一部分中的。
+    - 在下一步增加动画前，在这里先确保应用可以正常显示。
 
 1. 增加动画
 
@@ -76,7 +80,12 @@ categories: Android
     )
     ```
 
+    上述方法有一个问题，在收起键盘时，会闪烁一下。原因似乎是在`onPrepare`和`onStart`之间的，使用动画结束状态调用`OnApplyWindowInsetsListener`出了问题，但官方文档中提到了这之间是不会发生Layout的。另外根据官方示例使用`translationY`的话，是没有问题的。因此原因尚不明了。
+
+    现在的一个临时解决方案是在，`onPrepare`中开启一个Flag，在`onEnd`中关闭，然后在`OnApplyWindowInsetsListener`中，如果Flag开启，就不应用Padding。
+
 1. 其他考虑
 
     - 如果要显示Snackbar，需要额外测试。Padding可能不是最好的方法，可能需要Margin或额外的`Space` View。
     - 显示软键盘，似乎[Showing the Android Keyboard Reliably](https://developer.squareup.com/blog/showing-the-android-keyboard-reliably/)比`WindowInsetsController`处理的情况更多且更好用。关闭的话，`WindowInsetsController`就可以。
+    - 去开发者选项中把动画速度调成10倍，不然根本看不清楚效果。

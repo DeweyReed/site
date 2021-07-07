@@ -113,6 +113,12 @@ compileOnly ... // Dagger可能会抱怨找不到data中使用的一些类，所
 
   但如果出现了子Module之间跳转的情况，那可能还是需要之前的方法。
 
+  2021年7月2日更新：
+
+  刚刚看了[Navigation - Live Q&A - MAD Skills](https://www.youtube.com/watch?v=4srssoBo0HU)，连同[刚刚更新的文档](https://developer.android.com/guide/navigation/navigation-multi-module#across)，都是推荐使用DeepLink来在子Module间跳转。这个方法看起来也比一开始的方法要好。
+
+  Graph + DeepLink是一个不错的组合，也是我考虑未来会使用的方法。
+
 ## 各种使用场景
 
 - 单元测试主要是UseCase，可以新建一个测试Module，也可以在`domain`中就地解决。
