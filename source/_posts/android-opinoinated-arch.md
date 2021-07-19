@@ -44,7 +44,12 @@ api project(":domain")
   这么做可以将具体实现和应用逻辑分割。UI层直接处理简单的`data class`，而无需担心JSON、数据库等配置。
 
 - 得益于Hilt，绑定Repository的类可以定义为私有类。
-- 不在本Module中存放资源。非要不可的话，要么依赖注入，要么在`res/values/ids.xml`定义一个同名资源来引用。
+- 不在本Module中存放资源。非要不可的话：
+
+  1. 依赖注入
+  1. 在`res/values/ids.xml`定义一个同名资源来引用。
+  1. 在更高层的Module中使用Extension functions来增加相关功能。
+
 - 因为基本全是内部实现，所以几乎都是`internal`。配合Hilt应该可以全部为`internal`。
 
 ## `presentation`

@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2021.1.31 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2021.7.12 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -242,6 +242,8 @@ i18n_dir: :en
 [Android's Built-in ProGuard Rules: The Missing Guide](https://www.zacsweers.dev/android-proguard-rules/)
 
 ### Security
+
+[How long will you go to protect your Android app from being tampered?](https://funkymuse.dev/posts/android_anti_tampering/)
 
 [Secure data in Android](https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58)
 
@@ -493,10 +495,10 @@ i18n_dir: :en
 
 [magictools](https://github.com/ellisonleao/magictools)
 
-# Thoughts
+## Thoughts
 
 [Optimize Your Programming Decisions for the 95%, Not the 5%](https://dev.to/nickjj/optimize-your-programming-decisions-for-the-95-not-the-5-2n42)
 
-# More links at any time
+## More links at any time
 
 😍
