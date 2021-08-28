@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2021.7.12 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2021.8.28 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -261,6 +261,8 @@ i18n_dir: :en
 
 [Securing API Keys using Android NDK (Native Development Kit)](https://blog.mindorks.com/securing-api-keys-using-android-ndk)
 
+[Android Unique Device ID: History and Updates](https://ehsanet.medium.com/android-unique-device-id-history-and-updates-7667b38e4ee2)
+
 ### Licenses
 
 [How open source licenses work and how to add them to your projects](https://medium.freecodecamp.org/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94)
@@ -277,11 +279,7 @@ i18n_dir: :en
 
 [Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
 
-[Guide to publishing your Android Library via JitPack](http://crushingcode.nisrulz.com/publish-your-android-library-via-jitpack/)
-
-[Publishing your Android, Kotlin or Java library to jCenter from Android Studio](https://android.jlelse.eu/publishing-your-android-kotlin-or-java-library-to-jcenter-from-android-studio-1b24977fe450)
-
-[Publishing an Android library to MavenCentral in 2019](https://blog.autsoft.hu/publishing-an-android-library-to-mavencentral-in-2019/)
+[Publish Your Android Library on JitPack for Better Reachability](https://medium.com/geekculture/publish-your-android-library-on-jitpack-for-better-reachability-1c978dde726e)
 
 ### Release
 
@@ -440,6 +438,12 @@ i18n_dir: :en
 [Demystifying Dynamic Programming](https://medium.freecodecamp.org/demystifying-dynamic-programming-3efafb8d4296)
 
 [My favorite examples of functional programming in Kotlin(powerset in the middle of the article)](https://medium.freecodecamp.org/my-favorite-examples-of-functional-programming-in-kotlin-e69217b39112)
+
+# Flutter
+
+[Deep Dive Into The Pubspec.yaml File](https://medium.com/flutter-community/deep-dive-into-the-pubspec-yaml-file-fb56ac8683b9)
+
+[What’s the pubspec.lock file in a Flutter Project?](https://medium.com/flutter-community/whats-the-pubspec-lock-file-in-a-flutter-project-64a22e1b03f4)(Some files are misplaced)
 
 # Other
 
