@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2021.8.28 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+[2021.9.20 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
 
 # Android
 
@@ -364,6 +364,8 @@ i18n_dir: :en
 [Easy Coroutines in Android: viewModelScope](https://medium.com/androiddevelopers/easy-coroutines-in-android-viewmodelscope-25bffb605471)
 
 [KotlinConf 2019: Coroutines! Gotta catch 'em all! by Florina Muntenescu & Manuel Vivo](https://www.youtube.com/watch?v=w0kfnydnFWI)
+
+[Create an application CoroutineScope using Hilt](https://medium.com/androiddevelopers/create-an-application-coroutinescope-using-hilt-dd444e721528)
 
 ### Framework Classes
 
