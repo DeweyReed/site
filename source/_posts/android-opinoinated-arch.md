@@ -65,6 +65,10 @@ api project(":domain")
 - 业务逻辑应该在UseCase中，所以ViewModel中尽可能保持简单。
 - 虽然Google官方建议在Kotlin-only的项目中用Flow替代LiveData，但我习惯在ViweModel中将Flow调用`asLiveData()`转换后给UI层使用，因为在UI层使用Flow坑太多。
 
+2021年11月6日更新：
+
+Google官方铁了心要在UI层用Flow，而我依然和大佬（[Kotlin’s Flow in ViewModels: it’s complicated](https://bladecoder.medium.com/kotlins-flow-in-viewmodels-it-s-complicated-556b472e281a)）站在UI层使用LiveData的队。`flowWithLifecycle`等API又把开发者需要担心Lifecycle的问题带回来了嘛。
+
 ## `app-base`
 
 以`app-`开头的Module将会按应用的不同功能分类，而本Module是它们的基础Module。
@@ -123,6 +127,12 @@ compileOnly ... // Dagger可能会抱怨找不到data中使用的一些类，所
   刚刚看了[Navigation - Live Q&A - MAD Skills](https://www.youtube.com/watch?v=4srssoBo0HU)，连同[刚刚更新的文档](https://developer.android.com/guide/navigation/navigation-multi-module#across)，都是推荐使用DeepLink来在子Module间跳转。这个方法看起来也比一开始的方法要好。
 
   Graph + DeepLink是一个不错的组合，也是我考虑未来会使用的方法。
+
+  2021年11月6日更新：
+
+  用了一段时间的Graph + DeepLink，发现体验就像一堆狗屎。它需要在`onDestinationChanged`判断Destination时，同时查询父Graph的ID，代码复杂度翻倍。DeepLink也同样不能保证编译时安全。
+
+  我还是用回了自定义ID的方案，同时在需要支持跳转时再用DeepLink。
 
 ## 各种使用场景
 
