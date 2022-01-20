@@ -26,7 +26,9 @@ categories: Android
 - UseCase：一个抽象类为[CoroutineUseCase](https://github.com/google/iosched/blob/main/shared/src/main/java/com/google/samples/apps/iosched/shared/domain/CoroutineUseCase.kt)。继承时，依赖注入`CoroutineDispatcher`和将使用到的Repository。定义了所有用到的操作（[一个简单的例子](https://github.com/google/iosched/blob/main/shared/src/main/java/com/google/samples/apps/iosched/shared/domain/users/FeedbackUseCase.kt)）。
 
   - 为了照顾单元测试，避免使用Android专用代码（例如使用Kotlin Flow替代LiveData）。
-  - 关于在应用的哪一层捕获异常，是一个见仁见智的问题。我个人偏向在UseCase中捕获异常。有异常就封装到一个`Result<Xxx>`（和Kotlin中的`Result`类似，为了避免烦人的警告而手动定义）中，没异常就直接返回。
+  - 关于在应用的哪一层捕获异常，是一个见仁见智的问题。~~我个人偏向在UseCase中捕获异常。有异常就封装到一个`Result<Xxx>`（和Kotlin中的`Result`类似，为了避免烦人的警告而手动定义）中，没异常就直接返回。~~
+
+    2022年1月20日更新：我还是决定在Repository中捕获异常。
 
 - 常量、日志、异常、Feature Flag等基础配置
 - 统计、崩溃收集的接口
@@ -68,6 +70,10 @@ api project(":domain")
 2021年11月6日更新：
 
 Google官方铁了心要在UI层用Flow，而我依然和大佬（[Kotlin’s Flow in ViewModels: it’s complicated](https://bladecoder.medium.com/kotlins-flow-in-viewmodels-it-s-complicated-556b472e281a)）站在UI层使用LiveData的队。`flowWithLifecycle`等API又把开发者需要担心Lifecycle的问题带回来了嘛。
+
+2022年1月20日更新：
+
+如果Repository中的一个方法可以被直接使用，套一层UseCase也只是简单包装API的话，我觉得是可以直接在ViewModel中注入Repository的。仅把多于一个操作的情况抽象为UseCase。
 
 ## `app-base`
 
