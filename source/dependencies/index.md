@@ -2,6 +2,7 @@
 layout: post
 title: Is the dependency safe to upgrade?
 date: 2022/2/16
+i18n_dir: :en
 ---
 
 ## Gradle

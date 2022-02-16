@@ -168,7 +168,7 @@ theme_config:
   # External url should start with http:// or https://
   menu:
     home: / || fa fa-home
-    依赖: /dependencies/ || fa fa-code
+    # 依赖: /dependencies/ || fa fa-code
     资源: /resources/ || fa fa-code
     # about: /about/ || fa fa-user
     #tags: /tags/ || fa fa-tags
