@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-[2021.9.20 What's new](https://github.com/DeweyReed/site/commits/master/source/resources/index.md)
+Updated: 2022.02.18
 
 # Android
 
@@ -34,6 +34,8 @@ i18n_dir: :en
 [Multiple item types](https://android.jlelse.eu/a-recyclerview-with-multiple-item-types-dfba3979050)
 
 [Improving scrolling behavior of nested RecyclerViews - Part 1](https://rubensousa.com/2019/08/16/nested_recyclerview_part1/)
+
+[Saving scroll state of nested RecyclerViews - Part 2](https://rubensousa.com/2019/08/27/saving_scroll_state_of_nested_recyclerviews/)
 
 [Optimizing Nested RecyclerView](https://proandroiddev.com/optimizing-nested-recyclerview-a9b7830a4ba7)
 
@@ -65,8 +67,6 @@ i18n_dir: :en
 
 [TransitionDrawable — Small Gems of the Android Framework](https://proandroiddev.com/transitiondrawable-small-gems-of-the-android-framework-4dcdd3c83319)
 
-[Smoothly reacting to keyboard visibility changes in Android](https://saket.me/smoothly-reacting-to-keyboard/)
-
 [Animating your keyboard (part 1)](https://medium.com/androiddevelopers/animating-your-keyboard-fb776a8fb66d)
 
 [Animating your keyboard (part 2): reacting to WindowInset animations](https://medium.com/androiddevelopers/animating-your-keyboard-reacting-to-inset-animations-839be3d4c31b)
@@ -94,8 +94,6 @@ i18n_dir: :en
 [Understanding how to declaratively style text on Android](https://medium.com/google-developers/whats-your-text-s-appearance-f3a1729192d)
 
 [AppCompat — Age of the vectors](https://medium.com/@chrisbanes/appcompat-v23-2-age-of-the-vectors-91cbafa87c88)
-
-[Why would I want to fitsSystemWindows?](https://medium.com/google-developers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec)
 
 [Night Theme => AppCompat — DayNight](https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94)
 
@@ -141,8 +139,6 @@ i18n_dir: :en
 
 [Understanding CPU and I/O bound for asynchronous operations](https://www.hellsoft.se/understanding-cpu-and-i-o-bound-for-asynchronous-operations/)
 
-[AsyncAndroid: Introduction To Renderscript](https://blog.stylingandroid.com/introduction-to-renderscript/)
-
 #### Background Work on Chinese ROMs
 
 [Why your Push Notifications never see the light of day](https://medium.freecodecamp.org/why-your-push-notifications-never-see-the-light-of-day-3fa297520793)
@@ -155,11 +151,7 @@ i18n_dir: :en
 
 [Android Studio Debugger](https://proandroiddev.com/making-the-most-out-of-the-android-studio-debugger-61713131d065)
 
-[How to check dependencies updates](https://stackoverflow.com/questions/28683327/how-to-check-if-gradle-dependency-has-new-version). There're three ways: new experimental structure dialog, use android lint and a plugin .
-
 [Deep dive into .idea folder in Android Studio](https://proandroiddev.com/deep-dive-into-idea-folder-in-android-studio-53f867cf7b70)
-
-[Split layouts into subfolders in Android Studio](https://proandroiddev.com/split-layout-into-subfolder-in-android-5bf76f805e90)
 
 ### Gradle
 
@@ -183,12 +175,6 @@ i18n_dir: :en
 
 [Faster Android Build Times](https://android.jlelse.eu/faster-android-build-times-a760d274b33c)
 
-#### Kotlin DSL
-
-[Migrating Android build scripts from Groovy to Kotlin DSL](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
-
-[Kotlin + buildSrc for Better Gradle Dependency Management](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
-
 ### ADB
 
 [ADB Commands — Part III](https://proandroiddev.com/adb-commands-part-iii-997f97c03546)
@@ -206,18 +192,6 @@ i18n_dir: :en
 [Kotlin+Dagger best practices/documentation](https://github.com/google/dagger/issues/900)
 
 [Brave New Android World with AssistedInject](https://proandroiddev.com/brave-new-android-world-with-assistedinject-d11bdc20147d)
-
-### Rx
-
-[Reactive.how](http://reactive.how/)
-
-[Reactive Programming with RxAndroid in Kotlin: An Introduction](https://www.raywenderlich.com/170233/reactive-programming-rxandroid-kotlin-introduction)
-
-[The Missing RxJava 2 Guide to Supercharge Your Android Development](https://blog.aritraroy.in/the-missing-rxjava-2-guide-to-supercharge-your-android-development-part-1-624ef326bff4)
-
-[Implement Search Using RxJava Operators](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
-
-[Android RxJava 2 JUnit test - getMainLooper in android.os.Looper not mocked RuntimeException](https://stackoverflow.com/questions/43356314/android-rxjava-2-junit-test-getmainlooper-in-android-os-looper-not-mocked-runt/43356315)
 
 ### APK
 
@@ -280,6 +254,8 @@ i18n_dir: :en
 [Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
 
 [Publish Your Android Library on JitPack for Better Reachability](https://medium.com/geekculture/publish-your-android-library-on-jitpack-for-better-reachability-1c978dde726e)
+
+[What legal documents should your app have?](https://www.reddit.com/r/androiddev/comments/qo86qt/what_legal_documents_should_your_app_have/)
 
 ### Release
 
@@ -391,12 +367,6 @@ i18n_dir: :en
 
 [Seamless Android app launch animations using Intent Source Bounds](https://arunkumar.dev/seamless-android-app-launch-animations-using-intent-sourcebounds/)
 
-#### DataBinding
-
-[Android Data Binding: RecyclerView](https://medium.com/google-developers/android-data-binding-recyclerview-db7c40d9f0e4)
-
-[Custom attributes using BindingAdapters in Kotlin](https://proandroiddev.com/custom-attributes-using-bindingadapters-in-kotlin-971ef8fcc259)
-
 #### Views
 
 [Android ImageView ScaleType: A Visual Guide](https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide)
@@ -420,12 +390,6 @@ i18n_dir: :en
 #### Google Play In-App Purchase
 
 [Exploring the Play Billing Library for Android](https://medium.com/exploring-android/exploring-the-play-billing-library-for-android-55321f282929)
-
-#### Marketing
-
-[Downloading apps is emojinal 🚀 - a simple hack to get more downloads](https://www.novoda.com/blog/downloading-apps-is-emojinal-a-simple-hack-to-get-more-downloads/)
-
-[How to make money Building Mobile Apps](https://medium.com/@cesarmcferreira/building-mobile-apps-bringing-home-the-bacon-f23e35be4a74)
 
 # Programming
 
@@ -469,27 +433,11 @@ i18n_dir: :en
 
 [Getting Started with Docker on Your VPS](https://blog.ssdnodes.com/blog/tutorial-getting-started-with-docker-on-your-vps/)
 
-## WSL
-
-[How to use proxy in WSL?](https://github.com/Microsoft/WSL/issues/2122)
-
-## Website to API
-
-[WrapAPI](https://wrapapi.com/)
-
-[toapi](https://github.com/gaojiuli/toapi)
-
-[hicrawler](http://www.hicrawler.com/)
-
-[scrapinghub](https://scrapinghub.com/)
-
 ## Hexo
 
 [Use Hexo and deploy to GitHub Pages](https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39)
 
 [Using Git Submodules to Manage Your Custom Hexo Theme](http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html)
-
-[Next Theme Wiki](https://github.com/iissnan/hexo-theme-next/wiki)
 
 ## Encryption
 
