@@ -46,7 +46,7 @@ i18n_dir: :en
 
 - androidx.lifecycle:lifecycle
 
-  - 2.4.1: 🚧(Android 12(31))
+  - 2.4.1: ✔(Android 12(31))
 
     - ~~lifecycle-common-java8~~
 
@@ -82,6 +82,7 @@ i18n_dir: :en
 
 - androidx.room:room
 
+  - 2.4.2: ✔
   - 2.4.1: ✔(Android 12(31))
 
     - Auto Migrations👍
@@ -174,7 +175,7 @@ i18n_dir: :en
 
 - com.github.bumptech.glide
 
-  - 4.13.0: 🚧
+  - 4.13.x: 🚧
   - 4.12.0: ✔
 
 - com.airbnb.android:lottie
@@ -240,7 +241,7 @@ i18n_dir: :en
 
 - com.qiniu:qiniu-android-sdk
 
-  - 8.4.1: 🚧
+  - 8.4.1: ✔
   - 8.4.0: ✔
   - 8.0.3: ✔(APK bloats afterwards)
 
