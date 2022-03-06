@@ -88,6 +88,8 @@ Sample中为了满足需求，需要[一个巨大的类](https://github.com/andr
 
 为了自身情况量身定制的方法意外地简单。大体上还是参考了[Endless Scrolling with AdapterViews and RecyclerView](https://guides.codepath.com/android/endless-scrolling-with-adapterviews-and-recyclerview)，只不过使用ListAdapter中的getItem来确定已浏览的范围，进而决定何时请求更多。配合Room生成的Flow和自定义的加载状态，确保了Single source of truth。
 
+- 2022年3月6日更新：为了避免更新不到的情况，选择了在ListAdapter的getItem中判断position时，只要剩余数目少于预设值，就进行请求。然后在具体请求的请求方法中，进行上锁、是否请求还是忽略请求的判断。
+
 ## 总结
 
-看起来像个多面手的Paging3到都来只是浪费了不少时间。虽然可以说一句简单的“凡事还得自己来”，但这件事，我还要再下一篇文章中继续反思。
+看起来像个多面手的Paging3到都来只是浪费了不少时间。虽然可以说一句简单的“凡事还得自己来”，~~但这件事，我还要再下一篇文章中继续反思。~~想了许久，还是一句话：“不坏不修”。
