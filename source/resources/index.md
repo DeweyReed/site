@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2022.02.18
+Updated: 2022.03.11
 
 # Android
 
@@ -268,6 +268,8 @@ Updated: 2022.02.18
 [Enhance Your Google Play Store Description With Rich Formatting & Emojis](https://asostack.com/enhance-your-google-play-store-description-with-rich-formatting-and-emojis-5f50ff354e5f)
 
 [Best Languages for App Localization](https://medium.com/@Alconost/the-top-10-languages-for-app-localization-ed0baca4d58e)
+
+[Signing Android Apps](https://crushingcode.nisrulz.com/posts/signing-android-apps/)
 
 ### Test
 
