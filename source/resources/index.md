@@ -299,6 +299,8 @@ Updated: 2022.03.11
 
 [Advanced JSON parsing techniques using Moshi and Kotlin](https://medium.com/@BladeCoder/advanced-json-parsing-techniques-using-moshi-and-kotlin-daf56a7b963d)
 
+[How to use responsive images to speed up your apps — with android glide example](https://blog.canopas.com/how-to-use-responsive-images-to-speed-up-your-apps-with-android-glide-example-ece3924b84fd)
+
 ### CI, Continuous Integration
 
 [Using GitHub Actions for Android Continuous Integration and Delivery](https://overflow.buffer.com/2020/05/07/using-github-actions-for-android-continuous-integration-and-delivery/)

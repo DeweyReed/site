@@ -161,7 +161,7 @@ i18n_dir: :en
   - [1.13.0](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1130): ✔
 
     - Kotlin 1.6.0
-    - AGP 7.0.x(and 7.1.x?): `android.jetifier.ignorelist=moshi-1.13.0` in `gradle.properties`
+    - AGP 7.0.x(and 7.1.x?): [`android.jetifier.ignorelist=moshi-1.13.0` in `gradle.properties`](https://github.com/square/moshi/issues/1463)
 
   - 1.12.0: ✔
 
