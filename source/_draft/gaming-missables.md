@@ -29,6 +29,10 @@ categories: Gaming
 1. 武器系统就是一坨狗屎。基础攻击力最高的武器是在最后的非主线关卡才能刷出来。另外，游戏后期会刷出四英杰初始武器的高基础攻击力版本。因此武器按喜好强化吧。
 1. 无其他易错过要素。
 
+[和野炊地图的对比](https://www.reddit.com/r/Breath_of_the_Wild/comments/kbnuiw/all_age_of_calamity_maps_overlaid_against_botws/)
+
+[武器攻略](https://www.youtube.com/playlist?list=PL2jZokpONSQTZhbPVfDmU_-NSe6SWvqcy)
+
 ------------------
 
 以下内容仅根据回忆记录，存在不准确的情况。

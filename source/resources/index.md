@@ -17,7 +17,7 @@ Updated: 2022.03.11
 
 [AnDevCon: Android Internals Overview - Marko Gargenta.mov](https://www.youtube.com/watch?v=MlxiQNijniQ)
 
-### Recycler View
+### RecyclerView
 
 [Drag and Swipe with RecyclerView](https://medium.com/@ipaulpro/drag-and-swipe-with-recyclerview-b9456d2b1aaf)
 
@@ -42,6 +42,8 @@ Updated: 2022.03.11
 [Fixing RecyclerView nested scrolling in opposite direction](https://medium.com/@BladeCoder/fixing-recyclerview-nested-scrolling-in-opposite-direction-f587be5c1a04)
 
 [Paging Image Carousel with RecyclerView](https://proandroiddev.com/paging-image-gallery-with-recyclerview-f059d035b7e7)
+
+[Drag and Drop between two RecyclerView 's](https://github.com/jkozh/DragDropTwoRecyclerViews)
 
 ### Animation
 
@@ -77,7 +79,7 @@ Updated: 2022.03.11
 
 [AnimatedIcons: Strikethru](https://blog.stylingandroid.com/animatedicons-strikethru/)
 
-### Desgin and Style
+### Design and Style
 
 [Best Practices for Themes and Styles (Android Dev Summit '18)](https://www.youtube.com/watch?v=sNSlDfaNq-0)
 
@@ -104,6 +106,14 @@ Updated: 2022.03.11
 [Android Styling: Common Theme Attributes](https://medium.com/androiddevelopers/android-styling-common-theme-attributes-8f7c50c9eaba)
 
 [Motional Intelligence: Build smarter animations](https://medium.com/androiddevelopers/motional-intelligence-build-smarter-animations-821af4d5f8c0)
+
+[Writing](https://material.io/design/communication/writing.html)
+
+[Gesture Navigation: going edge-to-edge](https://medium.com/androiddevelopers/gesture-navigation-going-edge-to-edge-812f62e4e83e)
+
+[Animating your keyboard using WindowInsets](https://www.youtube.com/watch?v=acC7SR1EXsI)
+
+[Note 1: Hex color codes are not currently supported for android:colorBackground, hence why a color resource was used.](https://medium.com/over-engineering/setting-up-a-material-components-theme-for-android-fbf7774da739)
 
 ### Custom View
 
@@ -138,6 +148,12 @@ Updated: 2022.03.11
 [Executor Framework- Understanding the basics](https://android.jlelse.eu/executor-framework-understanding-the-basics-43d575e72310)
 
 [Understanding CPU and I/O bound for asynchronous operations](https://www.hellsoft.se/understanding-cpu-and-i-o-bound-for-asynchronous-operations/)
+
+[miui10 no kill list](https://www.v2ex.com/t/521816)
+
+[Android-App-Chain-Wakeup](https://androidperformance.com/2020/05/07/Android-App-Chain-Wakeup/)
+
+[Access the clipboard from the background](https://www.v2ex.com/t/687872)
 
 #### Background Work on Chinese ROMs
 
@@ -301,6 +317,8 @@ Updated: 2022.03.11
 
 [How to use responsive images to speed up your apps — with android glide example](https://blog.canopas.com/how-to-use-responsive-images-to-speed-up-your-apps-with-android-glide-example-ece3924b84fd)
 
+[Resources for Learning OpenGL  -  An Android Developers Guide](https://riggaroo.dev/resources-for-learning-opengl-an-android-developers-guide/)
+
 ### CI, Continuous Integration
 
 [Using GitHub Actions for Android Continuous Integration and Delivery](https://overflow.buffer.com/2020/05/07/using-github-actions-for-android-continuous-integration-and-delivery/)
@@ -320,6 +338,10 @@ Updated: 2022.03.11
 [Understanding migrations with Room](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)
 
 [Room 🔗 RxJava](https://medium.com/google-developers/room-rxjava-acb0cd4f3757)
+
+### Firebase
+
+[Use Firebase without Google Services Gradle Plugin](https://firebase.google.com/docs/projects/multiprojects#support_multiple_environments_in_your_android_application)
 
 ### Java
 
@@ -349,6 +371,16 @@ Updated: 2022.03.11
 
 ### Framework Classes
 
+#### Application
+
+[Reminder: "allowBackup=true" is the devil if you are using Hilt or Dagger](https://www.reddit.com/r/androiddev/comments/tg1dc7/reminder_allowbackuptrue_is_the_devil_if_you_are/)
+
+[This is why your subclassed Application isn't always instantiated](https://www.reddit.com/r/androiddev/comments/ov18d2/this_is_why_your_subclassed_application_isnt/)
+
+[You basically need to duplicate it into your app's manifest with the same name and add the exported="true/false" as the only tag.](https://www.reddit.com/r/androiddev/comments/st16gt/comment/hx1n0kn/)
+
+[Fixed support for Configuration override use cases, including custom locales and font scales. See here for an example of how to correctly implement overrides using appcompat:1.2.0.](https://developer.android.com/jetpack/androidx/releases/appcompat#1.2.0)
+
 #### Context
 
 [Mastering Android context](https://medium.freecodecamp.org/mastering-android-context-7055c8478a22)
@@ -371,6 +403,12 @@ Updated: 2022.03.11
 
 [Seamless Android app launch animations using Intent Source Bounds](https://arunkumar.dev/seamless-android-app-launch-animations-using-intent-sourcebounds/)
 
+#### Storage
+
+[DevBytes: Android 4.4 Storage Access Framework: Client](https://www.youtube.com/watch?v=UFj9AEz0DHQ)
+
+[When you access an existing media file, you can use the value of the DATA column in your logic.](https://developer.android.com/training/data-storage/use-cases#show-all-folder)
+
 #### Views
 
 [Android ImageView ScaleType: A Visual Guide](https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide)
@@ -382,6 +420,8 @@ Updated: 2022.03.11
 #### Media
 
 [Audio Focus](https://medium.com/google-developers/audio-focus-3-cdc09da9c122)
+
+[Discover the core Android API for Speech Recognition.](https://dev.to/charfaouiyounes/discover-the-core-android-api-for-speech-recognition-99n)
 
 #### PIP
 
