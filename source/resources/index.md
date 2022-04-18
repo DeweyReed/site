@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2022.03.11
+Updated: 2022.04.18
 
 # Android
 
@@ -331,6 +331,8 @@ Updated: 2022.03.11
 
 [5 common mistakes when using Architecture Components](https://proandroiddev.com/5-common-mistakes-when-using-architecture-components-403e9899f4cb)
 
+[Android ViewModel. How it works.](https://unbreakable-titan.medium.com/viewmodel-how-it-works-434282649286)
+
 #### Room
 
 [7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
@@ -402,6 +404,8 @@ Updated: 2022.03.11
 [The Journey Of Launching An Android Activity](https://medium.com/@Myyousseff/the-journey-of-launching-an-android-activity-9b64e11dc157)
 
 [Seamless Android app launch animations using Intent Source Bounds](https://arunkumar.dev/seamless-android-app-launch-animations-using-intent-sourcebounds/)
+
+[Fragment Transactions & Activity State Loss](https://www.androiddesignpatterns.com/2013/08/fragment-transaction-commit-state-loss.html)
 
 #### Storage
 
