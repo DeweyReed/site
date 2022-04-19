@@ -29,6 +29,7 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle
 
+  - 7.1.3: ✔
   - 7.0.4: ✔
 
 - androidx.appcompat:appcompat
@@ -77,7 +78,7 @@ i18n_dir: :en
 
 - androidx.navigation:navigation
 
-  - [2.4.x](https://developer.android.com/jetpack/androidx/releases/navigation#version_241_3): 🚧
+  - [2.4.2](https://developer.android.com/jetpack/androidx/releases/navigation#version_242_3): ✔
   - 2.3.5: ✔
 
 - androidx.room:room
@@ -121,8 +122,9 @@ i18n_dir: :en
 
   - 3.0.0: ✔
 
-- com.google.dagger:dagger
+- [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.41: ✔
   - 2.40.5: ✔
 
 - androidx.hilt:hilt-navigation-fragment
@@ -144,6 +146,7 @@ i18n_dir: :en
 
 - [com.google.android.gms:play-services-ads](https://developers.google.com/admob/android/rel-notes)
 
+  - 20.6.0: ✔
   - 20.3.0: ✔
 
 ## Third-party
@@ -180,12 +183,12 @@ i18n_dir: :en
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
-  - 4.13.x: 🚧
+  - 4.13.1: ✔
   - 4.12.0: ✔
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
-  - 5.0.x: 🚧
+  - 5.0.3: ✔
   - 4.2.2: ✔
 
 - com.github.chuckerteam.chucker:library
@@ -210,8 +213,9 @@ i18n_dir: :en
   - 3.3.1: ✔
   - 3.2.0: ✔
 
-- net.lingala.zip4j:zip4j
+- [net.lingala.zip4j:zip4j](https://github.com/srikanth-lingala/zip4j/releases)
 
+  - 2.10.0: ✔(UTF-8 Support)
   - 2.9.1: ✔
 
 - [com.github.kizitonwose:CalendarView](https://github.com/kizitonwose/CalendarView/releases)
@@ -247,6 +251,7 @@ i18n_dir: :en
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.4.2: ✔
   - 8.4.1: ✔
   - 8.4.0: ✔
   - 8.0.3: ✔(APK bloats afterwards)
