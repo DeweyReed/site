@@ -133,6 +133,10 @@ Updated: 2022.04.18
 
 [Android: Why your Canvas shapes aren’t smooth](https://medium.com/@ali.muzaffar/android-why-your-canvas-shapes-arent-smooth-aa2a3f450eb5)
 
+### Jetpack Compose
+
+[Scoped recomposition in Jetpack Compose — what happens when state changes?](https://dev.to/zachklipp/scoped-recomposition-jetpack-compose-what-happens-when-state-changes-l78)
+
 ### Background Execution
 
 [Modern background execution in Android](https://android-developers.googleblog.com/2018/10/modern-background-execution-in-android.html)

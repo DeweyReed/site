@@ -5,19 +5,31 @@ date: 2022/4/16
 categories: Gaming
 ---
 
-亲自试出来的一周目无剧透的易错过要素攻略，**充满了个人偏见**。
+亲自试出来的一周目无剧透的易错过要素攻略，**充满了个人偏见**。不涉及外置成就。
 
 <!--more-->
 
+## 刺客信条：艾吉奥合集
+
+刺客信条2：无易错过要素。
+
+刺客信条兄弟会：TODO
+
+刺客信条启示录：TODO
+
 ## Murder by Numbers
 
-不要选低难度，否则分数不够，解锁不了特殊剧情。
+不要选低难度，不要用左上角菜单中的提示，否则分数不够，解锁不了特殊剧情。
 
 剧情无分叉。对话选择要么选错后可重选，要么殊途同归。
 
 ## 星之卡比探索发现
 
-暂未发现易错过要素。
+无易错过要素。
+
+通关后记得到网上搜“HAL房间”来找到隐藏区域！
+
+TODO
 
 ## 塞尔达传说 旷野之息
 
@@ -32,6 +44,8 @@ categories: Gaming
 [和野炊地图的对比](https://www.reddit.com/r/Breath_of_the_Wild/comments/kbnuiw/all_age_of_calamity_maps_overlaid_against_botws/)
 
 [武器攻略](https://www.youtube.com/playlist?list=PL2jZokpONSQTZhbPVfDmU_-NSe6SWvqcy)
+
+[武器数据](https://docs.google.com/spreadsheets/d/1Ci8hBndMf9jIRC_sYzZaKWhWt9UVw9Ee8PyhlbQ-eHA/)
 
 ------------------
 
