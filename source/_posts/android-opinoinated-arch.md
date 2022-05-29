@@ -29,6 +29,8 @@ categories: Android
   - 关于在应用的哪一层捕获异常，是一个见仁见智的问题。~~我个人偏向在UseCase中捕获异常。有异常就封装到一个`Result<Xxx>`（和Kotlin中的`Result`类似，为了避免烦人的警告而手动定义）中，没异常就直接返回。~~
 
     2022年1月20日更新：我还是决定在Repository中捕获异常。
+  
+  - 2022年5月28日更新：在看了[UseCase vs Repository](https://www.reddit.com/r/androiddev/comments/uwkj2w/usecase_vs_repository/)谈论后，个人偏爱的做法是：当Repository的某个操作仅在一处使用时，不把它包装为UseCase。此外，某个操作在多处使用或需要多个Repository时，包装为UseCase。
 
 - 常量、日志、异常、Feature Flag等基础配置
 - 统计、崩溃收集的接口
@@ -62,7 +64,7 @@ api project(":domain")
 api project(":domain")
 ```
 
-定义了所有用到的ViewModel，ViewModel中被注入了各个需要的UseCase。
+定义了所有用到的ViewModel，ViewModel中被注入了各个需要的UseCase或Repository。
 
 - 业务逻辑应该在UseCase中，所以ViewModel中尽可能保持简单。
 - 虽然Google官方建议在Kotlin-only的项目中用Flow替代LiveData，但我习惯在ViweModel中将Flow调用`asLiveData()`转换后给UI层使用，因为在UI层使用Flow坑太多。
