@@ -137,6 +137,8 @@ Updated: 2022.04.18
 
 [Scoped recomposition in Jetpack Compose — what happens when state changes?](https://dev.to/zachklipp/scoped-recomposition-jetpack-compose-what-happens-when-state-changes-l78)
 
+[Parallax Effect with SensorManager using Jetpack Compose](https://proandroiddev.com/parallax-effect-with-sensormanager-using-jetpack-compose-a735a2f5811b)
+
 ### Background Execution
 
 [Modern background execution in Android](https://android-developers.googleblog.com/2018/10/modern-background-execution-in-android.html)
