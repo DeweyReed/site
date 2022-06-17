@@ -7,6 +7,7 @@ i18n_dir: :en
 
 ## Gradle
 
+- 7.4.2: ✔
 - 7.3.3: ✔
 - 7.1.1: ✔
 
@@ -14,14 +15,16 @@ i18n_dir: :en
 
 - org.jetbrains.kotlin:kotlin
 
+  - 1.6.21: ✔
   - 1.6.10: ✔
 
     - `buildList`, `buildSet`, and `buildMap`
 
   - 1.5.31: ✔
 
-- org.jetbrains.kotlinx:kotlinx-coroutines
+- [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.6.1: ✔
   - 1.6.0: ✔
   - 1.5.2: ✔
 
@@ -32,35 +35,36 @@ i18n_dir: :en
   - 7.1.3: ✔
   - 7.0.4: ✔
 
-- androidx.appcompat:appcompat
+- [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
-  - [1.4.1](https://developer.android.com/jetpack/androidx/releases/appcompat#1.4.1): ✔(Android 12(31))
+  - 1.4.2: ✔
+  - 1.4.1: ✔(Android 12(31))
   - 1.3.1: ✔
 
-- androidx.fragment:fragment
+- [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - [1.4.1](https://developer.android.com/jetpack/androidx/releases/fragment#version_14_2): ✔(Android 12(31))
+  - 1.4.1: ✔(Android 12(31))
 
     - FragmentContainerView.getFragment
 
   - 1.3.6: ✔
 
-- androidx.lifecycle:lifecycle
+- [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - [2.4.1](https://developer.android.com/jetpack/androidx/releases/lifecycle#version_24_2): ✔(Android 12(31))
+  - 2.4.1: ✔(Android 12(31))
 
     - ~~lifecycle-common-java8~~
 
   - 2.3.1: ✔
 
-- androidx.core:core-ktx
+- [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - [1.7.0](https://developer.android.com/jetpack/androidx/releases/core#core_and_core-ktx_version_17_2): ✔(Android 12(31))
+  - 1.7.0: ✔(Android 12(31))
   - 1.6.0: ✔
 
-- androidx.collection:collection-ktx
+- [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - [1.2.0](https://developer.android.com/jetpack/androidx/releases/collection#version_120_3): ✔
+  - 1.2.0: ✔
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
@@ -68,54 +72,62 @@ i18n_dir: :en
 
     - `getDisplayName` doesn't work.
 
-- androidx.constraintlayout:constraintlayout
+- [androidx.constraintlayout:constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
-  - [2.1.3](https://developer.android.com/jetpack/androidx/releases/constraintlayout#version_21_2): ✔
+  - 2.1.4: ✔
 
-- androidx.recyclerview:recyclerview
+    - > Gone<->Visible components are now animated as expected
 
-  - [1.2.1](https://developer.android.com/jetpack/androidx/releases/recyclerview#version_121_3): ✔
+  - 2.1.3: ✔
 
-- androidx.navigation:navigation
+- [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
-  - [2.4.2](https://developer.android.com/jetpack/androidx/releases/navigation#version_242_3): ✔
+  - 1.2.1: ✔
+
+- [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
+
+  - 2.4.2: ✔
   - 2.3.5: ✔
 
-- androidx.room:room
+- [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - [2.4.2](https://developer.android.com/jetpack/androidx/releases/room#version_242_3): ✔
+  - 2.4.2: ✔
   - 2.4.1: ✔(Android 12(31))
 
     - Auto Migrations👍
 
   - 2.3.0: ✔
 
-- androidx.preference:preference
+- [androidx.preference:preference](https://developer.android.com/jetpack/androidx/releases/preference)
 
-  - [1.2.0](https://developer.android.com/jetpack/androidx/releases/preference#version_12_2): 🚧
+  - 1.2.0: ✔
   - 1.1.1: ✔
 
-- androidx.work:work
+- [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - [2.7.1](https://developer.android.com/jetpack/androidx/releases/work#version_27_2): ✔(Android 12(31))
+  - 2.7.1: ✔(Android 12(31))
   - 2.6.0: ✔
 
-- androidx.startup:startup
+- [androidx.startup:startup](https://developer.android.com/jetpack/androidx/releases/startup)
 
-  - [1.1.1](https://developer.android.com/jetpack/androidx/releases/startup#version_111_3): 🚧
+  - 1.1.1: 🚧
   - 1.1.0: ✔
 
-- androidx.security:security-crypto:
+- [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
 
-  - [1.1.0-alpha03](https://developer.android.com/jetpack/androidx/releases/security#version_110_2): ✔
+  - 1.1.0-alpha03: ✔
 
 - androidx.swiperefreshlayout:swiperefreshlayout
 
   - 1.1.0: ✔
 
-- com.google.android.material:material
+- androidx.exifinterface:exifinterface
 
-  - [1.5.0](https://github.com/material-components/material-components-android/releases/tag/1.5.0): 🚧
+  - 1.3.3: ✔
+
+- [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
+
+  - 1.5.0: 🚧
   - 1.4.0: ✔
 
 - com.google.android.flexbox:flexbox
@@ -124,6 +136,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.42: ✔
   - 2.41: ✔
   - 2.40.5: ✔
 
@@ -141,6 +154,7 @@ i18n_dir: :en
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
+  - 4.1.0: ✔
   - 4.0.0: ✔
   - 3.0.2: ✔
 
@@ -148,6 +162,10 @@ i18n_dir: :en
 
   - 20.6.0: ✔
   - 20.3.0: ✔
+
+- [com.google.android.gms:play-services-auth](https://developers.google.com/android/guides/releases)
+
+  - 20.2.0: ✔
 
 ## Third-party
 
@@ -161,7 +179,7 @@ i18n_dir: :en
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
-  - [1.13.0](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1130): ✔
+  - 1.13.0: ✔
 
     - Kotlin 1.6.0
     - AGP 7.0.x(and 7.1.x?): [`android.jetifier.ignorelist=moshi-1.13.0` in `gradle.properties`](https://github.com/square/moshi/issues/1463)
@@ -170,7 +188,8 @@ i18n_dir: :en
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - [3.0.0](https://github.com/square/okio/blob/master/CHANGELOG.md#version-300): ✔
+  - 3.1.0: ✔
+  - 3.0.0: ✔
   - 2.10.0: ✔
 
 - com.squareup.leakcanary:leakcanary-android-startup
@@ -188,6 +207,7 @@ i18n_dir: :en
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
+  - 5.2.0: ✔
   - 5.0.3: ✔
   - 4.2.2: ✔
 
@@ -226,6 +246,10 @@ i18n_dir: :en
 - com.github.ben-manes:gradle-versions-plugin
 
   - 0.42.0: ✔
+
+- com.dropbox.dependency-guard:dependency-guard
+
+  - 0.3.1: ✔
 
 ## Chinese
 

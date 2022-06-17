@@ -13,7 +13,10 @@ categories: Gaming
 
 刺客信条2：无易错过要素。
 
-刺客信条兄弟会：TODO
+刺客信条兄弟会：新的一章开始时，菜单中会提示退出Animus，有现实中的对话和五个地图上的东西可以捡。通关游戏后将无法退出Animus。
+
+- 物品-补给品-第二个栏位是毒药，会在解锁快速毒药后显示为“未解锁”，属于游戏Bug。
+- 物品-服装-最后一个是雷电套装，会在所有虚拟训练拿到最少铜牌后解锁，但会在重开游戏后重新上锁，属于游戏Bug。根据[官方的相关讨论](https://discussions.ubisoft.com/topic/153766/unable-to-use-raiden-outfit-even-though-i-completed-vr-training-missions-on-gold)，估计不会修复了。不过反正这个套装也巨丑。
 
 刺客信条启示录：TODO
 
