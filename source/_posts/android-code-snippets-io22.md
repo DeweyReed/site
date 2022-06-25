@@ -61,7 +61,7 @@ val target = if (filesDir.usableSpace > fileSize) {
 } else {
     getExternalFilesDir(null)
 }
-requireNotNull(target) { "Unable to create to file" }
+requireNotNull(target) { "Not enough space" }
 bigInputStream.use { input ->
     File(target, "big-file.zip").outputStream().use { output ->
         input.copyTo(output)

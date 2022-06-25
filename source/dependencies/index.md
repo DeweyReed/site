@@ -125,6 +125,10 @@ i18n_dir: :en
 
   - 1.3.3: ✔
 
+- [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
+
+  - 1.0.0: ✔
+
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
   - 1.5.0: 🚧
@@ -202,6 +206,7 @@ i18n_dir: :en
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
+  - 4.13.2: ✔
   - 4.13.1: ✔
   - 4.12.0: ✔
 
@@ -275,6 +280,7 @@ i18n_dir: :en
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.4.4: ✔
   - 8.4.2: ✔
   - 8.4.1: ✔
   - 8.4.0: ✔
