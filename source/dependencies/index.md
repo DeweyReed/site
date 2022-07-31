@@ -256,6 +256,14 @@ i18n_dir: :en
 
   - 0.3.1: ✔
 
+- [com.facebook.android:facebook](https://github.com/facebook/facebook-android-sdk)
+
+  - 13.2.0: !
+
+    > The client token is now mandatory. SDK initialization will have a check on it and throw out an exception if the client token is not available.
+
+  - 13.1.0: ✔
+
 ## Chinese
 
 - [com.tencent.bugly:crashreport](https://bugly.qq.com/docs/release-notes/release-android-bugly/)

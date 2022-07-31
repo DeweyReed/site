@@ -325,6 +325,8 @@ Updated: 2022.04.18
 
 [Resources for Learning OpenGL  -  An Android Developers Guide](https://riggaroo.dev/resources-for-learning-opengl-an-android-developers-guide/)
 
+[How OkCredit Android App boosted Network Performance by 30%](https://medium.com/okcredit/how-okcredit-android-app-boosted-network-performance-by-30-84109080c065)
+
 ### CI, Continuous Integration
 
 [Using GitHub Actions for Android Continuous Integration and Delivery](https://overflow.buffer.com/2020/05/07/using-github-actions-for-android-continuous-integration-and-delivery/)
