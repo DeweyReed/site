@@ -24,6 +24,7 @@ i18n_dir: :en
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.6.4: ✔
   - 1.6.1: ✔
   - 1.6.0: ✔
   - 1.5.2: ✔
@@ -175,6 +176,7 @@ i18n_dir: :en
 
 - com.squareup.okhttp3:okhttp
 
+  - 4.10.0: ✔
   - 4.9.3: ✔
 
 - com.squareup.retrofit2:retrofit
@@ -192,6 +194,7 @@ i18n_dir: :en
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.2.0: ✔
   - 3.1.0: ✔
   - 3.0.0: ✔
   - 2.10.0: ✔
@@ -240,6 +243,7 @@ i18n_dir: :en
 
 - [net.lingala.zip4j:zip4j](https://github.com/srikanth-lingala/zip4j/releases)
 
+  - 2.11.1: ✔
   - 2.10.0: ✔(UTF-8 Support)
   - 2.9.1: ✔
 
