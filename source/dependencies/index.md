@@ -33,6 +33,11 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle
 
+  - 7.2.2: ✔
+
+    - Android Studio appears not to be able to resolve classes from JARs.
+    - Create your shortcut to open the legacy layout inspector.
+
   - 7.1.3: ✔
   - 7.0.4: ✔
 
