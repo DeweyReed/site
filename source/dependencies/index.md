@@ -303,4 +303,8 @@ i18n_dir: :en
   - 1.1.7: ❌ no release notes
   - 1.1.6: ✔
 
-- [Q](https://wiki.connect.qq.com/sdk%E4%B8%8B%E8%BD%BD)[Q](https://wikinew.open.qq.com/#/iwiki/864512506)、穿山甲、[支付宝](https://opendocs.alipay.com/open/54/104509)需要手动添加
+- [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
+
+  - 15.8.11: ✔
+
+- [Q](https://wiki.connect.qq.com/sdk%E4%B8%8B%E8%BD%BD)[Q](https://wikinew.open.qq.com/#/iwiki/864512506)、穿山甲需要手动添加
