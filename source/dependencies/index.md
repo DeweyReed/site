@@ -37,6 +37,7 @@ i18n_dir: :en
 
     - Android Studio appears not to be able to resolve classes from JARs.
     - Create your shortcut to open the legacy layout inspector.
+    - Broken Logcat filtering
 
   - 7.1.3: ✔
   - 7.0.4: ✔
@@ -282,14 +283,21 @@ i18n_dir: :en
 
 - com.umeng.umsdk:common
 
+  - 9.5.1: ✔
   - 9.4.7: ✔
   - 9.4.5, 9.4.6: ❌ broken
   - 9.4.4: ✔
 
 - com.umeng.umsdk:asms
 
+  - 1.6.3: ✔
   - 1.6.0: ✔
   - 1.4.1: ✔
+
+- com.umeng.umsdk:share
+
+  - 7.2.0: ✔
+  - 7.1.7: ✔
 
 - [com.tencent.mm.opensdk:wechat-sdk-android-without-mta](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html)
 
