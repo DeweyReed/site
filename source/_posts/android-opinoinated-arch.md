@@ -77,6 +77,10 @@ Google官方铁了心要在UI层用Flow，而我依然和大佬（[Kotlin’s Fl
 
 如果Repository中的一个方法可以被直接使用，套一层UseCase也只是简单包装API的话，我觉得是可以直接在ViewModel中注入Repository的。仅把多于一个操作的情况抽象为UseCase。
 
+2022年8月13日：
+
+根据[Common modularization patterns](https://developer.android.com/topic/modularization/patterns#communication)，在ViewModel中使用SavedStateHandle时，后者会自带Fragment的arguements，未找到更新日志。
+
 ## `app-base`
 
 以`app-`开头的Module将会按应用的不同功能分类，而本Module是它们的基础Module。

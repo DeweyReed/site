@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2022.04.18
+Updated: 2022.08.11
 
 # Android
 
@@ -236,6 +236,8 @@ Updated: 2022.04.18
 [Practical ProGuard rules examples](https://medium.com/androiddevelopers/practical-proguard-rules-examples-5640a3907dc9)
 
 [Android's Built-in ProGuard Rules: The Missing Guide](https://www.zacsweers.dev/android-proguard-rules/)
+
+[Strings, Please! Eliminating Data Leaks Caused by Kotlin Assertions](https://www.guardsquare.com/blog/eliminating-data-leaks-caused-by-kotlin-assertions)
 
 ### Security
 

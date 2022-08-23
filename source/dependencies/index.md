@@ -31,14 +31,9 @@ i18n_dir: :en
 
 ## Google
 
-- com.android.tools.build:gradle
+- com.android.tools.build:gradle(& Android Studio)
 
-  - 7.2.2: ✔
-
-    - Android Studio appears not to be able to resolve classes from JARs.
-    - Create your shortcut to open the legacy layout inspector.
-    - Broken Logcat filtering
-
+  - 7.2.2: ❌ Basically broken
   - 7.1.3: ✔
   - 7.0.4: ✔
 
@@ -278,7 +273,10 @@ i18n_dir: :en
 
 - [com.tencent.bugly:crashreport](https://bugly.qq.com/docs/release-notes/release-android-bugly/)
 
-  - 4.0.0: ❌ no release notes
+  - 4.0.4: ✔
+
+    - Requires setting `deviceID`, `deviceModel` and `setIsDevelopmentDevice` manually
+
   - 3.4.4: ✔
 
 - com.umeng.umsdk:common
