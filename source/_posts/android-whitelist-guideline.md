@@ -5,7 +5,7 @@ date: 2019/1/11
 categories: Android
 ---
 
-更新日期：2020年8月22日
+更新日期：2022年9月2日
 
 ## 背景
 
@@ -23,7 +23,11 @@ categories: Android
 
 ## 指南
 
+**根据推荐度排名分先后**
+
 1. Github项目[dont-kill-my-app](https://dontkillmyapp.com/)，记录了一些流行设备的白名单指南（英文）
+
+1. [Tasker的白名单指南](https://tasker.joaoapps.com/userguide/en/faqs/faq-problem.html#00)（英文）
 
 1. [少数派 - 手机里有无法正常运行的 Android 应用？用这四步手动排查问题](https://sspai.com/post/55264)（中文）
 

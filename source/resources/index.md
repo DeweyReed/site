@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2022.08.11
+Updated: 2022.08.29
 
 # Android
 
@@ -430,6 +430,8 @@ Updated: 2022.08.11
 [Scrolling Behavior for Appbars in Android](https://android.jlelse.eu/scrolling-behavior-for-appbars-in-android-41aff9c5c468)
 
 [AppCompat View Inflation](https://helw.net/2018/08/06/appcompat-view-inflation/)
+
+[Clean Android WebView caching](https://medium.com/microsoft-mobile-engineering/clean-android-webview-caching-9b871b3579f3)
 
 #### Media
 

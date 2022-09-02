@@ -202,6 +202,7 @@ i18n_dir: :en
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
+  - 2.9.1: ✔
   - 2.8.1: ✔
 
 - com.jakewharton.timber:timber
