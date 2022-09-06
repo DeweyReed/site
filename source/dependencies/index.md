@@ -93,6 +93,7 @@ i18n_dir: :en
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.4.3: 🚧(Requires Kotlin 1.7)
   - 2.4.2: ✔
   - 2.4.1: ✔(Android 12(31))
 
@@ -282,6 +283,7 @@ i18n_dir: :en
 
 - com.umeng.umsdk:common
 
+  - 9.5.2: ✔
   - 9.5.1: ✔
   - 9.4.7: ✔
   - 9.4.5, 9.4.6: ❌ broken
