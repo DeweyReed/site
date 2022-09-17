@@ -116,7 +116,7 @@ i18n_dir: :en
 
 - [androidx.startup:startup](https://developer.android.com/jetpack/androidx/releases/startup)
 
-  - 1.1.1: 🚧
+  - 1.1.1: ✔
   - 1.1.0: ✔
 
 - [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
