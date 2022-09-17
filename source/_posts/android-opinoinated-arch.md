@@ -103,6 +103,8 @@ api project(":app-base")
 
 将应用按功能分类，包含了功能的界面、Activity、Framgnet等。用了Hilt之后，也可以把ViewModel放进来。
 
+- app-analytics也应该是一个单独的Module，用于替换不同实现。
+
 ## `app`
 
 ```Groovy
@@ -161,3 +163,31 @@ compileOnly ... // Dagger可能会抱怨找不到data中使用的一些类，所
 - MVI
 
   因为现有的MVI框架还不够成气候，所以现在还是MVVM。但MVI最重要的是思想，Jetpack Compose也是有类似的思想。在将ViewModel精简、将逻辑放到UseCase后，实现起来还是容易的。
+
+## 其他的想法
+
+### 2022年9月17日
+
+最近看了[Common modularization patterns](https://developer.android.com/topic/modularization/patterns)。文中提到了多个domain和data的实现，这里提出一些类似的想法，还未亲自实现过。
+
+- domain拆为
+
+  - domain-base: 存放和具体实现无关的类，例如工具类、接口类等。
+  - domain-xxx: 依赖于domain-base，存放对应功能的Entity、Repository和UseCase。
+
+- data拆为
+
+  - data-base: 存放一些工具类。
+  - data-xxx: 依赖于data-base。似乎只能实现各自的数据库、网络、Repository实现。
+
+- app-base
+
+  不再依赖于domain，依旧保留公用的资源、工具类。此外不修改。
+
+- app-xxx
+
+  依赖于各自对应的domain-xxx。
+
+- app
+
+  根据flavor依赖不同的app-xxx和其对应的data-xxx。
