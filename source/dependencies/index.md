@@ -39,6 +39,7 @@ i18n_dir: :en
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
+  - 1.5.1: 🚧(Android 13(33))
   - 1.4.2: ✔
   - 1.4.1: ✔(Android 12(31))
   - 1.3.1: ✔
@@ -61,6 +62,8 @@ i18n_dir: :en
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.9.0: 🚧(Android 13(33))
+  - 1.8.0: 🚧
   - 1.7.0: ✔(Android 12(31))
   - 1.6.0: ✔
 
@@ -93,7 +96,7 @@ i18n_dir: :en
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.4.3: 🚧(Requires Kotlin 1.7)
+  - 2.4.3: 🚧(Kotlin 1.7)
   - 2.4.2: ✔
   - 2.4.1: ✔(Android 12(31))
 
@@ -134,7 +137,7 @@ i18n_dir: :en
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
-  - 1.5.0: 🚧
+  - 1.6.1: 🚧
   - 1.4.0: ✔
 
 - com.google.android.flexbox:flexbox
@@ -143,6 +146,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.43.2: 🚧(Kotlin 1.7)
   - 2.42: ✔
   - 2.41: ✔
   - 2.40.5: ✔
@@ -187,6 +191,7 @@ i18n_dir: :en
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
+  - 1.14.0: 🚧(Android 13(33))
   - 1.13.0: ✔
 
     - Kotlin 1.6.0
