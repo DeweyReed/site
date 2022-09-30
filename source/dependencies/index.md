@@ -7,6 +7,7 @@ i18n_dir: :en
 
 ## Gradle
 
+- 7.5.1: ✔
 - 7.4.2: ✔
 - 7.3.3: ✔
 - 7.1.1: ✔
@@ -46,6 +47,7 @@ i18n_dir: :en
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.5.3: ✔
   - 1.4.1: ✔(Android 12(31))
 
     - FragmentContainerView.getFragment
@@ -54,6 +56,7 @@ i18n_dir: :en
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.5.1: ✔
   - 2.4.1: ✔(Android 12(31))
 
     - ~~lifecycle-common-java8~~
@@ -63,7 +66,7 @@ i18n_dir: :en
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
   - 1.9.0: 🚧(Android 13(33))
-  - 1.8.0: 🚧
+  - 1.8.0: ✔
   - 1.7.0: ✔(Android 12(31))
   - 1.6.0: ✔
 
@@ -91,6 +94,7 @@ i18n_dir: :en
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.5.2: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
 
@@ -135,9 +139,14 @@ i18n_dir: :en
 
   - 1.0.0: ✔
 
-- [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
+- [com.google.android.material  :material](https://github.com/material-components/material-components-android/releases)
 
-  - 1.6.1: 🚧
+  - 1.6.1: ✔
+
+    1. Replace `xxx.MaterialComponents.xxx` to `xxx.Material3.xxx`.
+    1. `colorSurface`, `android:colorBackground` are not white by default.
+    1. Set `elevationOverlayEnabled` to `false` if cards look wrong.
+
   - 1.4.0: ✔
 
 - com.google.android.flexbox:flexbox
@@ -251,6 +260,7 @@ i18n_dir: :en
 
 - [net.lingala.zip4j:zip4j](https://github.com/srikanth-lingala/zip4j/releases)
 
+  - 2.11.2: ✔
   - 2.11.1: ✔
   - 2.10.0: ✔(UTF-8 Support)
   - 2.9.1: ✔
@@ -264,8 +274,9 @@ i18n_dir: :en
 
   - 0.42.0: ✔
 
-- com.dropbox.dependency-guard:dependency-guard
+- [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
+  - 0.3.2: ✔
   - 0.3.1: ✔
 
 - [com.facebook.android:facebook](https://github.com/facebook/facebook-android-sdk)
@@ -282,7 +293,7 @@ i18n_dir: :en
 
   - 4.0.4: ✔
 
-    - Requires setting `deviceID`, `deviceModel` and `setIsDevelopmentDevice` manually
+    - Requires setting `deviceID`, `deviceModel`, `setIsDevelopmentDevice` and `closeNativeReport` manually
 
   - 3.4.4: ✔
 
@@ -311,6 +322,7 @@ i18n_dir: :en
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.5.0: ✔
   - 8.4.4: ✔
   - 8.4.2: ✔
   - 8.4.1: ✔
