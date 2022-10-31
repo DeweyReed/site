@@ -109,6 +109,8 @@ categories: Gaming
 
 [全是剧透的全收集攻略](https://bbs.nga.cn/read.php?tid=20191322)。注意文中未提到DLC。
 
+[每个对话的结果](https://www.rpgsite.net/feature/8759-fire-emblem-three-houses-dialogue-choices-consequences-and-support-guidewalkthrough)
+
 ## Captain Toad: Treasure Tracker
 
 又名《蘑菇队长》。无易错过要素。

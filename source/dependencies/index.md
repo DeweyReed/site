@@ -16,6 +16,13 @@ i18n_dir: :en
 
 - org.jetbrains.kotlin:kotlin
 
+  - 1.7.20: 🚧
+
+    - `T & Any`
+    - `min()` and `max()` throw exceptions if empty
+    - `DeepRecursiveFunction`
+    - [sam-with-receiver plugin](https://kotlinlang.org/docs/sam-with-receiver-plugin.html)
+
   - 1.6.21: ✔
   - 1.6.10: ✔
 
@@ -34,6 +41,14 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle(& Android Studio)
 
+  - 7.3.1: 🚧
+
+    Since 7.1.3:
+
+    - [Gradle Managed Devices](https://developer.android.com/studio/test/gradle-managed-devices)
+    - [Jetifier warning and check in Build Analyzer](https://developer.android.com/studio/releases/gradle-plugin#jetifier-build-analyzer)
+    - [Package attribute in manifest file is deprecated](https://developer.android.com/studio/releases/gradle-plugin#package-deprecated)
+
   - 7.2.2: ❌ Basically broken
   - 7.1.3: ✔
   - 7.0.4: ✔
@@ -47,6 +62,7 @@ i18n_dir: :en
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.5.4: 🚧
   - 1.5.3: ✔
   - 1.4.1: ✔(Android 12(31))
 
@@ -76,6 +92,8 @@ i18n_dir: :en
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
+  - 2.0.0: 🚧(AGP 7.4)
+  - 1.2.2: 🚧(AGP 7.3, Android 13(33))
   - 1.1.5: ✔
 
     - `getDisplayName` doesn't work.
@@ -94,6 +112,7 @@ i18n_dir: :en
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.5.3: 🚧
   - 2.5.2: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
@@ -131,8 +150,9 @@ i18n_dir: :en
 
   - 1.1.0: ✔
 
-- androidx.exifinterface:exifinterface
+- [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
+  - 1.3.5: 🚧
   - 1.3.3: ✔
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
@@ -140,6 +160,10 @@ i18n_dir: :en
   - 1.0.0: ✔
 
 - [com.google.android.material  :material](https://github.com/material-components/material-components-android/releases)
+
+  - 1.7.0: 🚧
+
+    - New `Switch`, `CheckBox` and `BottomAppBar`
 
   - 1.6.1: ✔
 
@@ -155,7 +179,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.43.2: 🚧(Kotlin 1.7)
+  - 2.44: 🚧(Kotlin 1.7)
   - 2.42: ✔
   - 2.41: ✔
   - 2.40.5: ✔
@@ -200,7 +224,10 @@ i18n_dir: :en
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
-  - 1.14.0: 🚧(Android 13(33))
+  - 1.14.0: 🚧(Kotlin 1.7, Android 13(33))
+
+    - No more `android.jetifier.ignorelist=moshi-1.13.0`
+
   - 1.13.0: ✔
 
     - Kotlin 1.6.0
@@ -226,6 +253,7 @@ i18n_dir: :en
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
+  - 4.14.2: 🚧(Android 13(33))
   - 4.13.2: ✔
   - 4.13.1: ✔
   - 4.12.0: ✔
@@ -250,6 +278,7 @@ i18n_dir: :en
 
 - [com.mikepenz:fastadapter](https://github.com/mikepenz/FastAdapter/releases)
 
+  - 5.7.0: 🚧(Kotlin 1.7, Android 13(33))
   - 5.6.0: ✔(Android 12(31))
   - 5.5.1: ✔
 
@@ -272,6 +301,7 @@ i18n_dir: :en
 
 - com.github.ben-manes:gradle-versions-plugin
 
+  - 0.43.0: 🚧
   - 0.42.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
