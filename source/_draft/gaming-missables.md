@@ -9,6 +9,15 @@ categories: Gaming
 
 <!--more-->
 
+## Dungeons of Dreadrock
+
+民间翻译为恐惧岩地牢。只有英文。精致的解密小游戏。
+
+无易错过要素。
+
+- 有些对话会很快，要善用Switch长按截图键保存视频。
+- 主菜单可以选已过的关卡
+
 ## 传送门同伴合集
 
 无易错过要素。
@@ -59,7 +68,7 @@ categories: Gaming
 
 1. 游戏中自有的稀有星足够用。
 1. 礼物码中给的稀有星相比于升级所有武器的需求量简直杯水车薪。
-1. 除了强迫症，玩家并不需要升级所有武器。升级所有武器也不是百分百的条件。
+1. 除了强迫症，玩家并不需要升级所有武器就可以通关。升级所有武器也不是百分百的条件。
 
 游戏中有不少区域是隐藏起来，但不算全收集的。举两个最有代表的例子：
 
@@ -102,14 +111,14 @@ categories: Gaming
 
 ## 火焰纹章：风花雪月
 
-1. 一周目开头三选一时，**不要选**小姑娘。会在剧情过半时找到原因。
+1. 一周目开头三选一时，**不要选**小姑娘。
 1. “挖角”是本作唯一的增员方式，不要有心里压力。
 1. DLC的单独剧情发生在主角拿到专属武器后。这之后最好尽早通关DLC剧情，以在正篇中获得好处。
 1. 虽然在一周目不看攻略难免会错过一些东西，但1. 不剧透解释起来很复杂。2. 多周目选择最低难度主角一人无双的话收集起来也很快。因此一周目可以浪。
 
 [全是剧透的全收集攻略](https://bbs.nga.cn/read.php?tid=20191322)。注意文中未提到DLC。
 
-[每个对话的结果](https://www.rpgsite.net/feature/8759-fire-emblem-three-houses-dialogue-choices-consequences-and-support-guidewalkthrough)
+[看多了有剧透的每个对话的结果](https://www.rpgsite.net/feature/8759-fire-emblem-three-houses-dialogue-choices-consequences-and-support-guidewalkthrough)
 
 ## Captain Toad: Treasure Tracker
 

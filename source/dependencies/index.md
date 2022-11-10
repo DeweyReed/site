@@ -161,15 +161,7 @@ i18n_dir: :en
 
 - [com.google.android.material  :material](https://github.com/material-components/material-components-android/releases)
 
-  - 1.7.0: 🚧
-
-    - New `Switch`, `CheckBox` and `BottomAppBar`
-
-  - 1.6.1: ✔
-
-    1. Replace `xxx.MaterialComponents.xxx` to `xxx.Material3.xxx`.
-    1. `colorSurface`, `android:colorBackground` are not white by default.
-    1. Set `elevationOverlayEnabled` to `false` if cards look wrong.
+  - ❓ Versions afterward are too complicated to use
 
   - 1.4.0: ✔
 
@@ -316,6 +308,10 @@ i18n_dir: :en
     > The client token is now mandatory. SDK initialization will have a check on it and throw out an exception if the client token is not available.
 
   - 13.1.0: ✔
+
+- [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
+
+  - 1.2.25: ✔
 
 ## Chinese
 
