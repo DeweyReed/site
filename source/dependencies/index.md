@@ -16,7 +16,7 @@ i18n_dir: :en
 
 - org.jetbrains.kotlin:kotlin
 
-  - 1.7.20: 🚧
+  - 1.7.20: ✔
 
     - `T & Any`
     - `min()` and `max()` throw exceptions if empty
@@ -33,15 +33,13 @@ i18n_dir: :en
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
   - 1.6.4: ✔
-  - 1.6.1: ✔
-  - 1.6.0: ✔
   - 1.5.2: ✔
 
 ## Google
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 7.3.1: 🚧
+  - 7.3.1: ✔
 
     Since 7.1.3:
 
@@ -55,15 +53,14 @@ i18n_dir: :en
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
-  - 1.5.1: 🚧(Android 13(33))
+  - 1.5.1: ✔(Android 13(33))
   - 1.4.2: ✔
   - 1.4.1: ✔(Android 12(31))
   - 1.3.1: ✔
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.5.4: 🚧
-  - 1.5.3: ✔
+  - 1.5.4: ✔
   - 1.4.1: ✔(Android 12(31))
 
     - FragmentContainerView.getFragment
@@ -81,7 +78,7 @@ i18n_dir: :en
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.9.0: 🚧(Android 13(33))
+  - 1.9.0: ✔(Android 13(33))
   - 1.8.0: ✔
   - 1.7.0: ✔(Android 12(31))
   - 1.6.0: ✔
@@ -93,7 +90,7 @@ i18n_dir: :en
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
   - 2.0.0: 🚧(AGP 7.4)
-  - 1.2.2: 🚧(AGP 7.3, Android 13(33))
+  - 1.2.2: ✔(AGP 7.3, Android 13(33))
   - 1.1.5: ✔
 
     - `getDisplayName` doesn't work.
@@ -104,23 +101,19 @@ i18n_dir: :en
 
     - > Gone<->Visible components are now animated as expected
 
-  - 2.1.3: ✔
-
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
   - 1.2.1: ✔
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.5.3: 🚧
-  - 2.5.2: ✔
+  - 2.5.3: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.4.3: 🚧(Kotlin 1.7)
-  - 2.4.2: ✔
+  - 2.4.3: ✔(Kotlin 1.7)
   - 2.4.1: ✔(Android 12(31))
 
     - Auto Migrations👍
@@ -140,7 +133,6 @@ i18n_dir: :en
 - [androidx.startup:startup](https://developer.android.com/jetpack/androidx/releases/startup)
 
   - 1.1.1: ✔
-  - 1.1.0: ✔
 
 - [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
 
@@ -152,8 +144,7 @@ i18n_dir: :en
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
-  - 1.3.5: 🚧
-  - 1.3.3: ✔
+  - 1.3.5: ✔
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
@@ -171,7 +162,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.44: 🚧(Kotlin 1.7)
+  - 2.44: ✔
   - 2.42: ✔
   - 2.41: ✔
   - 2.40.5: ✔
@@ -191,13 +182,11 @@ i18n_dir: :en
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
   - 4.1.0: ✔
-  - 4.0.0: ✔
   - 3.0.2: ✔
 
 - [com.google.android.gms:play-services-ads](https://developers.google.com/admob/android/rel-notes)
 
   - 20.6.0: ✔
-  - 20.3.0: ✔
 
 - [com.google.android.gms:play-services-auth](https://developers.google.com/android/guides/releases)
 
@@ -216,7 +205,7 @@ i18n_dir: :en
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
-  - 1.14.0: 🚧(Kotlin 1.7, Android 13(33))
+  - 1.14.0: ✔(Kotlin 1.7, Android 13(33))
 
     - No more `android.jetifier.ignorelist=moshi-1.13.0`
 
@@ -230,14 +219,11 @@ i18n_dir: :en
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
   - 3.2.0: ✔
-  - 3.1.0: ✔
-  - 3.0.0: ✔
   - 2.10.0: ✔
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
   - 2.9.1: ✔
-  - 2.8.1: ✔
 
 - com.jakewharton.timber:timber
 
@@ -245,9 +231,8 @@ i18n_dir: :en
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
-  - 4.14.2: 🚧(Android 13(33))
+  - 4.14.2: ✔(Android 13(33))
   - 4.13.2: ✔
-  - 4.13.1: ✔
   - 4.12.0: ✔
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
@@ -270,7 +255,7 @@ i18n_dir: :en
 
 - [com.mikepenz:fastadapter](https://github.com/mikepenz/FastAdapter/releases)
 
-  - 5.7.0: 🚧(Kotlin 1.7, Android 13(33))
+  - 5.7.0: ✔(Kotlin 1.7, Android 13(33))
   - 5.6.0: ✔(Android 12(31))
   - 5.5.1: ✔
 
@@ -282,7 +267,6 @@ i18n_dir: :en
 - [net.lingala.zip4j:zip4j](https://github.com/srikanth-lingala/zip4j/releases)
 
   - 2.11.2: ✔
-  - 2.11.1: ✔
   - 2.10.0: ✔(UTF-8 Support)
   - 2.9.1: ✔
 
@@ -293,13 +277,12 @@ i18n_dir: :en
 
 - com.github.ben-manes:gradle-versions-plugin
 
-  - 0.43.0: 🚧
+  - 0.43.0: ✔
   - 0.42.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
   - 0.3.2: ✔
-  - 0.3.1: ✔
 
 - [com.facebook.android:facebook](https://github.com/facebook/facebook-android-sdk)
 
@@ -326,7 +309,6 @@ i18n_dir: :en
 - com.umeng.umsdk:common
 
   - 9.5.2: ✔
-  - 9.5.1: ✔
   - 9.4.7: ✔
   - 9.4.5, 9.4.6: ❌ broken
   - 9.4.4: ✔
@@ -334,7 +316,6 @@ i18n_dir: :en
 - com.umeng.umsdk:asms
 
   - 1.6.3: ✔
-  - 1.6.0: ✔
   - 1.4.1: ✔
 
 - com.umeng.umsdk:share
@@ -350,9 +331,6 @@ i18n_dir: :en
 
   - 8.5.0: ✔
   - 8.4.4: ✔
-  - 8.4.2: ✔
-  - 8.4.1: ✔
-  - 8.4.0: ✔
   - 8.0.3: ✔(APK bloats afterwards)
 
 - [com.meituan.android.walle:library](https://github.com/Meituan-Dianping/walle)
