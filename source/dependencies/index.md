@@ -223,6 +223,7 @@ i18n_dir: :en
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
+  - 2.10(Android 13(33)): ✔
   - 2.9.1: ✔
 
 - com.jakewharton.timber:timber
@@ -277,6 +278,7 @@ i18n_dir: :en
 
 - com.github.ben-manes:gradle-versions-plugin
 
+  - 0.44.0: ✔
   - 0.43.0: ✔
   - 0.42.0: ✔
 
