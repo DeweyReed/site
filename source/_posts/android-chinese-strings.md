@@ -53,6 +53,25 @@ Android开发有着和[ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-
 
 在[Per-app language preferences](https://developer.android.com/guide/topics/resources/app-languages)，Android依然沿用了[反直觉的缩写](https://developer.android.com/guide/topics/resources/app-languages#sample-config)。这里似乎和`Locale.toLanguageTag()`是一致的。
 
+## 更新1
+
+不要假设简体中文只有`values-rCN`、`values-rSG`等几个地区标签。有的手机允许用户分别任意选择语言和地区，这样会有很多很多的组合。不过文件夹的检测顺序是通用的。
+
+## 更新2
+
+如何检测应用当前是否是简体中文？
+
+```Kotlin
+val languageTag = Locale.getDefault().toLanguageTag()
+if (languageTag == "zh-CN" || languageTag.startsWith("zh-Hans")) {
+    // ...
+}
+```
+
+暂时并没有找到更靠谱的办法。
+
+往对应`values`文件夹中放对应语言的标识`string`似乎可以，但这让翻译协作变得困难。
+
 ## 参考
 
 - <https://developer.android.com/guide/topics/resources/localization>
