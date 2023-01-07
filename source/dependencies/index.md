@@ -60,7 +60,7 @@ i18n_dir: :en
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.5.4: ✔
+  - 1.5.5: ✔
   - 1.4.1: ✔(Android 12(31))
 
     - FragmentContainerView.getFragment
@@ -162,7 +162,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.44: ✔
+  - 2.44.2: ✔
   - 2.42: ✔
   - 2.41: ✔
   - 2.40.5: ✔
