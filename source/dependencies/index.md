@@ -186,6 +186,7 @@ i18n_dir: :en
 
 - [com.google.android.gms:play-services-ads](https://developers.google.com/admob/android/rel-notes)
 
+  - 21.4.0: ✔
   - 20.6.0: ✔
 
 - [com.google.android.gms:play-services-auth](https://developers.google.com/android/guides/releases)
@@ -302,6 +303,7 @@ i18n_dir: :en
 
 - [com.tencent.bugly:crashreport](https://bugly.qq.com/docs/release-notes/release-android-bugly/)
 
+  - 4.1.9: ✔
   - 4.0.4: ✔
 
     - Requires setting `deviceID`, `deviceModel`, `setIsDevelopmentDevice` and `closeNativeReport` manually
