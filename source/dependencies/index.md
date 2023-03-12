@@ -268,7 +268,7 @@ i18n_dir: :en
 
 - [net.lingala.zip4j:zip4j](https://github.com/srikanth-lingala/zip4j/releases)
 
-  - 2.11.2: ✔
+  - 2.11.5: ✔
   - 2.10.0: ✔(UTF-8 Support)
   - 2.9.1: ✔
 
@@ -279,9 +279,7 @@ i18n_dir: :en
 
 - com.github.ben-manes:gradle-versions-plugin
 
-  - 0.44.0: ✔
-  - 0.43.0: ✔
-  - 0.42.0: ✔
+  - 0.46.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
