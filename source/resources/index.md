@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2022.08.29
+Updated: 2023.3.27
 
 # Android
 
@@ -138,6 +138,8 @@ Updated: 2022.08.29
 [Scoped recomposition in Jetpack Compose — what happens when state changes?](https://dev.to/zachklipp/scoped-recomposition-jetpack-compose-what-happens-when-state-changes-l78)
 
 [Parallax Effect with SensorManager using Jetpack Compose](https://proandroiddev.com/parallax-effect-with-sensormanager-using-jetpack-compose-a735a2f5811b)
+
+[Ticker Board in Jetpack Compose](https://www.francescvilarino.com/ticker-board-in-jetpack-compose)
 
 ### Background Execution
 
@@ -328,6 +330,8 @@ Updated: 2022.08.29
 [Resources for Learning OpenGL  -  An Android Developers Guide](https://riggaroo.dev/resources-for-learning-opengl-an-android-developers-guide/)
 
 [How OkCredit Android App boosted Network Performance by 30%](https://medium.com/okcredit/how-okcredit-android-app-boosted-network-performance-by-30-84109080c065)
+
+[Don’t Prewarm App Features](https://medium.com/androiddevelopers/dont-prewarm-app-features-118e0a2d4bb1)
 
 ### CI, Continuous Integration
 

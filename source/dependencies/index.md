@@ -144,7 +144,7 @@ i18n_dir: :en
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
-  - 1.3.5: ✔
+  - 1.3.6: ✔
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
