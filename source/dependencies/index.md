@@ -7,6 +7,7 @@ i18n_dir: :en
 
 ## Gradle
 
+- 8.0.2: 🚧
 - 7.5.1: ✔
 - 7.4.2: ✔
 - 7.3.3: ✔
@@ -15,6 +16,10 @@ i18n_dir: :en
 ## Kotlin
 
 - org.jetbrains.kotlin:kotlin
+
+  - 1.8.10: 🚧
+  
+    - kotlin-stdlib-jdk7 and kotlin-stdlib-jdk8 -> kotlin-stdlib
 
   - 1.7.20: ✔
 
@@ -39,6 +44,20 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle(& Android Studio)
 
+  - 7.4.2: 🚧
+
+    - AGP 7.4.2 + Kotlin 1.8 ->
+
+        <https://issuetracker.google.com/issues/265653154>
+
+        ```Groovy
+        subprojects {
+            tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
+                kotlinOptions.jvmTarget = JavaVersion.VERSION_1_8.toString()
+            }
+        }
+        ```
+
   - 7.3.1: ✔
 
     Since 7.1.3:
@@ -60,6 +79,7 @@ i18n_dir: :en
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.5.6: 🚧
   - 1.5.5: ✔
   - 1.4.1: ✔(Android 12(31))
 
@@ -69,6 +89,12 @@ i18n_dir: :en
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.6.1: 🚧
+
+    - `LiveData.isInitialized`
+    - ~~`Lifecycle.launchWhenX`~~
+    - If you want `Observer.onChanged()` to accept a nullable type, you must instantiate the `Observer` with a nullable type.
+
   - 2.5.1: ✔
   - 2.4.1: ✔(Android 12(31))
 
@@ -77,6 +103,10 @@ i18n_dir: :en
   - 2.3.1: ✔
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
+
+  - 1.10.0: 🚧
+
+    - Adds compatibility methods for new APIs introduced in Android 13 for Parcels, Bundles, and Intents.
 
   - 1.9.0: ✔(Android 13(33))
   - 1.8.0: ✔
@@ -89,7 +119,7 @@ i18n_dir: :en
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
-  - 2.0.0: 🚧(AGP 7.4)
+  - 2.0.3: 🚧(AGP 7.4)
   - 1.2.2: ✔(AGP 7.3, Android 13(33))
   - 1.1.5: ✔
 
@@ -102,6 +132,10 @@ i18n_dir: :en
     - > Gone<->Visible components are now animated as expected
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
+
+  - 1.3.0: 🚧
+
+    - `ConcatAdapter.getWrappedAdapterAndPosition`
 
   - 1.2.1: ✔
 
@@ -149,6 +183,13 @@ i18n_dir: :en
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
   - 1.0.0: ✔
+
+- [Compose to Kotlin Compatibility Map](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
+
+- Kotlin to IDE Compatibility Map
+
+  - [1.8.20](https://kotlinlang.org/docs/whatsnew1820.html#ide-support)
+  - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support)
 
 - [com.google.android.material  :material](https://github.com/material-components/material-components-android/releases)
 
@@ -219,6 +260,7 @@ i18n_dir: :en
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.3.0: 🚧(Kotlin 1.8)
   - 3.2.0: ✔
   - 2.10.0: ✔
 
