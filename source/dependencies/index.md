@@ -44,7 +44,7 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 7.4.2: 🚧
+  - 7.4.2: ❌
 
     - AGP 7.4.2 + Kotlin 1.8 ->
 
