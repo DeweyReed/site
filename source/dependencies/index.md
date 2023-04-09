@@ -44,20 +44,7 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 7.4.2: ❌
-
-    - AGP 7.4.2 + Kotlin 1.8 ->
-
-        <https://issuetracker.google.com/issues/265653154>
-
-        ```Groovy
-        subprojects {
-            tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
-                kotlinOptions.jvmTarget = JavaVersion.VERSION_1_8.toString()
-            }
-        }
-        ```
-
+  - 7.4.2: ❌ Broken
   - 7.3.1: ✔
 
     Since 7.1.3:
@@ -71,6 +58,10 @@ i18n_dir: :en
   - 7.0.4: ✔
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
+
+  - 1.6.1: 🚧
+
+    - `AppCompatDelegate.setApplicationLocales(LocaleListCompat)`
 
   - 1.5.1: ✔(Android 13(33))
   - 1.4.2: ✔
@@ -89,7 +80,7 @@ i18n_dir: :en
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.6.1: 🚧
+  - 2.6.1: 🚧(Kotlin 1.8)
 
     - `LiveData.isInitialized`
     - ~~`Lifecycle.launchWhenX`~~
@@ -104,7 +95,7 @@ i18n_dir: :en
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.10.0: 🚧
+  - 1.10.0: 🚧(Kotlin 1.8)
 
     - Adds compatibility methods for new APIs introduced in Android 13 for Parcels, Bundles, and Intents.
 
