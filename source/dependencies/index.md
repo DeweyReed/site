@@ -35,6 +35,11 @@ i18n_dir: :en
 
   - 1.5.31: ✔
 
+- Kotlin to IDE Compatibility Map
+
+  - [1.8.20](https://kotlinlang.org/docs/whatsnew1820.html#ide-support)
+  - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support)
+
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
   - 1.6.4: ✔
@@ -67,6 +72,10 @@ i18n_dir: :en
   - 1.4.2: ✔
   - 1.4.1: ✔(Android 12(31))
   - 1.3.1: ✔
+
+- [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
+
+  - 1.7.0: 🚧(Kotlin 1.8)
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
@@ -175,14 +184,17 @@ i18n_dir: :en
 
   - 1.0.0: ✔
 
-- [Compose to Kotlin Compatibility Map](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
+- [Compose BOM to library version mapping](https://developer.android.com/jetpack/compose/bom/bom-mapping)
 
-- Kotlin to IDE Compatibility Map
+  - 2023.04.00: 🚧(Kotlin 1.8)
+  - 2023.01.00: 🤷‍♂️
 
-  - [1.8.20](https://kotlinlang.org/docs/whatsnew1820.html#ide-support)
-  - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support)
+- [Compose Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
 
-- [com.google.android.material  :material](https://github.com/material-components/material-components-android/releases)
+  - 1.4.4: 🚧(Kotlin 1.8.10)
+  - 1.3.2: 🤷‍♂️
+
+- [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
   - ❓ Versions afterward are too complicated to use
 
