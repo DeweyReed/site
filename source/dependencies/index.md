@@ -161,6 +161,7 @@ i18n_dir: :en
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.8.1: 🚧(Kotlin 1.7.21)
   - 2.7.1: ✔(Android 12(31))
   - 2.6.0: ✔
 
@@ -206,6 +207,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.45: 🚧
   - 2.44.2: ✔
   - 2.42: ✔
   - 2.41: ✔
@@ -278,12 +280,14 @@ i18n_dir: :en
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
+  - 4.15.1: 🚧
   - 4.14.2: ✔(Android 13(33))
   - 4.13.2: ✔
   - 4.12.0: ✔
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
+  - 6.0.0: 🚧
   - 5.2.0: ✔
   - 5.0.3: ✔
   - 4.2.2: ✔
