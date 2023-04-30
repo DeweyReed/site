@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2023.3.27
+Updated: 2023.4.30
 
 # Android
 
@@ -242,6 +242,8 @@ Updated: 2023.3.27
 [Strings, Please! Eliminating Data Leaks Caused by Kotlin Assertions](https://www.guardsquare.com/blog/eliminating-data-leaks-caused-by-kotlin-assertions)
 
 ### Security
+
+[Android Undercover: Native Code Translation for AV Stealth - DC615/DEF CON Nashville](https://www.youtube.com/watch?v=UcdMx-te2NE)
 
 [How long will you go to protect your Android app from being tampered?](https://funkymuse.dev/posts/android_anti_tampering/)
 

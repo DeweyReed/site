@@ -51,11 +51,11 @@ i18n_dir: :en
 
   - 8.0.0: 🚧
   
-  - [Network Inspector traffic interception](https://developer.android.com/studio/releases#network-inspector)
-  - [Breaking change: namespace required in module-level build script](https://developer.android.com/build/releases/gradle-plugin#namespace-dsl)
-  - [Breaking changes: build option default values](https://developer.android.com/build/releases/gradle-plugin#default-changes)
-  - [New settings plugin](https://developer.android.com/build/releases/gradle-plugin#settings-plugin)
-  - [JDK 17 required to run AGP 8.0](https://developer.android.com/build/releases/gradle-plugin#jdk-17-agp)
+    - [Network Inspector traffic interception](https://developer.android.com/studio/releases#network-inspector)
+    - [Breaking change: namespace required in module-level build script](https://developer.android.com/build/releases/gradle-plugin#namespace-dsl)
+    - [Breaking changes: build option default values](https://developer.android.com/build/releases/gradle-plugin#default-changes)
+    - [New settings plugin](https://developer.android.com/build/releases/gradle-plugin#settings-plugin)
+    - [JDK 17 required to run AGP 8.0](https://developer.android.com/build/releases/gradle-plugin#jdk-17-agp)
 
   - 7.4.2: ❌ Broken
 
