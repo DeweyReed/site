@@ -7,7 +7,7 @@ i18n_dir: :en
 
 ## Gradle
 
-- 8.0.2: 🚧
+- 8.0.2: ✔
 - 7.5.1: ✔
 - 7.4.2: ✔
 - 7.3.3: ✔
@@ -37,8 +37,8 @@ i18n_dir: :en
 
 - Kotlin to IDE Compatibility Map
 
-  - [1.8.20](https://kotlinlang.org/docs/whatsnew1820.html#ide-support)
-  - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support)
+  - [1.8.20](https://kotlinlang.org/docs/whatsnew1820.html#ide-support): Flamingo (222)
+  - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support): Electric Eel (221), Flamingo (222)
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
@@ -49,7 +49,18 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle(& Android Studio)
 
+  - 8.0.0: 🚧
+  
+  - [Network Inspector traffic interception](https://developer.android.com/studio/releases#network-inspector)
+  - [Breaking change: namespace required in module-level build script](https://developer.android.com/build/releases/gradle-plugin#namespace-dsl)
+  - [Breaking changes: build option default values](https://developer.android.com/build/releases/gradle-plugin#default-changes)
+  - [New settings plugin](https://developer.android.com/build/releases/gradle-plugin#settings-plugin)
+  - [JDK 17 required to run AGP 8.0](https://developer.android.com/build/releases/gradle-plugin#jdk-17-agp)
+
   - 7.4.2: ❌ Broken
+
+    - New Logcat
+  
   - 7.3.1: ✔
 
     Since 7.1.3:
@@ -64,7 +75,7 @@ i18n_dir: :en
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
-  - 1.6.1: 🚧
+  - 1.6.1: ✔
 
     - `AppCompatDelegate.setApplicationLocales(LocaleListCompat)`
 
@@ -79,8 +90,7 @@ i18n_dir: :en
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.5.6: 🚧
-  - 1.5.5: ✔
+  - 1.5.6: ✔
   - 1.4.1: ✔(Android 12(31))
 
     - FragmentContainerView.getFragment
@@ -133,7 +143,7 @@ i18n_dir: :en
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
-  - 1.3.0: 🚧
+  - 1.3.0: ✔
 
     - `ConcatAdapter.getWrappedAdapterAndPosition`
 
@@ -207,7 +217,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.45: 🚧
+  - 2.45: ✔
   - 2.44.2: ✔
   - 2.42: ✔
   - 2.41: ✔
@@ -287,7 +297,10 @@ i18n_dir: :en
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
-  - 6.0.0: 🚧
+  - 6.0.0: ✔
+
+    - Allow animations in zip files to contain embedded base64 encoded images
+
   - 5.2.0: ✔
   - 5.0.3: ✔
   - 4.2.2: ✔
@@ -332,6 +345,7 @@ i18n_dir: :en
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
+  - 0.4.3: ✔
   - 0.3.2: ✔
 
 - [com.facebook.android:facebook](https://github.com/facebook/facebook-android-sdk)
