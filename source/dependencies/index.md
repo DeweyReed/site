@@ -50,7 +50,8 @@ i18n_dir: :en
 - com.android.tools.build:gradle(& Android Studio)
 
   - 8.0.0: 🚧
-  
+
+    - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751)
     - [Network Inspector traffic interception](https://developer.android.com/studio/releases#network-inspector)
     - [Breaking change: namespace required in module-level build script](https://developer.android.com/build/releases/gradle-plugin#namespace-dsl)
     - [Breaking changes: build option default values](https://developer.android.com/build/releases/gradle-plugin#default-changes)
