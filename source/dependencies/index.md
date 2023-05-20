@@ -7,6 +7,10 @@ i18n_dir: :en
 
 ## Gradle
 
+- 8.1.1: 🚧
+
+  - [Configuration cache stable](https://docs.gradle.org/8.1.1/userguide/configuration_cache.html)(requires Kotlin 1.8 and `sourceCompatibility`, etc.)
+
 - 8.0.2: ✔
 - 7.5.1: ✔
 - 7.4.2: ✔
@@ -17,7 +21,7 @@ i18n_dir: :en
 
 - org.jetbrains.kotlin:kotlin
 
-  - 1.8.10: 🚧
+  - 1.8.21: 🚧
   
     - kotlin-stdlib-jdk7 and kotlin-stdlib-jdk8 -> kotlin-stdlib
 
@@ -37,10 +41,14 @@ i18n_dir: :en
 
 - Kotlin to IDE Compatibility Map
 
-  - [1.8.20](https://kotlinlang.org/docs/whatsnew1820.html#ide-support): Flamingo (222)
+  - [1.8.2x](https://kotlinlang.org/docs/whatsnew1820.html#ide-support): Flamingo (222)
   - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support): Electric Eel (221), Flamingo (222)
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
+
+  - 1.7.1: 🚧(Kotlin 1.8)
+
+    - `TestCoroutineScheduler`, `runTest`, and `TestScope` API are promoted to stable
 
   - 1.6.4: ✔
   - 1.5.2: ✔
