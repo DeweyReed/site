@@ -47,6 +47,8 @@ api project(":domain")
 
   这么做可以将具体实现和应用逻辑分割。UI层直接处理简单的`data class`，而无需担心JSON、数据库等配置。
 
+  2023年5月19日更新：从[How to build a data layer](https://youtu.be/P125nWICYps)学到了可以把Mapper替换为和Data在一起的方法，比如`XxData.toEntity()`，这样可以省去专门的转换类。
+
 - 得益于Hilt，绑定Repository的类可以定义为私有类。
 - 不在本Module中存放资源。非要不可的话：
 
