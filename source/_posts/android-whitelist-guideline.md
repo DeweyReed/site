@@ -41,4 +41,4 @@ categories: Android
 
 1. 在应用打开【侧边栏/抽屉/汉堡包】->【帮助与反馈】->【白名单指南】，其中有计时机器需要白名单的解释，下方还**可能**会有一些按钮，点击后可以打开设备的一些设置页面。没有的话，就需要参照[上述指南](#指南)。
 
-1. 华为设备的一张单独的链接：[https://aprildown.xyz/2017/12/10/timer-huawei-solution/](https://aprildown.xyz/2017/12/10/timer-huawei-solution/)
+1. 华为设备的一张单独的链接：[https://github.com/DeweyReed/site/blob/master/source/_posts/timer-huawei-solution.md](https://github.com/DeweyReed/site/blob/master/source/_posts/timer-huawei-solution.md)

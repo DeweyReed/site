@@ -5,7 +5,7 @@ date: 2019/2/15
 categories: Android
 ---
 
-[Android开发的一些知识 - How Dalvik and ART VMs work?](https://aprildown.xyz/2018/12/31/android-requirements/)
+[Android开发的一些知识 - How Dalvik and ART VMs work?](https://github.com/DeweyReed/site/blob/master/source/_posts/android-requirements.md)
 
 <!--more-->
 
@@ -14,7 +14,6 @@ categories: Android
 [Android CPU, Compilers, D8 & R8](https://proandroiddev.com/android-cpu-compilers-d8-r8-a3aa2bfbc109)，这篇文章中的内容更准确。
 
 **完**
-
 
 ## Dalvik
 
@@ -97,7 +96,7 @@ AOT跟JIT合作，情况更复杂了。安装时并不会完全编译代码，�
 
 ## 参考
 
-1. https://source.android.com/devices/tech/dalvik
-1. https://www.quora.com/From-what-Ive-read-online-it-seems-like-Google-is-planning-to-default-to-ART-in-a-future-release-Why-is-ART-better-than-Dalvik
+1. <https://source.android.com/devices/tech/dalvik>
+1. <https://www.quora.com/From-what-Ive-read-online-it-seems-like-Google-is-planning-to-default-to-ART-in-a-future-release-Why-is-ART-better-than-Dalvik>
 1. [Trash Talk (Android Dev Summit '18)](https://www.youtube.com/watch?v=Zc4JP8kNGmQ)
 1. [Deep Dive into the ART Runtime (Android Dev Summit '18)](https://www.youtube.com/watch?v=vU7Rhcl9x5o)

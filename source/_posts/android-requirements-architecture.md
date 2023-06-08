@@ -5,7 +5,7 @@ date: 2019/2/3
 categories: Android
 ---
 
-[Android开发的一些知识 - At a high level, what does the Android architecture look like?](https://aprildown.xyz/2018/12/31/android-requirements/)
+[Android开发的一些知识 - At a high level, what does the Android architecture look like?](https://github.com/DeweyReed/site/blob/master/source/_posts/android-requirements.md)
 
 <!--more-->
 
@@ -27,4 +27,4 @@ Java API Framework：写应用时接触到Java API。像是View、Resources、No
 
 System Apps：系统应用。当然还有各种第三方应用。
 
-[之前的笔记：Android Internal 笔记](https://aprildown.xyz/2018/05/12/android-internal/)
+[之前的笔记：Android Internal 笔记](https://github.com/DeweyReed/site/blob/master/source/_posts/android-internal.md)

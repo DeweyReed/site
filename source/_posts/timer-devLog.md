@@ -11,7 +11,7 @@ categories: Android
 
 ## 2021年10月19日
 
-应用开源了 https://github.com/timer-machine/timer-machine-android
+应用开源了 <https://github.com/timer-machine/timer-machine-android>
 
 ## 2021年9月12日
 
@@ -106,7 +106,7 @@ Jetpack Compose快要出了，因此现在积压的各种界面相关的修改�
 
 ## 2020年9月7日
 
-[关于计时机器在Google Play渠道引入订阅制云备份的决定](https://aprildown.xyz/2020/09/07/timer-cloud-backup/)
+[关于计时机器在Google Play渠道引入订阅制云备份的决定](https://github.com/DeweyReed/site/blob/master/source/_posts/timer-cloud-backup.md)
 
 ## 2020年8月27日
 
@@ -166,7 +166,7 @@ Jetpack Compose快要出了，因此现在积压的各种界面相关的修改�
 
 ## 2020年1月19日
 
-[截至到2020年1月19日三个月内计时机器的统计数据](https://aprildown.xyz/2020/01/19/timer-analytics-2020-1-19/)
+[截至到2020年1月19日三个月内计时机器的统计数据](https://github.com/DeweyReed/site/blob/master/source/_posts/timer-analytics-2020-1-19.md)
 
 ## 2020年1月18日
 
@@ -206,7 +206,7 @@ GooglePlay渠道上架了4.0.0的beta版，但自动夜间模式似乎有点问�
 
 各位，新版本4.0.0近期发布，能赶得上Andorid 10的话就顺便适配一下。因为是取消专业版后的第一个版本,而且最近也在一直重构代码库，所以新功能不多。
 
-另外，在[2018年10月21日](#2018年10月21日)曾提到的内存泄露中，其中一个泄露被证实是Android相关SDK的问题，于是我在汇报为这个问题贡献了一个百分百重现的Demo。然后前段时间收到一份邮件说要感谢我为AS 3.5质量提升做出的贡献，本来以为只是个~~像捐款签个名之类~~普通的感谢，但最近3.5发布后，在发布日志页，发现我的用户名出现在了仅有的几十个人之中。。受宠若惊 ====> https://developer.android.com/studio/releases#3-5-community-contributors 名字是DeweyReed。
+另外，在[2018年10月21日](#2018年10月21日)曾提到的内存泄露中，其中一个泄露被证实是Android相关SDK的问题，于是我在汇报为这个问题贡献了一个百分百重现的Demo。然后前段时间收到一份邮件说要感谢我为AS 3.5质量提升做出的贡献，本来以为只是个~~像捐款签个名之类~~普通的感谢，但最近3.5发布后，在发布日志页，发现我的用户名出现在了仅有的几十个人之中。。受宠若惊 ====> <https://developer.android.com/studio/releases#3-5-community-contributors> 名字是DeweyReed。
 
 ## 2019年8月25日
 
@@ -234,7 +234,7 @@ XP用户要小心了，Xposed可能会导致应用的通知无法显示，进而
 
 ## 2019年7月6日
 
-在今晚放出的3.8.0，将取消专业版。具体的解释在这里：https://aprildown.xyz/2019/07/06/timer-death/
+在今晚放出的3.8.0，将取消专业版。具体的解释在这里：<https://github.com/DeweyReed/site/blob/master/source/_posts/timer-death.md>
 
 ## 2019年7月3日
 

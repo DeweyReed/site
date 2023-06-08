@@ -5,7 +5,7 @@ date: 2019/2/3
 categories: Android
 ---
 
-[Android开发的一些知识 - At a high level, what happens when you hit the build button on Andorid Studio?](https://aprildown.xyz/2018/12/31/android-requirements/)
+[Android开发的一些知识 - At a high level, what happens when you hit the build button on Andorid Studio?](https://github.com/DeweyReed/site/blob/master/source/_posts/android-requirements.md)
 
 <!--more-->
 
