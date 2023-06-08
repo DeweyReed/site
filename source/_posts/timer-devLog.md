@@ -114,7 +114,7 @@ Jetpack Compose快要出了，因此现在积压的各种界面相关的修改�
 
 另外，文件夹功能已经在做了，这里是~~仅有的一张~~设计图：
 
-{% asset_img timer_folder.png %}
+{% asset_img timer_folder.png [timer_folder.png](./timer-devLog/timer_folder.png) %}
 
 ## 2020年7月27日
 

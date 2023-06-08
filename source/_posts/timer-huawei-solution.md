@@ -11,6 +11,6 @@ categories: Android
 
 华为用户：感谢酷安用户@无野 提供的华为设备在锁屏后无法运行的解决方案。我顺便修了一下图。
 
-{% asset_img huawei-solution.jpg %}
+{% asset_img huawei-solution.jpg [huawei-solution.jpg](./timer-huawei-solution/huawei-solution.jpg) %}
 
 其他用户：最近发现了一个链接[ACR is automatically closed on some phones](https://bitbucket.org/copluk/acr/issues/607)，是个国外应用处理一些应用在国产设备上后台被杀时如何白名单的文章。虽然是英文，但下面有各个设备的链接，里面有一些示范图片，各位可以参考一下。

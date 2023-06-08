@@ -49,7 +49,7 @@ categories: Android
 
 一直以来，哪怕看到各位的只有一次支持和鼓励，都让我充满了继续更新下去的决心。再次谢谢各位！
 
-{% asset_img bananice.jpg %}
+{% asset_img bananice.jpg [bananice.jpg](./timer-death/bananice.jpg) %}
 
 以后的更新随缘，也会更加放飞自我。
 
