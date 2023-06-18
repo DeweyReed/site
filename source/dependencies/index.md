@@ -11,6 +11,16 @@ i18n_dir: :en
 
   - [Configuration cache stable](https://docs.gradle.org/8.1.1/userguide/configuration_cache.html)(requires Kotlin 1.8 and `sourceCompatibility`, etc.)
 
+    ```Kotlin
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+    ```
+
 - 8.0.2: ✔
 - 7.5.1: ✔
 - 7.4.2: ✔
@@ -21,7 +31,7 @@ i18n_dir: :en
 
 - org.jetbrains.kotlin:kotlin
 
-  - 1.8.21: 🚧
+  - 1.8.22: 🚧
   
     - kotlin-stdlib-jdk7 and kotlin-stdlib-jdk8 -> kotlin-stdlib
 
@@ -124,7 +134,7 @@ i18n_dir: :en
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.10.0: 🚧(Kotlin 1.8)
+  - 1.10.1: 🚧(Kotlin 1.8)
 
     - Adds compatibility methods for new APIs introduced in Android 13 for Parcels, Bundles, and Intents.
 
