@@ -275,6 +275,7 @@ i18n_dir: :en
 
 - com.squareup.okhttp3:okhttp
 
+  - 4.11.0: 🚧 [okhttp 4.11 Changelog](https://github.com/square/okhttp/issues/7849)
   - 4.10.0: ✔
   - 4.9.3: ✔
 
@@ -284,6 +285,7 @@ i18n_dir: :en
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
+  - 1.15.0: 🚧
   - 1.14.0: ✔(Kotlin 1.7, Android 13(33))
 
     - No more `android.jetifier.ignorelist=moshi-1.13.0`
@@ -410,6 +412,7 @@ i18n_dir: :en
 
 - com.umeng.umsdk:share
 
+  - 7.3.2: ✔
   - 7.2.0: ✔
   - 7.1.7: ✔
 
