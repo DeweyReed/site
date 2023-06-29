@@ -7,7 +7,7 @@ i18n_dir: :en
 
 ## Gradle
 
-- 8.1.1: 🚧
+- 8.1.1: ✔
 
   - [Configuration cache stable](https://docs.gradle.org/8.1.1/userguide/configuration_cache.html)(requires Kotlin 1.8 and `sourceCompatibility`, etc.)
 
@@ -31,9 +31,10 @@ i18n_dir: :en
 
 - org.jetbrains.kotlin:kotlin
 
-  - 1.8.22: 🚧
+  - 1.8.22: ✔
   
     - kotlin-stdlib-jdk7 and kotlin-stdlib-jdk8 -> kotlin-stdlib
+    - ~~`kotlinx-android-extension`~~
 
   - 1.7.20: ✔
 
@@ -56,7 +57,7 @@ i18n_dir: :en
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
-  - 1.7.1: 🚧(Kotlin 1.8)
+  - 1.7.1: ✔(Kotlin 1.8)
 
     - `TestCoroutineScheduler`, `runTest`, and `TestScope` API are promoted to stable
 
@@ -67,8 +68,7 @@ i18n_dir: :en
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 8.0.1: 🚧
-  - 8.0.0: ✔
+  - 8.0.2: ✔
 
     - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751)
     - [🟠 Proguard Rules (OkHttp 4.7.2)](https://github.com/square/okhttp/issues/6258)
@@ -119,7 +119,7 @@ i18n_dir: :en
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.6.1: 🚧(Kotlin 1.8)
+  - 2.6.1: ✔(Kotlin 1.8)
 
     - `LiveData.isInitialized`
     - ~~`Lifecycle.launchWhenX`~~
@@ -134,7 +134,7 @@ i18n_dir: :en
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.10.1: 🚧(Kotlin 1.8)
+  - 1.10.1: ✔(Kotlin 1.8)
 
     - Adds compatibility methods for new APIs introduced in Android 13 for Parcels, Bundles, and Intents.
 
@@ -149,7 +149,7 @@ i18n_dir: :en
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
-  - 2.0.3: 🚧(AGP 7.4)
+  - 2.0.3: ✔(AGP 7.4)
   - 1.2.2: ✔(AGP 7.3, Android 13(33))
   - 1.1.5: ✔
 
@@ -262,11 +262,13 @@ i18n_dir: :en
 
 - [com.google.android.gms:play-services-ads](https://developers.google.com/admob/android/rel-notes)
 
+  - 22.0.0: ✔
   - 21.4.0: ✔
   - 20.6.0: ✔
 
 - [com.google.android.gms:play-services-auth](https://developers.google.com/android/guides/releases)
 
+  - 20.5.0: ✔
   - 20.2.0: ✔
 
 ## Third-party
@@ -295,12 +297,13 @@ i18n_dir: :en
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.3.0: 🚧(Kotlin 1.8)
+  - 3.3.0: ✔(Kotlin 1.8)
   - 3.2.0: ✔
   - 2.10.0: ✔
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
+  - 2.11: ✔
   - 2.10(Android 13(33)): ✔
   - 2.9.1: ✔
 
@@ -310,14 +313,14 @@ i18n_dir: :en
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
-  - 4.15.1: 🚧
+  - 4.15.1: ✔
   - 4.14.2: ✔(Android 13(33))
   - 4.13.2: ✔
   - 4.12.0: ✔
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
-  - 6.0.0: ✔
+  - 6.0.1: ✔
 
     - Allow animations in zip files to contain embedded base64 encoded images
 
@@ -361,7 +364,7 @@ i18n_dir: :en
 
 - com.github.ben-manes:gradle-versions-plugin
 
-  - 0.46.0: ✔
+  - 0.47.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
@@ -384,7 +387,7 @@ i18n_dir: :en
 
 - [com.tencent.bugly:crashreport](https://bugly.qq.com/docs/release-notes/release-android-bugly/)
 
-  - 4.1.9: ✔
+  - 4.1.9.2: ✔
   - 4.0.4: ✔
 
     - Requires setting `deviceID`, `deviceModel`, `setIsDevelopmentDevice` and `closeNativeReport` manually
@@ -393,6 +396,7 @@ i18n_dir: :en
 
 - com.umeng.umsdk:common
 
+  - 9.6.1: ✔
   - 9.5.2: ✔
   - 9.4.7: ✔
   - 9.4.5, 9.4.6: ❌ broken
@@ -400,6 +404,7 @@ i18n_dir: :en
 
 - com.umeng.umsdk:asms
 
+  - 1.8.0: ✔
   - 1.6.3: ✔
   - 1.4.1: ✔
 
@@ -425,6 +430,7 @@ i18n_dir: :en
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
+  - 15.8.14: ✔
   - 15.8.11: ✔
 
 - [Q](https://wiki.connect.qq.com/sdk%E4%B8%8B%E8%BD%BD)[Q](https://wikinew.open.qq.com/#/iwiki/864512506)、穿山甲需要手动添加
