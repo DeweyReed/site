@@ -203,6 +203,8 @@ Updated: 2023.4.30
 
 [ADB Commands — Part III](https://proandroiddev.com/adb-commands-part-iii-997f97c03546)
 
+[Practical ADB usage to enhance your life! - Benjamin Kadel](https://youtu.be/DcU1czPxQ10)
+
 ### Dagger2(Always read the newets posts)
 
 [Official Doc](https://google.github.io/dagger/)
