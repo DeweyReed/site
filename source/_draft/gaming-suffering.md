@@ -9,6 +9,10 @@ categories: Gaming
 
 <!--more-->
 
+## 火焰之纹章：Engage
+
+生气，[为此专门写了篇检讨](https://github.com/DeweyReed/site/blob/master/source/_posts/how-to-avoid-trash-games.md)。
+
 ## Phoenotopia: Awakening
 
 是个好游戏。解谜、任务、事件都很充分且有趣。不过我不适合类银河战士恶魔城。
