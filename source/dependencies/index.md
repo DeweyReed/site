@@ -213,6 +213,7 @@ i18n_dir: :en
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
+  - 1.1.0: ✔
   - 1.0.0: ✔
 
 - [Compose BOM to library version mapping](https://developer.android.com/jetpack/compose/bom/bom-mapping)
@@ -227,7 +228,17 @@ i18n_dir: :en
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
-  - ❓ Versions afterward are too complicated to use
+  - Versions afterward: 🤷‍♂️
+
+    Set the background color:
+
+    ```XML
+      <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+          <item name="elevationOverlayEnabled">false</item>
+          <item name="android:colorBackground">#FFF</item>
+          <item name="colorSurface">#FFF</item>
+      </style>
+    ```
 
   - 1.4.0: ✔
 
@@ -237,6 +248,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.46.1: ✔
   - 2.45: ✔
   - 2.44.2: ✔
   - 2.42: ✔
@@ -275,7 +287,7 @@ i18n_dir: :en
 
 - com.squareup.okhttp3:okhttp
 
-  - 4.11.0: 🚧 [okhttp 4.11 Changelog](https://github.com/square/okhttp/issues/7849)
+  - 4.11.0: ✔ [okhttp 4.11 Changelog](https://github.com/square/okhttp/issues/7849)
   - 4.10.0: ✔
   - 4.9.3: ✔
 
@@ -285,7 +297,7 @@ i18n_dir: :en
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
-  - 1.15.0: 🚧
+  - 1.15.0: ✔(Kotlin 1.8)
   - 1.14.0: ✔(Kotlin 1.7, Android 13(33))
 
     - No more `android.jetifier.ignorelist=moshi-1.13.0`
@@ -422,7 +434,7 @@ i18n_dir: :en
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
-  - 8.5.0: ✔
+  - 8.5.2: ✔
   - 8.4.4: ✔
   - 8.0.3: ✔(APK bloats afterwards)
 
