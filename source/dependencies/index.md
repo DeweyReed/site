@@ -177,6 +177,7 @@ i18n_dir: :en
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.5.2:🚧
   - 2.4.3: ✔(Kotlin 1.7)
   - 2.4.1: ✔(Android 12(31))
 
@@ -317,6 +318,7 @@ i18n_dir: :en
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
+  - 2.12: 🚧
   - 2.11: ✔
   - 2.10(Android 13(33)): ✔
   - 2.9.1: ✔
