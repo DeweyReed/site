@@ -171,13 +171,14 @@ i18n_dir: :en
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.7.0: 🚧(Android 14(34))
   - 2.5.3: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.5.2:🚧
+  - 2.5.2: ✔
   - 2.4.3: ✔(Kotlin 1.7)
   - 2.4.1: ✔(Android 12(31))
 
@@ -192,7 +193,7 @@ i18n_dir: :en
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - 2.8.1: 🚧(Kotlin 1.7.21)
+  - 2.8.1: ✔(Kotlin 1.7.21)
   - 2.7.1: ✔(Android 12(31))
   - 2.6.0: ✔
 
@@ -219,6 +220,7 @@ i18n_dir: :en
 
 - [Compose BOM to library version mapping](https://developer.android.com/jetpack/compose/bom/bom-mapping)
 
+  - 2023.08.00: 🚧(Android 14(34))
   - 2023.04.00: 🚧(Kotlin 1.8)
   - 2023.01.00: 🤷‍♂️
 
@@ -270,18 +272,19 @@ i18n_dir: :en
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
+  - 6.0.0: ✔
   - 4.1.0: ✔
   - 3.0.2: ✔
 
 - [com.google.android.gms:play-services-ads](https://developers.google.com/admob/android/rel-notes)
 
-  - 22.0.0: ✔
+  - 22.2.0: ✔
   - 21.4.0: ✔
   - 20.6.0: ✔
 
 - [com.google.android.gms:play-services-auth](https://developers.google.com/android/guides/releases)
 
-  - 20.5.0: ✔
+  - 20.6.0: ✔
   - 20.2.0: ✔
 
 ## Third-party
@@ -318,8 +321,7 @@ i18n_dir: :en
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
-  - 2.12: 🚧
-  - 2.11: ✔
+  - 2.12: ✔
   - 2.10(Android 13(33)): ✔
   - 2.9.1: ✔
 
