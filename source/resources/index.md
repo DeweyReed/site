@@ -249,17 +249,9 @@ Updated: 2023.4.30
 
 [How long will you go to protect your Android app from being tampered?](https://funkymuse.dev/posts/android_anti_tampering/)
 
-[Secure data in Android](https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58)
-
-[Secure data in Android — Encryption](https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58)
-
-[How to pass large data between server and client (android) securely?](https://blog.mindorks.com/how-to-pass-large-data-between-server-and-client-android-securely-345fed551651)
-
 [Securing Network Data Tutorial for Android](https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android)
 
 [Bang! Bang! You have been hacked.](https://proandroiddev.com/bang-bang-you-have-been-hacked-df82db3f2001)
-
-[How to retrieve an Unique ID to identify Android devices ?](https://medium.com/@ssaurel/how-to-retrieve-an-unique-id-to-identify-android-devices-6f99fd5369eb)
 
 [Performing OAuth on Android with Custom Tabs](https://joebirch.co/2019/08/22/oauth-on-android-with-custom-tabs/)
 

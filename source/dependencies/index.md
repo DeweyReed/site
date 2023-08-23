@@ -72,10 +72,9 @@ i18n_dir: :en
 
     - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751)
     - [🟠 Proguard Rules (OkHttp 4.7.2)](https://github.com/square/okhttp/issues/6258)
-    - [Network Inspector traffic interception](https://developer.android.com/studio/releases#network-inspector)
     - AGP Upgrade Assistant 👍
-    - [New settings plugin](https://developer.android.com/build/releases/gradle-plugin#settings-plugin)
-    - [JDK 17 required to run AGP 8.0](https://developer.android.com/build/releases/gradle-plugin#jdk-17-agp)
+    - [New settings plugin](https://developer.android.com/build/releases/past-releases/agp-8-0-0-release-notes#settings-plugin)
+    - [JDK 17 required to run AGP 8.0](https://developer.android.com/build/releases/past-releases/agp-8-0-0-release-notes#jdk-17-agp)
 
   - 7.4.2: ❌ Broken
 
