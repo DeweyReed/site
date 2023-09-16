@@ -135,6 +135,8 @@ Updated: 2023.4.30
 
 ### Jetpack Compose
 
+[The Do’s and Don’ts of Jetpack Compose](https://blog.savvas.cloud/2023/09/07/the-dos-and-donts-of-jetpack-compose/)
+
 [Scoped recomposition in Jetpack Compose — what happens when state changes?](https://dev.to/zachklipp/scoped-recomposition-jetpack-compose-what-happens-when-state-changes-l78)
 
 [Parallax Effect with SensorManager using Jetpack Compose](https://proandroiddev.com/parallax-effect-with-sensormanager-using-jetpack-compose-a735a2f5811b)
