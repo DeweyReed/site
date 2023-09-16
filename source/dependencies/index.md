@@ -7,6 +7,7 @@ i18n_dir: :en
 
 ## Gradle
 
+- 8.2.1: ✔
 - 8.1.1: ✔
 
   - [Configuration cache stable](https://docs.gradle.org/8.1.1/userguide/configuration_cache.html)(requires Kotlin 1.8 and `sourceCompatibility`, etc.)
@@ -57,6 +58,7 @@ i18n_dir: :en
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.7.3: ✔
   - 1.7.1: ✔(Kotlin 1.8)
 
     - `TestCoroutineScheduler`, `runTest`, and `TestScope` API are promoted to stable
@@ -105,10 +107,11 @@ i18n_dir: :en
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.7.0: 🚧(Kotlin 1.8)
+  - 1.7.2: ✔(Kotlin 1.8, Compose 2023.06.01)
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.6.1: ✔
   - 1.5.6: ✔
   - 1.4.1: ✔(Android 12(31))
 
@@ -170,7 +173,7 @@ i18n_dir: :en
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.7.0: 🚧(Android 14(34))
+  - 2.7.1: 🚧(Android 14(34))
   - 2.5.3: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
@@ -202,6 +205,7 @@ i18n_dir: :en
 
 - [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
 
+  - 1.1.0-alpha06: ✔
   - 1.1.0-alpha03: ✔
 
 - androidx.swiperefreshlayout:swiperefreshlayout
@@ -220,17 +224,15 @@ i18n_dir: :en
 - [Compose BOM to library version mapping](https://developer.android.com/jetpack/compose/bom/bom-mapping)
 
   - 2023.08.00: 🚧(Android 14(34))
-  - 2023.04.00: 🚧(Kotlin 1.8)
-  - 2023.01.00: 🤷‍♂️
+  - 2023.06.01: ✔(Kotlin 1.8)
 
-- [Compose Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
+- [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
 
-  - 1.4.4: 🚧(Kotlin 1.8.10)
-  - 1.3.2: 🤷‍♂️
+  - 1.4.8: ✔（Kotlin 1.8.22) + 2023.06.01
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
-  - Versions afterward: 🤷‍♂️
+  - 1.9.0: ?
 
     Set the background color:
 
@@ -250,6 +252,7 @@ i18n_dir: :en
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.47: ✔
   - 2.46.1: ✔
   - 2.45: ✔
   - 2.44.2: ✔
@@ -271,7 +274,7 @@ i18n_dir: :en
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
-  - 6.0.0: ✔
+  - 6.0.1: ✔
   - 4.1.0: ✔
   - 3.0.2: ✔
 
@@ -334,9 +337,14 @@ i18n_dir: :en
   - 4.14.2: ✔(Android 13(33))
   - 4.13.2: ✔
   - 4.12.0: ✔
+  
+- [io.coil-kt](https://github.com/coil-kt/coil)
+
+  - 2.4.0: ✔
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
+  - 6.1.0: ✔
   - 6.0.1: ✔
 
     - Allow animations in zip files to contain embedded base64 encoded images
@@ -347,6 +355,7 @@ i18n_dir: :en
 
 - com.github.chuckerteam.chucker:library
 
+  - 4.0.0: ✔(Materail 1.9.0)
   - 3.5.2: ✔
 
 - com.evernote:android-job
@@ -379,7 +388,7 @@ i18n_dir: :en
   - 1.0.4: ✔(java.time)
   - 0.3.5: ✔(ThreeTenABP)
 
-- com.github.ben-manes:gradle-versions-plugin
+- [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
   - 0.47.0: ✔
 
@@ -413,7 +422,7 @@ i18n_dir: :en
 
 - com.umeng.umsdk:common
 
-  - 9.6.1: ✔
+  - 9.6.5: ✔
   - 9.5.2: ✔
   - 9.4.7: ✔
   - 9.4.5, 9.4.6: ❌ broken
@@ -448,6 +457,7 @@ i18n_dir: :en
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
+  - 15.8.16: ✔
   - 15.8.14: ✔
   - 15.8.11: ✔
 
