@@ -7,6 +7,12 @@ i18n_dir: :en
 
 ## Gradle
 
+```Script
+gradle wrapper --gradle-version latest
+```
+
+> Note, you need to run this command twice to upgrade both Gradle and the Gradle Wrapper itself
+
 - 8.2.1: ✔
 - 8.1.1: ✔
 
@@ -69,6 +75,14 @@ i18n_dir: :en
 ## Google
 
 - com.android.tools.build:gradle(& Android Studio)
+
+  - 8.1.1: 🚧
+
+    - [Kotlin DSL is the default for build configuration](https://developer.android.com/build/releases/gradle-plugin#kotlin-dsl)
+
+      [Migrate your build configuration from Groovy to Kotlin](https://developer.android.com/build/migrate-to-kotlin-dsl)
+
+    - [Automatic per-app language support](https://developer.android.com/build/releases/gradle-plugin#automatic-per-app-languages)
 
   - 8.0.2: ✔
 
