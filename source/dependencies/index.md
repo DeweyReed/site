@@ -204,7 +204,7 @@ gradle wrapper --gradle-version latest
 
 - [androidx.preference:preference](https://developer.android.com/jetpack/androidx/releases/preference)
 
-  - 1.2.0: ✔
+  - 1.2.1: ✔
   - 1.1.1: ✔
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
@@ -347,6 +347,7 @@ gradle wrapper --gradle-version latest
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
+  - 4.16.0: ✔
   - 4.15.1: ✔
   - 4.14.2: ✔(Android 13(33))
   - 4.13.2: ✔
