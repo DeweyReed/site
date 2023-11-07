@@ -359,7 +359,7 @@ gradle wrapper --gradle-version latest
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
-  - 6.1.0: ✔
+  - 6.1.0: ❌ ImageAssetManager NPE
   - 6.0.1: ✔
 
     - Allow animations in zip files to contain embedded base64 encoded images
