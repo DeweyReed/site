@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2023.4.30
+Updated: 2023.10.30
 
 # Android
 
@@ -134,6 +134,8 @@ Updated: 2023.4.30
 [Android: Why your Canvas shapes aren’t smooth](https://medium.com/@ali.muzaffar/android-why-your-canvas-shapes-arent-smooth-aa2a3f450eb5)
 
 ### Jetpack Compose
+
+[Gestures in Jetpack Compose](https://www.youtube.com/watch?v=1tkVjBxdGrk)
 
 [The Do’s and Don’ts of Jetpack Compose](https://blog.savvas.cloud/2023/09/07/the-dos-and-donts-of-jetpack-compose/)
 
@@ -370,6 +372,8 @@ Updated: 2023.4.30
 [The Ins and Outs of Generic Variance in Kotlin](https://typealias.com/guides/ins-and-outs-of-generic-variance/)
 
 #### Coroutines
+
+[How I Fell in Kotlin’s RunBlocking Deadlock Trap, and How You Can Avoid It](https://betterprogramming.pub/how-i-fell-in-kotlins-runblocking-deadlock-trap-and-how-you-can-avoid-it-db9e7c4909f1)
 
 [KotlinConf 2017 - Deep Dive into Coroutines on JVM by Roman Elizarov](https://www.youtube.com/watch?v=YrrUCSi72E8)
 
