@@ -38,6 +38,12 @@ gradle wrapper --gradle-version latest
 
 - org.jetbrains.kotlin:kotlin
 
+  - 1.9.22: 🚧
+
+    - `Enum.values()` -> `Enum.entries`
+    - `data object EndOfFile : ReadResult`
+    - `..<`
+
   - 1.8.22: ✔
   
     - kotlin-stdlib-jdk7 and kotlin-stdlib-jdk8 -> kotlin-stdlib
@@ -345,6 +351,7 @@ gradle wrapper --gradle-version latest
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.6.0: 🚧(Kotlin 1.9)
   - 3.3.0: ✔(Kotlin 1.8)
   - 3.2.0: ✔
   - 2.10.0: ✔
