@@ -76,7 +76,7 @@ gradle wrapper --gradle-version latest
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 8.1.1: 🚧
+  - 8.1.4: 🚧
 
     - [Kotlin DSL is the default for build configuration](https://developer.android.com/build/releases/gradle-plugin#kotlin-dsl)
 
@@ -121,6 +121,10 @@ gradle wrapper --gradle-version latest
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
+  - 1.8.1: 🚧
+
+    - `ComponentActivity.enableEdgeToEdge()` has been added to easily set up the edge-to-edge display in a backward-compatible manner.
+
   - 1.7.2: ✔(Kotlin 1.8, Compose 2023.06.01)
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
@@ -135,6 +139,7 @@ gradle wrapper --gradle-version latest
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.6.2: 🚧
   - 2.6.1: ✔(Kotlin 1.8)
 
     - `LiveData.isInitialized`
@@ -150,6 +155,11 @@ gradle wrapper --gradle-version latest
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.12.0: 🚧(Android 14)
+
+    - New `LocalePreferences` APIs to help developers to easily access locale data or user's locale preferences.
+    - Added `LinkMovementMethodCompat` that fixes link touch handling
+
   - 1.10.1: ✔(Kotlin 1.8)
 
     - Adds compatibility methods for new APIs introduced in Android 13 for Parcels, Bundles, and Intents.
@@ -160,6 +170,10 @@ gradle wrapper --gradle-version latest
   - 1.6.0: ✔
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
+
+  - 1.3.0: 🚧
+
+    - You can safely drop any dependencies on `collection:collection-ktx` in favor of `collection:collection` as `collection-ktx` is now empty.
 
   - 1.2.0: ✔
 
@@ -187,7 +201,7 @@ gradle wrapper --gradle-version latest
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.7.1: 🚧(Android 14(34))
+  - 2.7.5: 🚧(Android 14(34))
   - 2.5.3: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
@@ -355,6 +369,7 @@ gradle wrapper --gradle-version latest
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
+  - 2.5.0: 🚧(Kotlin 1.9, Android 14(34))
   - 2.4.0: ✔
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
