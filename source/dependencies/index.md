@@ -135,6 +135,7 @@ gradle wrapper --gradle-version latest
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.6.2: 🚧
   - 1.6.1: ✔
   - 1.5.6: ✔
   - 1.4.1: ✔(Android 12(31))
@@ -180,6 +181,7 @@ gradle wrapper --gradle-version latest
   - 1.3.0: 🚧
 
     - You can safely drop any dependencies on `collection:collection-ktx` in favor of `collection:collection` as `collection-ktx` is now empty.
+    - ❗ `ArrayMap.isEmpty` -> `ArrayMap.isEmpty()`(Flamingo)
 
   - 1.2.0: ✔
 
