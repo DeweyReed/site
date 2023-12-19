@@ -137,6 +137,8 @@ Updated: 2023.10.30
 
 [Gestures in Jetpack Compose](https://www.youtube.com/watch?v=1tkVjBxdGrk)
 
+[Gestures in Jetpack compose — All you need to know](https://medium.com/canopas/gestures-in-jetpack-compose-all-you-need-to-know-part-2-61da0c2bab6f)
+
 [The Do’s and Don’ts of Jetpack Compose](https://blog.savvas.cloud/2023/09/07/the-dos-and-donts-of-jetpack-compose/)
 
 [Scoped recomposition in Jetpack Compose — what happens when state changes?](https://dev.to/zachklipp/scoped-recomposition-jetpack-compose-what-happens-when-state-changes-l78)
