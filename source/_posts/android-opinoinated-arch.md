@@ -5,7 +5,7 @@ date: 2021/4/18
 categories: Android
 ---
 
-根据几年来的开发经验和阅读过的代码，总结出了个人觉得还算稳定可持续的Android应用架构。它以MVVM为基础，融合了Clean Architecture，参考了[iosched](https://github.com/google/iosched)，尽可能地照顾到测试和扩展。
+根据几年来的开发经验和阅读过的代码，总结出了个人觉得还算稳定可持续的Android应用架构。它以MVVM为基础，融合了Clean Architecture，参考了[iosched](https://github.com/google/iosched)（新的[nowinandroid](https://github.com/android/nowinandroid)大同小异），尽可能地照顾到测试和扩展。
 
 不定期更新新的想法。
 
@@ -193,3 +193,7 @@ compileOnly ... // Dagger可能会抱怨找不到data中使用的一些类，所
 - app
 
   根据flavor依赖不同的app-xxx和其对应的data-xxx。
+
+### 2023年12月19日
+
+最近看了[nowinandroid](https://github.com/android/nowinandroid)。从架构上来讲，并没有什么新增的地方。但我发现整个项目比较零碎，并没有之前iosched的浑然一体的感觉。大量的实验API和不少TODO都让这个项目变得对新人不是很友好。
