@@ -30,9 +30,6 @@ gradle wrapper --gradle-version latest
 
 - 8.0.2: ✔
 - 7.5.1: ✔
-- 7.4.2: ✔
-- 7.3.3: ✔
-- 7.1.1: ✔
 
 ## Kotlin
 
@@ -187,6 +184,7 @@ gradle wrapper --gradle-version latest
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
+  - 2.0.4: 🚧
   - 2.0.3: ✔(AGP 7.4)
   - 1.2.2: ✔(AGP 7.3, Android 13(33))
   - 1.1.5: ✔
@@ -288,6 +286,7 @@ gradle wrapper --gradle-version latest
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.50: 🚧
   - 2.47: ✔
   - 2.46.1: ✔
   - 2.45: ✔
@@ -429,6 +428,7 @@ gradle wrapper --gradle-version latest
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.50.0: 🚧
   - 0.47.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
@@ -446,6 +446,7 @@ gradle wrapper --gradle-version latest
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
+  - 1.2.28: 🚧
   - 1.2.25: ✔
 
 ## Chinese
