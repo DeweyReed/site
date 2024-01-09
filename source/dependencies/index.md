@@ -8,7 +8,7 @@ i18n_dir: :en
 ## Gradle
 
 ```Script
-gradle wrapper --gradle-version latest
+gradle wrapper --gradle-version 8.2.1
 ```
 
 > Note, you need to run this command twice to upgrade both Gradle and the Gradle Wrapper itself
@@ -81,11 +81,20 @@ gradle wrapper --gradle-version latest
 
   - 8.1.4: 🚧
 
-    - [Kotlin DSL is the default for build configuration](https://developer.android.com/build/releases/gradle-plugin#kotlin-dsl)
+    - ❗ Upgrade all dependencies to the latest first
+    - 🤔 Proguard removes empty constructors?
+
+      ```Text
+      -keepclassmembers class foo.bar.Class {
+          public <init>();
+      }
+      ```
+
+    - [Kotlin DSL is the default for build configuration](https://developer.android.com/build/releases/past-releases/agp-8-1-0-release-notes#kotlin-dsl)
 
       [Migrate your build configuration from Groovy to Kotlin](https://developer.android.com/build/migrate-to-kotlin-dsl)
 
-    - [Automatic per-app language support](https://developer.android.com/build/releases/gradle-plugin#automatic-per-app-languages)
+    - [Automatic per-app language support](https://developer.android.com/build/releases/past-releases/agp-8-1-0-release-notes#automatic-per-app-languages)
 
   - 8.0.2: ✔
 
