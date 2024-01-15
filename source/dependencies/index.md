@@ -152,6 +152,13 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.7.0: 🚧(Android 14(34))
+
+    - if the `LiveData` has a value set, the `map`/`switchMap` function will be immediately called to populate the `value` of the returned `LiveData`.
+    - arrays of custom Parcelables require additional work
+    - The proguard keep rules associated with `LifecycleObserver` have been removed.
+    - Jetpack Compose users can now use `LifecycleEventEffect` to run Compose side effects based on `Lifecycle.Event`
+
   - 2.6.2: 🚧
   - 2.6.1: ✔(Kotlin 1.8)
 
@@ -168,10 +175,11 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.12.0: 🚧(Android 14)
+  - 1.12.0: 🚧(Android 14(34))
 
     - New `LocalePreferences` APIs to help developers to easily access locale data or user's locale preferences.
     - Added `LinkMovementMethodCompat` that fixes link touch handling
+    - Added a `SoftwareKeyboardControllerCompat` to provide direct methods to show and hide the software keyboard given a View.
 
   - 1.10.1: ✔(Kotlin 1.8)
 
@@ -187,7 +195,7 @@ gradle wrapper --gradle-version 8.2.1
   - 1.3.0: 🚧
 
     - You can safely drop any dependencies on `collection:collection-ktx` in favor of `collection:collection` as `collection-ktx` is now empty.
-    - ❗ `ArrayMap.isEmpty` -> `ArrayMap.isEmpty()`(Flamingo)
+    - ❗ `ArrayMap.isEmpty` -> `ArrayMap.isEmpty()`
 
   - 1.2.0: ✔
 
@@ -208,6 +216,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
+  - 1.3.2, 1.3.2: ❌ Depending on other beta libraries
   - 1.3.0: ✔
 
     - `ConcatAdapter.getWrappedAdapterAndPosition`
@@ -216,13 +225,14 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.7.5: 🚧(Android 14(34))
+  - 2.7.6: 🚧(Android 14(34))
   - 2.5.3: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.6.1: 🚧(Android 14(34))
   - 2.5.2: ✔
   - 2.4.3: ✔(Kotlin 1.7)
   - 2.4.1: ✔(Android 12(31))
@@ -237,6 +247,11 @@ gradle wrapper --gradle-version 8.2.1
   - 1.1.1: ✔
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
+
+  - 2.9.0: 🚧(Android 14(34))
+
+    - `work-runtime-ktx` is now empty.
+    - `override val workManagerConfiguration: androidx.work.Configuration`
 
   - 2.8.1: ✔(Kotlin 1.7.21)
   - 2.7.1: ✔(Android 12(31))
@@ -295,7 +310,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.50: 🚧
+  - 2.50: 🚧(Hilt Kotlin 1.9)
   - 2.47: ✔
   - 2.46.1: ✔
   - 2.45: ✔
@@ -306,14 +321,17 @@ gradle wrapper --gradle-version 8.2.1
 
 - androidx.hilt:hilt-navigation-fragment
 
+  - 1.1.0: 🚧(Android 1.9)
   - 1.0.0: ✔
 
 - androidx.hilt:hilt-work
 
+  - 1.1.0: 🚧(Android 1.9)
   - 1.0.0: ✔
 
 - androidx.hilt:hilt-compiler
 
+  - 1.1.0: 🚧(Android 1.9)
   - 1.0.0: ✔
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
@@ -361,13 +379,14 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.6.0: 🚧(Kotlin 1.9)
+  - 3.7.0: 🚧(Kotlin 1.9)
   - 3.3.0: ✔(Kotlin 1.8)
   - 3.2.0: ✔
   - 2.10.0: ✔
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
+  - 2.13: 🚧
   - 2.12: ✔
   - 2.10(Android 13(33)): ✔
   - 2.9.1: ✔
