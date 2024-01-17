@@ -75,6 +75,10 @@ gradle wrapper --gradle-version 8.2.1
   - 1.6.4: ✔
   - 1.5.2: ✔
 
+- [org.jetbrains.kotlinx:kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/blob/master/CHANGELOG.md)
+
+  - 0.3.5: ✔
+
 ## Google
 
 - com.android.tools.build:gradle(& Android Studio)
@@ -159,7 +163,7 @@ gradle wrapper --gradle-version 8.2.1
     - The proguard keep rules associated with `LifecycleObserver` have been removed.
     - Jetpack Compose users can now use `LifecycleEventEffect` to run Compose side effects based on `Lifecycle.Event`
 
-  - 2.6.2: 🚧
+  - 2.6.2: ✔
   - 2.6.1: ✔(Kotlin 1.8)
 
     - `LiveData.isInitialized`
@@ -192,7 +196,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - 1.3.0: 🚧
+  - 1.3.0: ✔
 
     - You can safely drop any dependencies on `collection:collection-ktx` in favor of `collection:collection` as `collection-ktx` is now empty.
     - ❗ `ArrayMap.isEmpty` -> `ArrayMap.isEmpty()`
@@ -201,7 +205,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
-  - 2.0.4: 🚧
+  - 2.0.4: ✔
   - 2.0.3: ✔(AGP 7.4)
   - 1.2.2: ✔(AGP 7.3, Android 13(33))
   - 1.1.5: ✔
@@ -213,6 +217,10 @@ gradle wrapper --gradle-version 8.2.1
   - 2.1.4: ✔
 
     - > Gone<->Visible components are now animated as expected
+
+- androidx.constraintlayout:constraintlayout-compose
+
+  - 1.0.1: ✔
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
@@ -310,7 +318,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.50: 🚧(Hilt Kotlin 1.9)
+  - 2.50: ✔(Hilt Kotlin 1.9)
   - 2.47: ✔
   - 2.46.1: ✔
   - 2.45: ✔
@@ -355,7 +363,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.squareup.okhttp3:okhttp
 
-  - 4.11.0: ✔ [okhttp 4.11 Changelog](https://github.com/square/okhttp/issues/7849)
+  - 4.11.0: ✔
   - 4.10.0: ✔
   - 4.9.3: ✔
 
@@ -456,8 +464,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.50.0: 🚧
-  - 0.47.0: ✔
+  - 0.50.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
@@ -474,7 +481,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
-  - 1.2.28: 🚧
+  - 1.2.28: ✔
   - 1.2.25: ✔
 
 ## Chinese
