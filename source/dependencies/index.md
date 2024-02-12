@@ -287,14 +287,10 @@ gradle wrapper --gradle-version 8.2.1
   - 1.1.0: ✔
   - 1.0.0: ✔
 
-- [Compose BOM to library version mapping](https://developer.android.com/jetpack/compose/bom/bom-mapping)
+- Jetpack Compose
 
-  - 2023.08.00: 🚧(Android 14(34))
-  - 2023.06.01: ✔(Kotlin 1.8)
-
-- [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
-
-  - 1.4.8: ✔（Kotlin 1.8.22) + 2023.06.01
+  - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
+  - 2023.06.01: ✔(Compose UI 1.4 + Kotlin 1.8.22 + Compose Compiler Plugin 1.4.8 + accompanist 0.30.1)
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
