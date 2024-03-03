@@ -9,6 +9,24 @@ categories: Gaming
 
 <!--more-->
 
+## 女神异闻录5皇家版
+
+由于全收集需要二周目，且任何攻略都不可避免地大量剧透，所以建议一周目不看攻略愉快体验，然后二周目再来全收集。
+
+游戏会在关键剧情点提示保存，此外全收集需要把所有结局都触发一遍，因此经常保存就无需担心触发坏结局。
+
+**以下都有剧透**
+
+- [完美日历](https://psnprofiles.com/guide/11946-persona-5-royal-100-perfect-schedule)
+- [最强防具&武器获取方式](https://steamcommunity.com/sharedfiles/filedetails/?id=2906403308)
+- <details>
+    <summary>二周目易错过要素</summary>
+    - 留一个顾问官COOP最高到8的存档来触发原版结局。最后期限是11月19日，所以存档离这个日期越近，重复游玩的时间就会越短。
+    </details>
+- [COOP对话选项](https://www.a9vg.com/article/68354)
+- [⌈P5R⌋怪盗团全服装站桩展示](https://www.bilibili.com/video/BV1354y1K7Gi/)
+- [【攻略】説明しよう！ 佐倉惣治郎的盧布朗咖哩小知識](https://forum.gamer.com.tw/C.php?bsn=583&snA=7250)
+
 ## 火焰之纹章: Engage
 
 易错过要素
