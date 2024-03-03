@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2023.10.30
+Updated: 2024.2.19
 
 # Android
 
@@ -146,6 +146,8 @@ Updated: 2023.10.30
 [Parallax Effect with SensorManager using Jetpack Compose](https://proandroiddev.com/parallax-effect-with-sensormanager-using-jetpack-compose-a735a2f5811b)
 
 [Ticker Board in Jetpack Compose](https://www.francescvilarino.com/ticker-board-in-jetpack-compose)
+
+[Neumorphism in Jetpack Compose](https://www.sinasamaki.com/neumorphism-in-jetpack-compose/)
 
 ### Background Execution
 

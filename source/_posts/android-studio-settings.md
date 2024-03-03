@@ -24,6 +24,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Build`: Alt + 5
   - `Show Local Changes`: Alt + 2
   - `Maximize/Restore Active Dialog`: Ctrl + Alt + Shift + M
+  - `Compare with Clipboard`: Ctrl + Alt + Shift + C
 - `Editor`
   - `General` - `On Save` - Enable `Ensure every saved file ends with a line break`
     - `Auto Import`: Enable 2 `Add unambiguous imports on the fly`
