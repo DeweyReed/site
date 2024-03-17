@@ -35,7 +35,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - org.jetbrains.kotlin:kotlin
 
-  - 1.9.22: 🚧
+  - 1.9.23: 🚧
 
     - `Enum.values()` -> `Enum.entries`
     - `data object EndOfFile : ReadResult`
@@ -67,6 +67,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.8.0: 🚧(Kotlin 1.9)
   - 1.7.3: ✔
   - 1.7.1: ✔(Kotlin 1.8)
 
@@ -83,7 +84,10 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 8.1.4: 🚧
+  - 8.2.2(Android Studio Hedgehog | 2023.1.1): 🚧
+    - [Live Edit updated manual mode shortcut](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#live-edit-manual-mode)(`Control`+`\`)
+    - [SDK Upgrade Assistant updates](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#sdk-upgrade-assistant)
+  - 8.1.4(Giraffe): 🚧
 
     - ❗ Upgrade all dependencies to the latest first
     - 🤔 Proguard removes empty constructors?
@@ -233,7 +237,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.7.6: 🚧(Android 14(34))
+  - 2.7.7: 🚧(Android 14(34))
   - 2.5.3: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
@@ -314,6 +318,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.51: 🚧
   - 2.50: ✔(Hilt Kotlin 1.9)
   - 2.47: ✔
   - 2.46.1: ✔
@@ -325,21 +330,22 @@ gradle wrapper --gradle-version 8.2.1
 
 - androidx.hilt:hilt-navigation-fragment
 
-  - 1.1.0: 🚧(Android 1.9)
+  - 1.2.0: 🚧(Android 1.9)
   - 1.0.0: ✔
 
 - androidx.hilt:hilt-work
 
-  - 1.1.0: 🚧(Android 1.9)
+  - 1.2.0: 🚧(Android 1.9)
   - 1.0.0: ✔
 
 - androidx.hilt:hilt-compiler
 
-  - 1.1.0: 🚧(Android 1.9)
+  - 1.2.0: 🚧(Android 1.9)
   - 1.0.0: ✔
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
+  - 6.2.0: 🚧
   - 6.0.1: ✔
   - 4.1.0: ✔
   - 3.0.2: ✔
@@ -369,6 +375,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
+  - 1.15.1: 🚧(Kotlin 1.9)
   - 1.15.0: ✔(Kotlin 1.8)
   - 1.14.0: ✔(Kotlin 1.7, Android 13(33))
 
@@ -383,7 +390,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.7.0: 🚧(Kotlin 1.9)
+  - 3.9.0: 🚧(Kotlin 1.9)
   - 3.3.0: ✔(Kotlin 1.8)
   - 3.2.0: ✔
   - 2.10.0: ✔
