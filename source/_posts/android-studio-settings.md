@@ -9,9 +9,10 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 
 <!--more-->
 
+- Reorder window layouts and `Store Current Layout as Default`
 - `Appearance & Behavior`
   - `Appearance`
-    - `Theme`: `Darcula`
+    - `Theme`: `Darcula`/`Dark`
     - `UI Options` - Disable `Smooth scrolling`
   - `System Settings`
     - `HTTP Proxy`
@@ -37,7 +38,6 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Smart Keys`: Enable `Use "CamelHumps" Words`
   - `Font` - `Font`: `Consolas`; `Size`: `22.0`
   - `Code Style` - `Kotlin`: Set from `Kotlin style guide`
-  - `Live Template`: Import from settings zip
   - `Design Tools`: `Split`, `Split`, `Code`, `Code`
   - `Inlay Hints`: Disable `Code Vision`
   - Disable `Reader Mode`
@@ -46,11 +46,13 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Archive Browser`
   - [Optinal] `GLSL Support`
   - `JsonToKotlinClass`
-  - `Kotlin Multiplatform Mobile`
+  - [Optinal] `Kotlin Multiplatform Mobile`
   - `Nyan Progress Bar`
   - `String Manipulation`
   - [Optinal] `Wavefront OBJ`
-- `Version Control` - `Commit` - `Before Commit`: Enable all
+- `Version Control` - `Commit`
+  - Disable `Use non-modal commit interface`
+  - `Before Commit`: Enable all
 - `Build, Execution, Deployment` - `Deployment`: Enable all
 - `Tools`
   - `External Tools`
@@ -59,3 +61,5 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - `Argument`: `-i $FileName$`
       - `Working directory`: `$FileDir$`
   - `Emulator`: Disable `Launch in the Running Devices tool window`
+- `Editor`
+  - `Live Template`: Import from settings zip
