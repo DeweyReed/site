@@ -10,6 +10,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 <!--more-->
 
 - Reorder window layouts and `Store Current Layout as Default`
+- Clean `Gutter Icons` manually
 - `Appearance & Behavior`
   - `Appearance`
     - `Theme`: `Darcula`/`Dark`
@@ -34,9 +35,10 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - Disable `Show line numbers`
       - Enable `Show method separators`
       - Disable `Render documentation comments`
-    - Clean `Gutter Icons` manually
+    - `Console` - `Default Encoding`: `UTF-8`
     - `Smart Keys`: Enable `Use "CamelHumps" Words`
   - `Font` - `Font`: `Consolas`; `Size`: `22.0`
+  - `Color Scheme` - `Console Font` - `Size`: `18`; `Line height`: `1.0`
   - `Code Style` - `Kotlin`: Set from `Kotlin style guide`
   - `Design Tools`: `Split`, `Split`, `Code`, `Code`
   - `Inlay Hints`: Disable `Code Vision`
