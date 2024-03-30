@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2024.2.19
+Updated: 2024.3.18
 
 # Android
 
@@ -376,6 +376,8 @@ Updated: 2024.2.19
 [The Ins and Outs of Generic Variance in Kotlin](https://typealias.com/guides/ins-and-outs-of-generic-variance/)
 
 #### Coroutines
+
+[Seven recipes to understand flows and asynchrony in Kotlin](https://proandroiddev.com/seven-recipes-to-understand-flows-and-asynchrony-in-kotlin-1bd7fe041480)
 
 [How I Fell in Kotlin’s RunBlocking Deadlock Trap, and How You Can Avoid It](https://betterprogramming.pub/how-i-fell-in-kotlins-runblocking-deadlock-trap-and-how-you-can-avoid-it-db9e7c4909f1)
 
