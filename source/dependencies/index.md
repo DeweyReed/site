@@ -87,7 +87,7 @@ gradle wrapper --gradle-version 8.2.1
   - 8.2.2(Android Studio Hedgehog | 2023.1.1): 🚧
     - [Live Edit updated manual mode shortcut](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#live-edit-manual-mode)(`Control`+`\`)
     - [SDK Upgrade Assistant updates](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#sdk-upgrade-assistant)
-  - 8.1.4(Giraffe): 🚧
+  - 8.1.4(Giraffe): Skipped
 
     - ❗ Upgrade all dependencies to the latest first
     - 🤔 Proguard removes empty constructors?
@@ -365,6 +365,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.squareup.okhttp3:okhttp
 
+  - 4.12.0: 🚧(Kotlin 1.9)
   - 4.11.0: ✔
   - 4.10.0: ✔
   - 4.9.3: ✔
@@ -491,6 +492,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.tencent.bugly:crashreport](https://bugly.qq.com/docs/release-notes/release-android-bugly/)
 
+  - 4.1.9.3: 🚧
   - 4.1.9.2: ✔
   - 4.0.4: ✔
 
@@ -500,6 +502,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:common
 
+  - 9.6.7: 🚧
   - 9.6.5: ✔
   - 9.5.2: ✔
   - 9.4.7: ✔
@@ -514,6 +517,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:share
 
+  - 7.3.3: 🚧
   - 7.3.2: ✔
   - 7.2.0: ✔
   - 7.1.7: ✔
@@ -535,8 +539,9 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
+  - 15.8.17: 🚧
   - 15.8.16: ✔
   - 15.8.14: ✔
   - 15.8.11: ✔
 
-- [Q](https://wiki.connect.qq.com/sdk%E4%B8%8B%E8%BD%BD)[Q](https://wikinew.open.qq.com/#/iwiki/864512506)、穿山甲需要手动添加
+- [QQ](https://wiki.connect.qq.com/sdk%E4%B8%8B%E8%BD%BD)、穿山甲需要手动添加
