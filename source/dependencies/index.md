@@ -11,6 +11,8 @@ i18n_dir: :en
 gradle wrapper --gradle-version 8.2.1
 ```
 
+**Disable Reformat Code before committing**
+
 > Note, you need to run this command twice to upgrade both Gradle and the Gradle Wrapper itself
 
 - 8.2.1: ✔

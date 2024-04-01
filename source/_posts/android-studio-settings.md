@@ -38,7 +38,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Console` - `Default Encoding`: `UTF-8`
     - `Smart Keys`: Enable `Use "CamelHumps" Words`
   - `Font` - `Font`: `Consolas`; `Size`: `22.0`
-  - `Color Scheme` - `Console Font` - `Size`: `18`; `Line height`: `1.0`
+  - `Color Scheme` - `Console Font` - `Size`: `16`; `Line height`: `0.8`
   - `Code Style` - `Kotlin`: Set from `Kotlin style guide`
   - `Design Tools`: `Split`, `Split`, `Code`, `Code`
   - `Inlay Hints`: Disable `Code Vision`
@@ -46,11 +46,11 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Plugins`
   - `ADB Idea`
   - `Archive Browser`
-  - [Optinal] `GLSL Support`
-  - `JsonToKotlinClass`
-  - [Optinal] `Kotlin Multiplatform Mobile`
+  - `JsonToKotlinClass` + Configure manually
   - `Nyan Progress Bar`
   - `String Manipulation`
+  - [Optinal] `Kotlin Multiplatform Mobile`
+  - [Optinal] `GLSL Support`
   - [Optinal] `Wavefront OBJ`
 - `Version Control` - `Commit`
   - Disable `Use non-modal commit interface`
