@@ -39,7 +39,15 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Smart Keys`: Enable `Use "CamelHumps" Words`
   - `Font` - `Font`: `Consolas`; `Size`: `22.0`
   - `Color Scheme` - `Console Font` - `Size`: `16`; `Line height`: `0.8`
-  - `Code Style` - `Kotlin`: Set from `Kotlin style guide`
+  - `Code Style`
+    - `Formatter`: Disable `Reformat again to remove custom line breaks`
+    - `Kotlin`
+      - Set from `Kotlin style guide`
+      - `Tabs and Indents` - `Continuation Indent`: 4
+      - `Wrapping and Braces`: Disable `New line after multiline entry`
+      - `Code Generation`
+        - Disable `Line comment at first column`
+        - Enable `Add a space at line comment start` and `Enforce on reformat`
   - `Design Tools`: `Split`, `Split`, `Code`, `Code`
   - `Inlay Hints`: Disable `Code Vision`
   - Disable `Reader Mode`
@@ -65,3 +73,5 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Emulator`: Disable `Launch in the Running Devices tool window`
 - `Editor`
   - `Live Template`: Import from settings zip
+- `Ctrl` + `Shift` + `Alt` + `L`
+  - Enable all options
