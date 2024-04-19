@@ -86,7 +86,8 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 8.2.2(Android Studio Hedgehog | 2023.1.1): 🚧
+  - 8.2.2(Android Studio Hedgehog | 2023.1.1): ✔
+    - [❗ How I fix NOTHING TO SHOW in my vector asset in android studio](https://stackoverflow.com/questions/64382564/how-i-fix-nothing-to-show-in-my-vector-asset-in-android-studio)
     - [Live Edit updated manual mode shortcut](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#live-edit-manual-mode)(`Control`+`\`)
     - [SDK Upgrade Assistant updates](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#sdk-upgrade-assistant)
   - 8.1.4(Giraffe): Skipped
@@ -95,8 +96,8 @@ gradle wrapper --gradle-version 8.2.1
     - 🤔 Proguard removes empty constructors?
 
       ```Text
-      -keepclassmembers class foo.bar.Class {
-          public <init>();
+      -keepclassmembers class * extends foo.bar.Class {
+          <init>();
       }
       ```
 
@@ -104,14 +105,11 @@ gradle wrapper --gradle-version 8.2.1
 
       [Migrate your build configuration from Groovy to Kotlin](https://developer.android.com/build/migrate-to-kotlin-dsl)
 
-    - [Automatic per-app language support](https://developer.android.com/build/releases/past-releases/agp-8-1-0-release-notes#automatic-per-app-languages)
-
   - 8.0.2: ✔
 
     - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751)
     - [🟠 Proguard Rules (OkHttp 4.7.2)](https://github.com/square/okhttp/issues/6258)
     - AGP Upgrade Assistant 👍
-    - [New settings plugin](https://developer.android.com/build/releases/past-releases/agp-8-0-0-release-notes#settings-plugin)
     - [JDK 17 required to run AGP 8.0](https://developer.android.com/build/releases/past-releases/agp-8-0-0-release-notes#jdk-17-agp)
 
   - 7.4.2: ❌ Broken
@@ -230,7 +228,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
-  - 1.3.2, 1.3.2: ❌ Depending on other beta libraries
+  - 1.3.2: ❌ Depending on other beta libraries
   - 1.3.0: ✔
 
     - `ConcatAdapter.getWrappedAdapterAndPosition`
