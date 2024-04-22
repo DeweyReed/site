@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android 13升级笔记
+title: Android 14升级笔记
 date: 2024/4/22
 categories: Android
 ---
