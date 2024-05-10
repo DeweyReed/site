@@ -37,7 +37,8 @@ gradle wrapper --gradle-version 8.2.1
 
 - org.jetbrains.kotlin:kotlin
 
-  - 1.9.23: 🚧
+  - 1.9.24: 🚧
+  - 1.9.23: ✔
 
     - `Enum.values()` -> `Enum.entries`
     - `data object EndOfFile : ReadResult`
@@ -69,7 +70,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
-  - 1.8.0: 🚧(Kotlin 1.9)
+  - 1.8.0: ✔(Kotlin 1.9)
   - 1.7.3: ✔
   - 1.7.1: ✔(Kotlin 1.8)
 
@@ -141,6 +142,12 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
+  - 1.9.0: 🚧
+
+    - `OnUserLeaveHintProvider`
+    - APIs now warn when calling `onBackPressedDispatcher.onBackPressed()`
+    - `activity-ktx` is now completely empty.
+
   - 1.8.1: 🚧
 
     - `ComponentActivity.enableEdgeToEdge()` has been added to easily set up the edge-to-edge display in a backward-compatible manner.
@@ -149,7 +156,11 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.6.2: 🚧
+  - 1.7.0: 🚧
+
+    - `fragment-compose`: a `content` extension method on `Fragment`
+
+  - 1.6.2: ✔
   - 1.6.1: ✔
   - 1.5.6: ✔
   - 1.4.1: ✔(Android 12(31))
@@ -160,12 +171,9 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.7.0: 🚧(Android 14(34))
+  - 2.7.0: ✔(Android 14(34))
 
-    - if the `LiveData` has a value set, the `map`/`switchMap` function will be immediately called to populate the `value` of the returned `LiveData`.
-    - arrays of custom Parcelables require additional work
-    - The proguard keep rules associated with `LifecycleObserver` have been removed.
-    - Jetpack Compose users can now use `LifecycleEventEffect` to run Compose side effects based on `Lifecycle.Event`
+    - Read Important changes since 2.6.0
 
   - 2.6.2: ✔
   - 2.6.1: ✔(Kotlin 1.8)
@@ -183,7 +191,8 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.12.0: 🚧(Android 14(34))
+  - 1.13.1: 🚧
+  - 1.12.0: ✔(Android 14(34))
 
     - New `LocalePreferences` APIs to help developers to easily access locale data or user's locale preferences.
     - Added `LinkMovementMethodCompat` that fixes link touch handling
@@ -237,14 +246,14 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.7.7: 🚧(Android 14(34))
+  - 2.7.7: ✔(Android 14(34))
   - 2.5.3: ✔
   - 2.4.2: ✔
   - 2.3.5: ✔
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.6.1: 🚧(Android 14(34))
+  - 2.6.1: ✔(Android 14(34))
   - 2.5.2: ✔
   - 2.4.3: ✔(Kotlin 1.7)
   - 2.4.1: ✔(Android 12(31))
@@ -260,7 +269,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - 2.9.0: 🚧(Android 14(34))
+  - 2.9.0: ✔(Android 14(34))
 
     - `work-runtime-ktx` is now empty.
     - `override val workManagerConfiguration: androidx.work.Configuration`
@@ -318,7 +327,8 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.51: 🚧
+  - 2.51.1: 🚧
+  - 2.51: ✔
   - 2.50: ✔(Hilt Kotlin 1.9)
   - 2.47: ✔
   - 2.46.1: ✔
@@ -330,22 +340,23 @@ gradle wrapper --gradle-version 8.2.1
 
 - androidx.hilt:hilt-navigation-fragment
 
-  - 1.2.0: 🚧(Android 1.9)
+  - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
 
 - androidx.hilt:hilt-work
 
-  - 1.2.0: 🚧(Android 1.9)
+  - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
 
 - androidx.hilt:hilt-compiler
 
-  - 1.2.0: 🚧(Android 1.9)
+  - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
-  - 6.2.0: 🚧
+  - 6.2.1: 🚧
+  - 6.2.0: ✔
   - 6.0.1: ✔
   - 4.1.0: ✔
   - 3.0.2: ✔
@@ -357,6 +368,11 @@ gradle wrapper --gradle-version 8.2.1
   - 20.6.0: ✔
 
 - [com.google.android.gms:play-services-auth](https://developers.google.com/android/guides/releases)
+
+  - 21.1.1: 🚧
+  - 21.0.0: ❗
+
+    - Removed Credentials API. Replaced by Credential Manager.
 
   - 20.6.0: ✔
   - 20.2.0: ✔
@@ -376,7 +392,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
-  - 1.15.1: 🚧(Kotlin 1.9)
+  - 1.15.1: ✔(Kotlin 1.9)
   - 1.15.0: ✔(Kotlin 1.8)
   - 1.14.0: ✔(Kotlin 1.7, Android 13(33))
 
@@ -391,14 +407,15 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.9.0: 🚧(Kotlin 1.9)
+  - 3.9.0: ✔(Kotlin 1.9)
   - 3.3.0: ✔(Kotlin 1.8)
   - 3.2.0: ✔
   - 2.10.0: ✔
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
-  - 2.13: 🚧
+  - 2.14: 🚧
+  - 2.13: ✔
   - 2.12: ✔
   - 2.10(Android 13(33)): ✔
   - 2.9.1: ✔
@@ -492,7 +509,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.tencent.bugly:crashreport](https://bugly.qq.com/docs/release-notes/release-android-bugly/)
 
-  - 4.1.9.3: 🚧
+  - 4.1.9.3: ✔
   - 4.1.9.2: ✔
   - 4.0.4: ✔
 
@@ -502,7 +519,8 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:common
 
-  - 9.6.7: 🚧
+  - 9.6.8: 🚧
+  - 9.6.7: ✔
   - 9.6.5: ✔
   - 9.5.2: ✔
   - 9.4.7: ✔
@@ -517,7 +535,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:share
 
-  - 7.3.3: 🚧
+  - 7.3.3: ✔
   - 7.3.2: ✔
   - 7.2.0: ✔
   - 7.1.7: ✔
@@ -539,7 +557,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
-  - 15.8.17: 🚧
+  - 15.8.17: ✔
   - 15.8.16: ✔
   - 15.8.14: ✔
   - 15.8.11: ✔
