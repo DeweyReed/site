@@ -176,6 +176,9 @@ gradle wrapper --gradle-version 8.2.1
   - 2.7.0: ✔(Android 14(34))
 
     - Read [Important changes since 2.6.0](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0)
+    - `LiveData.map`, `switchMap`
+    - `SavedStateHandle`, `Array<CustomParcelable>`
+    - `LifecycleEventEffect`, `LifecycleStartEffect`, `LifecycleResumeEffect`
 
   - 2.6.2: ✔
   - 2.6.1: ✔(Kotlin 1.8)
