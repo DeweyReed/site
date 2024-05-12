@@ -65,11 +65,13 @@ gradle wrapper --gradle-version 8.2.1
 
 - Kotlin to IDE Compatibility Map
 
+  - [1.9.xx](https://kotlinlang.org/docs/whatsnew19.html#ide-support): Hedgehog (231)
   - [1.8.2x](https://kotlinlang.org/docs/whatsnew1820.html#ide-support): Flamingo (222)
   - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support): Electric Eel (221), Flamingo (222)
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.8.1: 🚧
   - 1.8.0: ✔(Kotlin 1.9)
   - 1.7.3: ✔
   - 1.7.1: ✔(Kotlin 1.8)
@@ -108,8 +110,8 @@ gradle wrapper --gradle-version 8.2.1
 
   - 8.0.2: ✔
 
-    - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751)
-    - [🟠 Proguard Rules (OkHttp 4.7.2)](https://github.com/square/okhttp/issues/6258)
+    - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751) Gone in retrofit 2.11.0
+    - [🟠 Proguard Rules (OkHttp 4.7.2)](https://github.com/square/okhttp/issues/6258) Gone in okhttp 4.12.0
     - AGP Upgrade Assistant 👍
     - [JDK 17 required to run AGP 8.0](https://developer.android.com/build/releases/past-releases/agp-8-0-0-release-notes#jdk-17-agp)
 
@@ -173,7 +175,7 @@ gradle wrapper --gradle-version 8.2.1
 
   - 2.7.0: ✔(Android 14(34))
 
-    - Read Important changes since 2.6.0
+    - Read [Important changes since 2.6.0](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0)
 
   - 2.6.2: ✔
   - 2.6.1: ✔(Kotlin 1.8)
@@ -208,6 +210,10 @@ gradle wrapper --gradle-version 8.2.1
   - 1.6.0: ✔
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
+
+  - 1.4.0: 🚧
+
+    - `ScatterMap`, `ScatterSet`, and `ObjectList`.
 
   - 1.3.0: ✔
 
@@ -293,16 +299,19 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
+  - 1.3.7: 🚧
   - 1.3.6: ✔
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
+  - 1.2.0: 🚧
   - 1.1.0: ✔
   - 1.0.0: ✔
 
 - Jetpack Compose
 
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
+  - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
   - 2023.06.01: ✔(Compose UI 1.4 + Kotlin 1.8.22 + Compose Compiler Plugin 1.4.8 + accompanist 0.30.1)
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
@@ -382,11 +391,18 @@ gradle wrapper --gradle-version 8.2.1
 - com.squareup.okhttp3:okhttp
 
   - 4.12.0: 🚧(Kotlin 1.9)
+  
+    - No more proguard rules
+
   - 4.11.0: ✔
   - 4.10.0: ✔
   - 4.9.3: ✔
 
 - com.squareup.retrofit2:retrofit
+
+  - 2.11.0: 🚧
+
+    - No more proguard rules
 
   - 2.9.0: ✔
 
@@ -439,6 +455,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
+  - 6.4.0: 🚧
   - 6.1.0: ❌ ImageAssetManager NPE
   - 6.0.1: ✔
 
@@ -450,7 +467,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.github.chuckerteam.chucker:library
 
-  - 4.0.0: ✔(Materail 1.9.0)
+  - 4.0.0: ✔(Material 1.9.0)
   - 3.5.2: ✔
 
 - com.evernote:android-job
@@ -485,10 +502,12 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.51.0: 🚧
   - 0.50.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
+  - 0.5.0: 🚧
   - 0.4.3: ✔
   - 0.3.2: ✔
 
@@ -519,6 +538,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:common
 
+  - 9.7.1: 🚧
   - 9.6.8: 🚧
   - 9.6.7: ✔
   - 9.6.5: ✔
@@ -529,6 +549,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:asms
 
+  - 1.8.2: 🚧
   - 1.8.0: ✔
   - 1.6.3: ✔
   - 1.4.1: ✔
@@ -546,6 +567,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.7.0: 🚧
   - 8.5.2: ✔
   - 8.4.4: ✔
   - 8.0.3: ✔(APK bloats afterwards)
