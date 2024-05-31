@@ -133,6 +133,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
+  - 1.7.0: 🚧
   - 1.6.1: ✔
 
     - `AppCompatDelegate.setApplicationLocales(LocaleListCompat)`
@@ -158,6 +159,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.7.1: 🚧
   - 1.7.0: ✔
   - 1.6.2: ✔
   - 1.6.1: ✔
@@ -169,6 +171,12 @@ gradle wrapper --gradle-version 8.2.1
   - 1.3.6: ✔
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
+
+  - 2.8.x: ❌(1.7 Compose)
+
+    - `LocalLifecycleOwner` => `androidx.lifecycle:lifecycle-runtime-compose`
+    - `onClick: () -> Unit = dropUnlessResumed/Started { navController.navigate(NEW_SCREEN) }`
+    - `ViewModel.viewModelScope` is now an overridable constructor parameter, allowing you to inject your own dispatcher
 
   - 2.7.0: ✔(Android 14(34))
 
@@ -250,6 +258,11 @@ gradle wrapper --gradle-version 8.2.1
 
   - 1.2.1: ✔
 
+- [androidx.viewpager2:viewpager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)
+
+  - 1.1.0: 🚧
+  - 1.0.0: ✔
+
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
   - 2.7.7: ✔(Android 14(34))
@@ -303,6 +316,10 @@ gradle wrapper --gradle-version 8.2.1
   - 1.3.6: ✔
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
+
+  - 1.3.0: 🚧
+
+    - `WindowSizeClass`
 
   - 1.2.0: ✔
   - 1.1.0: ✔
@@ -363,6 +380,11 @@ gradle wrapper --gradle-version 8.2.1
   - 1.0.0: ✔
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
+
+  - 7.0.0: 🚧(Android 14(34))
+
+    - `enablePendingPurchases()` => `enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())`
+    - ~~`BillingClient.queryPurchaseHistoryAsync()`~~
 
   - 6.2.1: 🚧
   - 6.2.0: ✔
