@@ -71,7 +71,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
-  - 1.8.1: 🚧
+  - 1.8.1: ✔
   - 1.8.0: ✔(Kotlin 1.9)
   - 1.7.3: ✔
   - 1.7.1: ✔(Kotlin 1.8)
@@ -158,10 +158,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.7.0: 🚧
-
-    - `fragment-compose`: a `content` extension method on `Fragment`
-
+  - 1.7.0: ✔
   - 1.6.2: ✔
   - 1.6.1: ✔
   - 1.5.6: ✔
@@ -196,7 +193,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.13.1: 🚧
+  - 1.13.1: ✔
   - 1.12.0: ✔(Android 14(34))
 
     - New `LocalePreferences` APIs to help developers to easily access locale data or user's locale preferences.
@@ -214,7 +211,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - 1.4.0: 🚧
+  - 1.4.0: ✔
 
     - `ScatterMap`, `ScatterSet`, and `ObjectList`.
 
@@ -302,12 +299,12 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
-  - 1.3.7: 🚧
+  - 1.3.7: ✔
   - 1.3.6: ✔
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
-  - 1.2.0: 🚧
+  - 1.2.0: ✔
   - 1.1.0: ✔
   - 1.0.0: ✔
 
@@ -339,7 +336,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.51.1: 🚧
+  - 2.51.1: ✔
   - 2.51: ✔
   - 2.50: ✔(Hilt Kotlin 1.9)
   - 2.47: ✔
@@ -393,7 +390,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.squareup.okhttp3:okhttp
 
-  - 4.12.0: 🚧(Kotlin 1.9)
+  - 4.12.0: ✔(Kotlin 1.9)
   
     - No more proguard rules
 
@@ -403,7 +400,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.squareup.retrofit2:retrofit
 
-  - 2.11.0: 🚧
+  - 2.11.0: ✔
 
     - No more proguard rules
 
@@ -433,7 +430,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.squareup.leakcanary:leakcanary-android-startup
 
-  - 2.14: 🚧
+  - 2.14: ✔
   - 2.13: ✔
   - 2.12: ✔
   - 2.10(Android 13(33)): ✔
@@ -458,8 +455,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
-  - 6.4.0: 🚧
-  - 6.1.0: ❌ ImageAssetManager NPE
+  - 6.1.0+: ❌ ImageAssetManager NPE
   - 6.0.1: ✔
 
     - Allow animations in zip files to contain embedded base64 encoded images
@@ -505,12 +501,12 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.51.0: 🚧
+  - 0.51.0: ✔
   - 0.50.0: ✔
 
 - [com.dropbox.dependency-guard:dependency-guard](https://github.com/dropbox/dependency-guard)
 
-  - 0.5.0: 🚧
+  - 0.5.0: ✔
   - 0.4.3: ✔
   - 0.3.2: ✔
 
@@ -541,8 +537,8 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:common
 
-  - 9.7.1: 🚧
-  - 9.6.8: 🚧
+  - 9.7.1: ✔
+  - 9.6.8: ✔
   - 9.6.7: ✔
   - 9.6.5: ✔
   - 9.5.2: ✔
@@ -552,7 +548,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:asms
 
-  - 1.8.2: 🚧
+  - 1.8.2: ✔
   - 1.8.0: ✔
   - 1.6.3: ✔
   - 1.4.1: ✔
@@ -570,7 +566,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
-  - 8.7.0: 🚧
+  - 8.7.0: ✔
   - 8.5.2: ✔
   - 8.4.4: ✔
   - 8.0.3: ✔(APK bloats afterwards)
