@@ -15,6 +15,7 @@ gradle wrapper --gradle-version 8.2.1
 
 > Note, you need to run this command twice to upgrade both Gradle and the Gradle Wrapper itself
 
+- 8.8: 🚧(Kotlin 1.9)
 - 8.2.1: ✔
 - 8.1.1: ✔
 
@@ -89,7 +90,12 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 8.2.2(Android Studio Hedgehog | 2023.1.1): ✔
+  - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): 🚧
+
+    - [Baseline Profiles module wizard](https://developer.android.com/studio/releases/past-releases/as-iguana-release-notes#baseline-profiles-module-wizard)
+    - [UI Check mode in Compose Preview](https://developer.android.com/studio/releases/past-releases/as-iguana-release-notes#compose-ui-check)
+
+  - 8.2.2(Hedgehog 2023.1.1): ✔
     - [❗ How I fix NOTHING TO SHOW in my vector asset in android studio](https://stackoverflow.com/questions/64382564/how-i-fix-nothing-to-show-in-my-vector-asset-in-android-studio)
     - [Live Edit updated manual mode shortcut](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#live-edit-manual-mode)(`Control`+`\`)
     - [SDK Upgrade Assistant updates](https://developer.android.com/studio/releases/past-releases/as-hedgehog-release-notes#sdk-upgrade-assistant)
