@@ -15,6 +15,8 @@ gradle wrapper --gradle-version 8.2.1
 
 > Note, you need to run this command twice to upgrade both Gradle and the Gradle Wrapper itself
 
+<https://gradle.org/releases/>
+
 - 8.8: 🚧(Kotlin 1.9)
 - 8.2.1: ✔
 - 8.1.1: ✔
@@ -92,6 +94,7 @@ gradle wrapper --gradle-version 8.2.1
 
   - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): 🚧
 
+    - [❗ Unable to install APK with spaces in name](https://issuetracker.google.com/issues/317131109): `archivesBaseName`
     - [Baseline Profiles module wizard](https://developer.android.com/studio/releases/past-releases/as-iguana-release-notes#baseline-profiles-module-wizard)
     - [UI Check mode in Compose Preview](https://developer.android.com/studio/releases/past-releases/as-iguana-release-notes#compose-ui-check)
 
