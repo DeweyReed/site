@@ -41,6 +41,10 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Color Scheme` - `Console Font` - `Size`: `16`; `Line height`: `0.8`
   - `Code Style`
     - `Formatter`: Disable `Reformat again to remove custom line breaks`
+    - `Groovy`
+      - `Code Generation`
+        - Disable `Line comment at first column`
+        - Enable `Add a space at line comment start` and `Enforce on reformat`
     - `Kotlin`
       - Set from `Kotlin style guide`
       - `Tabs and Indents` - `Continuation Indent`: 4

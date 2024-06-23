@@ -598,6 +598,7 @@ gradle wrapper --gradle-version 8.2.1
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
   - 8.7.0: ✔
+    - ❗ `android.permission.READ_PHONE_STATE`
   - 8.5.2: ✔
   - 8.4.4: ✔
   - 8.0.3: ✔(APK bloats afterwards)
