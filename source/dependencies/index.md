@@ -17,7 +17,7 @@ gradle wrapper --gradle-version 8.2.1
 
 <https://gradle.org/releases/>
 
-- 8.8: 🚧(Kotlin 1.9)
+- 8.8: ✔(Kotlin 1.9)
 - 8.2.1: ✔
 - 8.1.1: ✔
 
@@ -40,7 +40,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - org.jetbrains.kotlin:kotlin
 
-  - 1.9.24: 🚧
+  - 1.9.24: ✔
   - 1.9.23: ✔
 
     - `Enum.values()` -> `Enum.entries`
@@ -92,7 +92,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): 🚧
+  - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): ✔
 
     - [❗ Unable to install APK with spaces in name](https://issuetracker.google.com/issues/317131109): `archivesBaseName`
     - [Baseline Profiles module wizard](https://developer.android.com/studio/releases/past-releases/as-iguana-release-notes#baseline-profiles-module-wizard)
@@ -181,7 +181,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.8.x: ❌(1.7 Compose)
+  - 2.8.2: 🚧(1.7 Compose)
 
     - `LocalLifecycleOwner` => `androidx.lifecycle:lifecycle-runtime-compose`
     - `onClick: () -> Unit = dropUnlessResumed/Started { navController.navigate(NEW_SCREEN) }`
@@ -260,7 +260,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
-  - 1.3.2: ❌ Depending on other beta libraries
+  - 1.3.2: 🚧 Depending on a beta viewpager2
   - 1.3.0: ✔
 
     - `ConcatAdapter.getWrappedAdapterAndPosition`
@@ -395,8 +395,7 @@ gradle wrapper --gradle-version 8.2.1
     - `enablePendingPurchases()` => `enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())`
     - ~~`BillingClient.queryPurchaseHistoryAsync()`~~
 
-  - 6.2.1: 🚧
-  - 6.2.0: ✔
+  - 6.2.1: ✔
   - 6.0.1: ✔
   - 4.1.0: ✔
   - 3.0.2: ✔
