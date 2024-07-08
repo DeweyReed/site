@@ -9,6 +9,31 @@ RT
 
 <!--more-->
 
+## 下载最佳视频+音频
+
+```Bash
+yt-dlp -S ext
+```
+
+<https://github.com/yt-dlp/yt-dlp/issues/3398>
+
+## 合成视频加音频
+
+```Bash
+yt-dlp -F
+yt-dlp -f 641+140 
+```
+
+<https://www.reddit.com/r/youtubedl/comments/qfsuxu/ytdlp_download_and_merge_multiple_format/>
+
+## 裁剪音频
+
+```Bash
+ffmpeg -ss 1:00 -to 2:00 -i input.mp3 output.mp3
+```
+
+<https://stackoverflow.com/questions/46508055/using-ffmpeg-to-cut-audio-from-to-position>
+
 ## 下载视频的音频
 
 ```Bash
