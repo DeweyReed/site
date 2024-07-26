@@ -92,6 +92,8 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.android.tools.build:gradle(& Android Studio)
 
+  - 8.4.2(JellyFish 2023.3.1, Gradle 8.6): 🚧
+    - [Gemini](https://developer.android.com/studio/preview/gemini)
   - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): ✔
 
     - [❗ Unable to install APK with spaces in name](https://issuetracker.google.com/issues/317131109): `archivesBaseName`
@@ -142,7 +144,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
-  - 1.7.0: 🚧
+  - 1.7.0: ✔
   - 1.6.1: ✔
 
     - `AppCompatDelegate.setApplicationLocales(LocaleListCompat)`
@@ -154,13 +156,13 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.9.0: 🚧
+  - 1.9.0: ✔
 
     - `OnUserLeaveHintProvider`
     - APIs now warn when calling `onBackPressedDispatcher.onBackPressed()`
     - `activity-ktx` is now completely empty.
 
-  - 1.8.1: 🚧
+  - 1.8.1: -
 
     - `ComponentActivity.enableEdgeToEdge()` has been added to easily set up the edge-to-edge display in a backward-compatible manner.
 
@@ -181,7 +183,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.8.2: 🚧(1.7 Compose)
+  - 2.8.2: ✔
 
     - `LocalLifecycleOwner` => `androidx.lifecycle:lifecycle-runtime-compose`
     - `onClick: () -> Unit = dropUnlessResumed/Started { navController.navigate(NEW_SCREEN) }`
@@ -260,7 +262,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
-  - 1.3.2: 🚧 Depending on a beta viewpager2
+  - 1.3.2: ✔ Depending on a beta viewpager2
   - 1.3.0: ✔
 
     - `ConcatAdapter.getWrappedAdapterAndPosition`
@@ -269,7 +271,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.viewpager2:viewpager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)
 
-  - 1.1.0: 🚧
+  - 1.1.0: ✔
   - 1.0.0: ✔
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
@@ -282,6 +284,7 @@ gradle wrapper --gradle-version 8.2.1
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
   - 2.6.1: ✔(Android 14(34))
+    - [The new artifact for the Room Gradle Plugin](https://developer.android.com/jetpack/androidx/releases/room#2.6.0-alpha02)
   - 2.5.2: ✔
   - 2.4.3: ✔(Kotlin 1.7)
   - 2.4.1: ✔(Android 12(31))
@@ -326,7 +329,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
-  - 1.3.0: 🚧
+  - 1.3.0: ✔
 
     - `WindowSizeClass`
 
@@ -480,6 +483,7 @@ gradle wrapper --gradle-version 8.2.1
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
+  - 2.7.0: 🚧(Kotlin 2.0)
   - 2.5.0: 🚧(Kotlin 1.9, Android 14(34))
   - 2.4.0: ✔
 
