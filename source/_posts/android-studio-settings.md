@@ -9,8 +9,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 
 <!--more-->
 
-- Reorder window layouts and `Store Current Layout as Default`
-- Clean `Gutter Icons` manually
+- Export `Live Template`
 - `Appearance & Behavior`
   - `Appearance`
     - `Theme`: `Darcula`/`Dark`
@@ -29,18 +28,17 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Compare with Clipboard`: Ctrl + Alt + Shift + C
 - `Editor`
   - `General` - `On Save` - Enable `Ensure every saved file ends with a line break`
-    - `Auto Import`: Enable 2 `Add unambiguous imports on the fly`
+    - `Auto Import`: Enable 2 `Add unambiguous imports on the fly`, `Optimize imports on the fly`
     - `Appearance`
       - Disable `Caret blinking`
       - Disable `Show line numbers`
       - Enable `Show method separators`
-      - Disable `Render documentation comments`
+      - Disable `Render documentation comments` and `Reader Mode`
     - `Console` - `Default Encoding`: `UTF-8`
     - `Smart Keys`: Enable `Use "CamelHumps" Words`
   - `Font` - `Font`: `Consolas`; `Size`: `22.0`
   - `Color Scheme` - `Console Font` - `Size`: `16`; `Line height`: `0.8`
-  - `Code Style`
-    - `Formatter`: Disable `Reformat again to remove custom line breaks`
+  - `Code Style`: `Scheme: IDE`
     - `Groovy`
       - `Code Generation`
         - Disable `Line comment at first column`
@@ -52,9 +50,8 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - `Code Generation`
         - Disable `Line comment at first column`
         - Enable `Add a space at line comment start` and `Enforce on reformat`
-  - `Design Tools`: `Split`, `Split`, `Code`, `Code`
+  - `Design Tools`: `Split`, `Split`, `Split`, `Code`, `Code`
   - `Inlay Hints`: Disable `Code Vision`
-  - Disable `Reader Mode`
 - `Plugins`
   - `ADB Idea`
   - `Archive Browser`
@@ -67,15 +64,20 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Version Control` - `Commit`
   - Disable `Use non-modal commit interface`
   - `Before Commit`: Enable all
-- `Build, Execution, Deployment` - `Deployment`: Enable all
+- `Build, Execution, Deployment`
+  - `Deployment`: Enable all
 - `Tools`
   - `External Tools`
     - `Avocado`
-      - `Program`: `...\Yarn\bin\avocado.cmd`
+      - `Program`: `...\Yarn\bin\avocado.cmd`(`Show Hidden Files and Directories`)
       - `Argument`: `-i $FileName$`
       - `Working directory`: `$FileDir$`
   - `Emulator`: Disable `Launch in the Running Devices tool window`
+- Open a project
+- Reorder window layouts and `Store Current Layout as Default`
+- Clean `Gutter Icons` manually
 - `Editor`
-  - `Live Template`: Import from settings zip
+  - `Live Template`: Disable compose related; Import from settings zip
 - `Ctrl` + `Shift` + `Alt` + `L`
   - Enable all options
+- Disable `Show Project Gradient` in the toolbar
