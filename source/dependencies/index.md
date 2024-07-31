@@ -40,6 +40,13 @@ gradle wrapper --gradle-version 8.2.1
 
 - org.jetbrains.kotlin:kotlin
 
+  - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): 🚧
+
+    - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler)
+    - [Add the `.kotlin` directory to your project's `.gitignore` file.](https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects)
+    - `enumValues<T>()` -> `enumEntries<T>()`
+    - [Stable `AutoCloseable` interface](https://kotlinlang.org/docs/whatsnew20.html#stable-autocloseable-interface)
+
   - 1.9.24: ✔
   - 1.9.23: ✔
 
@@ -119,7 +126,7 @@ gradle wrapper --gradle-version 8.2.1
 
       [Migrate your build configuration from Groovy to Kotlin](https://developer.android.com/build/migrate-to-kotlin-dsl)
 
-  - 8.0.2: ✔
+  - 8.0.2(Flamingo): ✔
 
     - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751) Gone in retrofit 2.11.0
     - [🟠 Proguard Rules (OkHttp 4.7.2)](https://github.com/square/okhttp/issues/6258) Gone in okhttp 4.12.0
