@@ -17,12 +17,12 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `System Settings`
     - `HTTP Proxy`
     - `Memory Settings`
-- `Keymap`
+- `Keymap`(Delete old keys)
   - `ShowProjectStructureSettings`: Empty
   - `Type alias`: Empty
   - `Show vcs Log`: Alt + 3
-  - `Logcat`: Alt + 4
-  - `Build`: Alt + 5
+  - `Show Logcat`: Alt + 4
+  - `Build`(Tool Window): Alt + 5
   - `Show Local Changes`: Alt + 2
   - `Maximize/Restore Active Dialog`: Ctrl + Alt + Shift + M
   - `Compare with Clipboard`: Ctrl + Alt + Shift + C
@@ -74,8 +74,8 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - `Working directory`: `$FileDir$`
   - `Emulator`: Disable `Launch in the Running Devices tool window`
 - Open a project
+- Clean `Gutter Icons` and reorder tabs manually
 - Reorder window layouts and `Store Current Layout as Default`
-- Clean `Gutter Icons` manually
 - `Editor`
   - `Live Template`: Disable compose related; Import from settings zip
 - `Ctrl` + `Shift` + `Alt` + `L`
