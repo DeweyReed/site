@@ -47,6 +47,7 @@ gradle wrapper --gradle-version 8.2.1
     - `enumValues<T>()` -> `enumEntries<T>()`
     - [Stable `AutoCloseable` interface](https://kotlinlang.org/docs/whatsnew20.html#stable-autocloseable-interface)
 
+  - 1.9.25: 🚧
   - 1.9.24: ✔
   - 1.9.23: ✔
 
@@ -93,13 +94,14 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/blob/master/CHANGELOG.md)
 
+  - 0.3.7: 🚧
   - 0.3.5: ✔
 
 ## Google
 
 - com.android.tools.build:gradle(& Android Studio)
 
-  - 8.4.2(JellyFish 2023.3.1, Gradle 8.6): 🚧
+  - 8.4.2(JellyFish 2023.3.1, Gradle 8.6): ❌ Broken Logcat and ADB Wifi
     - [Gemini](https://developer.android.com/studio/preview/gemini)
   - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): ✔
 
@@ -190,6 +192,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.8.4: 🚧
   - 2.8.2: ✔
 
     - `LocalLifecycleOwner` => `androidx.lifecycle:lifecycle-runtime-compose`
@@ -561,6 +564,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
+  - 1.2.29: 🚧(Kotlin 2.0)
   - 1.2.28: ✔
   - 1.2.25: ✔
 

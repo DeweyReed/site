@@ -81,3 +81,4 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Ctrl` + `Shift` + `Alt` + `L`
   - Enable all options
 - Disable `Show Project Gradient` in the toolbar
+- `Log` - Show `Tag Names`
