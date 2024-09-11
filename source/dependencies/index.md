@@ -40,6 +40,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - org.jetbrains.kotlin:kotlin
 
+  - [2.0.20](https://kotlinlang.org/docs/whatsnew2020.html): 🚧
   - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): 🚧
 
     - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler)
@@ -165,6 +166,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
+  - 1.9.2: 🚧
   - 1.9.1: 🚧
   - 1.9.0: ✔
 
@@ -197,6 +199,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.8.5: 🚧
   - 2.8.4: 🚧
   - 2.8.2: ✔
 
@@ -291,6 +294,11 @@ gradle wrapper --gradle-version 8.2.1
   - 1.0.0: ✔
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
+
+  - 2.8.0: 🚧(Compose 1.7)
+
+    - Navigation Kotlin DSL Type-Safety(used by Navigation Compose)
+    - `navigation-fragment-compose`: `<composable android:id="@+id/home_screen"...`
 
   - 2.7.7: ✔(Android 14(34))
   - 2.5.3: ✔
@@ -507,6 +515,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
+  - 6.5.2: 🚧(ImageAssetManager NPE Fixed)
   - 6.1.0+: ❌ ImageAssetManager NPE
   - 6.0.1: ✔
 
