@@ -48,7 +48,7 @@ gradle wrapper --gradle-version 8.2.1
     - `enumValues<T>()` -> `enumEntries<T>()`
     - [Stable `AutoCloseable` interface](https://kotlinlang.org/docs/whatsnew20.html#stable-autocloseable-interface)
 
-  - 1.9.25: 🚧
+  - 1.9.25: ✔
   - 1.9.24: ✔
   - 1.9.23: ✔
 
@@ -95,7 +95,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/blob/master/CHANGELOG.md)
 
-  - 0.3.7: 🚧
+  - 0.3.7: ✔
   - 0.3.5: ✔
 
 ## Google
@@ -186,7 +186,7 @@ gradle wrapper --gradle-version 8.2.1
 
     - `Composable`(`fragment-compose`): `AndroidFragment`
 
-  - 1.7.1: 🚧
+  - 1.7.1: ✔
   - 1.7.0: ✔
   - 1.6.2: ✔
   - 1.6.1: ✔
@@ -200,7 +200,7 @@ gradle wrapper --gradle-version 8.2.1
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
   - 2.8.5: 🚧
-  - 2.8.4: 🚧
+  - 2.8.4: ✔
   - 2.8.2: ✔
 
     - `LocalLifecycleOwner` => `androidx.lifecycle:lifecycle-runtime-compose`
@@ -599,7 +599,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:common
 
-  - 9.7.5: 🚧
+  - 9.7.5: ✔
   - 9.7.1: ✔
   - 9.6.8: ✔
   - 9.6.7: ✔
@@ -611,7 +611,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:asms
 
-  - 1.8.3: 🚧
+  - 1.8.3: ✔
   - 1.8.2: ✔
   - 1.8.0: ✔
   - 1.6.3: ✔
@@ -619,7 +619,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - com.umeng.umsdk:share
 
-  - 7.3.4: 🚧
+  - 7.3.4: ✔
   - 7.3.3: ✔
   - 7.3.2: ✔
   - 7.2.0: ✔
