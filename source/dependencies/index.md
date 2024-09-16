@@ -167,7 +167,7 @@ gradle wrapper --gradle-version 8.2.1
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
   - 1.9.2: 🚧
-  - 1.9.1: 🚧
+  - 1.9.1: ✔
   - 1.9.0: ✔
 
     - `OnUserLeaveHintProvider`
@@ -182,7 +182,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.8.2: 🚧
+  - 1.8.2: ✔
 
     - `Composable`(`fragment-compose`): `AndroidFragment`
 
@@ -248,7 +248,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - 1.4.3: 🚧
+  - 1.4.3: ✔
   - 1.4.0: ✔
 
     - `ScatterMap`, `ScatterSet`, and `ObjectList`.
@@ -324,7 +324,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - 2.9.1: 🚧
+  - 2.9.1: ✔
   - 2.9.0: ✔(Android 14(34))
 
     - `work-runtime-ktx` is now empty.
@@ -390,7 +390,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.52: 🚧
+  - 2.52: ✔
   - 2.51.1: ✔
   - 2.51: ✔
   - 2.50: ✔(Hilt Kotlin 1.9)
