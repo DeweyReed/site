@@ -334,8 +334,8 @@ theme_config:
     item_text: true
     created_at: true
     updated_at:
-      enable: false
-      another_day: true
+      enable: true
+      another_day: false
     categories: true
 
   # Post wordcount display settings
