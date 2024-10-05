@@ -83,6 +83,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.9.0: 🚧(Kotlin 2.0)
   - 1.8.1: ✔
   - 1.8.0: ✔(Kotlin 1.9)
   - 1.7.3: ✔
@@ -95,6 +96,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/blob/master/CHANGELOG.md)
 
+  - 0.3.8: 🚧
   - 0.3.7: ✔
   - 0.3.5: ✔
 
@@ -166,7 +168,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.9.2: 🚧
+  - 1.9.2: ✔
   - 1.9.1: ✔
   - 1.9.0: ✔
 
@@ -182,6 +184,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.8.4: 🚧
   - 1.8.2: ✔
 
     - `Composable`(`fragment-compose`): `AndroidFragment`
@@ -199,6 +202,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.8.6: 🚧
   - 2.8.5: 🚧
   - 2.8.4: ✔
   - 2.8.2: ✔
@@ -248,6 +252,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
+  - 1.4.4: 🚧
   - 1.4.3: ✔
   - 1.4.0: ✔
 
@@ -336,6 +341,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.startup:startup](https://developer.android.com/jetpack/androidx/releases/startup)
 
+  - 1.2.0: 🚧
   - 1.1.1: ✔
 
 - [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
@@ -482,6 +488,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.9.1: 🚧
   - 3.9.0: ✔(Kotlin 1.9)
   - 3.3.0: ✔(Kotlin 1.8)
   - 3.2.0: ✔
@@ -585,6 +592,11 @@ gradle wrapper --gradle-version 8.2.1
   - 1.2.28: ✔
   - 1.2.25: ✔
 
+- [com.scottyab:rootbeer-lib](https://github.com/scottyab/rootbeer)
+
+  - 0.1.1: 🚧(Android 15(35))
+  - 0.1.0: ✔
+
 ## Chinese
 
 - [com.tencent.bugly:crashreport](https://bugly.qq.com/docs/release-notes/release-android-bugly/)
@@ -600,10 +612,7 @@ gradle wrapper --gradle-version 8.2.1
 - com.umeng.umsdk:common
 
   - 9.7.5: ✔
-  - 9.7.1: ✔
   - 9.6.8: ✔
-  - 9.6.7: ✔
-  - 9.6.5: ✔
   - 9.5.2: ✔
   - 9.4.7: ✔
   - 9.4.5, 9.4.6: ❌ broken
@@ -612,16 +621,12 @@ gradle wrapper --gradle-version 8.2.1
 - com.umeng.umsdk:asms
 
   - 1.8.3: ✔
-  - 1.8.2: ✔
-  - 1.8.0: ✔
   - 1.6.3: ✔
   - 1.4.1: ✔
 
 - com.umeng.umsdk:share
 
   - 7.3.4: ✔
-  - 7.3.3: ✔
-  - 7.3.2: ✔
   - 7.2.0: ✔
   - 7.1.7: ✔
 
@@ -637,9 +642,9 @@ gradle wrapper --gradle-version 8.2.1
   - 8.4.4: ✔
   - 8.0.3: ✔(APK bloats afterwards)
 
-- [com.meituan.android.walle:library](https://github.com/Meituan-Dianping/walle)
+- [com.github.Meituan-Dianping.walle:library](https://github.com/Meituan-Dianping/walle)
 
-  - 1.1.7: ❌ no release notes
+  - 1.1.7: 🚧
   - 1.1.6: ✔
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
