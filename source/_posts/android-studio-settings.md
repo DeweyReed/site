@@ -22,7 +22,6 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Type alias`: Empty
   - `Show vcs Log`: Alt + 3
   - `Show Logcat`: Alt + 4
-  - `Build`(Tool Window): Alt + 5
   - `Show Local Changes`: Alt + 2
   - `Maximize/Restore Active Dialog`: Ctrl + Alt + Shift + M
   - `Compare with Clipboard`: Ctrl + Alt + Shift + C
@@ -76,9 +75,11 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - Open a project
 - Clean `Gutter Icons` and reorder tabs manually
 - Reorder window layouts and `Store Current Layout as Default`
+- `Keymap`(Delete old keys)
+  - `Build`(Tool Window): Alt + 5
 - `Editor`
   - `Live Template`: Disable compose related; Import from settings zip
 - `Ctrl` + `Shift` + `Alt` + `L`
-  - Enable all options
+  - Enable `Optimize imports`, `Code cleanup`, and `Rearrange code`
 - Disable `Show Project Gradient` in the toolbar
-- `Log` - Show `Tag Names`
+- `Log` - `COMPACT`, Show `Tag Names`
