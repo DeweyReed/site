@@ -49,8 +49,6 @@ gradle wrapper --gradle-version 8.2.1
     - [Stable `AutoCloseable` interface](https://kotlinlang.org/docs/whatsnew20.html#stable-autocloseable-interface)
 
   - 1.9.25: ✔
-  - 1.9.24: ✔
-  - 1.9.23: ✔
 
     - `Enum.values()` -> `Enum.entries`
     - `data object EndOfFile : ReadResult`
@@ -75,12 +73,6 @@ gradle wrapper --gradle-version 8.2.1
 
   - 1.5.31: ✔
 
-- Kotlin to IDE Compatibility Map
-
-  - [1.9.xx](https://kotlinlang.org/docs/whatsnew19.html#ide-support): Hedgehog (231)
-  - [1.8.2x](https://kotlinlang.org/docs/whatsnew1820.html#ide-support): Flamingo (222)
-  - [1.8.10](https://kotlinlang.org/docs/whatsnew18.html#ide-support): Electric Eel (221), Flamingo (222)
-
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
   - 1.9.0: 🚧(Kotlin 2.0)
@@ -103,7 +95,10 @@ gradle wrapper --gradle-version 8.2.1
 ## Google
 
 - com.android.tools.build:gradle(& Android Studio)
+  
+  `What's New` in Android Studio has more release notes.
 
+  - 8.6.1(Koala 2024.1.2, Gradle 8.7): 🚧
   - 8.4.2(JellyFish 2023.3.1, Gradle 8.6): ❌ Broken Logcat and ADB Wifi
     - [Gemini](https://developer.android.com/studio/preview/gemini)
   - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): ✔
@@ -131,7 +126,7 @@ gradle wrapper --gradle-version 8.2.1
 
       [Migrate your build configuration from Groovy to Kotlin](https://developer.android.com/build/migrate-to-kotlin-dsl)
 
-  - 8.0.2(Flamingo): ✔
+  - 8.0.2(Flamingo, 2022.2.1): ✔
 
     - [🟠 Retrofit After enable R8 full mode getting ParameterizedType error](https://github.com/square/retrofit/issues/3751) Gone in retrofit 2.11.0
     - [🟠 Proguard Rules (OkHttp 4.7.2)](https://github.com/square/okhttp/issues/6258) Gone in okhttp 4.12.0
