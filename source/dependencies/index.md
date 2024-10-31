@@ -88,7 +88,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [org.jetbrains.kotlinx:kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/blob/master/CHANGELOG.md)
 
-  - 0.3.8: 🚧
+  - 0.3.8: ✔
   - 0.3.7: ✔
   - 0.3.5: ✔
 
@@ -180,7 +180,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.8.4: 🚧
+  - 1.8.4: ✔
   - 1.8.2: ✔
 
     - `Composable`(`fragment-compose`): `AndroidFragment`
@@ -248,7 +248,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - 1.4.4: 🚧
+  - 1.4.4: ✔
   - 1.4.3: ✔
   - 1.4.0: ✔
 
@@ -484,7 +484,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.9.1: 🚧
+  - 3.9.1: ✔
   - 3.9.0: ✔(Kotlin 1.9)
   - 3.3.0: ✔(Kotlin 1.8)
   - 3.2.0: ✔
@@ -640,7 +640,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [com.github.Meituan-Dianping.walle:library](https://github.com/Meituan-Dianping/walle)
 
-  - 1.1.7: 🚧
+  - 1.1.7: ✔
   - 1.1.6: ✔
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
