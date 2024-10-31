@@ -31,6 +31,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Appearance`
       - Disable `Caret blinking`
       - Disable `Show line numbers`
+      - Disable `Show Sticky lines while scrolling`
       - Enable `Show method separators`
       - Disable `Render documentation comments` and `Reader Mode`
     - `Console` - `Default Encoding`: `UTF-8`
@@ -83,3 +84,5 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - Enable `Optimize imports`, `Code cleanup`, and `Rearrange code`
 - Disable `Show Project Gradient` in the toolbar
 - `Log` - `COMPACT`, Show `Tag Names`
+- Commit something and check changes:
+  - Enable `Align Changes in Side-by-Side Diff` and `Show Diff in Separate Window`
