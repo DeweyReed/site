@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2024.3.18
+Updated: 2024.11.2
 
 # Android
 
@@ -198,6 +198,8 @@ Updated: 2024.3.18
 [Name your .apk & .aab files](https://www.giorgosneokleous.com/2019/12/01/name-your-apk-aab-files/), [archivesBaseName in build.gradle of app module](https://github.com/android/plaid/issues/41)
 
 [Android library development - Getting started](https://jeroenmols.com/blog/2020/10/28/library-gettingstarted/)
+
+[Unbreaking the changes in Compose 1.7](https://cbruegg.com/blog/2024-10-30-compose-compat.html)
 
 #### Build Time
 
