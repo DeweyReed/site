@@ -17,6 +17,7 @@ gradle wrapper --gradle-version 8.2.1
 
 <https://gradle.org/releases/>
 
+- 8.10.2: 🚧
 - 8.8: ✔(Kotlin 1.9)
 - 8.2.1: ✔
 - 8.1.1: ✔
