@@ -164,7 +164,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.9.3: 🚧
+  - 1.9.3: ✔
   - 1.9.2: ✔
   - 1.9.1: ✔
   - 1.9.0: ✔
@@ -338,7 +338,7 @@ gradle wrapper --gradle-version 8.2.1
 
 - [androidx.startup:startup](https://developer.android.com/jetpack/androidx/releases/startup)
 
-  - 1.2.0: 🚧
+  - 1.2.0: ✔
   - 1.1.1: ✔
 
 - [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
