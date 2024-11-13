@@ -85,4 +85,4 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - Disable `Show Project Gradient` in the toolbar
 - `Log` - `COMPACT`, Show `Tag Names`
 - Commit something and check changes:
-  - Enable `Align Changes in Side-by-Side Diff` and `Show Diff in Separate Window`
+  - Enable `Show Diff in Separate Window`
