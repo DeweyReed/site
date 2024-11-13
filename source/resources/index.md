@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2024.11.2
+Updated: 2024.11.10
 
 # Android
 
@@ -394,6 +394,8 @@ Updated: 2024.11.2
 [KotlinConf 2019: Coroutines! Gotta catch 'em all! by Florina Muntenescu & Manuel Vivo](https://www.youtube.com/watch?v=w0kfnydnFWI)
 
 [Create an application CoroutineScope using Hilt](https://medium.com/androiddevelopers/create-an-application-coroutinescope-using-hilt-dd444e721528)
+
+[The Silent Killer That’s Crashing Your Coroutines](https://betterprogramming.pub/the-silent-killer-thats-crashing-your-coroutines-9171d1e8f79b)
 
 ### Framework Classes
 
