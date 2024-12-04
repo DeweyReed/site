@@ -8,7 +8,7 @@ i18n_dir: :en
 ## Gradle
 
 ```Script
-gradle wrapper --gradle-version 8.2.1
+gradle wrapper --gradle-version 
 ```
 
 **Disable Reformat Code before committing**
@@ -17,7 +17,7 @@ gradle wrapper --gradle-version 8.2.1
 
 <https://gradle.org/releases/>
 
-- 8.10.2: 🚧
+- 8.10.2: ✔
 - 8.8: ✔(Kotlin 1.9)
 - 8.2.1: ✔
 - 8.1.1: ✔
@@ -99,7 +99,7 @@ gradle wrapper --gradle-version 8.2.1
   
   `What's New` in Android Studio has more release notes.
 
-  - 8.6.1(Koala 2024.1.2, Gradle 8.7): 🚧
+  - 8.6.1(Koala 2024.1.2, Gradle 8.7): ✔ Lots of bugs, but at least usable.
   - 8.4.2(JellyFish 2023.3.1, Gradle 8.6): ❌ Broken Logcat and ADB Wifi
     - [Gemini](https://developer.android.com/studio/preview/gemini)
   - 8.3.2(Iguana 2023.2.1, Gradle 8.4, JDK 17, Maxium API Level 34): ✔
