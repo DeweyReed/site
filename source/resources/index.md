@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2024.11.10
+Updated: 2024.12.4
 
 # Android
 
@@ -201,6 +201,8 @@ Updated: 2024.11.10
 
 [Unbreaking the changes in Compose 1.7](https://cbruegg.com/blog/2024-10-30-compose-compat.html)
 
+[Mitigating soft verification issues in R8 and D8](https://medium.com/androiddevelopers/mitigating-soft-verification-issues-in-r8-and-d8-7e9e06827dfd)
+
 #### Build Time
 
 [Build your Android app Faster and Smaller than ever](https://medium.com/linedevth/build-your-android-app-faster-and-smaller-than-ever-25f53fdd3cdc)
@@ -347,6 +349,8 @@ Updated: 2024.11.10
 
 [Android GitHub Actions Setup](https://coletiv.com/blog/android-github-actions-setup/)
 
+[How to publish a Kotlin Multiplatform Android app on Play Store with GitHub Actions](https://www.marcogomiero.com/posts/2024/kmp-ci-android/)
+
 ### Archiecture Components
 
 [5 common mistakes when using Architecture Components](https://proandroiddev.com/5-common-mistakes-when-using-architecture-components-403e9899f4cb)
@@ -466,6 +470,12 @@ Updated: 2024.11.10
 #### Google Play In-App Purchase
 
 [Exploring the Play Billing Library for Android](https://medium.com/exploring-android/exploring-the-play-billing-library-for-android-55321f282929)
+
+### Interviews
+
+[Android Interview Series 2024](https://proandroiddev.com/android-interview-series-2024-part-1-android-basics-23a713f4a648)
+
+[A Simple Framework For Mobile System Design Interviews](https://github.com/weeeBox/mobile-system-design)
 
 # Programming
 
