@@ -34,8 +34,11 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - Disable `Show Sticky lines while scrolling`
       - Enable `Show method separators`
       - Disable `Render documentation comments` and `Reader Mode`
+    - `Code Completion` - Disable `Match case`
     - `Console` - `Default Encoding`: `UTF-8`
-    - `Smart Keys`: Enable `Use "CamelHumps" Words`
+    - `Smart Keys`
+      - Enable `Use "CamelHumps" Words`
+      - Disable `Reformat again to remove custom line breaks
   - `Font` - `Font`: `Consolas`; `Size`: `22.0`
   - `Color Scheme` - `Console Font` - `Size`: `16`; `Line height`: `0.8`
   - `Code Style`: `Scheme: IDE`
