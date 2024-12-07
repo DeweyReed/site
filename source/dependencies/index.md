@@ -41,8 +41,8 @@ gradle wrapper --gradle-version
 
 - org.jetbrains.kotlin:kotlin
 
-  - [2.0.20](https://kotlinlang.org/docs/whatsnew2020.html): 🚧
-  - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): 🚧
+  - [2.0.21](https://kotlinlang.org/docs/whatsnew2020.html): 🚧
+  - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): ⬆
 
     - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler)
     - [Add the `.kotlin` directory to your project's `.gitignore` file.](https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects)
@@ -181,6 +181,7 @@ gradle wrapper --gradle-version
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.8.5: 🚧
   - 1.8.4: ✔
   - 1.8.2: ✔
 
@@ -199,8 +200,8 @@ gradle wrapper --gradle-version
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.8.6: 🚧
-  - 2.8.5: 🚧
+  - 2.8.7: 🚧
+  - 2.8.6: ⬆(Compose 1.7)
   - 2.8.4: ✔
   - 2.8.2: ✔
 
@@ -231,6 +232,7 @@ gradle wrapper --gradle-version
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.15.0: 🚧(Android 15(35))
   - 1.13.1: ✔
   - 1.12.0: ✔(Android 14(34))
 
@@ -249,6 +251,7 @@ gradle wrapper --gradle-version
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
+  - 1.4.5: 🚧
   - 1.4.4: ✔
   - 1.4.3: ✔
   - 1.4.0: ✔
@@ -264,6 +267,8 @@ gradle wrapper --gradle-version
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
+  - 2.1.3: ❌(AGP 8.0)
+    - java.lang.IllegalArgumentException: this and base files have different roots
   - 2.0.4: ✔
   - 2.0.3: ✔(AGP 7.4)
   - 1.2.2: ✔(AGP 7.3, Android 13(33))
@@ -273,12 +278,14 @@ gradle wrapper --gradle-version
 
 - [androidx.constraintlayout:constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
+  - 2.2.0: 🚧
   - 2.1.4: ✔
 
     - > Gone<->Visible components are now animated as expected
 
 - androidx.constraintlayout:constraintlayout-compose
 
+  - 1.1.0: 🚧
   - 1.0.1: ✔
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
@@ -297,7 +304,7 @@ gradle wrapper --gradle-version
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.8.0: 🚧(Compose 1.7)
+  - 2.8.4: 🚧(Compose 1.7)
 
     - Navigation Kotlin DSL Type-Safety(used by Navigation Compose)
     - `navigation-fragment-compose`: `<composable android:id="@+id/home_screen"...`
@@ -326,6 +333,7 @@ gradle wrapper --gradle-version
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.10.0: 🚧(Android 15(35))
   - 2.9.1: ✔
   - 2.9.0: ✔(Android 14(34))
 
@@ -340,6 +348,10 @@ gradle wrapper --gradle-version
 
   - 1.2.0: ✔
   - 1.1.1: ✔
+
+- [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
+
+  - 1.4.1: ✔
 
 - [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
 
@@ -365,11 +377,17 @@ gradle wrapper --gradle-version
   - 1.1.0: ✔
   - 1.0.0: ✔
 
-- Jetpack Compose
+- [Jetpack Compose](https://developer.android.com/jetpack/androidx/releases/compose)
 
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
   - 2023.06.01: ✔(Compose UI 1.4 + Kotlin 1.8.22 + Compose Compiler Plugin 1.4.8 + accompanist 0.30.1)
+
+  - 2024.11.00: 🚧(Compose 1.7.5)
+
+    - Apply `AppCompatDelegate.setDefaultNightMode`
+    - `LocalRippleTheme` -> `LocalRippleConfiguration`
+    - `windowInsets =` -> `contentWindowInsets =`
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
@@ -633,6 +651,7 @@ gradle wrapper --gradle-version
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.8.0: 🚧
   - 8.7.0: ✔
     - ❗ `android.permission.READ_PHONE_STATE`
   - 8.5.2: ✔
