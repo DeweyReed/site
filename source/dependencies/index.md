@@ -41,7 +41,7 @@ gradle wrapper --gradle-version
 
 - org.jetbrains.kotlin:kotlin
 
-  - [2.0.21](https://kotlinlang.org/docs/whatsnew2020.html): 🚧
+  - [2.0.21](https://kotlinlang.org/docs/whatsnew2020.html): ✔
   - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): ⬆
 
     - [Compose Compiler Gradle plugin](https://developer.android.com/develop/ui/compose/compiler)
@@ -76,7 +76,7 @@ gradle wrapper --gradle-version
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
-  - 1.9.0: 🚧(Kotlin 2.0)
+  - 1.9.0: ✔(Kotlin 2.0)
   - 1.8.1: ✔
   - 1.8.0: ✔(Kotlin 1.9)
   - 1.7.3: ✔
@@ -181,7 +181,7 @@ gradle wrapper --gradle-version
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.8.5: 🚧
+  - 1.8.5: ✔
   - 1.8.4: ✔
   - 1.8.2: ✔
 
@@ -200,7 +200,7 @@ gradle wrapper --gradle-version
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.8.7: 🚧
+  - 2.8.7: ✔
   - 2.8.6: ⬆(Compose 1.7)
   - 2.8.4: ✔
   - 2.8.2: ✔
@@ -251,7 +251,7 @@ gradle wrapper --gradle-version
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - 1.4.5: 🚧
+  - 1.4.5: ✔
   - 1.4.4: ✔
   - 1.4.3: ✔
   - 1.4.0: ✔
@@ -278,14 +278,14 @@ gradle wrapper --gradle-version
 
 - [androidx.constraintlayout:constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
-  - 2.2.0: 🚧
+  - 2.2.0: ✔
   - 2.1.4: ✔
 
     - > Gone<->Visible components are now animated as expected
 
 - androidx.constraintlayout:constraintlayout-compose
 
-  - 1.1.0: 🚧
+  - 1.1.0: ✔
   - 1.0.1: ✔
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
@@ -304,7 +304,8 @@ gradle wrapper --gradle-version
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.8.4: 🚧(Compose 1.7)
+  - 2.8.5: 🚧
+  - 2.8.4: ✔(Compose 1.7)
 
     - Navigation Kotlin DSL Type-Safety(used by Navigation Compose)
     - `navigation-fragment-compose`: `<composable android:id="@+id/home_screen"...`
@@ -383,11 +384,13 @@ gradle wrapper --gradle-version
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
   - 2023.06.01: ✔(Compose UI 1.4 + Kotlin 1.8.22 + Compose Compiler Plugin 1.4.8 + accompanist 0.30.1)
 
-  - 2024.11.00: 🚧(Compose 1.7.5)
+  - 2024.12.01: 🚧(Compose 1.7.6)
+  - 2024.11.00: ✔(Compose 1.7.5)
 
     - Apply `AppCompatDelegate.setDefaultNightMode`
     - `LocalRippleTheme` -> `LocalRippleConfiguration`
     - `windowInsets =` -> `contentWindowInsets =`
+    - `CoordinatorLayout`
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
@@ -651,7 +654,7 @@ gradle wrapper --gradle-version
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
-  - 8.8.0: 🚧
+  - 8.8.0: ✔
   - 8.7.0: ✔
     - ❗ `android.permission.READ_PHONE_STATE`
   - 8.5.2: ✔
