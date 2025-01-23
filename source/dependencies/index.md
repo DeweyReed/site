@@ -17,7 +17,7 @@ gradle wrapper --gradle-version
 
 <https://gradle.org/releases/>
 
-- 8.11.1: 🚧
+- 8.11.1: ✔
 - 8.10.2: ✔
 - 8.8: ✔(Kotlin 1.9)
 - 8.2.1: ✔
@@ -286,7 +286,7 @@ gradle wrapper --gradle-version
 
 - androidx.constraintlayout:constraintlayout-compose
 
-  - 1.1.0: ✔
+  - 1.1.0: ✔(Compose 1.7)
   - 1.0.1: ✔
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
@@ -305,7 +305,7 @@ gradle wrapper --gradle-version
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.8.5: 🚧
+  - 2.8.5: ✔
   - 2.8.4: ✔(Compose 1.7)
 
     - Navigation Kotlin DSL Type-Safety(used by Navigation Compose)
@@ -385,7 +385,7 @@ gradle wrapper --gradle-version
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
   - 2023.06.01: ✔(Compose UI 1.4 + Kotlin 1.8.22 + Compose Compiler Plugin 1.4.8 + accompanist 0.30.1)
 
-  - 2024.12.01: 🚧(Compose 1.7.6)
+  - 2024.12.01: ✔(Compose 1.7.6)
   - 2024.11.00: ✔(Compose 1.7.5)
 
     - Apply `AppCompatDelegate.setDefaultNightMode`
@@ -395,7 +395,7 @@ gradle wrapper --gradle-version
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
-  - 1.9.0: ?
+  - 1.9.0: ??
 
     Set the background color:
 
@@ -492,6 +492,7 @@ gradle wrapper --gradle-version
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
+  - 1.15.2: ??
   - 1.15.1: ✔(Kotlin 1.9)
   - 1.15.0: ✔(Kotlin 1.8)
   - 1.14.0: ✔(Kotlin 1.7, Android 13(33))
@@ -507,6 +508,7 @@ gradle wrapper --gradle-version
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.10.2: ??(Kotlin 2.1)
   - 3.9.1: ✔
   - 3.9.0: ✔(Kotlin 1.9)
   - 3.3.0: ✔(Kotlin 1.8)
