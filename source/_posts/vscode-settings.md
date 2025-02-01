@@ -26,3 +26,10 @@ categories: Android
     "workbench.editor.enablePreview": false,
 }
 ```
+
+扩展：
+
+- APKLab
+- IntelliJ IDEA Keybindings
+- markdownlint
+- Subword Navigation
