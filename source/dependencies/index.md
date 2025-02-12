@@ -590,6 +590,7 @@ gradle wrapper --gradle-version
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.52.0: ??
   - 0.51.0: ✔
   - 0.50.0: ✔
 
