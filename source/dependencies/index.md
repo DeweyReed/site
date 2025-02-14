@@ -379,6 +379,9 @@ gradle wrapper --gradle-version
   - 1.1.0: ✔
   - 1.0.0: ✔
 
+- [androidx.datastore](https://developer.android.com/jetpack/androidx/releases/datastore)
+  - 1.1.2: ??
+
 - [Jetpack Compose](https://developer.android.com/jetpack/androidx/releases/compose)
 
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
