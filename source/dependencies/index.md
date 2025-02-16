@@ -279,14 +279,15 @@ gradle wrapper --gradle-version
 
 - [androidx.constraintlayout:constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
-  - 2.2.0: ❌(Broken `Dimension.ratio`)
+  - 2.2.0: ✔
   - 2.1.4: ✔
 
     - > Gone<->Visible components are now animated as expected
 
 - androidx.constraintlayout:constraintlayout-compose
 
-  - 1.1.0: ❌(Compose 1.7, Broken `Dimension.ratio`)
+  - 1.1.0: ✔(Compose 1.7)
+    - ! `Dimension.ratio` only allows `W:H`
   - 1.0.1: ✔
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
