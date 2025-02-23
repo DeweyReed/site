@@ -292,6 +292,7 @@ gradle wrapper --gradle-version
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
+  - 1.4.0: ??(Android 15)
   - 1.3.2: ✔ Depending on a beta viewpager2
   - 1.3.0: ✔
 
@@ -387,8 +388,8 @@ gradle wrapper --gradle-version
 
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
-  - 2023.06.01: ✔(Compose UI 1.4 + Kotlin 1.8.22 + Compose Compiler Plugin 1.4.8 + accompanist 0.30.1)
 
+  - 2025.02.00: ??(Compose 1.7.8)
   - 2024.12.01: ✔(Compose 1.7.6)
   - 2024.11.00: ✔(Compose 1.7.5)
 
@@ -396,6 +397,8 @@ gradle wrapper --gradle-version
     - `LocalRippleTheme` -> `LocalRippleConfiguration`
     - `windowInsets =` -> `contentWindowInsets =`
     - `CoordinatorLayout`
+
+  - 2023.06.01: ✔(Compose UI 1.4 + Kotlin 1.8.22 + Compose Compiler Plugin 1.4.8 + accompanist 0.30.1)
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
@@ -419,15 +422,14 @@ gradle wrapper --gradle-version
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.55: ??
   - 2.52: ✔
   - 2.51.1: ✔
-  - 2.51: ✔
   - 2.50: ✔(Hilt Kotlin 1.9)
   - 2.47: ✔
   - 2.46.1: ✔
   - 2.45: ✔
   - 2.44.2: ✔
-  - 2.42: ✔
   - 2.41: ✔
   - 2.40.5: ✔
 
