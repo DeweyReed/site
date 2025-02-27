@@ -382,7 +382,7 @@ gradle wrapper --gradle-version
   - 1.0.0: ✔
 
 - [androidx.datastore](https://developer.android.com/jetpack/androidx/releases/datastore)
-  - 1.1.2: ??
+  - 1.1.2: ❌
 
 - [Jetpack Compose](https://developer.android.com/jetpack/androidx/releases/compose)
 
