@@ -389,7 +389,7 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.02.00: ??(Compose 1.7.8)
+  - 2025.02.00: ✔(Compose 1.7.8)
   - 2024.12.01: ✔(Compose 1.7.6)
   - 2024.11.00: ✔(Compose 1.7.5)
 
@@ -422,7 +422,7 @@ gradle wrapper --gradle-version
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.55: ??
+  - 2.55: ✔
   - 2.52: ✔
   - 2.51.1: ✔
   - 2.50: ✔(Hilt Kotlin 1.9)
@@ -498,7 +498,7 @@ gradle wrapper --gradle-version
 
 - [com.squareup.moshi:moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md)
 
-  - 1.15.2: ??
+  - 1.15.2: ✔
   - 1.15.1: ✔(Kotlin 1.9)
   - 1.15.0: ✔(Kotlin 1.8)
   - 1.14.0: ✔(Kotlin 1.7, Android 13(33))
@@ -596,7 +596,7 @@ gradle wrapper --gradle-version
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.52.0: ??
+  - 0.52.0: ✔
   - 0.51.0: ✔
   - 0.50.0: ✔
 
@@ -616,7 +616,7 @@ gradle wrapper --gradle-version
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
-  - 1.2.29: 🚧(Kotlin 2.0)
+  - 1.2.29: ✔(Kotlin 2.0)
   - 1.2.28: ✔
   - 1.2.25: ✔
 
