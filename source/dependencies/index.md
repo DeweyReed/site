@@ -639,6 +639,7 @@ gradle wrapper --gradle-version
 
 - com.umeng.umsdk:common
 
+  - 9.8.0: ??
   - 9.7.5: ✔
   - 9.6.8: ✔
   - 9.5.2: ✔
@@ -648,12 +649,14 @@ gradle wrapper --gradle-version
 
 - com.umeng.umsdk:asms
 
+  - 1.8.6: ??
   - 1.8.3: ✔
   - 1.6.3: ✔
   - 1.4.1: ✔
 
 - com.umeng.umsdk:share
 
+  - 7.3.5: ??
   - 7.3.4: ✔
   - 7.2.0: ✔
   - 7.1.7: ✔
