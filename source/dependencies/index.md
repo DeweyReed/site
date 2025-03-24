@@ -182,6 +182,7 @@ gradle wrapper --gradle-version
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.8.6: ??
   - 1.8.5: ✔
   - 1.8.4: ✔
   - 1.8.2: ✔
@@ -389,7 +390,7 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.02.00: ✔(Compose 1.7.8)
+  - 2025.02.00, 2025.03.00: ✔(Compose 1.7.8)
   - 2024.12.01: ✔(Compose 1.7.6)
   - 2024.11.00: ✔(Compose 1.7.5)
 
