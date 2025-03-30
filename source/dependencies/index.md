@@ -165,6 +165,8 @@ gradle wrapper --gradle-version
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
+  - 1.10.1: ??(Android 15(35))
+    - `LocalActivity`
   - 1.9.3: ✔
   - 1.9.2: ✔
   - 1.9.1: ✔
@@ -390,7 +392,7 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.02.00, 2025.03.00: ✔(Compose 1.7.8)
+  - 2025.02.00, 2025.03.01: ✔(Compose 1.7.8)
   - 2024.12.01: ✔(Compose 1.7.6)
   - 2024.11.00: ✔(Compose 1.7.5)
 
@@ -640,7 +642,7 @@ gradle wrapper --gradle-version
 
 - com.umeng.umsdk:common
 
-  - 9.8.0: ??
+  - 9.8.0: ✔
   - 9.7.5: ✔
   - 9.6.8: ✔
   - 9.5.2: ✔
@@ -650,14 +652,14 @@ gradle wrapper --gradle-version
 
 - com.umeng.umsdk:asms
 
-  - 1.8.6: ??
+  - 1.8.6: ✔
   - 1.8.3: ✔
   - 1.6.3: ✔
   - 1.4.1: ✔
 
 - com.umeng.umsdk:share
 
-  - 7.3.5: ??
+  - 7.3.5: ✔
   - 7.3.4: ✔
   - 7.2.0: ✔
   - 7.1.7: ✔
@@ -682,7 +684,7 @@ gradle wrapper --gradle-version
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
-  - 15.8.33: ??
+  - 15.8.33: ✔
   - 15.8.17: ✔
   - 15.8.16: ✔
   - 15.8.14: ✔
