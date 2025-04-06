@@ -62,6 +62,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Plugins`
   - `ADB Idea`
   - `Archive Browser`
+  - `Avocado`
   - `JsonToKotlinClass` + Configure manually
   - `Nyan Progress Bar`
   - `String Manipulation`
