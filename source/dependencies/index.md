@@ -100,6 +100,8 @@ gradle wrapper --gradle-version
   
   `What's New` in Android Studio has more release notes.
 
+  - 8.8.2(Ladybug 2024.2.2, Gradle 8.10.2): ??
+    - [New Gemini in Android Studio features](https://developer.android.com/studio/releases/past-releases/as-ladybug-feature-drop-release-notes#gemini-in-as)
   - 8.6.1(Koala 2024.1.2, Gradle 8.7): ✔ Lots of bugs, but at least usable.
   - 8.4.2(JellyFish 2023.3.1, Gradle 8.6): ❌ Broken Logcat and ADB Wifi
     - [Gemini](https://developer.android.com/studio/preview/gemini)
