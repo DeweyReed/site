@@ -38,9 +38,13 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Console` - `Default Encoding`: `UTF-8`
     - `Smart Keys`
       - Enable `Use "CamelHumps" Words`
-      - Disable `Reformat again to remove custom line breaks
-  - `Font` - `Font`: `Consolas`; `Size`: `22.0`
-  - `Color Scheme` - `Console Font` - `Size`: `16`; `Line height`: `0.8`
+      - Disable `Reformat again to remove custom line breaks`
+  - `Font` - `Font`
+    - `Consolas`: `Size`: `22.0`
+    - `JetBrains Mono`: `Size`: `18`; `Line height`: `1.8`
+  - `Color Scheme` - `Console Font`
+    - `Consolas`: `Size`: `16`; `Line height`: `0.8`
+    - `JetBrains Mono`: `Size`: `13`; `Line height`: `0.8`
   - `Code Style`: `Scheme: IDE`
     - `Groovy`
       - `Code Generation`
