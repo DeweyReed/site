@@ -17,7 +17,7 @@ gradle wrapper --gradle-version
 
 <https://gradle.org/releases/>
 
-- 8.13: ??
+- 8.13: ✔
 - 8.11.1: ✔
 - 8.10.2: ✔
 - 8.8: ✔(Kotlin 1.9)
@@ -101,7 +101,7 @@ gradle wrapper --gradle-version
   
   `What's New` in Android Studio has more release notes.
 
-  - 8.8.2(Ladybug 2024.2.2, Gradle 8.10.2): ??
+  - 8.8.2(Ladybug 2024.2.2, Gradle 8.10.2): ✔
     - [New Gemini in Android Studio features](https://developer.android.com/studio/releases/past-releases/as-ladybug-feature-drop-release-notes#gemini-in-as)
   - 8.6.1(Koala 2024.1.2, Gradle 8.7): ✔ Lots of bugs, but at least usable.
   - 8.4.2(JellyFish 2023.3.1, Gradle 8.6): ❌ Broken Logcat and ADB Wifi
@@ -285,6 +285,7 @@ gradle wrapper --gradle-version
 
 - [androidx.constraintlayout:constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
+  - 2.2.1: ✔
   - 2.2.0: ✔
   - 2.1.4: ✔
 
@@ -292,6 +293,7 @@ gradle wrapper --gradle-version
 
 - androidx.constraintlayout:constraintlayout-compose
 
+  - 1.1.1: ✔
   - 1.1.0: ✔(Compose 1.7)
     - ! `Dimension.ratio` only allows `W:H`
   - 1.0.1: ✔
@@ -313,6 +315,7 @@ gradle wrapper --gradle-version
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.8.6: ✔
   - 2.8.5: ✔
   - 2.8.4: ✔(Compose 1.7)
 
