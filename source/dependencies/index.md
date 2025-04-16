@@ -377,6 +377,7 @@ gradle wrapper --gradle-version
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
+  - 1.4.0: ??
   - 1.3.7: ✔
   - 1.3.6: ✔
 
