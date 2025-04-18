@@ -187,7 +187,7 @@ gradle wrapper --gradle-version
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.8.6: ??
+  - 1.8.6: ✔
   - 1.8.5: ✔
   - 1.8.4: ✔
   - 1.8.2: ✔
