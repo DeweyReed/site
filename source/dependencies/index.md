@@ -239,6 +239,8 @@ gradle wrapper --gradle-version
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.16.0: ??
+    - JSpecify nullness annotations
   - 1.15.0: 🚧(Android 15(35))
   - 1.13.1: ✔
   - 1.12.0: ✔(Android 14(34))
@@ -258,6 +260,8 @@ gradle wrapper --gradle-version
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
+  - 1.5.0: ??
+    - `SieveCache` is a new allocation-free replacement for `LruCache` that offers better hit ratio characteristics.
   - 1.4.5: ✔
   - 1.4.4: ✔
   - 1.4.3: ✔
