@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2024.12.4
+Updated: 2025.5.12
 
 # Android
 
@@ -256,6 +256,8 @@ Updated: 2024.12.4
 [Strings, Please! Eliminating Data Leaks Caused by Kotlin Assertions](https://www.guardsquare.com/blog/eliminating-data-leaks-caused-by-kotlin-assertions)
 
 ### Security
+
+[Hybrid Encryption in Android: Secure Communication Between Mobile and Backend Systems](https://itnext.io/hybrid-encryption-in-android-secure-communication-between-mobile-and-backend-systems-834c7f55a246)
 
 [Android Undercover: Native Code Translation for AV Stealth - DC615/DEF CON Nashville](https://www.youtube.com/watch?v=UcdMx-te2NE)
 
