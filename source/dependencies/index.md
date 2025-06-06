@@ -278,6 +278,7 @@ gradle wrapper --gradle-version
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
+  - 2.1.5: ??(Kotlin 2.1)
   - 2.1.3: ❌(AGP 8.0)
     - java.lang.IllegalArgumentException: this and base files have different roots
   - 2.0.4: ✔
@@ -333,6 +334,7 @@ gradle wrapper --gradle-version
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.7.1: ??(Kotlin 2.1)
   - 2.6.1: ✔(Android 14(34))
     - [The new artifact for the Room Gradle Plugin](https://developer.android.com/jetpack/androidx/releases/room#2.6.0-alpha02)
   - 2.5.2: ✔
@@ -382,7 +384,7 @@ gradle wrapper --gradle-version
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
-  - 1.4.0: ??
+  - 1.4.1: ??
   - 1.3.7: ✔
   - 1.3.6: ✔
 
@@ -404,6 +406,8 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.04.01: ??(Android 15, Compose 1.8)
+  - 2025.04.00: ??
   - 2025.02.00, 2025.03.01: ✔(Compose 1.7.8)
   - 2024.12.01: ✔(Compose 1.7.6)
   - 2024.11.00: ✔(Compose 1.7.5)
@@ -437,6 +441,7 @@ gradle wrapper --gradle-version
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.56.2: ??(Kotlin 2.1)
   - 2.55: ✔
   - 2.52: ✔
   - 2.51.1: ✔
