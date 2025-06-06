@@ -278,7 +278,7 @@ gradle wrapper --gradle-version
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
-  - 2.1.5: ??(Kotlin 2.1)
+  - 2.1.5: ??
   - 2.1.3: ❌(AGP 8.0)
     - java.lang.IllegalArgumentException: this and base files have different roots
   - 2.0.4: ✔
