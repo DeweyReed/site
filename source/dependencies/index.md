@@ -406,6 +406,10 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.06.00: ??(Compose 1.8.2)
+    - `Modifier.semantics { contentType = ContentType.Username }`
+    - `autoSize = TextAutoSize.StepBased()`
+    - `Modifier.onLayoutRectChanged`
   - 2025.04.01: ??(Android 15, Compose 1.8)
   - 2025.04.00: ??
   - 2025.02.00, 2025.03.01: ✔(Compose 1.7.8)
