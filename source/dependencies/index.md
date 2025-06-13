@@ -410,6 +410,9 @@ gradle wrapper --gradle-version
     - `Modifier.semantics { contentType = ContentType.Username }`
     - `autoSize = TextAutoSize.StepBased()`
     - `Modifier.onLayoutRectChanged`
+    - `LocalOverscrollConfiguration` -> `LocalOverscrollFactory`
+    - `LocalConfiguration.current.screenWidthDp` -> `LocalWindowInfo.current.containerSize`
+    - ~~`ContextualFlowRow` and `ContextualFlowColumn`~~
   - 2025.04.01: ??(Android 15, Compose 1.8)
   - 2025.04.00: ??
   - 2025.02.00, 2025.03.01: ✔(Compose 1.7.8)
