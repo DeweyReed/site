@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2025.5.12
+Updated: 2025.6.16
 
 # Android
 
@@ -316,6 +316,10 @@ Updated: 2025.5.12
 [Testing App Startup Performance](https://medium.com/androiddevelopers/testing-app-startup-performance-36169c27ee55)
 
 ### Architecture
+
+[Yes, That’s MVI: The Pattern’s Full History, Misconceptions, and Modern Android Form](https://proandroiddev.com/yes-that-is-mvi-674f810ca4fe)
+
+[Android One-off Events: Approaches, evolution & anti-patterns](https://proandroiddev.com/android-one-off-events-approaches-evolution-anti-patterns-add887cd0250)
 
 [Google I/O 2018 app — Architecture and Testing](https://medium.com/androiddevelopers/google-i-o-2018-app-architecture-and-testing-f546e37fc7eb)
 
