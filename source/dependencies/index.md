@@ -43,6 +43,7 @@ gradle wrapper --gradle-version
 
 - org.jetbrains.kotlin:kotlin
 
+  - [2.1.21](https://kotlinlang.org/docs/whatsnew2120.html): ??
   - [2.0.21](https://kotlinlang.org/docs/whatsnew2020.html): ✔
   - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): ⬆
 
@@ -78,6 +79,7 @@ gradle wrapper --gradle-version
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.10.2: ??(Kotlin 2.1)
   - 1.9.0: ✔(Kotlin 2.0)
   - 1.8.1: ✔
   - 1.8.0: ✔(Kotlin 1.9)
