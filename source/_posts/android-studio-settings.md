@@ -31,7 +31,6 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Appearance`
       - Disable `Caret blinking`
       - Disable `Show line numbers`
-      - Disable `Show Sticky lines while scrolling`
       - Enable `Show method separators`
       - Disable `Render documentation comments` and `Reader Mode`
     - `Code Completion` - Disable `Match case`
@@ -39,9 +38,10 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Smart Keys`
       - Enable `Use "CamelHumps" Words`
       - Disable `Reformat again to remove custom line breaks`
+    - `Sticky Lines`: Disable
   - `Font` - `Font`
     - `Consolas`: `Size`: `22.0`
-    - `JetBrains Mono`: `Size`: `18`; `Line height`: `1.8`
+    - `JetBrains Mono`: `Size`: `18`; `Line height`: `1.1`
   - `Color Scheme` - `Console Font`
     - `Consolas`: `Size`: `16`; `Line height`: `0.8`
     - `JetBrains Mono`: `Size`: `13`; `Line height`: `0.8`
