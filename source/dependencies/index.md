@@ -103,6 +103,8 @@ gradle wrapper --gradle-version
   
   `What's New` in Android Studio has more release notes.
 
+  - 8.10.1(Meerkat 2024.3.2, Gradle 8.11.1): ??
+    - [KMP Shared Module integration with Android applications](https://developer.android.com/studio/releases/past-releases/as-meerkat-release-notes#kmp-template)
   - 8.8.2(Ladybug 2024.2.2, Gradle 8.10.2): ✔
     - [New Gemini in Android Studio features](https://developer.android.com/studio/releases/past-releases/as-ladybug-feature-drop-release-notes#gemini-in-as)
   - 8.6.1(Koala 2024.1.2, Gradle 8.7): ✔ Lots of bugs, but at least usable.
