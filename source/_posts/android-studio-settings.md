@@ -20,6 +20,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Keymap`(Delete old keys)
   - `ShowProjectStructureSettings`: Empty
   - `Type alias`: Empty
+  - `Go to Line: Column`: Empty
   - `Show vcs Log`: Alt + 3
   - `Show Logcat`: Alt + 4
   - `Show Local Changes`: Alt + 2
