@@ -172,11 +172,8 @@ gradle wrapper --gradle-version
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.10.1: ??(Android 15(35))
+  - 1.10.1: ✔(Android 15(35))
     - `LocalActivity`
-  - 1.9.3: ✔
-  - 1.9.2: ✔
-  - 1.9.1: ✔
   - 1.9.0: ✔
 
     - `OnUserLeaveHintProvider`
@@ -243,9 +240,9 @@ gradle wrapper --gradle-version
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.16.0: ??
+  - 1.16.0:  ✔
     - JSpecify nullness annotations
-  - 1.15.0: 🚧(Android 15(35))
+  - 1.15.0: ^(Android 15(35))
   - 1.13.1: ✔
   - 1.12.0: ✔(Android 14(34))
 
@@ -264,11 +261,9 @@ gradle wrapper --gradle-version
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - 1.5.0: ??
+  - 1.5.0: ✔
     - `SieveCache` is a new allocation-free replacement for `LruCache` that offers better hit ratio characteristics.
   - 1.4.5: ✔
-  - 1.4.4: ✔
-  - 1.4.3: ✔
   - 1.4.0: ✔
 
     - `ScatterMap`, `ScatterSet`, and `ObjectList`.
@@ -282,7 +277,7 @@ gradle wrapper --gradle-version
 
 - [com.android.tools:desugar_jdk_libs](https://github.com/google/desugar_jdk_libs)
 
-  - 2.1.5: ??
+  - 2.1.5: ✔
   - 2.1.3: ❌(AGP 8.0)
     - java.lang.IllegalArgumentException: this and base files have different roots
   - 2.0.4: ✔
@@ -309,7 +304,7 @@ gradle wrapper --gradle-version
 
 - [androidx.recyclerview:recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
-  - 1.4.0: ??(Android 15)
+  - 1.4.0: ✔(Android 15)
   - 1.3.2: ✔ Depending on a beta viewpager2
   - 1.3.0: ✔
 
@@ -356,7 +351,7 @@ gradle wrapper --gradle-version
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - 2.10.1: 🚧(Android 15(35))
+  - 2.10.1: ✔(Android 15(35))
   - 2.9.1: ✔
   - 2.9.0: ✔(Android 14(34))
 
@@ -388,7 +383,7 @@ gradle wrapper --gradle-version
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
-  - 1.4.1: ??
+  - 1.4.1: ✔
   - 1.3.7: ✔
   - 1.3.6: ✔
 
@@ -410,14 +405,14 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.06.00: ??(Compose 1.8.2)
+  - 2025.06.00: ✔(Compose 1.8.2)
     - `Modifier.semantics { contentType = ContentType.Username }`
     - `autoSize = TextAutoSize.StepBased()`
     - `Modifier.onLayoutRectChanged`
     - `LocalOverscrollConfiguration` -> `LocalOverscrollFactory`
     - `LocalConfiguration.current.screenWidthDp` -> `LocalWindowInfo.current.containerSize`
     - ~~`ContextualFlowRow` and `ContextualFlowColumn`~~
-  - 2025.04.01: ??(Android 15, Compose 1.8)
+  - 2025.04.01: ^(Android 15, Compose 1.8)
   - 2025.04.00: ??
   - 2025.02.00, 2025.03.01: ✔(Compose 1.7.8)
   - 2024.12.01: ✔(Compose 1.7.6)
