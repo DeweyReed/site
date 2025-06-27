@@ -694,9 +694,13 @@ gradle wrapper --gradle-version
 
   - 2.0.4: ??
 
-- [com.tencent.mm.opensdk:wechat-sdk-android-without-mta](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html)
+- [com.tencent.mm.opensdk:wechat-sdk-android-without-mta](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html): Deprecated
 
   - 6.8.0: ✔
+
+- [com.tencent.mm.opensdk:wechat-sdk-android](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html)
+
+  - 6.8.34: ??
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
