@@ -663,8 +663,9 @@ gradle wrapper --gradle-version
 
   - 3.4.4: ✔
 
-- com.umeng.umsdk:common
+- [com.umeng.umsdk:common](https://devs.umeng.com/)
 
+  - 9.8.5: ??
   - 9.8.0: ✔
   - 9.7.5: ✔
   - 9.6.8: ✔
@@ -675,6 +676,7 @@ gradle wrapper --gradle-version
 
 - com.umeng.umsdk:asms
 
+  - 1.8.7.2: ??
   - 1.8.6: ✔
   - 1.8.3: ✔
   - 1.6.3: ✔
@@ -682,10 +684,15 @@ gradle wrapper --gradle-version
 
 - com.umeng.umsdk:share
 
+  - 7.3.7: ??
   - 7.3.5: ✔
   - 7.3.4: ✔
   - 7.2.0: ✔
   - 7.1.7: ✔
+
+- com.umeng.umsdk:apm
+
+  - 2.0.4: ??
 
 - [com.tencent.mm.opensdk:wechat-sdk-android-without-mta](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html)
 
