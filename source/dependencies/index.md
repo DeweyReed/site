@@ -476,7 +476,7 @@ gradle wrapper --gradle-version
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
-  - 7.1.1: 🚧(Android 14(34))
+  - 7.1.1: ✔(Android 14(34))
 
     - `enablePendingPurchases()` => `enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())`
     - ~~`BillingClient.queryPurchaseHistoryAsync()`~~
