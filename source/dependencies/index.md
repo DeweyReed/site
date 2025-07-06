@@ -44,6 +44,9 @@ gradle wrapper --gradle-version
 - org.jetbrains.kotlin:kotlin
 
   - [2.1.21](https://kotlinlang.org/docs/whatsnew2120.html): ??
+
+    - `KSP` required for moshi and room
+
   - [2.0.21](https://kotlinlang.org/docs/whatsnew2020.html): ✔
   - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): ⬆
 
@@ -160,6 +163,7 @@ gradle wrapper --gradle-version
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
+  - 1.7.1: ??
   - 1.7.0: ✔
   - 1.6.1: ✔
 
@@ -188,6 +192,7 @@ gradle wrapper --gradle-version
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.8.8: ??
   - 1.8.6: ✔
   - 1.8.5: ✔
   - 1.8.4: ✔
@@ -207,6 +212,11 @@ gradle wrapper --gradle-version
   - 1.3.6: ✔
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
+
+  - 2.9.1: ??
+
+    - `SavedStateHandle.getMutableStateFlow`
+    - KotlinX Serialization Support
 
   - 2.8.7: ✔
   - 2.8.6: ⬆(Compose 1.7)
@@ -319,6 +329,7 @@ gradle wrapper --gradle-version
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.9.1: ??
   - 2.8.6: ✔
   - 2.8.5: ✔
   - 2.8.4: ✔(Compose 1.7)
@@ -333,7 +344,7 @@ gradle wrapper --gradle-version
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.7.1: ??(Kotlin 2.1)
+  - 2.7.2: ??(Kotlin 2.1)
   - 2.6.1: ✔(Android 14(34))
     - [The new artifact for the Room Gradle Plugin](https://developer.android.com/jetpack/androidx/releases/room#2.6.0-alpha02)
   - 2.5.2: ✔
@@ -351,6 +362,7 @@ gradle wrapper --gradle-version
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.10.2: ??
   - 2.10.1: ✔(Android 15(35))
   - 2.9.1: ✔
   - 2.9.0: ✔(Android 14(34))
@@ -405,6 +417,7 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.06.01: ??(Compsoe 1.8.3)
   - 2025.06.00: ✔(Compose 1.8.2)
     - `Modifier.semantics { contentType = ContentType.Username }`
     - `autoSize = TextAutoSize.StepBased()`
@@ -504,7 +517,7 @@ gradle wrapper --gradle-version
 
 ## Third-party
 
-- com.squareup.okhttp3:okhttp
+- [com.squareup.okhttp3:okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md)
 
   - 4.12.0: ✔(Kotlin 1.9)
   
@@ -514,8 +527,9 @@ gradle wrapper --gradle-version
   - 4.10.0: ✔
   - 4.9.3: ✔
 
-- com.squareup.retrofit2:retrofit
+- [com.squareup.retrofit2:retrofit](https://github.com/square/retrofit/blob/trunk/CHANGELOG.md)
 
+  - 3.0.0: ??
   - 2.11.0: ✔
 
     - No more proguard rules
@@ -540,6 +554,7 @@ gradle wrapper --gradle-version
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.15.0: ??
   - 3.10.2: ??(Kotlin 2.1)
   - 3.9.1: ✔
   - 3.9.0: ✔(Kotlin 1.9)
@@ -718,6 +733,7 @@ gradle wrapper --gradle-version
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
+  - 15.8.35: ??
   - 15.8.33: ✔
   - 15.8.17: ✔
   - 15.8.16: ✔
