@@ -382,7 +382,7 @@ gradle wrapper --gradle-version
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
-  - 1.6.1: ??
+  - 1.6.1, 1.7.1: ✔
   - 1.4.1: ✔
 
 - [androidx.security:security-crypto](https://developer.android.com/jetpack/androidx/releases/security)
@@ -402,6 +402,7 @@ gradle wrapper --gradle-version
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
+  - 1.4.0: ??
   - 1.3.0: ✔
 
     - `WindowSizeClass`
@@ -418,7 +419,7 @@ gradle wrapper --gradle-version
   - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.06.01: ??(Compsoe 1.8.3)
+  - 2025.06.01, 2025.07.00: ??(Compsoe 1.8.3)
   - 2025.06.00: ✔(Compose 1.8.2)
     - `Modifier.semantics { contentType = ContentType.Username }`
     - `autoSize = TextAutoSize.StepBased()`
