@@ -257,6 +257,12 @@ gradle wrapper --gradle-version
 
   - 1.16.0:  ✔
     - JSpecify nullness annotations
+    - KTX
+      - `Bitmap.createBitmap`
+      - `Bitmap.createScaledBitmap`
+      - `Color.parseColor`
+      - `BitmapDrawable(`
+      - `.getPixel`
   - 1.15.0: ^(Android 15(35))
   - 1.13.1: ✔
   - 1.12.0: ✔(Android 14(34))
