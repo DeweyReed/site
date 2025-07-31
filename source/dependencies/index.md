@@ -45,7 +45,7 @@ gradle wrapper --gradle-version
 
   - [2.1.21](https://kotlinlang.org/docs/whatsnew2120.html): ✔
 
-    - `KSP` required for moshi and room
+    - `KSP` required for `moshi`, `room`, and `androidx.hilt`
 
   - [2.0.21](https://kotlinlang.org/docs/whatsnew2020.html): ✔
   - [2.0.0](https://kotlinlang.org/docs/whatsnew20.html): ⬆
