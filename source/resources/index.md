@@ -5,7 +5,7 @@ date: 2017/12/28
 i18n_dir: :en
 ---
 
-Updated: 2025.6.16
+Updated: 2025.8.1
 
 # Android
 
@@ -134,6 +134,8 @@ Updated: 2025.6.16
 [Android: Why your Canvas shapes aren’t smooth](https://medium.com/@ali.muzaffar/android-why-your-canvas-shapes-arent-smooth-aa2a3f450eb5)
 
 ### Jetpack Compose
+
+[Missing Classes and Functions in Jetpack Compose Compiler Reports, and How to Fix](https://bterczynski.medium.com/missing-classes-and-functions-in-jetpack-compose-compiler-reports-and-how-to-fix-c22772cbc7d0)
 
 [Gestures in Jetpack Compose](https://www.youtube.com/watch?v=1tkVjBxdGrk)
 
