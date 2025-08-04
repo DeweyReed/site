@@ -17,6 +17,7 @@ gradle wrapper --gradle-version
 
 <https://gradle.org/releases/>
 
+- 8.14.3: ??
 - 8.13: ❌
 - 8.11.1: ✔
 - 8.10.2: ✔
@@ -598,8 +599,9 @@ gradle wrapper --gradle-version
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
-  - 2.7.0: 🚧(Kotlin 2.0)
-  - 2.5.0: 🚧(Kotlin 1.9, Android 14(34))
+  - 3.2.0: ??(Kotlin 2.1)
+  - 2.7.0: ⬆️(Kotlin 2.0)
+  - 2.5.0: ⬆️(Kotlin 1.9, Android 14(34))
   - 2.4.0: ✔
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
