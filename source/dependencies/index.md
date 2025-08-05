@@ -376,8 +376,8 @@ gradle wrapper --gradle-version
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - 2.10.2: ✔
-  - 2.10.1: ✔(Android 15(35))
+  - 2.10.2: ❌
+  - 2.10.1: ❌(Android 15(35))
   - 2.9.1: ✔
   - 2.9.0: ✔(Android 14(34))
 
