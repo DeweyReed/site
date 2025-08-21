@@ -17,7 +17,7 @@ gradle wrapper --gradle-version
 
 <https://gradle.org/releases/>
 
-- 8.14.3: ??
+- 8.14.3: ✔
 - 8.13: ❌
 - 8.11.1: ✔
 - 8.10.2: ✔
@@ -378,7 +378,7 @@ gradle wrapper --gradle-version
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
   - 2.10.2: ❌
-  - 2.10.1: ❌(Android 15(35))
+  - 2.10.1: ✔(Android 15(35))
   - 2.9.1: ✔
   - 2.9.0: ✔(Android 14(34))
 
@@ -416,7 +416,7 @@ gradle wrapper --gradle-version
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
-  - 1.4.0: ??
+  - 1.4.0: ✔
   - 1.3.0: ✔
 
     - `WindowSizeClass`
