@@ -600,7 +600,7 @@ gradle wrapper --gradle-version
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
-  - 3.2.0: ??(Kotlin 2.1)
+  - 3.2.0: ✔(Kotlin 2.1)
   - 2.7.0: ⬆️(Kotlin 2.0)
   - 2.5.0: ⬆️(Kotlin 1.9, Android 14(34))
   - 2.4.0: ✔
