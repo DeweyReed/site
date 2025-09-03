@@ -111,6 +111,12 @@ gradle wrapper --gradle-version
   
   `What's New` in Android Studio has more release notes.
 
+  - 8.12.1(Narwhal 2025.1.2, Gradle 8.13): ??
+    - [Studio Labs](https://developer.android.com/studio/releases/past-releases/as-narwhal-release-notes#studio-labs)
+    - [Gemini in Android Studio's Agent Mode](https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes#agent-mode)
+    - [16 KB page size support](https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes#16kb-support)
+    - [Partner Device Labs available with Android Device Streaming](https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes#partner-device-labs)
+    - [K2 mode by default](https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes#k2-mode-default)
   - 8.10.1(Meerkat 2024.3.2, Gradle 8.11.1): ✔
     - [KMP Shared Module integration with Android applications](https://developer.android.com/studio/releases/past-releases/as-meerkat-release-notes#kmp-template)
     - K2: ❌
