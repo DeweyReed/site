@@ -445,6 +445,7 @@ gradle wrapper --gradle-version
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
   - 2025.08.01: ??(Compose 1.9.0)
+    - `LocalIndication provides`: `IndicationNodeFactory`  
     - `Modifier.dropShadow()` and `Modifier.innerShadow()`
     - `Modifier.onVisibilityChanged` and `Modifier.onFirstVisible`
     - `rememberLazyListState(cacheWindow =  LazyLayoutCacheWindow())`
