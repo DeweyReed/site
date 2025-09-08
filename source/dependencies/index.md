@@ -350,6 +350,7 @@ gradle wrapper --gradle-version
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.9.3: ??
   - 2.9.1: ✔
   - 2.8.6: ✔
   - 2.8.5: ✔
@@ -383,6 +384,7 @@ gradle wrapper --gradle-version
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.10.3: ??
   - 2.10.2: ❌
   - 2.10.1: ✔(Android 15(35))
   - 2.9.1: ✔
@@ -402,6 +404,10 @@ gradle wrapper --gradle-version
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
+  - 1.8.0: ??
+    - `ExoPlayer.setScrubbingModeEnabled(boolean)`
+    - `DefaultEncoderFactory.setEnableCodecDbLite`
+    - Filling an initial gap (added via `addGap()`) with silent audio now requires explicitly setting `experimentalSetForceAudioTrack(true)` in `EditedMediaItemSequence.Builder`.
   - 1.6.1, 1.7.1: ✔
   - 1.4.1: ✔
 
@@ -436,9 +442,14 @@ gradle wrapper --gradle-version
 
 - [Jetpack Compose](https://developer.android.com/jetpack/androidx/releases/compose)
 
-  - [Compose Compiler Plugin to Kotlin version](https://developer.android.com/jetpack/androidx/releases/compose-kotlin)
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.08.01: ??(Compose 1.9.0)
+    - `Modifier.dropShadow()` and `Modifier.innerShadow()`
+    - `Modifier.onVisibilityChanged` and `Modifier.onFirstVisible`
+    - `rememberLazyListState(cacheWindow =  LazyLayoutCacheWindow())`
+    - `OutputTransformation`
+    - `Modifier.scrollable2D`
   - 2025.06.01, 2025.07.00: ✔(Compsoe 1.8.3)
   - 2025.06.00: ✔(Compose 1.8.2)
     - `Modifier.semantics { contentType = ContentType.Username }`
@@ -742,6 +753,7 @@ gradle wrapper --gradle-version
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.9.1: ??
   - 8.8.0: ✔
   - 8.7.0: ✔
     - ❗ `android.permission.READ_PHONE_STATE`
