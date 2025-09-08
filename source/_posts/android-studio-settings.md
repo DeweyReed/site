@@ -61,15 +61,15 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Design Tools`: `Split`, `Split`, `Split`, `Code`, `Code`
   - `Inlay Hints`: Disable `Code Vision`
 - `Plugins`
+  - `.ignore`
   - `ADB Idea`
   - `Archive Browser`
   - `Avocado`
-  - `JsonToKotlinClass` + Configure manually
+  - `GLSL`
+  - `JsonToKotlinClass`
+  - `Kotlin Multiplatform`
   - `Nyan Progress Bar`
   - `String Manipulation`
-  - [Optinal] `Kotlin Multiplatform Mobile`
-  - [Optinal] `GLSL Support`
-  - [Optinal] `Wavefront OBJ`
 - `Version Control` - `Commit`
   - Disable `Use non-modal commit interface`
   - `Before Commit`: Enable all
@@ -83,15 +83,16 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - `Working directory`: `$FileDir$`
   - `Emulator`: Disable `Launch in the Running Devices tool window`
 - Open a project
+- Disable `Show Project Gradient` in the toolbar
 - Clean `Gutter Icons` and reorder tabs manually
 - Reorder window layouts and `Store Current Layout as Default`
 - `Keymap`(Delete old keys)
   - `Build`(Tool Window): Alt + 5
 - `Editor`
   - `Live Template`: Disable compose related; Import from settings zip
+- Configure `JsonToKotlinClass`
 - `Ctrl` + `Shift` + `Alt` + `L`
   - Enable `Optimize imports`, `Code cleanup`, and `Rearrange code`
-- Disable `Show Project Gradient` in the toolbar
 - `Log` - `COMPACT`, Show `Tag Names`
 - Commit something and check changes:
   - Enable `Show Diff in Separate Window`
