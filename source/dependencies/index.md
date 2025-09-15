@@ -189,6 +189,7 @@ gradle wrapper --gradle-version
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
+  - 1.11.0: ??(Android 16(36))
   - 1.10.1: ✔(Android 15(35))
     - `LocalActivity`
   - 1.9.0: ✔
@@ -226,6 +227,7 @@ gradle wrapper --gradle-version
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.9.3: ??
   - 2.9.1: ✔
 
     - `SavedStateHandle.getMutableStateFlow`
@@ -263,6 +265,7 @@ gradle wrapper --gradle-version
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.17.0: ??
   - 1.16.0:  ✔
     - JSpecify nullness annotations
     - KTX
@@ -273,6 +276,7 @@ gradle wrapper --gradle-version
       - `.getPixel`
       - `.childCount`
       - `.edit()`
+      - `ColorDrawable`
   - 1.15.0: ^(Android 15(35))
   - 1.13.1: ✔
   - 1.12.0: ✔(Android 14(34))
@@ -444,6 +448,7 @@ gradle wrapper --gradle-version
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.09.00: ??(Compose 1.9.1)
   - 2025.08.01: ??(Compose 1.9.0)
     - `LocalIndication provides`: `IndicationNodeFactory`  
     - `Modifier.dropShadow()` and `Modifier.innerShadow()`
