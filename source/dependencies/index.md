@@ -499,6 +499,7 @@ gradle wrapper --gradle-version
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.57.1: ??
   - 2.56.2: ✔(Kotlin 2.1)
   - 2.55: ✔
   - 2.52: ✔
