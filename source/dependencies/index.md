@@ -442,6 +442,7 @@ gradle wrapper --gradle-version
   - 1.0.0: ✔
 
 - [androidx.datastore](https://developer.android.com/jetpack/androidx/releases/datastore)
+  - 1.1.7: ??
   - 1.1.2: ❌
 
 - [Jetpack Compose](https://developer.android.com/jetpack/androidx/releases/compose)
@@ -643,6 +644,7 @@ gradle wrapper --gradle-version
 
 - com.github.chuckerteam.chucker:library
 
+  - 4.1.0: ??
   - 4.0.0: ✔(Material 1.9.0)
   - 3.5.2: ✔
 
