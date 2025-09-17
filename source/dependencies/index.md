@@ -451,6 +451,7 @@ gradle wrapper --gradle-version
 
   - 2025.09.00: ??(Compose 1.9.1)
   - 2025.08.01: ??(Compose 1.9.0)
+    - ❗ `ViewCompat.setOnApplyWindowInsetsListener` doesn't work on `ComposeView`
     - `LocalIndication provides`: `IndicationNodeFactory`  
     - `Modifier.dropShadow()` and `Modifier.innerShadow()`
     - `Modifier.onVisibilityChanged` and `Modifier.onFirstVisible`
