@@ -227,6 +227,7 @@ gradle wrapper --gradle-version
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.9.4: ??
   - 2.9.3: ??
   - 2.9.1: ✔
 
@@ -354,6 +355,7 @@ gradle wrapper --gradle-version
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.9.4: ??
   - 2.9.3: ??
   - 2.9.1: ✔
   - 2.8.6: ✔
