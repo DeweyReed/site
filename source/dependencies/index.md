@@ -372,6 +372,7 @@ gradle wrapper --gradle-version
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.8.0: ??
   - 2.7.2: ✔(Kotlin 2.1)
   - 2.6.1: ✔(Android 14(34))
     - [The new artifact for the Room Gradle Plugin](https://developer.android.com/jetpack/androidx/releases/room#2.6.0-alpha02)
