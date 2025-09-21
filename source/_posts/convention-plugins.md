@@ -5,7 +5,7 @@ date: 2025/9/21
 categories: Android
 ---
 
-最近终于狠下心来，认真研究了Gradle Convention Plugins的Android项目实现。本文一行行地分析了其实现、原理与理由。如果只是上手，直接去扒[Now in Android的实现](https://github.com/android/nowinandroid/tree/main/build-logic)更为快捷。
+最近终于狠下心来，认真研究了Gradle Convention Plugins的Android项目实现。本文一行行地分析了其实现、原理与理由。如果只是上手，直接去扒[Now in Android(nia)的实现](https://github.com/android/nowinandroid/tree/main/build-logic)更为快捷。
 
 <!--more-->
 
@@ -25,7 +25,7 @@ categories: Android
 
 Gradle太灵活了，[一个问题有八种解决方法](https://docs.gradle.org/current/userguide/implementing_gradle_plugins.html)。考虑到[Pre-compiled script plugin性能差](https://github.com/android/nowinandroid/issues/39)且Kotlin真好用的情况，我们直接使用最好的Kotlin + Version Catalog + Binary plugin。这意味着在实现前，要先把Gradle迁移到Kotlin DSL。
 
-好在`build.gradle.kts`的重写可以一文件一个文件地进行，所以先把文件语法优化，再修改后缀，然后解决报错，最后Sync。如此这般不断重复。
+好在`build.gradle.kts`的重写可以一个文件一个文件地进行，所以先把文件语法优化，再修改后缀，然后解决报错，最后Sync。如此这般不断重复。
 
 ## 实现的细节
 
@@ -39,11 +39,13 @@ pluginManagement {
     repositories {
 ```
 
-这里要在`pluginManagement`下`includeBuild`，说明我们要写Plugin。这与另一个可顶层调用的方法`includeBuild`是不同的。其他内容原封不动。
+这里要在`pluginManagement`下`includeBuild`，说明我们要写Plugin。这与另一个可顶层调用的方法`includeBuild`是不同的。
+
+其他内容原封不动。
 
 接下里的内容都在`build-logic`目录中，打包地很好。
 
-从[build-logic/settings.gradle.kts`](https://github.com/android/nowinandroid/blob/main/build-logic/settings.gradle.kts)开始：
+从[`build-logic/settings.gradle.kts`](https://github.com/android/nowinandroid/blob/main/build-logic/settings.gradle.kts)开始：
 
 ```Kotlin
 pluginManagement {
@@ -171,9 +173,9 @@ dependencies {
     compileOnly(libs.compose.gradlePlugin)
 ```
 
-这里写明我们在Convention Plugins中会用到的Plugin。之所以是`compileOnly`，我猜是因为Plugin我们这里只需要代码，具体的运行是在项目各Module中的。
+这里写明我们在Convention Plugins中会用到的Plugin。之所以是`compileOnly`，我猜是因为我们这里只需要Plugin代码，而具体的运行是在项目各Module中的。
 
-这里专门把Plugin的依赖再在Version Catalog中写一遍就不漂亮了。在[Gradle的Version Catalog的文档中](https://docs.gradle.org/current/userguide/version_catalogs.html#sec:buildsrc-version-catalog)，我们可以找到不用再写一遍的方法。这里稍加修改成为：
+这里专门把Plugin的依赖再在Version Catalog中写一遍就不漂亮了。同样在[Gradle的Version Catalog的文档中](https://docs.gradle.org/current/userguide/version_catalogs.html#sec:buildsrc-version-catalog)，我们可以找到不用再写一遍的方法。这里稍加修改成为：
 
 ```Kotlin
 dependencies {
@@ -208,6 +210,6 @@ gradlePlugin {
 
 - 为什么Plugin是在根目录完成的呢？[Implementing Binary Plugins](https://docs.gradle.org/current/userguide/implementing_gradle_plugins_binary.html)明明是在对应包名下完成的。不过似乎没什么影响？
 - 为什么要叫做`build-logic`呢？该不会因为养大象的文章中就是这么称呼的？
-- 一个功能的实现散落在Gradle文档网站的数个页面中，阅读体验很差。
+- 一个功能的实现散落在Gradle文档网站的数个页面中，没有谁来优化一下阅读体验吗？
 - 虽说`gradlePluginPortal`可以方便Plugin管理，但现在感觉情况更混乱了。
-- 就像当年发布第三方Library时，大伙儿都会到处抄袭一些没人能懂但能跑的起来的Maven发布代码，如今的Convention Plugins看起来也是如此，尤其在AI都不知道最佳实践，只能乱生成代码的阶段。
+- 就像当年发布第三方Library时，大伙儿都会到处抄袭一些几乎没人能懂但能跑的起来的Maven发布代码，如今的Convention Plugins看起来也是如此，尤其在AI都不知道最佳实践，只能乱生成代码的阶段。
