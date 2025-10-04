@@ -8,15 +8,14 @@ i18n_dir: :en
 ## Gradle
 
 ```Script
-gradle wrapper --gradle-version 
+gradle wrapper --gradle-version=
 ```
-
-**Disable Reformat Code before committing**
 
 > Note, you need to run this command twice to upgrade both Gradle and the Gradle Wrapper itself
 
 <https://gradle.org/releases/>
 
+- 9.0.0: ??(Java 17, Kotlin 2.2) The whole community isn't ready yet
 - 8.14.3: ✔
 - 8.13: ❌
 - 8.11.1: ✔
@@ -206,6 +205,7 @@ gradle wrapper --gradle-version
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.8.9: ??
   - 1.8.8: ✔
   - 1.8.6: ✔
   - 1.8.5: ✔
@@ -372,6 +372,7 @@ gradle wrapper --gradle-version
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.8.1: ??
   - 2.8.0: ??
   - 2.7.2: ✔(Kotlin 2.1)
   - 2.6.1: ✔(Android 14(34))
@@ -452,6 +453,7 @@ gradle wrapper --gradle-version
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.09.01: ??(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.09.00: ??(Compose 1.9.1)
   - 2025.08.01: ✔(Compose 1.9.0)
     - ❗ `ViewCompat.setOnApplyWindowInsetsListener` doesn't work on `ComposeView`
@@ -517,18 +519,9 @@ gradle wrapper --gradle-version
   - 2.41: ✔
   - 2.40.5: ✔
 
-- androidx.hilt:hilt-navigation-fragment
+- androidx.hilt:hilt-*
 
-  - 1.2.0: ✔(Android 1.9)
-  - 1.0.0: ✔
-
-- androidx.hilt:hilt-work
-
-  - 1.2.0: ✔(Android 1.9)
-  - 1.0.0: ✔
-
-- androidx.hilt:hilt-compiler
-
+  - 1.3.0: ??
   - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
 
