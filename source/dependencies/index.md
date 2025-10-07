@@ -748,6 +748,7 @@ gradle wrapper --gradle-version=
 
 - com.umeng.umsdk:apm
 
+  - 2.0.6: ??
   - 2.0.4: ✔
 
 - [com.tencent.mm.opensdk:wechat-sdk-android-without-mta](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html): Deprecated
