@@ -458,6 +458,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.10.00: ??(Compose 1.9.3)
   - 2025.09.01: ??(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.09.00: ??(Compose 1.9.1)
   - 2025.08.01: ✔(Compose 1.9.0)
