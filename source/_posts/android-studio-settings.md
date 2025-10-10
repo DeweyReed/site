@@ -59,7 +59,11 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
         - Disable `Line comment at first column`
         - Enable `Add a space at line comment start` and `Enforce on reformat`
   - `Design Tools`: `Split`, `Split`, `Split`, `Code`, `Code`
-  - `Inlay Hints`: Disable `Code Vision`
+  - `Inlay Hints`
+    - Disable `Code Vision`
+    - Enable `Types` - `Kotlin`
+    - Enable `Method chains` - `Kotlin`
+    - Enable `Lambdas` - `Kotlin`
 - `Plugins`
   - `.ignore`
   - `ADB Idea`
@@ -71,21 +75,19 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Nyan Progress Bar`
   - `String Manipulation`
 - `Version Control` - `Commit`
-  - Disable `Use non-modal commit interface`
   - `Before Commit`: Enable all
 - `Build, Execution, Deployment`
   - `Deployment`: Enable all
 - `Tools`
-  - `External Tools`
-    - `Avocado`
-      - `Program`: `...\Yarn\bin\avocado.cmd`(`Show Hidden Files and Directories`)
-      - `Argument`: `-i $FileName$`
-      - `Working directory`: `$FileDir$`
   - `Emulator`: Disable `Launch in the Running Devices tool window`
+  - `Layout Inspector`: Disable `Enable embedded Layout Inspector`
+- `Advanced Settings`:
+  - Enable `Modal modal commit interface`
 - Open a project
 - Disable `Show Project Gradient` in the toolbar
 - Clean `Gutter Icons` and reorder tabs manually
 - Reorder window layouts and `Store Current Layout as Default`
+- Build project
 - `Keymap`(Delete old keys)
   - `Build`(Tool Window): Alt + 5
 - `Editor`
@@ -96,3 +98,4 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Log` - `COMPACT`, Show `Tag Names`
 - Commit something and check changes:
   - Enable `Show Diff in Separate Window`
+- Stop at code: Disbale `Show on Mouse Move`
