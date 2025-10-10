@@ -110,7 +110,12 @@ gradle wrapper --gradle-version=
   
   `What's New` in Android Studio has more release notes.
 
-  - 8.12.2(Narwhal 2025.1.2, Gradle 8.13): ??
+  - 8.13.0(Narwhal 3 Feature Drop | 2025.1.3, Gradle 8.13): ??
+    - [Android view setting to display build files under corresponding modules](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#android-view-build-files)
+    - [Play Policy Insights in Android Studio](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#play-policy-insights)
+    - [Test and develop with app backup and restore](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#test-backup-restore)
+    - [New setting to disable Automatic Sync](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#auto-sync-setting)
+  - 8.12.2(Narwhal 2025.1.2, Gradle 8.13): ❌(Mysterious 8.12.3)
     - [Studio Labs](https://developer.android.com/studio/releases/past-releases/as-narwhal-release-notes#studio-labs)
     - [Gemini in Android Studio's Agent Mode](https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes#agent-mode)
     - [16 KB page size support](https://developer.android.com/studio/releases/past-releases/as-narwhal-feature-drop-release-notes#16kb-support)
