@@ -77,6 +77,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Version Control` - `Commit`
   - `Before Commit`: Enable all
 - `Build, Execution, Deployment`
+  - `Build Tools`: `Manual Sync with remidners`
   - `Deployment`: Enable all
 - `Tools`
   - `Emulator`: Disable `Launch in the Running Devices tool window`
