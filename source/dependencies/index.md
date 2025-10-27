@@ -110,7 +110,7 @@ gradle wrapper --gradle-version=
   
   `What's New` in Android Studio has more release notes.
 
-  - 8.13.0(Narwhal 3 Feature Drop | 2025.1.3, Gradle 8.13): ??
+  - 8.13.0(Narwhal 3 Feature Drop | 2025.1.3, Gradle 8.13): ✔
     - K2: ❌
     - [Android view setting to display build files under corresponding modules](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#android-view-build-files)
     - [Play Policy Insights in Android Studio](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#play-policy-insights)
@@ -211,7 +211,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.8.9: ??
+  - 1.8.9: ✔
   - 1.8.8: ✔
   - 1.8.6: ✔
   - 1.8.5: ✔
@@ -233,8 +233,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.9.4: ??
-  - 2.9.3: ??
+  - 2.9.4: ✔
   - 2.9.1: ✔
 
     - `SavedStateHandle.getMutableStateFlow`
@@ -272,7 +271,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.17.0: ??
+  - 1.17.0: ✔
   - 1.16.0:  ✔
     - JSpecify nullness annotations
     - KTX
@@ -378,8 +377,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.8.1: ??
-  - 2.8.0: ??
+  - 2.8.1: ✔
   - 2.7.2: ✔(Kotlin 2.1)
   - 2.6.1: ✔(Android 14(34))
     - [The new artifact for the Room Gradle Plugin](https://developer.android.com/jetpack/androidx/releases/room#2.6.0-alpha02)
@@ -460,8 +458,7 @@ gradle wrapper --gradle-version=
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
   - 2025.10.00: ??(Compose 1.9.3)
-  - 2025.09.01: ??(Compose 1.9.2, Lifecycle 2.9.4)
-  - 2025.09.00: ??(Compose 1.9.1)
+  - 2025.09.01: ✔(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.08.01: ✔(Compose 1.9.0)
     - ❗ `ViewCompat.setOnApplyWindowInsetsListener` doesn't work on `ComposeView`
     - `LocalIndication provides`: `IndicationNodeFactory`  
@@ -528,7 +525,7 @@ gradle wrapper --gradle-version=
 
 - androidx.hilt:hilt-*
 
-  - 1.3.0: ??
+  - 1.3.0: ✔
   - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
 
@@ -727,7 +724,7 @@ gradle wrapper --gradle-version=
 
 - [com.umeng.umsdk:common](https://devs.umeng.com/)
 
-  - 9.8.8: ??
+  - 9.8.8: ✔
   - 9.8.5: ✔
   - 9.8.0: ✔
   - 9.7.5: ✔
