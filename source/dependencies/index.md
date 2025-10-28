@@ -360,6 +360,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.9.5: ??
   - 2.9.4: ??
   - 2.9.3: ✔
   - 2.9.1: ✔
@@ -377,6 +378,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.8.3: ??
   - 2.8.1: ✔
   - 2.7.2: ✔(Kotlin 2.1)
   - 2.6.1: ✔(Android 14(34))
@@ -457,6 +459,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.10.01: ??(Compose 1.9.4)
   - 2025.10.00: ??(Compose 1.9.3)
   - 2025.09.01: ✔(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.08.01: ✔(Compose 1.9.0)
