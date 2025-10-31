@@ -110,6 +110,7 @@ gradle wrapper --gradle-version=
   
   `What's New` in Android Studio has more release notes.
 
+  - 8.13.0(Narwhal 4 Feature Drop | 2025.1.4, Gradle 8.13): ??
   - 8.13.0(Narwhal 3 Feature Drop | 2025.1.3, Gradle 8.13): ✔
     - K2: ❌
     - [Android view setting to display build files under corresponding modules](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#android-view-build-files)
