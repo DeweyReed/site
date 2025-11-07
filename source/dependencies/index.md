@@ -439,6 +439,8 @@ gradle wrapper --gradle-version=
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
+  - 1.5.0: ??
+    - Expand calculating WindowMetrics to Application Context.
   - 1.4.0: ✔
   - 1.3.0: ✔
 
@@ -456,7 +458,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.10.01: ✔(Compose 1.9.4)
+  - 2025.10.01, 2025.11.00: ✔(Compose 1.9.4)
   - 2025.09.01: ✔(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.08.01: ✔(Compose 1.9.0)
     - ❗ `ViewCompat.setOnApplyWindowInsetsListener` doesn't work on `ComposeView`
@@ -509,7 +511,8 @@ gradle wrapper --gradle-version=
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.57.1: ??
+  - 2.57.2: ??
+    - Add support for the Jakarta Singleton annotation in Hilt.
   - 2.56.2: ✔(Kotlin 2.1)
   - 2.55: ✔
   - 2.52: ✔
