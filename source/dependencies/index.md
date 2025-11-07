@@ -110,7 +110,7 @@ gradle wrapper --gradle-version=
   
   `What's New` in Android Studio has more release notes.
 
-  - 8.13.0(Narwhal 4 Feature Drop | 2025.1.4, Gradle 8.13): ??
+  - 8.13.0(Narwhal 4 Feature Drop | 2025.1.4, Gradle 8.13): ✔
   - 8.13.0(Narwhal 3 Feature Drop | 2025.1.3, Gradle 8.13): ✔
     - K2: ❌
     - [Android view setting to display build files under corresponding modules](https://developer.android.com/studio/releases/past-releases/as-narwhal-3-feature-drop-release-notes#android-view-build-files)
@@ -195,7 +195,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.11.0: ??(Android 16(36))
+  - 1.11.0: ✔(Android 16(36))
   - 1.10.1: ✔(Android 15(35))
     - `LocalActivity`
   - 1.9.0: ✔
@@ -361,12 +361,8 @@ gradle wrapper --gradle-version=
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.9.5: ??
-  - 2.9.4: ??
-  - 2.9.3: ✔
-  - 2.9.1: ✔
+  - 2.9.5: ✔
   - 2.8.6: ✔
-  - 2.8.5: ✔
   - 2.8.4: ✔(Compose 1.7)
 
     - Navigation Kotlin DSL Type-Safety(used by Navigation Compose)
@@ -460,8 +456,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.10.01: ??(Compose 1.9.4)
-  - 2025.10.00: ??(Compose 1.9.3)
+  - 2025.10.01: ✔(Compose 1.9.4)
   - 2025.09.01: ✔(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.08.01: ✔(Compose 1.9.0)
     - ❗ `ViewCompat.setOnApplyWindowInsetsListener` doesn't work on `ComposeView`
