@@ -415,7 +415,8 @@ gradle wrapper --gradle-version=
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
-  - 1.8.0: ✔
+  - 1.8.0: ❗
+    - [Failed resolution of: LogSessionId](https://github.com/androidx/media/issues/2535)
     - `ExoPlayer.setScrubbingModeEnabled(boolean)`
     - `DefaultEncoderFactory.setEnableCodecDbLite`
     - Filling an initial gap (added via `addGap()`) with silent audio now requires explicitly setting `experimentalSetForceAudioTrack(true)` in `EditedMediaItemSequence.Builder`.
