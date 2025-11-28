@@ -43,6 +43,15 @@ gradle wrapper --gradle-version=
 
 - org.jetbrains.kotlin:kotlin
 
+  - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ??
+
+    - [Guard conditions in when with a subject](https://kotlinlang.org/docs/control-flow.html#guard-conditions-in-when-expressions)
+    - [Non-local break and continue](https://kotlinlang.org/docs/inline-functions.html#break-and-continue)
+    - [Multi-dollar interpolation: improved handling of $ in string literals](https://kotlinlang.org/docs/strings.html#multi-dollar-string-interpolation)
+    - [Stable Base64 encoding and decoding](https://kotlinlang.org/docs/whatsnew22.html#stable-base64-encoding-and-decoding)
+    - [Stable Hexadecimal parsing and formatting with the HexFormat API﻿](https://kotlinlang.org/docs/whatsnew22.html#stable-hexadecimal-parsing-and-formatting-with-the-hexformat-api)
+    - `compilerOptions.freeCompilerArgs.add("-Xannotation-default-target=param-property")`
+
   - [2.1.21](https://kotlinlang.org/docs/whatsnew2120.html): ✔
 
     - `KSP` required for `moshi`, `room`, and `androidx.hilt`
@@ -100,8 +109,13 @@ gradle wrapper --gradle-version=
   - 0.3.7: ✔
   - 0.3.5: ✔
 
+- [org.jetbrains.kotlinx:kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases)
+
+  - 1.9.0: ??(Kotlin 2.2)
+
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
+  - 2.3.3: ??(Kotlin 2.2.21)
   - 2.1.21-2.0.2: ✔
 
 ## Google
@@ -395,6 +409,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.11.0: ??
   - 2.10.3: ❌
   - 2.10.2: ❌
   - 2.10.1: ✔(Android 15(35))
@@ -459,6 +474,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2025.11.01: ??(Compose 1.9.5)
   - 2025.10.01, 2025.11.00: ✔(Compose 1.9.4)
   - 2025.09.01: ✔(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.08.01: ✔(Compose 1.9.0)
@@ -629,6 +645,7 @@ gradle wrapper --gradle-version=
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
+  - 3.3.0: ??(Kotlin 2.2)
   - 3.2.0: ✔(Kotlin 2.1)
   - 2.7.0: ⬆️(Kotlin 2.0)
   - 2.5.0: ⬆️(Kotlin 1.9, Android 14(34))
@@ -648,7 +665,7 @@ gradle wrapper --gradle-version=
 
 - com.github.chuckerteam.chucker:library
 
-  - 4.1.0: ??
+  - 4.2.0: ??
   - 4.0.0: ✔(Material 1.9.0)
   - 3.5.2: ✔
 
@@ -768,6 +785,7 @@ gradle wrapper --gradle-version=
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.9.2: ??
   - 8.9.1: ✔
   - 8.8.0: ✔
   - 8.7.0: ✔
