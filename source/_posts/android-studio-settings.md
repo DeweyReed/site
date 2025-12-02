@@ -66,9 +66,50 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - Enable `Lambdas` - `Kotlin`
 - `Plugins`
   - `.ignore`
+    `IDE settings/options/ignore.xml` - `starredTemplates`:
+    ```
+    /gitignore/Android.gitignore$/gitignore/C.gitignore$/gitignore/C++.gitignore$/gitignore/CMake.gitignore$/toptal/templates/Android.gitignore$/toptal/templates/AndroidStudio.gitignore$/gitignore/Java.gitignore$/toptal/templates/Java.gitignore$/gitignore/Kotlin.gitignore$/toptal/templates/Kotlin.gitignore$/toptal/templates/Intellij.gitignore$/toptal/templates/Intellij+all.gitignore$/toptal/templates/Intellij+iml.gitignore$/gitignore/Global/macOS.gitignore$/toptal/templates/macOS.gitignore$/gitignore/Global/Windows.gitignore$/toptal/templates/Windows.gitignore$/gitignore/Global/Linux.gitignore$/toptal/templates/Linux.gitignore$/toptal/templates/C++.gitignore$/toptal/templates/C.gitignore$/gitignore/Gradle.gitignore$/toptal/templates/Gradle.gitignore$/toptal/templates/JetBrains.gitignore$/gitignore/Global/JetBrains.gitignore$/toptal/templates/JetBrains+all.gitignore$/toptal/templates/JetBrains+iml.gitignore$/toptal/templates/Groovy.gitignore$/toptal/templates/Crashlytics.gitignore$/gitignore/Objective-C.gitignore$/gitignore/Swift.gitignore$/toptal/templates/Swift.gitignore$/toptal/templates/Objective-C.gitignore$/toptal/templates/Firebase.gitignore
+    ```
   - `ADB Idea`
   - `Archive Browser`
   - `Avocado`
+  - `detekt`
+    - `Enable background analysis`
+    - Config:
+      ```
+      complexity:
+        ComplexCondition:
+          active: false
+        CyclomaticComplexMethod:
+          active: false
+        LargeClass:
+          active: false
+        LongMethod:
+          active: false
+        LongParameterList:
+          functionThreshold: 22
+          constructorThreshold: 22
+        NestedBlockDepth:
+          active: false
+        TooManyFunctions:
+          active: false
+      
+      exceptions:
+        TooGenericExceptionCaught:
+          active: false
+      
+      naming:
+        FunctionNaming:
+          ignoreAnnotated:
+            - "Composable"
+      style:
+        LoopWithTooManyJumpStatements:
+          active: false
+        MagicNumber:
+          active: false
+        ReturnCount:
+          active: false
+      ```
   - `GLSL`
   - `JsonToKotlinClass`
   - `Kotlin Multiplatform`
@@ -91,6 +132,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - Build project
 - `Keymap`(Delete old keys)
   - `Build`(Tool Window): Alt + 5
+  - `Repeat Last Action`: Ctrl + Alt + Shift + R
 - `Editor`
   - `Live Template`: Disable compose related; Import from settings zip
 - Configure `JsonToKotlinClass`
