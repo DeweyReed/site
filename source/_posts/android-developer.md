@@ -5,9 +5,21 @@ date: 2025/12/11
 categories: Android
 ---
 
-一个人一直走啊走，然后突然一天
+一个人一直走啊走，
 
 <!--more-->
+
+## 2025年12月14日
+
+昨天怠惰，今天补上：
+
+[Surviving and fixing bugs in 3rd-party libraries - Yury Vlad & Andrei Belous | droidcon London 2025](https://www.youtube.com/watch?v=1fnTUAAam-A)还可以。学到了Gradle dependency locking，但由于输出格式与Dependency guard不同，所以二者不能平替，却能互补。
+
+另外，通过Composite build来引用其他项目的代码，虽然看起来不错，但在亲自上手之前，我还不知道会有多少坑。
+
+今天的份：
+
+这样每天都进步一些，这正确的方向吗？会不会这只是自己一厢情愿地重复自己擅长的事情，而忽略了更重要的事情呢？
 
 ## 2025年12月12日
 
