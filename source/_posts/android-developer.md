@@ -9,6 +9,12 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月15日
+
+在AS的设置`Build, Execution, Deployment -> Build Tools -> Gradle`中，可以配置JDK。[官方推荐配置为GRADLE_LOCAL_JAVA_HOME](https://developer.android.com/build/jdks#jdk-config-in-studio)。但之前都是无视变量名称，根据AS大趋势，选一个版本，但这几天才发现GRADLE_LOCAL_JAVA_HOME下拉菜单可以直接选AS自带的JDK，这个很好很方便。
+
+话说话来，为什么默认设置不够用呢？因为要缝补一些年久失修的项目。如果不想经历整修整个项目才能运行的痛苦，用其AGP版本对应的AS是最直接地可以无痛运行项目的方法，但这也意味着机器上会有多个AS版本和JDK版本，进而要给不同项目选不同的JDK。
+
 ## 2025年12月14日
 
 昨天怠惰，今天补上：
