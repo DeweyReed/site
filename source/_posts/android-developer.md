@@ -9,6 +9,17 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月16日
+
+在生成安装包时，尤其对于有XML或ViewBinding的项目，有时会出现类似symbol unresolved的报错。如果确定不是项目问题，很多开发者都只能Invalidate cache and restart，费时费力。不过我很久之前发现了一个方法，在各个系统上都很好使。苦于无处分享，只能放在这里：
+
+1. Clean project
+2. 关掉AS
+3. 删掉`系统用户目录/.gradle/caches`文件夹下，`build-cache-1`，`jars-9`和`journal-1`三个文件夹
+4. 打开项目，Sync然后Build
+
+这个方法很快，不需要重新下载依赖。我已经很久没有Invalidate cache and restart了。
+
 ## 2025年12月15日
 
 在AS的设置`Build, Execution, Deployment -> Build Tools -> Gradle`中，可以配置JDK。[官方推荐配置为GRADLE_LOCAL_JAVA_HOME](https://developer.android.com/build/jdks#jdk-config-in-studio)。但之前都是无视变量名称，根据AS大趋势，选一个版本，但这几天才发现GRADLE_LOCAL_JAVA_HOME下拉菜单可以直接选AS自带的JDK，这个很好很方便。
