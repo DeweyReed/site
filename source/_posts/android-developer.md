@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月17日
+
+AI对Stackoverflow的冲击很大吧。面对一些常规问题，AI的回答会完善许多。面对一些罕见问题，虽然偶尔还会到Stackoverflow找一找，但效果也不如跟AI聊天好。我在AI时代来临前积攒的Reputation已经像是当年勇了。
+
 ## 2025年12月16日
 
 在生成安装包时，尤其对于有XML或ViewBinding的项目，有时会出现类似symbol unresolved的报错。如果确定不是项目问题，很多开发者都只能Invalidate cache and restart，费时费力。不过我很久之前发现了一个方法，在各个系统上都很好使。苦于无处分享，只能放在这里：
