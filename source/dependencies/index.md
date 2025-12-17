@@ -43,7 +43,7 @@ gradle wrapper --gradle-version=
 
 - org.jetbrains.kotlin:kotlin
 
-  - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ??
+  - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ✔
 
     - [Guard conditions in when with a subject](https://kotlinlang.org/docs/control-flow.html#guard-conditions-in-when-expressions)
     - [Non-local break and continue](https://kotlinlang.org/docs/inline-functions.html#break-and-continue)
@@ -111,11 +111,11 @@ gradle wrapper --gradle-version=
 
 - [org.jetbrains.kotlinx:kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases)
 
-  - 1.9.0: ??(Kotlin 2.2)
+  - 1.9.0: ✔(Kotlin 2.2)
 
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
-  - 2.3.3: ??(Kotlin 2.2.21)
+  - 2.3.3: ✔(Kotlin 2.2.21)
   - 2.1.21-2.0.2: ✔
 
 ## Google
@@ -390,7 +390,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.8.3: ??
+  - 2.8.3: ✔
   - 2.8.1: ✔
   - 2.7.2: ✔(Kotlin 2.1)
   - 2.6.1: ✔(Android 14(34))
@@ -456,7 +456,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
-  - 1.5.0: ??
+  - 1.5.0: ✔
     - Expand calculating WindowMetrics to Application Context.
   - 1.4.0: ✔
   - 1.3.0: ✔
@@ -468,14 +468,14 @@ gradle wrapper --gradle-version=
   - 1.0.0: ✔
 
 - [androidx.datastore](https://developer.android.com/jetpack/androidx/releases/datastore)
-  - 1.1.7: ??
+  - 1.1.7: ✔
   - 1.1.2: ❌
 
 - [Jetpack Compose](https://developer.android.com/jetpack/androidx/releases/compose)
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2025.11.01: ??(Compose 1.9.5)
+  - 2025.11.01: ✔(Compose 1.9.5)
   - 2025.10.01, 2025.11.00: ✔(Compose 1.9.4)
   - 2025.09.01: ✔(Compose 1.9.2, Lifecycle 2.9.4)
   - 2025.08.01: ✔(Compose 1.9.0)
@@ -529,7 +529,7 @@ gradle wrapper --gradle-version=
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.57.2: ??
+  - 2.57.2: ✔
     - Add support for the Jakarta Singleton annotation in Hilt.
   - 2.56.2: ✔(Kotlin 2.1)
   - 2.55: ✔
@@ -646,7 +646,7 @@ gradle wrapper --gradle-version=
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
-  - 3.3.0: ??(Kotlin 2.2)
+  - 3.3.0: ✔(Kotlin 2.2)
   - 3.2.0: ✔(Kotlin 2.1)
   - 2.7.0: ⬆️(Kotlin 2.0)
   - 2.5.0: ⬆️(Kotlin 1.9, Android 14(34))
@@ -666,7 +666,7 @@ gradle wrapper --gradle-version=
 
 - com.github.chuckerteam.chucker:library
 
-  - 4.2.0: ??
+  - 4.2.0: ✔
   - 4.0.0: ✔(Material 1.9.0)
   - 3.5.2: ✔
 
@@ -773,7 +773,7 @@ gradle wrapper --gradle-version=
 
 - com.umeng.umsdk:apm
 
-  - 2.0.6: ??
+  - 2.0.6: ✔
   - 2.0.4: ✔
 
 - [com.tencent.mm.opensdk:wechat-sdk-android-without-mta](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html): Deprecated
@@ -786,7 +786,7 @@ gradle wrapper --gradle-version=
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
-  - 8.9.2: ??
+  - 8.9.2: ✔
   - 8.9.1: ✔
   - 8.8.0: ✔
   - 8.7.0: ✔
