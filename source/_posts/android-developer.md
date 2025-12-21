@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月21日
+
+Droidcon居然又开始发印度的视频了，不过看起来强度不大。很多类似的Presentation都是某个公司专用的框架或实现。虽然分享精神可贵，但这些内容的大部分都不适合其他公司，而且很多情况下，看似能解决其复杂问题的复杂方案，都过拟合了，也让新人上手变得很困难。
+
 ## 2025年12月20日
 
 对于把ComposeView转换成Bitmap，现有的专用API需要内容显示在屏幕上，但如果内容不在屏幕上呢？我发现可以给`activity.window.decorView`塞一个不可见ComposeView来实现，这样可以避免手搓ComposeView时遇到的很多崩溃。
