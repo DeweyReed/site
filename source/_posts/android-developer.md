@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月23日
+
+在设置里打开一下手动Sync：`Project Sync mode -> Manual Sync with remidners`。否则只是打开一个项目找找代码，都要等待下载各种依赖。
+
 ## 2025年12月22日
 
 我现在还没用上K2。一开始我就发现其不会提醒变量的Deprecation，比如`Bitmap.CompressFormat.WEBP`，时至今日也没修复。由于一直懒得开一个issuetracker工单，所以一直在等啊等。类似Deprecation不提醒的问题，之前AS就发生过好几次，我也会因此直接跳过这些AS版本。而K2之前连Live Template的自动补全都坏了，所以还是等等吧，即使现在K2默认打开。
