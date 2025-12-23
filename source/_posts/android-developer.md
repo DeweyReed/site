@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月24日
+
+突然发现Apply Changes的Restart Activity还有些效果，而直接Apply Code Changes则基本不工作。之前一直都以为整个功能都是鸡肋呢。
+
 ## 2025年12月23日
 
 在设置里打开一下手动Sync：`Project Sync mode -> Manual Sync with remidners`。否则只是打开一个项目找找代码，都要等待下载各种依赖。
