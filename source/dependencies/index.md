@@ -249,6 +249,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.10.0: ??
   - 2.9.4: ✔
   - 2.9.1: ✔
 
@@ -376,6 +377,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.9.6: ??
   - 2.9.5: ✔
   - 2.8.6: ✔
   - 2.8.4: ✔(Compose 1.7)
@@ -390,6 +392,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.8.4: ??
   - 2.8.3: ✔
   - 2.8.1: ✔
   - 2.7.2: ✔(Kotlin 2.1)
@@ -456,6 +459,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.window:window](https://developer.android.com/jetpack/androidx/releases/window)
 
+  - 1.5.1: ??
   - 1.5.0: ✔
     - Expand calculating WindowMetrics to Application Context.
   - 1.4.0: ✔
@@ -468,6 +472,7 @@ gradle wrapper --gradle-version=
   - 1.0.0: ✔
 
 - [androidx.datastore](https://developer.android.com/jetpack/androidx/releases/datastore)
+  - 1.2.0: ??
   - 1.1.7: ✔
   - 1.1.2: ❌
 
@@ -581,6 +586,7 @@ gradle wrapper --gradle-version=
 
 - [com.squareup.okhttp3:okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md)
 
+  - 5.3.2: ??(Kotlin 2.2)
   - 4.12.0: ✔(Kotlin 1.9)
   
     - No more proguard rules
@@ -802,6 +808,7 @@ gradle wrapper --gradle-version=
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
+  - 15.8.40: ??
   - 15.8.35: ✔
   - 15.8.33: ✔
   - 15.8.17: ✔
