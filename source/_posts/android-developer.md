@@ -9,6 +9,14 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月26日
+
+如果设计系统不是梭哈Material Design的话，尽量避免官方提供的Material组件。其虽然提供了“丰富”的可自定义选项，但其过于Opinionated的架构依然不适合大多数应用。想当年大伙儿抱怨Google不够Opinionated，但现在其过于Opinionated反而让人困扰。
+
+昨天的：
+
+Baseline Profile的生成流程要添加不少Boilerplate code，而且其如此Flaky，想要自动化可要费不少努力。虽然都说这个是Low-hanging fruit，但实际上并没有那么low哦。
+
 ## 2025年12月24日
 
 突然发现Apply Changes的Restart Activity还有些效果，而直接Apply Code Changes则基本不工作。之前一直都以为整个功能都是鸡肋呢。
