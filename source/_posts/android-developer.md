@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月27日
+
+[`DrawScope.drawText`](https://developer.android.com/reference/kotlin/androidx/compose/ui/graphics/drawscope/DrawScope#(androidx.compose.ui.graphics.drawscope.DrawScope).drawText(androidx.compose.ui.text.TextLayoutResult,androidx.compose.ui.graphics.Brush,androidx.compose.ui.geometry.Offset,kotlin.Float,androidx.compose.ui.graphics.Shadow,androidx.compose.ui.text.style.TextDecoration,androidx.compose.ui.graphics.drawscope.DrawStyle,androidx.compose.ui.graphics.BlendMode))的`shadow`允许null，但查看代码路径后，会发现传入null并不是没阴影，而是跳过阴影绘制逻辑，复用某个缓存的`android.text.TextPaint`的配置，换句话说，会造成未定义的行为。想要没阴影，需要传入[`Shadow.None`](https://developer.android.com/reference/kotlin/androidx/compose/ui/graphics/Shadow#None())。这种API设计的问题坑只能踩，避免不了一点。
+
 ## 2025年12月26日
 
 如果设计系统不是梭哈Material Design的话，尽量避免官方提供的Material组件。其虽然提供了“丰富”的可自定义选项，但其过于Opinionated的架构依然不适合大多数应用。想当年大伙儿抱怨Google不够Opinionated，但现在其过于Opinionated反而让人困扰。
