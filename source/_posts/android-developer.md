@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月29日
+
+[A deep dive on the lifecycle-aware coroutines APIs - Manuel Vivo | droidcon London 2025](https://www.youtube.com/watch?v=lmj-lTyq8fc)这个是有用的内容，解释了为什么API如此丑陋。
+
 ## 2025年12月28日
 
 对于ViewModel越来越大的问题，一个简单的方法是将单独功能的代码放到一个单独的类中。在MVI架构中，更新起来也方便。
