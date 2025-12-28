@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月28日
+
+对于ViewModel越来越大的问题，一个简单的方法是将单独功能的代码放到一个单独的类中。在MVI架构中，更新起来也方便。
+
 ## 2025年12月27日
 
 [`DrawScope.drawText`](https://developer.android.com/reference/kotlin/androidx/compose/ui/graphics/drawscope/DrawScope#(androidx.compose.ui.graphics.drawscope.DrawScope).drawText(androidx.compose.ui.text.TextLayoutResult,androidx.compose.ui.graphics.Brush,androidx.compose.ui.geometry.Offset,kotlin.Float,androidx.compose.ui.graphics.Shadow,androidx.compose.ui.text.style.TextDecoration,androidx.compose.ui.graphics.drawscope.DrawStyle,androidx.compose.ui.graphics.BlendMode))的`shadow`允许null，但查看代码路径后，会发现传入null并不是没阴影，而是跳过阴影绘制逻辑，复用某个缓存的`android.text.TextPaint`的配置，换句话说，会造成未定义的行为。想要没阴影，需要传入[`Shadow.None`](https://developer.android.com/reference/kotlin/androidx/compose/ui/graphics/Shadow#None())。这种API设计的问题坑只能踩，避免不了一点。
