@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2025年12月30日
+
+面对复杂功能时，总要经历一个不断重构的过程。一开始的计划常会在实践时遇到未曾预料到到阻碍。虽然希望可以一直重构到一个理想的状态，但通常时间有限，于是只能止步于一个能接受的状态。
+
 ## 2025年12月29日
 
 [A deep dive on the lifecycle-aware coroutines APIs - Manuel Vivo | droidcon London 2025](https://www.youtube.com/watch?v=lmj-lTyq8fc)这个是有用的内容，解释了为什么API如此丑陋。
