@@ -439,6 +439,7 @@ gradle wrapper --gradle-version=
     - `CompositionPlayer`
     - `androidx.media3.inspector.MetadataRetriever`
     - `androidx.media3.inspector.FrameExtractor`
+    - Deprecated `EditedMediaItemSequence.Builder`
   - 1.8.0: ❗
     - [Failed resolution of: LogSessionId](https://github.com/androidx/media/issues/2535)
     - `ExoPlayer.setScrubbingModeEnabled(boolean)`
