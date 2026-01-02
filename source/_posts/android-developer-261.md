@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月2日
+
+[Java versions in Android builds](https://developer.android.com/build/jdks)逻辑混乱，让人头大。怎样的配置是最佳实践，也是让人摸不着头脑。文档中的推荐也有着潜在的坑。保险起见，还是用传统的`sourceCompatibility` + `jvmTarget`吧。
+
 ## 2026年1月1日
 
 与View相比，Jetpack Compose的`Text`关闭了`includeFontPadding`，所以英文的默认高度与`TextView`不同，打开就好了。
