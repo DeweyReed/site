@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月3日
+
+[From Parcelable to @Serializable - Kuan-Ying Chou | droidcon London 2025](https://www.youtube.com/watch?v=SLs8drYogCc). `Serializable`是在`rememberSaveable`基础上可以跨平台的存活过进程死亡的实现。Android底层还是把对象转换为Bundle。
+
 ## 2026年1月2日
 
 [Java versions in Android builds](https://developer.android.com/build/jdks)逻辑混乱，让人头大。怎样的配置是最佳实践，也是让人摸不着头脑。文档中的推荐也有着潜在的坑。保险起见，还是用传统的`sourceCompatibility` + `jvmTarget`吧。
