@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月4日
+
+现阶段Metro作为依赖注入对多Module的KMP项目的支持还差点意思，所以暂时用Koin咯。只要架构选的好，切换依赖没烦恼。
+
 ## 2026年1月3日
 
 [From Parcelable to @Serializable - Kuan-Ying Chou | droidcon London 2025](https://www.youtube.com/watch?v=SLs8drYogCc). `Serializable`是在`rememberSaveable`基础上可以跨平台的存活过进程死亡的实现。Android底层还是把对象转换为Bundle。
