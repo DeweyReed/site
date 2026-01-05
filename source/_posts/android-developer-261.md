@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月5日
+
+现在的[media-samples](https://github.com/android/media-samples)的玩具意味更大，看看乐子得了。
+
 ## 2026年1月4日
 
 现阶段Metro作为依赖注入对多Module的KMP项目的支持还差点意思，所以暂时用Koin咯。只要架构选的好，切换依赖没烦恼。
