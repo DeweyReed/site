@@ -9,6 +9,12 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月6日
+
+我依旧不明白国内厂商提供的SDK如何可以这么差劲。这么多年下来，proguard是不会配置的，权限是乱申请的，接口设计都不是拍脑门的，简直是在梦游。
+
+一定要把它们用依赖注入拆成单独的模块，这样至少不会污染开发坏境。
+
 ## 2026年1月5日
 
 现在的[media-samples](https://github.com/android/media-samples)的玩具意味更大，看看乐子得了。
