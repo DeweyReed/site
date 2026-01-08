@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月9日
+
+SharedPreferences是会造成不少ANR的，但由于其难以被重现，所以很难在测试环境中被发觉。也没什么太好的解决方法，要么用网络上一些复杂的反射，要么换个框架，比如最近才算比较稳定的datastore。
+
 ## 2026年1月8日
 
 Media3是个好项目，issue反应和功能迭代都很积极。虽然有不少UnstableApi，但用着都没什么问题。
