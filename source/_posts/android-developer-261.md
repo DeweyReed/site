@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月10日
+
+最近遇到了Room引用另外一个Module使用的Entity的过程中，当这个Entity有一个返回这个Module使用implementation引用的类时，无法编译的问题。由于编译错误让人摸不着头脑，花了不少时间检查。解决方法是要么改为api，让Room可以看到引用的类，或者把方法移出Entity。
+
 ## 2026年1月9日
 
 SharedPreferences是会造成不少ANR的，但由于其难以被重现，所以很难在测试环境中被发觉。也没什么太好的解决方法，要么用网络上一些复杂的反射，要么换个框架，比如最近才算比较稳定的datastore。
