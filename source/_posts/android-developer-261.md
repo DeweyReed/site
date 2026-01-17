@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月17日
+
+今天看到有人讨论说Compose性能不如View，言外之意是想要应用跑得快，还是得用后者。这让我想起了纯Java项目的编译速度是极快的，但是为了开发体验，大家还是慢慢接受了Kotlin。类似牺牲性能换取开发体验的事情有很多，Java到Kotlin、View到Compose、Groovy到Kotlin DSL、enum随心用、甚至Bitmap都可以用了丢等。越来越多的性能不用也是浪费。
+
 ## 2026年1月16日
 
 KMP真的Production Ready了吗？它的确能够产出软件，但坑还不少。由于现在资料不算多，所以像是回到了前AI时代，全靠自己摸索和网络搜索。
