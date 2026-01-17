@@ -459,6 +459,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
+  - 1.4.2: ??
   - 1.4.1: ✔
   - 1.3.7: ✔
   - 1.3.6: ✔
@@ -486,6 +487,9 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2026.01:00: ??
+    - `retain { }`
+    - ~~`Modifier.onFirstVisible`~~ -> `Modifier.onVisibilityChanged`
   - 2025.11.01: ✔(Compose 1.9.5)
   - 2025.10.01, 2025.11.00: ✔(Compose 1.9.4)
   - 2025.09.01: ✔(Compose 1.9.2, Lifecycle 2.9.4)
@@ -628,6 +632,7 @@ gradle wrapper --gradle-version=
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.16.4: ??(Kotlin 2.2)
   - 3.15.0: ✔
   - 3.10.2: ⬆️(Kotlin 2.1)
   - 3.9.1: ✔
@@ -650,6 +655,7 @@ gradle wrapper --gradle-version=
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
+  - 5.0.5: ??
   - 4.16.0: ✔
   - 4.15.1: ✔
   - 4.14.2: ✔(Android 13(33))
@@ -743,6 +749,11 @@ gradle wrapper --gradle-version=
 
   - 0.1.1: 🚧(Android 15(35))
   - 0.1.0: ✔
+
+- [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
+
+  - 4.5.12: ??
+  - 4.4.35: ✔
 
 ## Chinese
 
