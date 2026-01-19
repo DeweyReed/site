@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月19日
+
+昨天的视频中提到将不常用的JSON数据变为Base64，并在之后需要时再解析。这是个聪明的方法，不过具体使用还是要Benckmark一下。
+
 ## 2026年1月18日
 
 [Delivering Performance in a Blink - Karan Gourisaria & Gaurav Aggarwal | droidcon india 2025](https://www.youtube.com/watch?v=DeakDRTopQQ)都是干货。
