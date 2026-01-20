@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月20日
+
+`rememberSaveable`像是使用`ViewModel`的`SavedStateHandle`保存数据，而`retain`就像仅在`ViewModel`中放数据。使用这些API很容易让代码乱七八糟，因此可以的话，还是最好在`ViewModel`统一管理。
+
 ## 2026年1月19日
 
 昨天的视频中提到将不常用的JSON数据变为Base64，并在之后需要时再解析。这是个聪明的方法，不过具体使用还是要Benckmark一下。
