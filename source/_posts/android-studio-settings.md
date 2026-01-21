@@ -33,7 +33,6 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - Disable `Caret blinking`
       - Disable `Show line numbers`
       - Enable `Show method separators`
-      - Disable `Render documentation comments` and `Reader Mode`
     - `Code Completion` - Disable `Match case`
     - `Console` - `Default Encoding`: `UTF-8`
     - `Smart Keys`
@@ -127,7 +126,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - Enable `Modal modal commit interface`
 - Open a project
 - Disable `Show Project Gradient` in the toolbar
-- Clean `Gutter Icons` and reorder tabs manually
+- Clean `Gutter Icons`, reorder tabs manually, and clean bottom tabs
 - Reorder window layouts and `Store Current Layout as Default`
 - Build project
 - `Keymap`(Delete old keys)
