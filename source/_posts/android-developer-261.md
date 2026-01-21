@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月22日
+
+AGP 9发布了，但问题肉眼可见地多。考虑到还要升级到Gradle 9，所以要好好等一段时间再上手呀。
+
 ## 2026年1月21日
 
 突然发现了看起来有点用的[`RememberObserver`](https://developer.android.com/reference/kotlin/androidx/compose/runtime/RememberObserver)和类似的但没有文档链接的RetainObserver。
