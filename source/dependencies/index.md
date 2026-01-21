@@ -120,10 +120,11 @@ gradle wrapper --gradle-version=
 
 ## Google
 
-- com.android.tools.build:gradle(& Android Studio)
+- AGP com.android.tools.build:gradle(& Android Studio)
   
   `What's New` in Android Studio has more release notes.
 
+  - 8.13.0(Otter 2 Feature Drop | 2025.2.2, Gradle 8.13): ??
   - 8.13.0(Otter | 2025.2.1, Gradle 8.13): ❌ Broken K2, lack of resources warnings, slow analysis, and no new features
   - 8.13.0(Narwhal 4 Feature Drop | 2025.1.4, Gradle 8.13): ✔
   - 8.13.0(Narwhal 3 Feature Drop | 2025.1.3, Gradle 8.13): ✔
