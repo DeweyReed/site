@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月25日
+
+把Magic number替换为sealed interface可以增加编译时安全和减少人为代码错误。
+
 ## 2026年1月24日
 
 使用依赖注入创建一个使用Repo的`ViewModel`，Repo则使用数据库、网络或储存等各种组件。这种配置会在第一次使用组件时在主线程中初始化这些组件。为了避免阻塞，使用`Lazy<Repo>`并且在`withContext(Dispatchers.IO)`来使用Repo。
