@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月26日
+
+在个人测试后，AS Otter所有的两个版本都有各种问题而无法使用，但Otter 2的ADB wifi秒连，而且切换回Narwhal后，手机像是打通了任督二脉，依旧秒连。也算Otter 2仅有的一个惊喜了。
+
 ## 2026年1月25日
 
 把Magic number替换为sealed interface可以增加编译时安全和减少人为代码错误。
