@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月28日
+
+26日的ADB wifi的任督二脉更像是时不时的回光返照，总体不太稳定。我错怪我自己了，果然无法过于信任AS。
+
 ## 2026年1月27日
 
 应用开发不用Reflection。能用Reflection解决的问题，也能用其他方法解决。Reflection虽然看起来“优雅”，但会破坏IDE跳转和Proguard，都是给未来挖坑。
