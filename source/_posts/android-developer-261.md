@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月30日
+
+Jetpack Compose的Matrix是4x4的，不同于View的3x3，而且API不同，因此要达到需要的效果，需要温习线性代数知识。
+
 ## 2026年1月29日
 
 时隔多年，AndroidX Paging依然很难用。我还是自己手搓一个分页方案吧。
