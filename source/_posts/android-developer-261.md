@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年1月31日
+
+SharedPreferences会ANR，而DataStore也有着连续几个稳定版有Bug的历史，导致了我现在都要把键值对储存打包好再用依赖注入使用的习惯。
+
 ## 2026年1月30日
 
 Jetpack Compose的Matrix是4x4的，不同于View的3x3，而且API不同，因此要达到需要的效果，需要温习线性代数知识。
