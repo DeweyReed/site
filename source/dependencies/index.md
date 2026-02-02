@@ -758,6 +758,7 @@ gradle wrapper --gradle-version=
 
 - [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
 
+  - 4.5.27: ??
   - 4.5.12: ✔
   - 4.4.35: ✔
 
