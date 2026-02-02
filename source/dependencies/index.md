@@ -43,6 +43,7 @@ gradle wrapper --gradle-version=
 
 - org.jetbrains.kotlin:kotlin
 
+  - [2.3.0](https://kotlinlang.org/docs/whatsnew23.html): ??
   - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ✔
 
     - [Guard conditions in when with a subject](https://kotlinlang.org/docs/control-flow.html#guard-conditions-in-when-expressions)
@@ -115,6 +116,7 @@ gradle wrapper --gradle-version=
 
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
+  - 2.3.5: ??
   - 2.3.3: ✔(Kotlin 2.2.21)
   - 2.1.21-2.0.2: ✔
 
@@ -489,7 +491,8 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.01:00: ✔
+  - 2026.01.00: ??(Compose 1.10.2)
+  - 2026.01:00: ✔(Compose 1.10.1)
     - `retain { }`
     - ~~`Modifier.onFirstVisible`~~ -> `Modifier.onVisibilityChanged`
   - 2025.11.01: ✔(Compose 1.9.5)
@@ -743,6 +746,7 @@ gradle wrapper --gradle-version=
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
+  - 1.2.30: ??(Kotlin 2.3)
   - 1.2.29: ✔(Kotlin 2.0)
   - 1.2.28: ✔
   - 1.2.25: ✔
