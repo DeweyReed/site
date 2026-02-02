@@ -124,6 +124,7 @@ gradle wrapper --gradle-version=
   
   `What's New` in Android Studio has more release notes.
 
+  - 8.13.2: ✔
   - 8.13.0(Otter 2 Feature Drop | 2025.2.2, Gradle 8.13.2): ❌ Fast ADB wifi, but too many bugs and ANRs
   - 8.13.0(Otter | 2025.2.1, Gradle 8.13): ❌ Broken K2, lack of resources warnings, slow analysis, and no new features
   - 8.13.0(Narwhal 4 Feature Drop | 2025.1.4, Gradle 8.13): ✔
@@ -435,7 +436,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
-  - 1.9.0: ??(Lottie 6.6.0)
+  - 1.9.0: ✔(Lottie 6.6.0)
     - Publish utility classes `WakeLockManager`, `WifiLockManager`, `AudioFocusManager`, `AudioBecomingNoisyManager` and `StuckPlayerDetector` previously used by ExoPlayer internally to allow reuse for other players
     - `CompositionPlayer`
     - `androidx.media3.inspector.MetadataRetriever`
@@ -460,7 +461,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.exifinterface:exifinterface](https://developer.android.com/jetpack/androidx/releases/exifinterface)
 
-  - 1.4.2: ??
+  - 1.4.2: ✔
   - 1.4.1: ✔
   - 1.3.7: ✔
   - 1.3.6: ✔
@@ -488,7 +489,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.01:00: ??
+  - 2026.01:00: ✔
     - `retain { }`
     - ~~`Modifier.onFirstVisible`~~ -> `Modifier.onVisibilityChanged`
   - 2025.11.01: ✔(Compose 1.9.5)
@@ -633,7 +634,7 @@ gradle wrapper --gradle-version=
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.16.4: ??(Kotlin 2.2)
+  - 3.16.4: ✔(Kotlin 2.2)
   - 3.15.0: ✔
   - 3.10.2: ⬆️(Kotlin 2.1)
   - 3.9.1: ✔
@@ -656,7 +657,7 @@ gradle wrapper --gradle-version=
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
-  - 5.0.5: ??
+  - 5.0.5: ✔
   - 4.16.0: ✔
   - 4.15.1: ✔
   - 4.14.2: ✔(Android 13(33))
@@ -673,7 +674,7 @@ gradle wrapper --gradle-version=
 
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
-  - 6.7.1: ??
+  - 6.7.1: ✔
   - 6.5.2: 🚧(ImageAssetManager NPE Fixed)
   - 6.1.0+: ❌ ImageAssetManager NPE
   - 6.0.1: ✔
@@ -753,7 +754,7 @@ gradle wrapper --gradle-version=
 
 - [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
 
-  - 4.5.12: ??
+  - 4.5.12: ✔
   - 4.4.35: ✔
 
 ## Chinese
