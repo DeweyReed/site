@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月4日
+
+上台做Presentation时要把IDE调成浅色主题，否则观众看深色主题很吃力。
+
 ## 2026年2月3日
 
 Compose Hot Reload很适合快速迭代自定义Composable，最后再把完成的内容复制到Android项目中。
