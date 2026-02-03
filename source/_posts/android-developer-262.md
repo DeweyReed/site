@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月3日
+
+Compose Hot Reload很适合快速迭代自定义Composable，最后再把完成的内容复制到Android项目中。
+
 ## 2026年2月2日
 
 AI Agent造成的源代码泄漏就是房间里的大象。不懂的开发者盲从，而了解的开发者要么默不作声，要么发言不被注意。至于提供Agent的大公司，更是集体沉默。
