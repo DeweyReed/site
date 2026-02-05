@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月5日
+
+[Vertical text in Jetpack Compose (without rotation width problems)](https://dev.to/vladleesi/vertical-text-in-jetpack-compose-without-rotation-width-problems-4n2m)比我一开始想到的用Canvas一把梭对A11y更友好吧。
+
 ## 2026年2月4日
 
 上台做Presentation时要把IDE调成浅色主题，否则观众看深色主题很吃力。
