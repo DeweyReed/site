@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月6日
+
+面对发布时间不长的心代码，发现AI幻觉严重。让人不由得担心AI训练把当前的老本吃完后，如何面对新的开发需求。
+
 ## 2026年2月5日
 
 [Vertical text in Jetpack Compose (without rotation width problems)](https://dev.to/vladleesi/vertical-text-in-jetpack-compose-without-rotation-width-problems-4n2m)比我一开始想到的用Canvas一把梭对A11y更友好吧。
