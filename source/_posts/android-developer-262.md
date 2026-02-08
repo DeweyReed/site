@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月8日
+
+没想到在主线程`runBlocking(Dispatchers.Main) {}`就可以快速ANR。原因是主线程要等`runBlocking`运行完，而同时`runBlocking`要等主线程运行完，于是死锁了。
+
 ## 2026年2月7日
 
 我知道AGP 9会引入很多问题，但没想到会有这么多：<https://agp-status.frybits.com/agp-9.0.0/>。很多插件的修复还是alpha版本，这意味着要等更久了。 
