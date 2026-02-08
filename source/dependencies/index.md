@@ -492,7 +492,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.01.01: ??(Compose 1.10.2)
+  - 2026.01.01: ✔(Compose 1.10.2)
   - 2026.01:00: ✔(Compose 1.10.1)
     - `retain { }`
     - ~~`Modifier.onFirstVisible`~~ -> `Modifier.onVisibilityChanged`
@@ -759,7 +759,7 @@ gradle wrapper --gradle-version=
 
 - [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
 
-  - 4.5.27: ??
+  - 4.5.27: ✔
   - 4.5.12: ✔
   - 4.4.35: ✔
 
