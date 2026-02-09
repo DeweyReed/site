@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月9日
+
+在Google IO、Dev Summit和Android Maker等一票会议青黄不接时，Droidcon成为了我主要的灵感汲取来源。不过其的Presentation也是良莠不齐，尤其是一些明显是厂商打广告的内容，还是要谨慎看待。
+
 ## 2026年2月8日
 
 没想到在主线程`runBlocking(Dispatchers.Main) {}`就可以快速ANR。原因是主线程要等`runBlocking`运行完，而同时`runBlocking`要等主线程运行完，于是死锁了。
