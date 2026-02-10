@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月10日
+
+[Building the Coroutine Framework from Scratch - Omkar Tenkale | droidcon india 2025](https://www.youtube.com/watch?v=fH6ZB_mPTBw)适合拿来涨涨见识。前几天的快速ANR也出自这里。
+
 ## 2026年2月9日
 
 在Google IO、Dev Summit和Android Maker等一票会议青黄不接时，Droidcon成为了我主要的灵感汲取来源。不过其的Presentation也是良莠不齐，尤其是一些明显是厂商打广告的内容，还是要谨慎看待。
