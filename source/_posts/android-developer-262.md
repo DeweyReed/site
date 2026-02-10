@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月11日
+
+Compose中为了避免多余的Composition，会用lambda传参，但如果在一层层的传参过程中有一层没用lambda，就会在每次Composition都创建新的lambda。虽然大多数时间不差这点儿性能，但这个code smell的确膈应人，也很难避免。要不写Lint？
+
 ## 2026年2月10日
 
 [Building the Coroutine Framework from Scratch - Omkar Tenkale | droidcon india 2025](https://www.youtube.com/watch?v=fH6ZB_mPTBw)适合拿来涨涨见识。前几天的快速ANR也出自这里。
