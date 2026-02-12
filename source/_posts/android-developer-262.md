@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月12日
+
+写状态机时一定不能嫌麻烦而省去枚举或IntDef的使用，否则就像闭眼走夜路，迟早要出事儿。
+
 ## 2026年2月11日
 
 Compose中为了避免多余的Composition，会用lambda传参，但如果在一层层的传参过程中有一层没用lambda，就会在每次Composition都创建新的lambda。虽然大多数时间不差这点儿性能，但这个code smell的确膈应人，也很难避免。要不写Lint？
