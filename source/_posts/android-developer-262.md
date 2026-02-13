@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月13日
+
+[jetpack-camera-app](https://github.com/google/jetpack-camera-app)是一个很复杂的CameraX项目，不过它包含了一些文档稀缺的冷门功能的用法。
+
 ## 2026年2月12日
 
 写状态机时一定不能嫌麻烦而省去枚举或IntDef的使用，否则就像闭眼走夜路，迟早要出事儿。
