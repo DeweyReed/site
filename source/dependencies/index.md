@@ -492,6 +492,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2026.02.00: ??(Compose 1.10.3)
   - 2026.01.01: ✔(Compose 1.10.2)
   - 2026.01:00: ✔(Compose 1.10.1)
     - `retain { }`
@@ -727,6 +728,8 @@ gradle wrapper --gradle-version=
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.53.0: ??
+    - > In Gradle 9.0 and above, the `dependencyUpdates` task should be run with the `--no-parallel` flag
   - 0.52.0: ✔
   - 0.51.0: ✔
   - 0.50.0: ✔
