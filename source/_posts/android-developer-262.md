@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月14日
+
+在浏览开发视频时，发现十年前Google IO的视频，于是简单看了看。发现曾经的内容质量与现在比有过之无不及，突然感觉懂得越多，懂得越少，这条路看来是无穷无尽的。
+
 ## 2026年2月13日
 
 [jetpack-camera-app](https://github.com/google/jetpack-camera-app)是一个很复杂的CameraX项目，不过它包含了一些文档稀缺的冷门功能的用法。
