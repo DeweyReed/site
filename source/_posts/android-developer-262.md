@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月17日
+
+KMP的网页版Wizard、插件生成的模版项目和官方Github项目都不是最佳实践了，反而Google提供的KMP模版项目更新到了最新的AGP。
+
 ## 2026年2月16日
 
 让AI给开源项目写测试还是不错的。
