@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月21日
+
+`checkJetifier`并不会检查项目中直接引用的AAR是否需要Jetifier，所以会报告假阴结果。第三方插件bye-bye-jetifier虽然号称可以检查AAR，但已年久失修。现在似乎只能关闭Jetifier然后运行应用来测试了。
+
 ## 2026年2月20日
 
 [PSA: Check your build.gradle for old JitPack dependencies because we found a strange and not-trivial supply chain risk which should be verified](https://www.reddit.com/r/androiddev/comments/1r80vxt/psa_check_your_buildgradle_for_old_jitpack/)是值得关注的。最简单的方案是把JitPack依赖使用Commit索引。
