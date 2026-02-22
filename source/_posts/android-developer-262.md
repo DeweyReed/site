@@ -9,6 +9,11 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月22日
+
+`data class`在混淆后依然会在`toString`中泄漏变量名称。我原本的解决方案是手动重写`toString`来移除特定的名称，但AI还给出了`
+redacted-compiler-plugin`这个我们老朋友的活跃库。我一定要试一试。
+
 ## 2026年2月21日
 
 `checkJetifier`并不会检查项目中直接引用的AAR是否需要Jetifier，所以会报告假阴结果。第三方插件bye-bye-jetifier虽然号称可以检查AAR，但已年久失修。现在似乎只能关闭Jetifier然后运行应用来测试了。
