@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月24日
+
+[Under the hood: Android 17’s lock-free MessageQueue](https://android-developers.googleblog.com/2026/02/under-hood-android-17s-lock-free.html)可见系统底层性能优化并不容易，而不是随意捏造的一个百分比数字。
+
 ## 2026年2月23日
 
 我一直都反感在项目中引入巨大的Util类和代码。这写Util内容需要时常维护，而很多内容不会被常用。项目的每个功能最好是自成一体的，可以即插即用，而不是依赖了一大堆Util代码。
