@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月25日
+
+发现如果在Github的README中发现段落标题都带Emoji，说明很有可能是AI生成的。
+
 ## 2026年2月24日
 
 [Under the hood: Android 17’s lock-free MessageQueue](https://android-developers.googleblog.com/2026/02/under-hood-android-17s-lock-free.html)可见系统底层性能优化并不容易，而不是随意捏造的一个百分比数字。
