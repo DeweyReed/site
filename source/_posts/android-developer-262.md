@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月26日
+
+官方文档[Style guidelines for Jetpack Compose APIs](https://developer.android.com/develop/ui/compose/api-guidelines)提到的两份格式建议是很重要的，否则写出来Composable很难看。
+
 ## 2026年2月25日
 
 发现如果在Github的README中发现段落标题都带Emoji，说明很有可能是AI生成的。
