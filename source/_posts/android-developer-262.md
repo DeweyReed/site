@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月27日
+
+`material-icons-extended`要被Deprecated了吧。Android Studio中的图标库还经常更新不及时。之前Gogole Fonts都不让下载Android版图标，非要让开发者去AS中引入。不过，现在让下载了。
+
 ## 2026年2月26日
 
 官方文档[Style guidelines for Jetpack Compose APIs](https://developer.android.com/develop/ui/compose/api-guidelines)提到的两份格式建议是很重要的，否则写出来Composable很难看。
