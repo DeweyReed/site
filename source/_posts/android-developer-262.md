@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年2月28日
+
+数据库的读取时间通常少到可以忽略，但成千上万次的读取就会累积成肉眼可见的缓慢，所以还是不要假设数据库读取非常快为好。
+
 ## 2026年2月27日
 
 `material-icons-extended`要被Deprecated了吧。Android Studio中的图标库还经常更新不及时。之前Gogole Fonts都不让下载Android版图标，非要让开发者去AS中引入。不过，现在让下载了。
