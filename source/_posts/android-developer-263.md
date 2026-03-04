@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月4日
+
+`src/main/java`支持Java和Kotlin，但`src/main/kotlin`只支持Kotlin，因此后者中的Java代码会编译失败，而且编译错误不知所云。
+
 ## 2026年3月3日
 
 Kotlin的`coerceIn`方法会在参数范围不对时抛异常，导致原本是处理极端情况的代码在极端情况下崩溃。这里要么用Compose的`fastCoerceIn`，要么传参时二次`coerce`。
