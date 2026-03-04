@@ -381,6 +381,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.9.7: ??
   - 2.9.6: ✔
   - 2.9.5: ✔
   - 2.8.6: ✔
@@ -417,6 +418,7 @@ gradle wrapper --gradle-version=
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.11.1: ??
   - 2.11.0: ✔
   - 2.10.3: ❌
   - 2.10.2: ❌
@@ -492,6 +494,7 @@ gradle wrapper --gradle-version=
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2026.02.01: ??(Compose 1.10.4)
   - 2026.02.00: ??(Compose 1.10.3)
   - 2026.01.01: ✔(Compose 1.10.2)
   - 2026.01:00: ✔(Compose 1.10.1)
