@@ -57,13 +57,13 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - `Code Generation`
         - Disable `Line comment at first column`
         - Enable `Add a space at line comment start` and `Enforce on reformat`
-  - `Design Tools`: `Split`, `Split`, `Split`, `Code`, `Code`
+  - `UI Tools`
   - `Inlay Hints`
     - Disable `Code Vision`
     - Enable `Types` - `Kotlin`
     - Enable `Method chains` - `Kotlin`
     - Enable `Lambdas` - `Kotlin`
-- `Plugins`
+- `Plugins`(Install in Settings and wait for loading)
   - `.ignore`
     `IDE settings/options/ignore.xml` - `starredTemplates`:
     ```
@@ -73,42 +73,6 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Archive Browser`
   - `Avocado`
   - `detekt`
-    - `Enable background analysis`
-    - Config:
-      ```
-      complexity:
-        ComplexCondition:
-          active: false
-        CyclomaticComplexMethod:
-          active: false
-        LargeClass:
-          active: false
-        LongMethod:
-          active: false
-        LongParameterList:
-          functionThreshold: 22
-          constructorThreshold: 22
-        NestedBlockDepth:
-          active: false
-        TooManyFunctions:
-          active: false
-      
-      exceptions:
-        TooGenericExceptionCaught:
-          active: false
-      
-      naming:
-        FunctionNaming:
-          ignoreAnnotated:
-            - "Composable"
-      style:
-        LoopWithTooManyJumpStatements:
-          active: false
-        MagicNumber:
-          active: false
-        ReturnCount:
-          active: false
-      ```
   - `GLSL`
   - `JsonToKotlinClass`
   - `Kotlin Multiplatform`
@@ -122,9 +86,9 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Tools`
   - `Emulator`: Disable `Launch in the Running Devices tool window`
   - `Layout Inspector`: Disable `Enable embedded Layout Inspector`
+- Open a project
 - `Advanced Settings`:
   - Enable `Modal modal commit interface`
-- Open a project
 - Disable `Show Project Gradient` in the toolbar
 - Clean `Gutter Icons`, reorder tabs manually, and clean bottom tabs
 - Reorder window layouts and `Store Current Layout as Default`
@@ -135,6 +99,43 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
 - `Editor`
   - `Live Template`: Disable compose related; Import from settings zip
 - Configure `JsonToKotlinClass`
+- Configure `detekt`
+  - `Enable background analysis`
+  - Config:
+    ```
+    complexity:
+      ComplexCondition:
+        active: false
+      CyclomaticComplexMethod:
+        active: false
+      LargeClass:
+        active: false
+      LongMethod:
+        active: false
+      LongParameterList:
+        functionThreshold: 22
+        constructorThreshold: 22
+      NestedBlockDepth:
+        active: false
+      TooManyFunctions:
+        active: false
+    
+    exceptions:
+      TooGenericExceptionCaught:
+        active: false
+    
+    naming:
+      FunctionNaming:
+        ignoreAnnotated:
+          - "Composable"
+    style:
+      LoopWithTooManyJumpStatements:
+        active: false
+      MagicNumber:
+        active: false
+      ReturnCount:
+        active: false
+    ```
 - `Ctrl` + `Shift` + `Alt` + `L`
   - Enable `Optimize imports`, `Code cleanup`, and `Rearrange code`
 - `Log` - `COMPACT`, Show `Tag Names`
