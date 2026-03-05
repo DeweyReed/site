@@ -8,14 +8,16 @@ i18n_dir: :en
 ## Gradle
 
 ```Script
-gradle wrapper --gradle-version=
+gradle wrapper --gradle-version=XXX && gradle wrapper
 ```
-
-> Note, you need to run this command twice to upgrade both Gradle and the Gradle Wrapper itself
 
 <https://gradle.org/releases/>
 
-- 9.0.0: ??(Java 17, Kotlin 2.2) The whole community isn't ready yet
+[Best Practices for Authoring Gradle Builds[(https://docs.gradle.org/current/userguide/best_practices.html)
+
+- 9.2.1: ??
+- 9.0.0: -(Java 17, Kotlin 2.2) The whole community isn't ready yet
+- 8.14.4: ??
 - 8.14.3: ✔
 - 8.13: ❌
 - 8.11.1: ✔
@@ -126,6 +128,9 @@ gradle wrapper --gradle-version=
   
   `What's New` in Android Studio has more release notes.
 
+  - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ??
+    - [Simplified JDK management with Gradle Daemon JVM Criteria](https://developer.android.com/studio/releases/past-releases/as-panda-1-release-notes#daemon-jvm-criteria)
+    - <https://developer.android.com/build/releases/agp-9-0-0-release-notes>
   - 8.13.2: ✔
   - 8.13.0(Otter 2 Feature Drop | 2025.2.2, Gradle 8.13.2): ❌ Fast ADB wifi, but too many bugs and ANRs
   - 8.13.0(Otter | 2025.2.1, Gradle 8.13): ❌ Broken K2, lack of resources warnings, slow analysis, and no new features
