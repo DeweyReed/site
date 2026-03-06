@@ -114,8 +114,12 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [org.jetbrains.kotlinx:kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases)
 
+  - 1.10.0: ??(Kotlin 2.3)
   - 1.9.0: ✔(Kotlin 2.2)
 
+- [org.jetbrains.kotlinx:kotlinx-io](https://github.com/Kotlin/kotlinx-io)
+  - 0.9.0: ??(Kotlin 2.3)
+  - 0.8.2: ✔
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
   - 2.3.5: ??
