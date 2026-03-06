@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月7日
+
+Media3的`FrameExtractor`比Glide还要慢一点。只有在开了硬件加速才会快很多，但根据其文档，硬件加速会在一些设备上出错。看来，Media3的inspector还有很长的路。
+
 ## 2026年3月6日
 
 Media3的`MetadataRetriever.retrieveDurationUs`比`MediaMetadataRetriever`慢不少。虽然尚不知其兼容有多好，但这个速度还不能用。
