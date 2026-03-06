@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月6日
+
+Media3的`MetadataRetriever.retrieveDurationUs`比`MediaMetadataRetriever`慢不少。虽然尚不知其兼容有多好，但这个速度还不能用。
+
 ## 2026年3月5日
 
 突然想起Relay，虽然早已知其破产，但没想到都一年了。想起了当初宣传时，其炫耀将原本的设计然后开发的流程变为了设计开发设计开发……相互交织的模式，也不知其为什么会觉得后者更好。
