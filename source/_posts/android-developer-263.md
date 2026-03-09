@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月10日
+
+虽然`createDeviceProtectedStorageContext()`带有`Protected`字样，但使用其创建的`SharedPreferences`并不安全。通常用于给解锁屏幕前显示内容的应用，比如闹钟、音乐、电话等。
+
 ## 2026年3月9日
 
 全Compose的应用可以把Navigation的配置都放在顶层，而各个屏幕只提供事件。这样换Navigation框架就会很容易。
