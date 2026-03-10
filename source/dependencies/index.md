@@ -13,7 +13,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 <https://gradle.org/releases/>
 
-[Best Practices for Authoring Gradle Builds[(https://docs.gradle.org/current/userguide/best_practices.html)
+[Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
 - 9.2.1: ??
 - 9.0.0: -(Java 17, Kotlin 2.2) The whole community isn't ready yet
@@ -45,7 +45,8 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - org.jetbrains.kotlin:kotlin
 
-  - [2.3.0](https://kotlinlang.org/docs/whatsnew23.html): ??
+  - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ??
+  - [2.3.0](https://kotlinlang.org/docs/whatsnew23.html): ⬆️
   - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ✔
 
     - [Guard conditions in when with a subject](https://kotlinlang.org/docs/control-flow.html#guard-conditions-in-when-expressions)
@@ -122,7 +123,8 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   - 0.8.2: ✔
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
-  - 2.3.5: ??
+  - 2.3.6: ??
+  - 2.3.5: ⬆️
   - 2.3.3: ✔(Kotlin 2.2.21)
   - 2.1.21-2.0.2: ✔
 
@@ -683,6 +685,8 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
+  - 3.4.0: ??(Kotlin 2.3)
+    - `ImageRequest.Builder.useExistingImageAsPlaceholder` enables crossfading from the previous image when no placeholder is set.
   - 3.3.0: ✔(Kotlin 2.2)
   - 3.2.0: ✔(Kotlin 2.1)
   - 2.7.0: ⬆️(Kotlin 2.0)
