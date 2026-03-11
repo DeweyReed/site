@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月11日
+
+KMP项目升级AGP 9时，先迁移Android module再升级可以省去不少麻烦。
+
 ## 2026年3月10日
 
 虽然`createDeviceProtectedStorageContext()`带有`Protected`字样，但使用其创建的`SharedPreferences`并不安全。通常用于给解锁屏幕前显示内容的应用，比如闹钟、音乐、电话等。
