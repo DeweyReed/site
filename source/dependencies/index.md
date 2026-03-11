@@ -124,7 +124,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
   - 2.3.6: ??
-  - 2.3.5: ⬆️
+  - 2.3.5: ✔
   - 2.3.3: ✔(Kotlin 2.2.21)
   - 2.1.21-2.0.2: ✔
 
@@ -392,7 +392,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.9.7: ??
+  - 2.9.7: ✔
   - 2.9.6: ✔
   - 2.9.5: ✔
   - 2.8.6: ✔
@@ -429,7 +429,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - 2.11.1: ??
+  - 2.11.1: ✔
   - 2.11.0: ✔
   - 2.10.3: ❌
   - 2.10.2: ❌
@@ -505,8 +505,8 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.02.01: ??(Compose 1.10.4)
-  - 2026.02.00: ??(Compose 1.10.3)
+  - 2026.02.01: ✔(Compose 1.10.4)
+  - 2026.02.00: ⬆️(Compose 1.10.3)
   - 2026.01.01: ✔(Compose 1.10.2)
   - 2026.01:00: ✔(Compose 1.10.1)
     - `retain { }`
@@ -696,7 +696,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 - [com.airbnb.android:lottie](https://github.com/airbnb/lottie-android/releases)
 
   - 6.7.1: ✔
-  - 6.5.2: 🚧(ImageAssetManager NPE Fixed)
+  - 6.5.2: ⬆️(ImageAssetManager NPE Fixed)
   - 6.1.0+: ❌ ImageAssetManager NPE
   - 6.0.1: ✔
 
@@ -744,7 +744,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.53.0: ??
+  - 0.53.0: ✔
     - > In Gradle 9.0 and above, the `dependencyUpdates` task should be run with the `--no-parallel` flag
   - 0.52.0: ✔
   - 0.51.0: ✔
