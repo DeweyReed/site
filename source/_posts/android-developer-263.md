@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月12日
+
+[Motion Blur for a Spinning Wheel in Jetpack Compose](https://proandroiddev.com/motion-blur-for-a-spinning-wheel-in-jetpack-compose-368c1647224d)的数学让人头大。有时间的话，客户端的实现性能最棒，但没时间的话，除了让AI来帮忙算算数学，还可以麻烦设计师直接输出Lottie或libpag格式的文件。
+
 ## 2026年3月11日
 
 KMP项目升级AGP 9时，先迁移Android module再升级可以省去不少麻烦。
