@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月14日
+
+根据[Metro的文档](https://zacsweers.github.io/metro/latest/multiplatform/?h=ios#supported-targets-for-artifactsfeatures)与个人使用体验，距离在生产环境中使用Metro还需要数月的沉淀。
+
 ## 2026年3月13日
 
 `Modifier.layout`还是可以拿来改内容的位置和大小的。
