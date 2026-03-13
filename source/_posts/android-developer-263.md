@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月13日
+
+`Modifier.layout`还是可以拿来改内容的位置和大小的。
+
 ## 2026年3月12日
 
 [Motion Blur for a Spinning Wheel in Jetpack Compose](https://proandroiddev.com/motion-blur-for-a-spinning-wheel-in-jetpack-compose-368c1647224d)的数学让人头大。有时间的话，客户端的实现性能最棒，但没时间的话，除了让AI来帮忙算算数学，还可以麻烦设计师直接输出Lottie或libpag格式的文件。
