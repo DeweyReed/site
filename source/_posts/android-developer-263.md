@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月15日
+
+baselineprofile的正式版插件还不支持AGP 9，所以要么用测试版，要么注释掉。我选择稳妥的后者。
+
 ## 2026年3月14日
 
 根据[Metro的文档](https://zacsweers.github.io/metro/latest/multiplatform/?h=ios#supported-targets-for-artifactsfeatures)与个人使用体验，距离在生产环境中使用Metro还需要数月的沉淀。
