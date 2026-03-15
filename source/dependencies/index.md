@@ -134,9 +134,13 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
   `What's New` in Android Studio has more release notes.
 
-  - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ??
+  - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ??(Dagger 2.59+)
     - [Simplified JDK management with Gradle Daemon JVM Criteria](https://developer.android.com/studio/releases/past-releases/as-panda-1-release-notes#daemon-jvm-criteria)
     - <https://developer.android.com/build/releases/agp-9-0-0-release-notes>
+    - [Migrate to built-in Kotlin](https://developer.android.com/build/migrate-to-built-in-kotlin)
+    - `baselineprofile` 1.5.0+
+    - `android.applicationVariants.configureEach {` -> `androidComponents { onVariants { variant -> `
+    - `getByName("androidTest").assets.srcDir` -> `androidComponents.onVariants { variant -> variant.androidTest?.sources?.assets?.addStaticSourceDirectory(`
   - 8.13.2: ✔
   - 8.13.0(Otter 2 Feature Drop | 2025.2.2, Gradle 8.13.2): ❌ Fast ADB wifi, but too many bugs and ANRs
   - 8.13.0(Otter | 2025.2.1, Gradle 8.13): ❌ Broken K2, lack of resources warnings, slow analysis, and no new features
@@ -565,6 +569,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.59.2: ??(AGP 9)
   - 2.57.2: ✔
     - Add support for the Jakarta Singleton annotation in Hilt.
   - 2.56.2: ✔(Kotlin 2.1)
@@ -746,6 +751,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
   - 0.53.0: ✔
     - > In Gradle 9.0 and above, the `dependencyUpdates` task should be run with the `--no-parallel` flag
+    - Terminal: `./gradlew dependencyUpdates --no-parallel`
   - 0.52.0: ✔
   - 0.51.0: ✔
   - 0.50.0: ✔
