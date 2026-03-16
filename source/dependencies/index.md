@@ -455,8 +455,8 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
-  - 1.9.2: ??
-  - 1.9.0: ✔(Lottie 6.6.0)
+  - 1.9.2: ✔
+  - 1.9.0: ⬆️(Lottie 6.6.0)
     - Publish utility classes `WakeLockManager`, `WifiLockManager`, `AudioFocusManager`, `AudioBecomingNoisyManager` and `StuckPlayerDetector` previously used by ExoPlayer internally to allow reuse for other players
     - `CompositionPlayer`
     - `androidx.media3.inspector.MetadataRetriever`
@@ -749,9 +749,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.53.0: ✔
-    - > In Gradle 9.0 and above, the `dependencyUpdates` task should be run with the `--no-parallel` flag
-    - Terminal: `./gradlew dependencyUpdates --no-parallel`
+  - 0.53.0: ❌(Not working with AGP 9 + Gradle 9)
   - 0.52.0: ✔
   - 0.51.0: ✔
   - 0.50.0: ✔
