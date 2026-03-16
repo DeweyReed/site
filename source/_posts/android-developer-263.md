@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月16日
+
+`com.github.ben-manes.versions`与AGP 9和Gradle 9一起运行时，不太和谐。该找一个替代了。
+
 ## 2026年3月15日
 
 baselineprofile的正式版插件还不支持AGP 9，所以要么用测试版，要么注释掉。我选择稳妥的后者。
