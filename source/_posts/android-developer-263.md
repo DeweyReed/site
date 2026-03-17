@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月17日
+
+[Update Your Android Projects to AGP 9.0](https://www.youtube.com/watch?v=m0Cq6J-V_RY)与官方文档结合着看效果更好。
+
 ## 2026年3月16日
 
 `com.github.ben-manes.versions`与AGP 9和Gradle 9一起运行时，不太和谐。该找一个替代了。
