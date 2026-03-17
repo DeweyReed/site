@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月18日
+
+AS Panda没有了关闭K2的开关，而只能使用[The Deprecation of K1 Mode](https://blog.jetbrains.com/idea/2025/12/the-deprecation-of-k1-mode/)中的配置使用K1。关闭后，IDE则会有其他问题。看来只能接受Deprecated enum无提示、Live Template不及时的K2了。等我有时间了再去开个工单，希望不会被忽视。也算是典型的Android开发体验了。
+
 ## 2026年3月17日
 
 [Update Your Android Projects to AGP 9.0](https://www.youtube.com/watch?v=m0Cq6J-V_RY)与官方文档结合着看效果更好。
