@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月19日
+
+[What I learned keeping an Android app alive 24/7 on Samsung, Xiaomi, and Honor](https://www.reddit.com/r/androiddev/comments/1rxhmu3/what_i_learned_keeping_an_android_app_alive_247/)很厉害也很辛苦。在dontkillmyapp有点跟不上时代的情况下，国内机器的情况只会更严峻吧。
+
 ## 2026年3月18日
 
 AS Panda没有了关闭K2的开关，而只能使用[The Deprecation of K1 Mode](https://blog.jetbrains.com/idea/2025/12/the-deprecation-of-k1-mode/)中的配置使用K1。关闭后，IDE则会有其他问题。看来只能接受Deprecated enum无提示、Live Template不及时的K2了。等我有时间了再去开个工单，希望不会被忽视。也算是典型的Android开发体验了。
