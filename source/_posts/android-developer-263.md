@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月20日
+
+[Remote Compose: Back to the Future](https://medium.com/@chatikyan/remote-compose-back-to-the-future-454b8e824fad)。SDUI要复活了？看起来比WebView和自定义SDUI要靠谱些，但由于还是alpha版本，还需观望。
+
 ## 2026年3月19日
 
 [What I learned keeping an Android app alive 24/7 on Samsung, Xiaomi, and Honor](https://www.reddit.com/r/androiddev/comments/1rxhmu3/what_i_learned_keeping_an_android_app_alive_247/)很厉害也很辛苦。在dontkillmyapp有点跟不上时代的情况下，国内机器的情况只会更严峻吧。
