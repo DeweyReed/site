@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月21日
+
+在使用过程中，我发现<https://github.com/saket/telephoto>比其他类似库可以提供更好更灵活的缩放体验。
+
 ## 2026年3月20日
 
 [Remote Compose: Back to the Future](https://medium.com/@chatikyan/remote-compose-back-to-the-future-454b8e824fad)。SDUI要复活了？看起来比WebView和自定义SDUI要靠谱些，但由于还是alpha版本，还需观望。
