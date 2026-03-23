@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月23日
+
+[Metro不支持了internal](https://zacsweers.github.io/metro/latest/faq/#in-dagger-i-could-make-declarations-internal-and-it-worked-why-doesnt-that-work-in-metro)，有道理。
+
 ## 2026年3月22日
 
 AS的更新就像一个抱满了石头的小朋友，每次弯腰捡新东西时，怀里的东西就会掉几个。作为开发者，如果不想因循守旧，只能接受这个事实了。
