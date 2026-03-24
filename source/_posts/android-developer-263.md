@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月24日
+
+根据[Metro文档](https://zacsweers.github.io/metro/latest/faq/#why-doesnt-metro-support-reusable)和Dagger实现，Dagger的`@Reusable`用处的确和`@Stable`类似，不测试性能的话，只是徒增烦恼。
+
 ## 2026年3月23日
 
 [Metro不支持了internal](https://zacsweers.github.io/metro/latest/faq/#in-dagger-i-could-make-declarations-internal-and-it-worked-why-doesnt-that-work-in-metro)，有道理。
