@@ -45,6 +45,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - org.jetbrains.kotlin:kotlin
 
+  - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ??
   - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ??
   - [2.3.0](https://kotlinlang.org/docs/whatsnew23.html): ⬆️
   - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ✔
@@ -141,6 +142,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
     - `baselineprofile` 1.5.0+
     - `android.applicationVariants.configureEach {` -> `androidComponents { onVariants { variant -> `
     - `getByName("androidTest").assets.srcDir` -> `androidComponents.onVariants { variant -> variant.androidTest?.sources?.assets?.addStaticSourceDirectory(`
+    - `-keep class com.google.mlkit.** { *; }`: <https://github.com/googlesamples/mlkit/issues/1001>
   - 8.13.2: ✔
   - 8.13.0(Otter 2 Feature Drop | 2025.2.2, Gradle 8.13.2): ❌ Fast ADB wifi, but too many bugs and ANRs
   - 8.13.0(Otter | 2025.2.1, Gradle 8.13): ❌ Broken K2, lack of resources warnings, slow analysis, and no new features
