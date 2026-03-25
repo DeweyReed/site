@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月25日
+
+AS设置的Code Completion的Match case还是要打开。关闭后的使用体验感觉像是没被完整测试过。
+
 ## 2026年3月24日
 
 根据[Metro文档](https://zacsweers.github.io/metro/latest/faq/#why-doesnt-metro-support-reusable)和Dagger实现，Dagger的`@Reusable`用处的确和`@Stable`类似，不测试性能的话，只是徒增烦恼。
