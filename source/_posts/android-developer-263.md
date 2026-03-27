@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月27日
+
+突然意识到<https://github.com/rafaeltonholo/svg-to-compose>可以实现一个kt文件就包括界面和图标信息，比还要复制一堆xml文件方便不少。这也算Compose图标少有的好处了吧。
+
 ## 2026年3月26日
 
 Android开发还是要使用三键导航栏，来让Edge-to-edge的适配更明显。见过很多应用的内容被导航栏遮挡。一看就知道其开发和测试都爱用全面屏导航，而不知三键导航栏也是一些人的习惯。
