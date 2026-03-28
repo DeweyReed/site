@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月28日
+
+`androidx.media3:media3-effect-lottie`展示了如何用Canvas给视频增加任意内容。那岂不是可以把整个管线当成一个View来控制？
+
 ## 2026年3月27日
 
 突然意识到<https://github.com/rafaeltonholo/svg-to-compose>可以实现一个kt文件就包括界面和图标信息，比还要复制一堆xml文件方便不少。这也算Compose图标少有的好处了吧。
