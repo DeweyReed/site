@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月30日
+
+Glide会缓存CustomViewTarget，这也就是为什么反复调用时一些本地变量不是最新的原因。非要用的话，就用根据情况clear、setTag，signature、CustomTarget等。
+
 ## 2026年3月29日
 
 在使用AI提高效率的时候，因为对应用开发很熟悉，所以我是会发现其犯错的。但对于我不熟悉的领域，或对于经验尚浅的开发者，这可怎么避免呢？就像以前一样，知错就改喽。
