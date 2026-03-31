@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年3月31日
+
+有的崩溃统计服务是支持上传mapping文件的压缩包的，这可比直接上传txt要快得多。
+
 ## 2026年3月30日
 
 Glide会缓存CustomViewTarget，这也就是为什么反复调用时一些本地变量不是最新的原因。非要用的话，就用根据情况clear、setTag，signature、CustomTarget等。
