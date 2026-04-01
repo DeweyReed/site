@@ -231,6 +231,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
+  - 1.12.4: ??
   - 1.11.0: ✔(Android 16(36))
   - 1.10.1: ✔(Android 15(35))
     - `LocalActivity`
@@ -741,6 +742,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [net.lingala.zip4j:zip4j](https://github.com/srikanth-lingala/zip4j/releases)
 
+  - 2.11.6: ??
   - 2.11.5: ✔
   - 2.10.0: ✔(UTF-8 Support)
   - 2.9.1: ✔
