@@ -15,7 +15,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 [Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
-- 9.2.1: ??
+- 9.2.1: ✔
 - 9.0.0: -(Java 17, Kotlin 2.2) The whole community isn't ready yet
 - 8.14.4: ??
 - 8.14.3: ✔
@@ -46,7 +46,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 - org.jetbrains.kotlin:kotlin
 
   - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ??
-  - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ??
+  - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ✔
   - [2.3.0](https://kotlinlang.org/docs/whatsnew23.html): ⬆️
   - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ✔
 
@@ -124,7 +124,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   - 0.8.2: ✔
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
-  - 2.3.6: ??
+  - 2.3.6: ✔
   - 2.3.5: ✔
   - 2.3.3: ✔(Kotlin 2.2.21)
   - 2.1.21-2.0.2: ✔
@@ -135,7 +135,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
   `What's New` in Android Studio has more release notes.
 
-  - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ??(Dagger 2.59+)
+  - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ✔(Dagger 2.59+)
     - [Simplified JDK management with Gradle Daemon JVM Criteria](https://developer.android.com/studio/releases/past-releases/as-panda-1-release-notes#daemon-jvm-criteria)
     - <https://developer.android.com/build/releases/agp-9-0-0-release-notes>
     - [Migrate to built-in Kotlin](https://developer.android.com/build/migrate-to-built-in-kotlin)
@@ -511,7 +511,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.03.00: ??(Compose 1.10.5)
+  - 2026.03.00: ✔(Compose 1.10.5)
   - 2026.02.01: ✔(Compose 1.10.4)
   - 2026.02.00: ⬆️(Compose 1.10.3)
   - 2026.01.01: ⬆️(Compose 1.10.2)
@@ -572,7 +572,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.59.2: ??(AGP 9)
+  - 2.59.2: ✔(AGP 9)
   - 2.57.2: ✔
     - Add support for the Jakarta Singleton annotation in Hilt.
   - 2.56.2: ✔(Kotlin 2.1)
