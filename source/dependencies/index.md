@@ -15,6 +15,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 [Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
+- 9.3.1: ??
 - 9.2.1: ✔
 - 9.0.0: -(Java 17, Kotlin 2.2) The whole community isn't ready yet
 - 8.14.4: ??
@@ -135,6 +136,8 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
   `What's New` in Android Studio has more release notes.
 
+  - 9.1.0(Panda 2 | 2025.3.2, Gradle 9.3.1): ??
+    - adds the rule `-repackageclasses` to builds that use neither `-flattenpackagehierarchy` or `-repackageclasses` explicitly.
   - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ✔(Dagger 2.59+)
     - [Simplified JDK management with Gradle Daemon JVM Criteria](https://developer.android.com/studio/releases/past-releases/as-panda-1-release-notes#daemon-jvm-criteria)
     - <https://developer.android.com/build/releases/agp-9-0-0-release-notes>
