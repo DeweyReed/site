@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年4月4日
+
+[An update on Android KTX](https://jakewharton.com/an-update-on-android-ktx/)中比较少见的是Lifecycle、Navigation和Paging，而其他大多在Release notes有所提及。
+
 ## 2026年4月3日
 
 <https://android-developers.googleblog.com/2026/04/android-studio-supports-gemma-4-local.html>AS的内存占用来到了24GB。专业的开发者总不能不用这个模型吧。
