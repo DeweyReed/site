@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年4月5日
+
+Nav3稳定地差不多了，可以上手测试了。
+
 ## 2026年4月4日
 
 [An update on Android KTX](https://jakewharton.com/an-update-on-android-ktx/)中比较少见的是Lifecycle、Navigation和Paging，而其他大多在Release notes有所提及。
