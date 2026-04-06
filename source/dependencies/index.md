@@ -18,7 +18,6 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 - 9.3.1: ??
 - 9.2.1: ✔
 - 9.0.0: -(Java 17, Kotlin 2.2) The whole community isn't ready yet
-- 8.14.4: ??
 - 8.14.3: ✔
 - 8.13: ❌
 - 8.11.1: ✔
@@ -46,7 +45,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - org.jetbrains.kotlin:kotlin
 
-  - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ??
+  - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ✔
   - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ✔
   - [2.3.0](https://kotlinlang.org/docs/whatsnew23.html): ⬆️
   - [2.2.21](https://kotlinlang.org/docs/whatsnew22.html): ✔
