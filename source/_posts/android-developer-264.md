@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年4月6日
+
+发现基于Compose的富文本编辑器越来越多了，说明Compose降低了复杂界面的开发难度。再加上AS最近放弃了Custom View Preview，XML算是落幕了。
+
 ## 2026年4月5日
 
 Nav3稳定地差不多了，可以上手测试了。
