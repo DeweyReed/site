@@ -9,6 +9,10 @@ categories: Android
 
 <!--more-->
 
+## 2026年4月7日
+
+很多AndroidX的新功能都藏在Release Notes里，而在官方文档中根本来不及提及。尤其是CameraX和Media3。头疼。
+
 ## 2026年4月6日
 
 发现基于Compose的富文本编辑器越来越多了，说明Compose降低了复杂界面的开发难度。再加上AS最近放弃了Custom View Preview，XML算是落幕了。
