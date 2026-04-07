@@ -460,6 +460,9 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
+  - 1.10.0: ??
+    - `media3-effect-lottie`
+    - `media3-ui-compose-material3`
   - 1.9.2: ✔
   - 1.9.0: ⬆️(Lottie 6.6.0)
     - Publish utility classes `WakeLockManager`, `WifiLockManager`, `AudioFocusManager`, `AudioBecomingNoisyManager` and `StuckPlayerDetector` previously used by ExoPlayer internally to allow reuse for other players
