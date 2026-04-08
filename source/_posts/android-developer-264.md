@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一个人的Android开发可以走多远-26年4月版
+title: 一个Android开发可以走多远-26年4月版
 date: 2026/4/1
 categories: Android
 ---
@@ -8,6 +8,10 @@ categories: Android
 真不会一直走啊走，
 
 <!--more-->
+
+## 2026年4月8日
+
+老虎不发猫，被人当病危了。由于时间不够，所以此系列停更。江湖有缘再见。
 
 ## 2026年4月7日
 
