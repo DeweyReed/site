@@ -145,6 +145,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
     - `android.applicationVariants.configureEach {` -> `androidComponents { onVariants { variant -> `
     - `getByName("androidTest").assets.srcDir` -> `androidComponents.onVariants { variant -> variant.androidTest?.sources?.assets?.addStaticSourceDirectory(`
     - `-keep class com.google.mlkit.** { *; }`: <https://github.com/googlesamples/mlkit/issues/1001>
+    - `android.r8.optimizedResourceShrinking=false` for some ads
   - 8.13.2: ✔
   - 8.13.0(Otter 2 Feature Drop | 2025.2.2, Gradle 8.13.2): ❌ Fast ADB wifi, but too many bugs and ANRs
   - 8.13.0(Otter | 2025.2.1, Gradle 8.13): ❌ Broken K2, lack of resources warnings, slow analysis, and no new features
