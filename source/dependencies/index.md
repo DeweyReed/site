@@ -15,7 +15,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 [Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
-- 9.3.1: ??
+- 9.3.1: ✔
 - 9.2.1: ✔
 - 9.0.0: -(Java 17, Kotlin 2.2) The whole community isn't ready yet
 - 8.14.3: ✔
@@ -135,7 +135,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
   `What's New` in Android Studio has more release notes.
 
-  - 9.1.0(Panda 2 | 2025.3.2, Gradle 9.3.1): ??
+  - 9.1.0(Panda 2 | 2025.3.2, Gradle 9.3.1): ✔
     - adds the rule `-repackageclasses` to builds that use neither `-flattenpackagehierarchy` or `-repackageclasses` explicitly.
   - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ✔(Dagger 2.59+)
     - [Simplified JDK management with Gradle Daemon JVM Criteria](https://developer.android.com/studio/releases/past-releases/as-panda-1-release-notes#daemon-jvm-criteria)
@@ -234,7 +234,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.12.4: ??
+  - 1.12.4: ✔
   - 1.11.0: ✔(Android 16(36))
   - 1.10.1: ✔(Android 15(35))
     - `LocalActivity`
@@ -274,7 +274,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.10.0: ✔
+  - 2.10.0: ✔(~~-ktx~~)
   - 2.9.4: ✔
   - 2.9.1: ✔
 
@@ -402,7 +402,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.9.7: ✔
+  - 2.9.7: ✔(~~-ktx~~)
   - 2.9.6: ✔
   - 2.9.5: ✔
   - 2.8.6: ✔
@@ -518,9 +518,9 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.03.01: ??(Compose 1.10.6)
-  - 2026.03.00: ✔(Compose 1.10.5)
-  - 2026.02.01: ✔(Compose 1.10.4)
+  - 2026.03.01: ✔(Compose 1.10.6)
+  - 2026.03.00: ⬆️(Compose 1.10.5)
+  - 2026.02.01: ⬆️(Compose 1.10.4)
   - 2026.02.00: ⬆️(Compose 1.10.3)
   - 2026.01.01: ⬆️(Compose 1.10.2)
   - 2026.01:00: ⬆️(Compose 1.10.1)
@@ -749,7 +749,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [net.lingala.zip4j:zip4j](https://github.com/srikanth-lingala/zip4j/releases)
 
-  - 2.11.6: ??
+  - 2.11.6: ✔
   - 2.11.5: ✔
   - 2.10.0: ✔(UTF-8 Support)
   - 2.9.1: ✔
