@@ -135,6 +135,9 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
   `What's New` in Android Studio has more release notes.
 
+  - 9.1.1(Panda 3 | 2025.3.3, Gradle 9.3.1): ??
+    - this update adds development support for Android API level 37.
+    - you can use skills
   - 9.1.0(Panda 2 | 2025.3.2, Gradle 9.3.1): ✔
     - adds the rule `-repackageclasses` to builds that use neither `-flattenpackagehierarchy` or `-repackageclasses` explicitly.
   - 9.0.1(Panda 1 | 2025.3.1, Gradle 9.1): ✔(Dagger 2.59+)
