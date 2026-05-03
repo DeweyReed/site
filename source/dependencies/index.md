@@ -237,6 +237,8 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
+  - 1.13.0: ??(Android SDK 36.1)
+    - `ComponentActivity` now implements the `OnPictureInPictureUiStateChangedProvider`
   - 1.12.4: ✔
   - 1.11.0: ✔(Android 16(36))
   - 1.10.1: ✔(Android 15(35))
@@ -316,6 +318,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.18.0: ??(Android SDK 36.1)
   - 1.17.0: ✔
   - 1.16.0:  ✔
     - JSpecify nullness annotations
@@ -347,6 +350,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
+  - 1.6.0: ??
   - 1.5.0: ✔
     - `SieveCache` is a new allocation-free replacement for `LruCache` that offers better hit ratio characteristics.
   - 1.4.5: ✔
@@ -442,6 +446,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.11.2: ??
   - 2.11.1: ✔
   - 2.11.0: ✔
   - 2.10.3: ❌
@@ -672,6 +677,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.17.0: ??(Kotlin 2.1)
   - 3.16.4: ✔(Kotlin 2.2)
   - 3.15.0: ✔
   - 3.10.2: ⬆️(Kotlin 2.1)
@@ -764,6 +770,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.54.0: ??
   - 0.53.0: ❌(Not working with AGP 9 + Gradle 9)
   - 0.52.0: ✔
   - 0.51.0: ✔
