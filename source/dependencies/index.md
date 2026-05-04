@@ -792,15 +792,15 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
-  - 1.2.31: ??(~~Kotlin~~)
-  - 1.2.30: ??(Kotlin 2.3)
+  - 1.2.31: ✔(~~Kotlin~~)
+  - 1.2.30: ⬆️(Kotlin 2.3)
   - 1.2.29: ✔(Kotlin 2.0)
   - 1.2.28: ✔
   - 1.2.25: ✔
 
 - [com.scottyab:rootbeer-lib](https://github.com/scottyab/rootbeer)
 
-  - 0.1.2: ??
+  - 0.1.2: ✔
   - 0.1.1: ✔(Android 15(35))
   - 0.1.0: ✔
 
