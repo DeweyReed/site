@@ -135,7 +135,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
   `What's New` in Android Studio has more release notes.
 
-  - 9.1.1(Panda 3 | 2025.3.3, Gradle 9.3.1): ??
+  - 9.1.1(Panda 3 | 2025.3.3, Gradle 9.3.1): ✔
     - this update adds development support for Android API level 37.
     - you can use skills
   - 9.1.0(Panda 2 | 2025.3.2, Gradle 9.3.1): ✔
@@ -350,7 +350,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
 
-  - 1.6.0: ??
+  - 1.6.0: ✔
   - 1.5.0: ✔
     - `SieveCache` is a new allocation-free replacement for `LruCache` that offers better hit ratio characteristics.
   - 1.4.5: ✔
@@ -409,6 +409,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.9.8: ✔
   - 2.9.7: ✔(~~-ktx~~)
   - 2.9.6: ✔
   - 2.9.5: ✔
@@ -446,7 +447,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
-  - 2.11.2: ??
+  - 2.11.2: ✔
   - 2.11.1: ✔
   - 2.11.0: ✔
   - 2.10.3: ❌
@@ -469,7 +470,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
-  - 1.10.0: ??
+  - 1.10.0: ✔
     - `media3-effect-lottie`
     - `media3-ui-compose-material3`
   - 1.9.2: ✔
@@ -677,7 +678,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.17.0: ??(Kotlin 2.1)
+  - 3.17.0: ✔(Kotlin 2.1)
   - 3.16.4: ✔(Kotlin 2.2)
   - 3.15.0: ✔
   - 3.10.2: ⬆️(Kotlin 2.1)
@@ -770,7 +771,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
 
 - [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.54.0: ??
+  - 0.54.0: ✔(AGP 9)
   - 0.53.0: ❌(Not working with AGP 9 + Gradle 9)
   - 0.52.0: ✔
   - 0.51.0: ✔
