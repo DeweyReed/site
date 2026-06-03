@@ -7,14 +7,17 @@ i18n_dir: :en
 
 ## Gradle
 
-```Script
-gradle wrapper --gradle-version=XXX && gradle wrapper
 ```
+gradle wrapper --gradle-version=
+```
+x 2
 
 <https://gradle.org/releases/>
 
 [Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
+- 9.4.1: ??
+  - [Default plugin IDs](https://docs.gradle.org/9.4.1/release-notes.html#default-plugin-ids)
 - 9.3.1: ✔
 - 9.2.1: ✔
 - 9.0.0: -(Java 17, Kotlin 2.2) The whole community isn't ready yet
@@ -135,6 +138,7 @@ gradle wrapper --gradle-version=XXX && gradle wrapper
   
   `What's New` in Android Studio has more release notes.
 
+  - 9.2.1(Panda 4 | 2025.3.4, Gradle 9.4.1): ??
   - 9.1.1(Panda 3 | 2025.3.3, Gradle 9.3.1): ✔
     - this update adds development support for Android API level 37.
     - you can use skills
