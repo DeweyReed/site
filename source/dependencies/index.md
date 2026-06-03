@@ -48,6 +48,7 @@ x 2
 
 - org.jetbrains.kotlin:kotlin
 
+  - 2.3.21: ??
   - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ✔
   - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ✔
   - [2.3.0](https://kotlinlang.org/docs/whatsnew23.html): ⬆️
@@ -99,6 +100,7 @@ x 2
 
 - [org.jetbrains.kotlinx:kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases)
 
+  - 1.11.0: ??(Kotlin 2.2.20)
   - 1.10.2: ✔(Kotlin 2.1)
   - 1.9.0: ✔(Kotlin 2.0)
   - 1.8.1: ✔
@@ -474,6 +476,7 @@ x 2
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
+  - 1.10.1: ??
   - 1.10.0: ✔
     - `media3-effect-lottie`
     - `media3-ui-compose-material3`
@@ -707,6 +710,7 @@ x 2
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
+  - 5.0.7: ??
   - 5.0.5: ✔
   - 4.16.0: ✔
   - 4.15.1: ✔
