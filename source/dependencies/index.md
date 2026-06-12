@@ -877,6 +877,7 @@ x 2
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
+  - 8.11.0: ??
   - 8.9.2: ✔
   - 8.9.1: ✔
   - 8.8.0: ✔
