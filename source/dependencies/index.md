@@ -534,7 +534,8 @@ x 2
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.05.01: ??(Compose 1.11.2)
+  - 2026.06.00: ??(Compose 1.11.3)
+  - 2026.05.01: ✔(Compose 1.11.2)
   - 2026.03.01: ✔(Compose 1.10.6)
   - 2026.03.00: ⬆️(Compose 1.10.5)
   - 2026.02.01: ⬆️(Compose 1.10.4)
@@ -834,7 +835,7 @@ x 2
 
 - [com.umeng.umsdk:common](https://devs.umeng.com/)
 
-  - 9.9.1: ??
+  - 9.9.1: ✔
   - 9.8.8: ✔
   - 9.8.5: ✔
   - 9.8.0: ✔
