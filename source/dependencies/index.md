@@ -835,6 +835,7 @@ x 2
 
 - [com.umeng.umsdk:common](https://devs.umeng.com/)
 
+  - 9.9.2: ??
   - 9.9.1: ✔
   - 9.8.8: ✔
   - 9.8.5: ✔
@@ -895,6 +896,7 @@ x 2
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
+  - 15.8.42: ??
   - 15.8.40: ✔
   - 15.8.35: ✔
   - 15.8.33: ✔
