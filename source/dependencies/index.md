@@ -621,6 +621,9 @@ x 2
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
+  - 9.1.0: ??
+    - `BillingClient.Builder.enableAutoServiceReconnection()`
+    - Removed the `queryPurchaseHistory()` method.
   - 7.1.1: ✔(Android 14(34))
 
     - `enablePendingPurchases()` => `enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())`
