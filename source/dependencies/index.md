@@ -121,14 +121,18 @@ x 2
 
 - [org.jetbrains.kotlinx:kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases)
 
+  - 1.11.0: ??(Kotlin 2.3.20)
   - 1.10.0: ??(Kotlin 2.3)
   - 1.9.0: ✔(Kotlin 2.2)
 
 - [org.jetbrains.kotlinx:kotlinx-io](https://github.com/Kotlin/kotlinx-io)
+
   - 0.9.0: ??(Kotlin 2.3)
   - 0.8.2: ✔
+
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
+  - 2.3.10: ??
   - 2.3.6: ✔
   - 2.3.5: ✔
   - 2.3.3: ✔(Kotlin 2.2.21)
@@ -285,6 +289,9 @@ x 2
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+  - 2.11.0: ??
+    - `rememberViewModelStoreProvider` and `rememberViewModelStoreOwner`
+    - KMP Support
   - 2.10.0: ✔(~~-ktx~~)
   - 2.9.4: ✔
   - 2.9.1: ✔
@@ -324,6 +331,9 @@ x 2
 
 - [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.10.0: ??(Android SDK 37)
+    - ~~ktx~~
+    - `TextAttributeCompat`
   - 1.18.0: ??(Android SDK 36.1)
   - 1.17.0: ✔
   - 1.16.0:  ✔
@@ -526,6 +536,8 @@ x 2
   - 1.0.0: ✔
 
 - [androidx.datastore](https://developer.android.com/jetpack/androidx/releases/datastore)
+
+  - 1.2.1: ??
   - 1.2.0: ✔
   - 1.1.7: ✔
   - 1.1.2: ❌
@@ -534,6 +546,7 @@ x 2
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2026.06.01: ??(Compose 1.11.4)
   - 2026.06.00: ??(Compose 1.11.3)
   - 2026.05.01: ✔(Compose 1.11.2)
   - 2026.03.01: ✔(Compose 1.10.6)
@@ -615,6 +628,7 @@ x 2
 
 - androidx.hilt:hilt-*
 
+  - 1.4.0: ??(Android SDK 37)
   - 1.3.0: ✔
   - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
@@ -654,6 +668,7 @@ x 2
 
 - [com.squareup.okhttp3:okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md)
 
+  - 5.4.0: ??
   - 5.3.2: ✔(Kotlin 2.2)
   - 4.12.0: ✔(Kotlin 1.9)
   
@@ -724,6 +739,7 @@ x 2
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
+  - 3.5.0: ??(Kotlin 2.4)
   - 3.4.0: ??(Kotlin 2.3)
     - `ImageRequest.Builder.useExistingImageAsPlaceholder` enables crossfading from the previous image when no placeholder is set.
   - 3.3.0: ✔(Kotlin 2.2)
@@ -747,6 +763,8 @@ x 2
 
 - com.github.chuckerteam.chucker:library
 
+  - 4.3.1: ??(Kotlin 2.3, Material 1.13)
+    - Remove unused wake lock permission
   - 4.2.0: ✔
   - 4.0.0: ✔(Material 1.9.0)
   - 3.5.2: ✔
@@ -876,7 +894,7 @@ x 2
 
   - 6.8.0: ✔
 
-- [com.tencent.mm.opensdk:wechat-sdk-android](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html)
+- [com.tencent.mm.opensdk:wechat-sdk-android](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html): <https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Downloads/Android_Resource.html>
 
   - 6.8.34: ✔
 
