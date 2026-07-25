@@ -443,6 +443,7 @@ x 2
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
   - 2.8.4: ✔
+    - ~~ktx~~
   - 2.8.3: ✔
   - 2.8.1: ✔
   - 2.7.2: ✔(Kotlin 2.1)
