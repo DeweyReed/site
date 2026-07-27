@@ -329,12 +329,12 @@ x 2
 
   - 2.3.1: ✔
 
-- [androidx.core:core-ktx](https://developer.android.com/jetpack/androidx/releases/core)
+- [androidx.core:core](https://developer.android.com/jetpack/androidx/releases/core)
 
   - 1.10.0: ??(Android SDK 37)
     - ~~ktx~~
     - `TextAttributeCompat`
-  - 1.18.0: ??(Android SDK 36.1)
+  - 1.18.0: ⬆️(Android SDK 36.1)
   - 1.17.0: ✔
   - 1.16.0:  ✔
     - JSpecify nullness annotations
@@ -548,7 +548,7 @@ x 2
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
   - 2026.06.01: ??(Compose 1.11.4)
-  - 2026.06.00: ??(Compose 1.11.3)
+  - 2026.06.00: ✔(Compose 1.11.3)
   - 2026.05.01: ✔(Compose 1.11.2)
   - 2026.03.01: ✔(Compose 1.10.6)
   - 2026.03.00: ⬆️(Compose 1.10.5)
@@ -592,7 +592,7 @@ x 2
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
-  - 1.9.0: ??
+  - 1.9.0: ✔
 
     Set the background color:
 
@@ -741,7 +741,7 @@ x 2
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
   - 3.5.0: ??(Kotlin 2.4)
-  - 3.4.0: ??(Kotlin 2.3)
+  - 3.4.0: ⬆️(Kotlin 2.3)
     - `ImageRequest.Builder.useExistingImageAsPlaceholder` enables crossfading from the previous image when no placeholder is set.
   - 3.3.0: ✔(Kotlin 2.2)
   - 3.2.0: ✔(Kotlin 2.1)
@@ -857,7 +857,7 @@ x 2
 
 - [com.umeng.umsdk:common](https://devs.umeng.com/)
 
-  - 9.9.2: ??
+  - 9.9.2: ✔
   - 9.9.1: ✔
   - 9.8.8: ✔
   - 9.8.5: ✔
@@ -887,7 +887,7 @@ x 2
 
 - com.umeng.umsdk:apm
 
-  - 2.0.8: ??
+  - 2.0.8: ✔
   - 2.0.6: ✔
   - 2.0.4: ✔
 
