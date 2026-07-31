@@ -33,7 +33,6 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
       - Disable `Caret blinking`
       - Disable `Show line numbers`
       - Enable `Show method separators`
-    - `Code Completion` - Disable `Match case`
     - `Console` - `Default Encoding`: `UTF-8`
     - `Smart Keys`
       - Enable `Use "CamelHumps" Words`
@@ -65,10 +64,6 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - Enable `Lambdas` - `Kotlin`
 - `Plugins`(Install in Settings and wait for loading)
   - `.ignore`
-    `IDE settings/options/ignore.xml` - `starredTemplates`:
-    ```
-    /gitignore/Android.gitignore$/gitignore/C.gitignore$/gitignore/C++.gitignore$/gitignore/CMake.gitignore$/toptal/templates/Android.gitignore$/toptal/templates/AndroidStudio.gitignore$/gitignore/Java.gitignore$/toptal/templates/Java.gitignore$/gitignore/Kotlin.gitignore$/toptal/templates/Kotlin.gitignore$/toptal/templates/Intellij.gitignore$/toptal/templates/Intellij+all.gitignore$/toptal/templates/Intellij+iml.gitignore$/gitignore/Global/macOS.gitignore$/toptal/templates/macOS.gitignore$/gitignore/Global/Windows.gitignore$/toptal/templates/Windows.gitignore$/gitignore/Global/Linux.gitignore$/toptal/templates/Linux.gitignore$/toptal/templates/C++.gitignore$/toptal/templates/C.gitignore$/gitignore/Gradle.gitignore$/toptal/templates/Gradle.gitignore$/toptal/templates/JetBrains.gitignore$/gitignore/Global/JetBrains.gitignore$/toptal/templates/JetBrains+all.gitignore$/toptal/templates/JetBrains+iml.gitignore$/toptal/templates/Groovy.gitignore$/toptal/templates/Crashlytics.gitignore$/gitignore/Objective-C.gitignore$/gitignore/Swift.gitignore$/toptal/templates/Swift.gitignore$/toptal/templates/Objective-C.gitignore$/toptal/templates/Firebase.gitignore
-    ```
   - `ADB Idea`
   - `Archive Browser`
   - `Avocado`
@@ -78,6 +73,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Kotlin Multiplatform`
   - `Nyan Progress Bar`
   - `String Manipulation`
+  - `vgo`
 - `Version Control` - `Commit`
   - `Before Commit`: Enable all
 - `Build, Execution, Deployment`
@@ -98,6 +94,12 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
   - `Repeat Last Action`: Ctrl + Alt + Shift + R
 - `Editor`
   - `Live Template`: Disable compose related; Import from settings zip
+- Configure `.ignore`
+  - `.ignore`
+    `IDE settings/options/ignore.xml` - `starredTemplates`:
+    ```
+    /gitignore/Android.gitignore$/gitignore/C.gitignore$/gitignore/C++.gitignore$/gitignore/CMake.gitignore$/toptal/templates/Android.gitignore$/toptal/templates/AndroidStudio.gitignore$/gitignore/Java.gitignore$/toptal/templates/Java.gitignore$/gitignore/Kotlin.gitignore$/toptal/templates/Kotlin.gitignore$/toptal/templates/Intellij.gitignore$/toptal/templates/Intellij+all.gitignore$/toptal/templates/Intellij+iml.gitignore$/gitignore/Global/macOS.gitignore$/toptal/templates/macOS.gitignore$/gitignore/Global/Windows.gitignore$/toptal/templates/Windows.gitignore$/gitignore/Global/Linux.gitignore$/toptal/templates/Linux.gitignore$/toptal/templates/C++.gitignore$/toptal/templates/C.gitignore$/gitignore/Gradle.gitignore$/toptal/templates/Gradle.gitignore$/toptal/templates/JetBrains.gitignore$/gitignore/Global/JetBrains.gitignore$/toptal/templates/JetBrains+all.gitignore$/toptal/templates/JetBrains+iml.gitignore$/toptal/templates/Groovy.gitignore$/toptal/templates/Crashlytics.gitignore$/gitignore/Objective-C.gitignore$/gitignore/Swift.gitignore$/toptal/templates/Swift.gitignore$/toptal/templates/Objective-C.gitignore$/toptal/templates/Firebase.gitignore
+    ```
 - Configure `JsonToKotlinClass`
 - Configure `detekt`
   - `Enable background analysis`
