@@ -51,6 +51,7 @@ x 2
 
   - 2.4.10: ??
     - [Context parameters, Explicit backing fields, UUID](https://kotlinlang.org/docs/whatsnew24.html#new-stable-features)
+    - ~~~`annotation-default-target=param-property`~~~
   - 2.3.21: ✔
   - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ✔
   - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ✔
