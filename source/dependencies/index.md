@@ -49,7 +49,7 @@ x 2
 
 - org.jetbrains.kotlin:kotlin
 
-  - 2.4.10: ??
+  - 2.4.10: ??(Dagger 2.60)
     - [Context parameters, Explicit backing fields, UUID](https://kotlinlang.org/docs/whatsnew24.html#new-stable-features)
     - ~~~`annotation-default-target=param-property`~~~
   - 2.3.21: ✔
@@ -621,6 +621,7 @@ x 2
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
+  - 2.60.1: ??
   - 2.59.2: ✔(AGP 9)
   - 2.57.2: ✔
     - Add support for the Jakarta Singleton annotation in Hilt.
