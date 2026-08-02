@@ -9,6 +9,33 @@ categories: Android
 
 <!--more-->
 
+## 2026年8月2日更新
+
+Gradle 9.4 引入了[Default plugin IDs](https://docs.gradle.org/9.4.1/release-notes.html#default-plugin-ids)，所以之前的
+
+```Kotlin
+gradlePlugin {
+    plugins {
+        register("androidApplicationCompose") {
+            id = libs.plugins.nowinandroid.android.application.compose.get().pluginId
+            implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
+    }
+}
+```
+
+可以变为
+
+```Kotlin
+gradlePlugin {
+    plugins {
+        register(libs.plugins.nowinandroid.android.application.compose.get().pluginId) {
+            implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
+    }
+}
+```
+
 ## 选择的理由
 
 为了在多模块项目中共享Gradle配置，最直接的方式当然是———— ~~不用多模块！~~ 在根`build.gradle`中写`subprojects.afterEvaluate`。但时至今日，这种方法没有扩展度且显得很业余。
