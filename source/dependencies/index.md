@@ -125,18 +125,18 @@ x 2
 
 - [org.jetbrains.kotlinx:kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases)
 
-  - 1.11.0: ??(Kotlin 2.3.20)
-  - 1.10.0: ??(Kotlin 2.3)
+  - 1.11.0: ✔(Kotlin 2.3.20)
+  - 1.10.0: ⬆️(Kotlin 2.3)
   - 1.9.0: ✔(Kotlin 2.2)
 
 - [org.jetbrains.kotlinx:kotlinx-io](https://github.com/Kotlin/kotlinx-io)
 
-  - 0.9.0: ??(Kotlin 2.3)
+  - 0.9.0: ✔(Kotlin 2.3)
   - 0.8.2: ✔
 
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
-  - 2.3.10: ??
+  - 2.3.10: ✔
   - 2.3.6: ✔
   - 2.3.5: ✔
   - 2.3.3: ✔(Kotlin 2.2.21)
@@ -256,7 +256,7 @@ x 2
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.13.0: ??(Android SDK 36.1)
+  - 1.13.0: ✔(Android SDK 36.1)
     - `ComponentActivity` now implements the `OnPictureInPictureUiStateChangedProvider`
   - 1.12.4: ✔
   - 1.11.0: ✔(Android 16(36))
@@ -298,7 +298,7 @@ x 2
 
 - [androidx.lifecycle:lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
-  - 2.11.0: ??
+  - 2.11.0: ✔
     - `rememberViewModelStoreProvider` and `rememberViewModelStoreOwner`
     - KMP Support
   - 2.10.0: ✔(~~-ktx~~)
@@ -340,7 +340,7 @@ x 2
 
 - [androidx.core:core](https://developer.android.com/jetpack/androidx/releases/core)
 
-  - 1.10.0: ??(Android SDK 37)
+  - 1.19.0: ✔(Android SDK 37)
     - ~~ktx~~
     - `TextAttributeCompat`
   - 1.18.0: ⬆️(Android SDK 36.1)
@@ -547,7 +547,7 @@ x 2
 
 - [androidx.datastore](https://developer.android.com/jetpack/androidx/releases/datastore)
 
-  - 1.2.1: ??
+  - 1.2.1: ✔
   - 1.2.0: ✔
   - 1.1.7: ✔
   - 1.1.2: ❌
@@ -556,7 +556,7 @@ x 2
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.06.01: ??(Compose 1.11.4)
+  - 2026.06.01: ✔(Compose 1.11.4)
   - 2026.06.00: ✔(Compose 1.11.3)
   - 2026.05.01: ✔(Compose 1.11.2)
   - 2026.03.01: ✔(Compose 1.10.6)
@@ -639,15 +639,15 @@ x 2
 
 - androidx.hilt:hilt-*
 
-  - 1.4.0: ??(Android SDK 37)
+  - 1.4.0: ✔(Android SDK 37)
   - 1.3.0: ✔
   - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
 
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
-  - 9.1.0: ??
-    - `BillingClient.Builder.enableAutoServiceReconnection()`
+  - 9.1.0: ✔
+    - `BillingClient.Builder.enableAutoServiceReconnection()`, and the callback order changes
     - Removed the `queryPurchaseHistory()` method.
   - 7.1.1: ✔(Android 14(34))
 
@@ -679,7 +679,7 @@ x 2
 
 - [com.squareup.okhttp3:okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md)
 
-  - 5.4.0: ??
+  - 5.4.0: ✔
   - 5.3.2: ✔(Kotlin 2.2)
   - 4.12.0: ✔(Kotlin 1.9)
   
@@ -774,7 +774,7 @@ x 2
 
 - com.github.chuckerteam.chucker:library
 
-  - 4.3.1: ??(Kotlin 2.3, Material 1.13)
+  - 4.3.1: ✔(Kotlin 2.3, Material 1.13)
     - Remove unused wake lock permission
   - 4.2.0: ✔
   - 4.0.0: ✔(Material 1.9.0)
@@ -911,7 +911,7 @@ x 2
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
 
-  - 8.11.0: ??
+  - 8.11.0: ✔
   - 8.9.2: ✔
   - 8.9.1: ✔
   - 8.8.0: ✔
@@ -928,7 +928,7 @@ x 2
 
 - [com.alipay.sdk:alipaysdk-android](https://opendocs.alipay.com/common/02km9l)
 
-  - 15.8.42: ??
+  - 15.8.42: ✔
   - 15.8.40: ✔
   - 15.8.35: ✔
   - 15.8.33: ✔
