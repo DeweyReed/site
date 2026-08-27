@@ -52,6 +52,7 @@ x 2
   - 2.4.10: ??(Dagger 2.60)
     - [Context parameters, Explicit backing fields, UUID](https://kotlinlang.org/docs/whatsnew24.html#new-stable-features)
     - ~~~`annotation-default-target=param-property`~~~
+    - delay(Duration)
   - 2.3.21: ✔
   - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ✔
   - [2.3.10](https://github.com/JetBrains/kotlin/releases/tag/v2.3.10): ✔
@@ -373,7 +374,7 @@ x 2
   - 1.7.0: ✔(Android 12(31))
   - 1.6.0: ✔
 
-- [androidx.collection:collection-ktx](https://developer.android.com/jetpack/androidx/releases/collection)
+- [androidx.collection:collection~~-ktx~~](https://developer.android.com/jetpack/androidx/releases/collection)
 
   - 1.6.0: ✔
   - 1.5.0: ✔
@@ -556,6 +557,9 @@ x 2
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2026.08.00: ??(Compose 1.12.0, Android 17(37))
+    - The `androidx.compose.material.icons` library is no longer recommended. you can still manually reference it if you cannot migrate yet.
+    - Added an overload to SideEffect that accepts key arguments. The new API can be used to fire one-shot SideEffects without the need for a LaunchedEffect or DisposableEffect whose CoroutineScope or onDispose block are unused.
   - 2026.06.01: ✔(Compose 1.11.4)
   - 2026.06.00: ✔(Compose 1.11.3)
   - 2026.05.01: ✔(Compose 1.11.2)
@@ -601,6 +605,7 @@ x 2
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
+  - 1.14.0: ??
   - 1.9.0: ✔
 
     Set the background color:
@@ -740,6 +745,7 @@ x 2
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
+  - 5.0.9: ??(Android 17(37))
   - 5.0.7: ✔
   - 5.0.5: ✔
   - 4.16.0: ✔
@@ -772,7 +778,7 @@ x 2
   - 5.0.3: ✔
   - 4.2.2: ✔
 
-- com.github.chuckerteam.chucker:library
+- [com.github.chuckerteam.chucker:library](https://github.com/ChuckerTeam/chucker/releases)
 
   - 4.3.1: ✔(Kotlin 2.3, Material 1.13)
     - Remove unused wake lock permission
@@ -811,8 +817,9 @@ x 2
   - 1.0.4: ✔(java.time)
   - 0.3.5: ✔(ThreeTenABP)
 
-- [com.github.ben-manes:gradle-versions-plugin](https://github.com/ben-manes/gradle-versions-plugin)
+- [io.github.ben-manes.versions](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.61.0: ??(Renamed to `io.github.ben-manes.versions`)
   - 0.54.0: ✔(AGP 9)
   - 0.53.0: ❌(Not working with AGP 9 + Gradle 9)
   - 0.52.0: ✔
@@ -835,6 +842,7 @@ x 2
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
+  - 1.2.32: ??
   - 1.2.31: ✔(~~Kotlin~~)
   - 1.2.30: ⬆️(Kotlin 2.3)
   - 1.2.29: ✔(Kotlin 2.0)
@@ -849,6 +857,7 @@ x 2
 
 - [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
 
+  - 4.5.85: ??
   - 4.5.27: ✔
   - 4.5.12: ✔
   - 4.4.35: ✔
@@ -867,6 +876,7 @@ x 2
 
 - [com.umeng.umsdk:common](https://devs.umeng.com/)
 
+  - 9.9.8: ??
   - 9.9.2: ✔
   - 9.9.1: ✔
   - 9.8.8: ✔
@@ -907,6 +917,7 @@ x 2
 
 - [com.tencent.mm.opensdk:wechat-sdk-android](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html): <https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Downloads/Android_Resource.html>
 
+  - 6.8.40: ??
   - 6.8.34: ✔
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
