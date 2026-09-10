@@ -258,8 +258,8 @@ x 2
 
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
-  - 1.13.0: ✔(Android SDK 36.1)
-    - `ComponentActivity` now implements the `OnPictureInPictureUiStateChangedProvider`
+  - 1.13.0: ⚠️(Android SDK 36.1)
+    - `ComponentActivity` now implements the `OnPictureInPictureUiStateChangedProvider`: **Breaks `EasyPermissions`**
   - 1.12.4: ✔
   - 1.11.0: ✔(Android 16(36))
   - 1.10.1: ✔(Android 15(35))
