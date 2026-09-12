@@ -16,7 +16,7 @@ x 2
 
 [Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
-- 9.5.1: ??
+- 9.5.1: ✔
 - 9.4.1: ✔
   - [Default plugin IDs](https://docs.gradle.org/9.4.1/release-notes.html#default-plugin-ids)
 - 9.3.1: ✔
@@ -49,7 +49,7 @@ x 2
 
 - org.jetbrains.kotlin:kotlin
 
-  - 2.4.10: ??(Dagger 2.60)
+  - 2.4.10: ✔(Dagger 2.60)
     - [Context parameters, Explicit backing fields, UUID](https://kotlinlang.org/docs/whatsnew24.html#new-stable-features)
     - ~~~`annotation-default-target=param-property`~~~
     - delay(Duration)
@@ -150,7 +150,7 @@ x 2
   `What's New` in Android Studio has more release notes.
 
   - 9.3.2(Quail 3 | 2026.1.3 | Gradle 9.5.0): ??
-  - 9.3.1(Quail 2 | 2026.1.2 | Gradle 9.5.0): ??
+  - 9.3.1(Quail 2 | 2026.1.2 | Gradle 9.5.0): ✔
     - [LeakCanary in Android Studio Profiler](https://developer.android.com/studio/releases/past-releases/as-quail-2-release-notes#leakcanary)
     - [`org.gradle.tooling.parallel=true`](https://developer.android.com/studio/releases/past-releases/as-quail-1-release-notes#android_studio_quail_1_parallel_gradle_sync_execution_change)
     - [`./gradlew :app:analyzeReleaseR8Config`](https://developer.android.com/build/releases/agp-9-3-0-release-notes#r8-configuration-analyzer-task)
@@ -558,7 +558,7 @@ x 2
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.08.00: ??(Compose 1.12.0, Android 17(37))
+  - 2026.08.00: ✔(Compose 1.12.0, Android 17(37))
     - The `androidx.compose.material.icons` library is no longer recommended. you can still manually reference it if you cannot migrate yet.
     - Added an overload to SideEffect that accepts key arguments. The new API can be used to fire one-shot SideEffects without the need for a LaunchedEffect or DisposableEffect whose CoroutineScope or onDispose block are unused.
   - 2026.06.01: ✔(Compose 1.11.4)
@@ -606,7 +606,7 @@ x 2
 
 - [com.google.android.material:material](https://github.com/material-components/material-components-android/releases)
 
-  - 1.14.0: ??
+  - 1.14.0: ✔
   - 1.9.0: ✔
 
     Set the background color:
@@ -627,7 +627,7 @@ x 2
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.60.1: ??
+  - 2.60.1: ✔
   - 2.59.2: ✔(AGP 9)
   - 2.57.2: ✔
     - Add support for the Jakarta Singleton annotation in Hilt.
@@ -746,7 +746,7 @@ x 2
 
 - [com.github.bumptech.glide](https://github.com/bumptech/glide/releases)
 
-  - 5.0.9: ??(Android 17(37))
+  - 5.0.9: ✔(Android 17(37))
   - 5.0.7: ✔
   - 5.0.5: ✔
   - 4.16.0: ✔
@@ -757,7 +757,7 @@ x 2
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
-  - 3.5.0: ??(Kotlin 2.4)
+  - 3.5.0: ✔(Kotlin 2.4)
   - 3.4.0: ⬆️(Kotlin 2.3)
     - `ImageRequest.Builder.useExistingImageAsPlaceholder` enables crossfading from the previous image when no placeholder is set.
   - 3.3.0: ✔(Kotlin 2.2)
@@ -820,7 +820,7 @@ x 2
 
 - [io.github.ben-manes.versions](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.61.0: ??(Renamed to `io.github.ben-manes.versions`)
+  - 0.61.0: ✔(Renamed to `io.github.ben-manes.versions`)
   - 0.54.0: ✔(AGP 9)
   - 0.53.0: ❌(Not working with AGP 9 + Gradle 9)
   - 0.52.0: ✔
@@ -843,7 +843,7 @@ x 2
 
 - [pl.droidsonroids.gif:android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
-  - 1.2.32: ??
+  - 1.2.32: ✔
   - 1.2.31: ✔(~~Kotlin~~)
   - 1.2.30: ⬆️(Kotlin 2.3)
   - 1.2.29: ✔(Kotlin 2.0)
@@ -858,7 +858,7 @@ x 2
 
 - [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
 
-  - 4.5.85: ??
+  - 4.5.85: ✔
   - 4.5.27: ✔
   - 4.5.12: ✔
   - 4.4.35: ✔
@@ -877,7 +877,7 @@ x 2
 
 - [com.umeng.umsdk:common](https://devs.umeng.com/)
 
-  - 9.9.8: ??
+  - 9.9.8: ✔
   - 9.9.2: ✔
   - 9.9.1: ✔
   - 9.8.8: ✔
@@ -918,7 +918,7 @@ x 2
 
 - [com.tencent.mm.opensdk:wechat-sdk-android](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html): <https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Downloads/Android_Resource.html>
 
-  - 6.8.40: ??
+  - 6.8.40: ✔
   - 6.8.34: ✔
 
 - [com.qiniu:qiniu-android-sdk](https://github.com/qiniu/android-sdk/releases)
