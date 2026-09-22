@@ -60,7 +60,28 @@ public fun rememberNavBackStack(vararg elements: NavKey): NavBackStack<NavKey> {
 
 ## 混乱的现状
 
-在[官方文档](https://developer.android.com/guide/navigation/navigation-3/save-state)、[官方Sample](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:navigation3/navigation3-runtime/samples/src/main/kotlin/androidx/navigation3/runtime/samples/NavBackStackSamples.kt)、[上个月的Talk](https://youtu.be/6g2mjgljn7M?si=sYVLIsUCroX24uba&t=456)、还有各种教程和AI生成的代码中，有五花八门的写法，包括`polymorphic`、`subclass`、`subclassesOfSealed`等等。都不会提醒什么情况是出于什么考虑该选择什么代码。
+在[官方文档](https://developer.android.com/guide/navigation/navigation-3/save-state)、[官方Sample](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:navigation3/navigation3-runtime/samples/src/main/kotlin/androidx/navigation3/runtime/samples/NavBackStackSamples.kt)、[KMP文档](https://kotlinlang.org/docs/multiplatform/compose-navigation-3.html)、[上个月的Talk](https://youtu.be/6g2mjgljn7M?si=sYVLIsUCroX24uba&t=456)还有各种教程和AI生成的代码中，有五花八门的写法，包括`polymorphic`、`subclass`、`subclassesOfSealed`等等。都不会提醒什么情况是出于什么考虑该选择什么代码。
+
+最典型有：
+
+```Kotlin
+private val config = SavedStateConfiguration {
+    serializersModule = SerializersModule {
+        polymorphic(NavKey::class) {
+            subclass(RouteA::class, RouteA.serializer())
+            subclass(RouteB::class, RouteB.serializer())
+        }
+    }
+}
+private val config = SavedStateConfiguration {
+    serializersModule = SerializersModule {
+        polymorphic(NavKey::class) {
+            subclassesOfSealed<Route>()
+        }
+    }
+}
+val backStack = rememberNavBackStack(config, RouteA)
+```
 
 我让AI使用`android studio`命令，调用nav3的Skill，参考官方的Samples，再加上自定义的最佳实践Skill，到最后也没能产出一个最佳实践。于是只能自己上了。
 
@@ -99,7 +120,7 @@ val backStack: NavBackStack<AppRoute> = rememberSerializable(
 
 **需要手动声明类型名，否则类型推断会错误**。
 
-要注意的是，如果是Open polymorphism，就得用SavedStateConfiguration了。
+要注意的是，如果是Open polymorphism或者非要用NavKey，就得用SavedStateConfiguration了。现在看起来，这一点很简单直接，但整个理解过程并不轻松。
 
 ## Bonus
 
