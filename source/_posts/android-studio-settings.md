@@ -15,6 +15,7 @@ Android Studio的每个新版本都或多或少有点问题，因此每次都重
     - `Theme`: `Darcula`/`Dark`
     - `UI Options` - Disable `Smooth scrolling`
   - `System Settings`
+    - `Data Sharing`
     - `HTTP Proxy`
     - `Memory Settings`
 - `Keymap`(Delete old keys)
