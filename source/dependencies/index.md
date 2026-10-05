@@ -16,6 +16,16 @@ x 2
 
 [Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
+- 9.7.1: ??
+  - [Isolated Projects](https://docs.gradle.org/9.7.1/release-notes.html#isolated-projects)
+    - `./gradlew assembleDebug --isolated-projects`
+    - ```kotlin
+      val keystoreProperties = providers
+          .fileContents(layout.settingsDirectory.file("local.properties"))
+          .asText
+          .map { text -> Properties().apply { load(text.reader()) } }
+          .getOrElse(Properties())
+      ```
 - 9.5.1: ✔
 - 9.4.1: ✔
   - [Default plugin IDs](https://docs.gradle.org/9.4.1/release-notes.html#default-plugin-ids)
@@ -149,6 +159,8 @@ x 2
   
   `What's New` in Android Studio has more release notes.
 
+  - 9.3.3(Quail 4 | 2026.1.4 Patch 1 | 9.5.0): ??
+    - [Gemma 4 integration](https://developer.android.com/studio/releases/past-releases/as-quail-4-release-notes#gemma-integration)
   - 9.3.2(Quail 3 | 2026.1.3 | Gradle 9.5.0): ??
   - 9.3.1(Quail 2 | 2026.1.2 | Gradle 9.5.0): ✔
     - [LeakCanary in Android Studio Profiler](https://developer.android.com/studio/releases/past-releases/as-quail-2-release-notes#leakcanary)
@@ -558,6 +570,7 @@ x 2
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
+  - 2026.09.00: ??(Compose 1.12.1)
   - 2026.08.00: ✔(Compose 1.12.0, Android 17(37))
     - The `androidx.compose.material.icons` library is no longer recommended. you can still manually reference it if you cannot migrate yet.
     - Added an overload to SideEffect that accepts key arguments. The new API can be used to fire one-shot SideEffects without the need for a LaunchedEffect or DisposableEffect whose CoroutineScope or onDispose block are unused.
@@ -820,6 +833,7 @@ x 2
 
 - [io.github.ben-manes.versions](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.64.0: ??
   - 0.61.0: ✔(Renamed to `io.github.ben-manes.versions`)
   - 0.54.0: ✔(AGP 9)
   - 0.53.0: ❌(Not working with AGP 9 + Gradle 9)
