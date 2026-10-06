@@ -19,8 +19,8 @@ x 2
 - 9.7.1: ??
   - [Isolated Projects](https://docs.gradle.org/9.7.1/release-notes.html#isolated-projects)
     - `./gradlew assembleDebug --isolated-projects`
-    - ```kotlin
-      val keystoreProperties = providers
+      ```kotlin
+        val keystoreProperties = providers
           .fileContents(layout.settingsDirectory.file("local.properties"))
           .asText
           .map { text -> Properties().apply { load(text.reader()) } }
