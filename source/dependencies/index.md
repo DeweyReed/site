@@ -61,7 +61,7 @@ x 2
 
   - 2.4.10: ✔(Dagger 2.60)
     - [Context parameters, Explicit backing fields, UUID](https://kotlinlang.org/docs/whatsnew24.html#new-stable-features)
-    - ~~~`annotation-default-target=param-property`~~~
+    - ~~`annotation-default-target=param-property`~~
     - delay(Duration)
   - 2.3.21: ✔
   - [2.3.20](https://kotlinlang.org/docs/whatsnew2320.html): ✔
