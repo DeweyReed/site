@@ -159,7 +159,7 @@ x 2
   
   `What's New` in Android Studio has more release notes.
 
-  - 9.3.3(Quail 4 | 2026.1.4 Patch 1 | 9.5.0): ??
+  - 9.3.3(Quail 4 | 2026.1.4 Patch 1 | 9.5.0): ⚠️ Works but has some bugs
     - [Gemma 4 integration](https://developer.android.com/studio/releases/past-releases/as-quail-4-release-notes#gemma-integration)
   - 9.3.2(Quail 3 | 2026.1.3 | Gradle 9.5.0): ??
   - 9.3.1(Quail 2 | 2026.1.2 | Gradle 9.5.0): ✔
