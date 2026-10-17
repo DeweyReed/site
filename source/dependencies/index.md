@@ -429,7 +429,7 @@ x 2
 
     - > Gone<->Visible components are now animated as expected
 
-- [androidx.constraintlayout:constraintlayout-compose]((https://developer.android.com/jetpack/androidx/releases/constraintlayout)
+- [androidx.constraintlayout:constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
   - 1.1.2: ??
   - 1.1.1: ✔
