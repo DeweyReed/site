@@ -147,6 +147,7 @@ x 2
 
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
+  - 2.3.12: ??
   - 2.3.10: ✔
   - 2.3.6: ✔
   - 2.3.5: ✔
@@ -257,6 +258,8 @@ x 2
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
+  - 1.8.0: ??
+    - Kotlin developers should use the following compiler arguments to enforce correct usage: `-Xjspecify-annotations=strict`, `-Xtype-enhancement-improvements-strict-mode`
   - 1.7.1: ✔
   - 1.7.0: ✔
   - 1.6.1: ✔
@@ -290,6 +293,7 @@ x 2
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
+  - 1.9.1: ??
   - 1.8.9: ✔
   - 1.8.8: ✔
   - 1.8.6: ✔
@@ -418,14 +422,16 @@ x 2
 
 - [androidx.constraintlayout:constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
+  - 2.2.2: ??
   - 2.2.1: ✔
   - 2.2.0: ✔
   - 2.1.4: ✔
 
     - > Gone<->Visible components are now animated as expected
 
-- androidx.constraintlayout:constraintlayout-compose
+- [androidx.constraintlayout:constraintlayout-compose]((https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
+  - 1.1.2: ??
   - 1.1.1: ✔
   - 1.1.0: ✔(Compose 1.7)
     - ! `Dimension.ratio` only allows `W:H`
@@ -448,6 +454,7 @@ x 2
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
+  - 2.10.2: ??
   - 2.9.8: ✔
   - 2.9.7: ✔(~~-ktx~~)
   - 2.9.6: ✔
@@ -465,6 +472,7 @@ x 2
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
+  - 2.8.5: ??
   - 2.8.4: ✔
     - ~~ktx~~
   - 2.8.3: ✔
@@ -510,6 +518,7 @@ x 2
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
+  - 1.11.1: ??
   - 1.10.1: ✔
   - 1.10.0: ✔
     - `media3-effect-lottie`
@@ -640,7 +649,7 @@ x 2
 
 - [com.google.dagger:dagger](https://github.com/google/dagger/releases)
 
-  - 2.60.1: ✔
+  - 2.60.1: ✔(KSP support is stable as of Dagger 2.60+ and KSP 2.3.9+.)
   - 2.59.2: ✔(AGP 9)
   - 2.57.2: ✔
     - Add support for the Jakarta Singleton annotation in Hilt.
@@ -698,6 +707,7 @@ x 2
 
 - [com.squareup.okhttp3:okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md)
 
+  - 5.5.0: ??
   - 5.4.0: ✔
   - 5.3.2: ✔(Kotlin 2.2)
   - 4.12.0: ✔(Kotlin 1.9)
@@ -735,6 +745,7 @@ x 2
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
+  - 3.18.2: ??
   - 3.17.0: ✔(Kotlin 2.1)
   - 3.16.4: ✔(Kotlin 2.2)
   - 3.15.0: ✔
@@ -833,7 +844,8 @@ x 2
 
 - [io.github.ben-manes.versions](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.64.0: ??
+  - 0.66.0: ??
+  - 0.64.0: ✔
   - 0.61.0: ✔(Renamed to `io.github.ben-manes.versions`)
   - 0.54.0: ✔(AGP 9)
   - 0.53.0: ❌(Not working with AGP 9 + Gradle 9)
