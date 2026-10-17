@@ -259,7 +259,6 @@ x 2
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
   - 1.8.0: ??
-    - Kotlin developers should use the following compiler arguments to enforce correct usage: `-Xjspecify-annotations=strict`, `-Xtype-enhancement-improvements-strict-mode`
   - 1.7.1: ✔
   - 1.7.0: ✔
   - 1.6.1: ✔
