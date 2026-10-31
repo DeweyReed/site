@@ -16,7 +16,7 @@ x 2
 
 [Best Practices for Authoring Gradle Builds](https://docs.gradle.org/current/userguide/best_practices.html)
 
-- 9.7.1: ??
+- 9.7.1: ✔
   - [Isolated Projects](https://docs.gradle.org/9.7.1/release-notes.html#isolated-projects)
     - `./gradlew assembleDebug --isolated-projects`
       ```kotlin
@@ -147,7 +147,7 @@ x 2
 
 - [com.google.devtools.ksp](https://github.com/google/ksp/releases)
 
-  - 2.3.12: ??
+  - 2.3.12: ✔
   - 2.3.10: ✔
   - 2.3.6: ✔
   - 2.3.5: ✔
@@ -162,7 +162,7 @@ x 2
 
   - 9.3.3(Quail 4 | 2026.1.4 Patch 1 | 9.5.0): ⚠️ Works but has some bugs
     - [Gemma 4 integration](https://developer.android.com/studio/releases/past-releases/as-quail-4-release-notes#gemma-integration)
-  - 9.3.2(Quail 3 | 2026.1.3 | Gradle 9.5.0): ??
+  - 9.3.2(Quail 3 | 2026.1.3 | Gradle 9.5.0): ⬆️
   - 9.3.1(Quail 2 | 2026.1.2 | Gradle 9.5.0): ✔
     - [LeakCanary in Android Studio Profiler](https://developer.android.com/studio/releases/past-releases/as-quail-2-release-notes#leakcanary)
     - [`org.gradle.tooling.parallel=true`](https://developer.android.com/studio/releases/past-releases/as-quail-1-release-notes#android_studio_quail_1_parallel_gradle_sync_execution_change)
@@ -258,7 +258,7 @@ x 2
 
 - [androidx.appcompat:appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)
 
-  - 1.8.0: ??
+  - 1.8.0: ✔
   - 1.7.1: ✔
   - 1.7.0: ✔
   - 1.6.1: ✔
@@ -273,7 +273,7 @@ x 2
 - [androidx.activity:activity](https://developer.android.com/jetpack/androidx/releases/activity)
 
   - 1.13.0: ⚠️(Android SDK 36.1)
-    - `ComponentActivity` now implements the `OnPictureInPictureUiStateChangedProvider`: **Breaks `EasyPermissions`**
+    - `ComponentActivity` now implements the `OnPictureInPictureUiStateChangedProvider`: **Breaks `EasyPermissions`, `EventBus`**
   - 1.12.4: ✔
   - 1.11.0: ✔(Android 16(36))
   - 1.10.1: ✔(Android 15(35))
@@ -292,7 +292,7 @@ x 2
 
 - [androidx.fragment:fragment](https://developer.android.com/jetpack/androidx/releases/fragment)
 
-  - 1.9.1: ??
+  - 1.9.1: ✔
   - 1.8.9: ✔
   - 1.8.8: ✔
   - 1.8.6: ✔
@@ -421,7 +421,7 @@ x 2
 
 - [androidx.constraintlayout:constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
-  - 2.2.2: ??
+  - 2.2.2: ✔
   - 2.2.1: ✔
   - 2.2.0: ✔
   - 2.1.4: ✔
@@ -430,7 +430,7 @@ x 2
 
 - [androidx.constraintlayout:constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 
-  - 1.1.2: ??
+  - 1.1.2: ✔
   - 1.1.1: ✔
   - 1.1.0: ✔(Compose 1.7)
     - ! `Dimension.ratio` only allows `W:H`
@@ -453,7 +453,7 @@ x 2
 
 - [androidx.navigation:navigation](https://developer.android.com/jetpack/androidx/releases/navigation)
 
-  - 2.10.2: ??
+  - 2.10.2: ✔
   - 2.9.8: ✔
   - 2.9.7: ✔(~~-ktx~~)
   - 2.9.6: ✔
@@ -471,7 +471,7 @@ x 2
 
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
-  - 2.8.5: ??
+  - 2.8.5: ✔
   - 2.8.4: ✔
     - ~~ktx~~
   - 2.8.3: ✔
@@ -517,7 +517,7 @@ x 2
 
 - [androidx.media3](https://developer.android.com/jetpack/androidx/releases/media3)
 
-  - 1.11.1: ??
+  - 1.11.1: ✔
   - 1.10.1: ✔
   - 1.10.0: ✔
     - `media3-effect-lottie`
@@ -578,7 +578,7 @@ x 2
 
   - [BOM to library version mapping](https://developer.android.com/develop/ui/compose/bom/bom-mapping)
 
-  - 2026.09.00: ??(Compose 1.12.1)
+  - 2026.09.00: ✔(Compose 1.12.1)
   - 2026.08.00: ✔(Compose 1.12.0, Android 17(37))
     - The `androidx.compose.material.icons` library is no longer recommended. you can still manually reference it if you cannot migrate yet.
     - Added an overload to SideEffect that accepts key arguments. The new API can be used to fire one-shot SideEffects without the need for a LaunchedEffect or DisposableEffect whose CoroutineScope or onDispose block are unused.
@@ -671,6 +671,11 @@ x 2
   - 1.2.0: ✔(Android 1.9)
   - 1.0.0: ✔
 
+- [androidx.webkit](https://developer.android.com/jetpack/androidx/releases/webkit)
+
+  - 1.17.1: ✔
+  - 1.16.0: ✔
+
 - [com.android.billingclient:billing](https://developer.android.com/google/play/billing/release-notes)
 
   - 9.1.0: ✔
@@ -702,11 +707,16 @@ x 2
   - 20.6.0: ✔
   - 20.2.0: ✔
 
+- [com.google.ai.edge.litert](https://github.com/google-ai-edge/LiteRT/releases)
+
+  - 2.3.0: ✔(litert-gpu)
+  - 2.1.5: ✔
+
 ## Third-party
 
 - [com.squareup.okhttp3:okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md)
 
-  - 5.5.0: ??
+  - 5.5.0: ✔
   - 5.4.0: ✔
   - 5.3.2: ✔(Kotlin 2.2)
   - 4.12.0: ✔(Kotlin 1.9)
@@ -744,7 +754,7 @@ x 2
 
 - [com.squareup.okio:okio](https://github.com/square/okio/blob/master/CHANGELOG.md)
 
-  - 3.18.2: ??
+  - 3.18.2: ✔
   - 3.17.0: ✔(Kotlin 2.1)
   - 3.16.4: ✔(Kotlin 2.2)
   - 3.15.0: ✔
@@ -843,7 +853,7 @@ x 2
 
 - [io.github.ben-manes.versions](https://github.com/ben-manes/gradle-versions-plugin)
 
-  - 0.66.0: ??
+  - 0.66.0: ✔
   - 0.64.0: ✔
   - 0.61.0: ✔(Renamed to `io.github.ben-manes.versions`)
   - 0.54.0: ✔(AGP 9)
@@ -883,7 +893,7 @@ x 2
 
 - [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
 
-  - 4.5.85: ✔
+  - 4.5.85: ⚠️ Not working until Android 8(26)
   - 4.5.27: ✔
   - 4.5.12: ✔
   - 4.4.35: ✔
