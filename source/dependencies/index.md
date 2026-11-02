@@ -59,6 +59,7 @@ x 2
 
 - org.jetbrains.kotlin:kotlin
 
+  - 2.4.21: ??
   - 2.4.10: ✔(Dagger 2.60)
     - [Context parameters, Explicit backing fields, UUID](https://kotlinlang.org/docs/whatsnew24.html#new-stable-features)
     - ~~`annotation-default-target=param-property`~~
@@ -357,6 +358,7 @@ x 2
 
 - [androidx.core:core](https://developer.android.com/jetpack/androidx/releases/core)
 
+  - 1.19.1: ??
   - 1.19.0: ✔(Android SDK 37)
     - ~~ktx~~
     - `TextAttributeCompat`
@@ -469,6 +471,12 @@ x 2
   - 2.4.2: ✔
   - 2.3.5: ✔
 
+- [androidx.navigation3](https://developer.android.com/jetpack/androidx/releases/navigation3)
+
+  - 1.2.0: ??
+    - `ResultEventBus`, `rememberResultEventBus`
+  - 1.1.6: ✔
+
 - [androidx.room:room](https://developer.android.com/jetpack/androidx/releases/room)
 
   - 2.8.5: ✔
@@ -494,6 +502,7 @@ x 2
 
 - [androidx.work:work](https://developer.android.com/jetpack/androidx/releases/work)
 
+  - 2.12.0: ??
   - 2.11.2: ✔
   - 2.11.1: ✔
   - 2.11.0: ✔
@@ -853,6 +862,7 @@ x 2
 
 - [io.github.ben-manes.versions](https://github.com/ben-manes/gradle-versions-plugin)
 
+  - 0.67.0: ??
   - 0.66.0: ✔
   - 0.64.0: ✔
   - 0.61.0: ✔(Renamed to `io.github.ben-manes.versions`)
