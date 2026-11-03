@@ -799,6 +799,7 @@ x 2
   
 - [io.coil-kt](https://github.com/coil-kt/coil)
 
+  - 3.6.3: ??(Android 17(37))
   - 3.5.0: ✔(Kotlin 2.4)
   - 3.4.0: ⬆️(Kotlin 2.3)
     - `ImageRequest.Builder.useExistingImageAsPlaceholder` enables crossfading from the previous image when no placeholder is set.
@@ -903,6 +904,7 @@ x 2
 
 - [com.tencent.tav:libpag](https://github.com/Tencent/libpag/releases)
 
+  - 4.5.98: ??
   - 4.5.85: ⚠️ Not working until Android 8(26)
   - 4.5.27: ✔
   - 4.5.12: ✔
@@ -953,6 +955,7 @@ x 2
 
 - com.umeng.umsdk:apm
 
+  - 2.1.0: ??
   - 2.0.8: ✔
   - 2.0.6: ✔
   - 2.0.4: ✔
