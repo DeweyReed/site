@@ -168,7 +168,7 @@ x 2
     - [LeakCanary in Android Studio Profiler](https://developer.android.com/studio/releases/past-releases/as-quail-2-release-notes#leakcanary)
     - [`org.gradle.tooling.parallel=true`](https://developer.android.com/studio/releases/past-releases/as-quail-1-release-notes#android_studio_quail_1_parallel_gradle_sync_execution_change)
     - [`./gradlew :app:analyzeReleaseR8Config`](https://developer.android.com/build/releases/agp-9-3-0-release-notes#r8-configuration-analyzer-task)
-    - [Updated optimization DSL to configure R8 keep rules](https://developer.android.com/build/releases/agp-9-3-0-release-notes#updated-r8-dsl): `keepRules` are picked up automatically.
+    - [Updated optimization DSL to configure R8 keep rules](https://developer.android.com/build/releases/agp-9-3-0-release-notes#updated-r8-dsl): `keepRules` are picked up automatically. `configanalyzer.html` are automatically generated with `mapping.txt`
   - 9.2.1(Panda 4 | 2025.3.4, Gradle 9.4.1): ✔
   - 9.1.1(Panda 3 | 2025.3.3, Gradle 9.3.1): ✔
     - this update adds development support for Android API level 37.
